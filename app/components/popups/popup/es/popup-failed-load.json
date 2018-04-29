@@ -1,0 +1,21 @@
+{
+  "primaryHeadline": {
+    "title": "No se ha podido cargar la página",
+    "class": "hl1"
+  },
+  "secondaryHeadline": {
+    "title": "Aviso Importante",
+    "class": "hl7"
+  },
+  "content": {
+    "text": "Estamos teniendo problemas con la carga de la página web en este momento.<br>Por favor, haga clic en \"Reintentar\"botón para volver a cargar.<br>En caso de que continúe teniendo problemas con la carga de esta página, por favor, póngase en contacto con nuestro equipo de atención al cliente en support@hedgestonegroup.com. <br><br>Gracias."
+  },
+  "yesBtn": {
+    "title": "Contáctenos",
+    "class": "btn"
+  },
+  "cancelBtn": {
+    "title": "Reintentar",
+    "class": "btn btn-transparent"
+  }
+}

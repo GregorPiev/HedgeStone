@@ -1,0 +1,13 @@
+<div class="withdrawalForm" ng-class="::withdrawalForm.withdrawalFormData.class" ng-style="::withdrawalForm.withdrawalFormData.backgroundStyle">
+    <div class="account-balance">
+        <div class="balance">
+            Account Balance
+            <div class="amount" ng-bind="withdrawalForm.userBalance"></div>
+        </div>
+        <div class="minimum">
+            Minimum
+            <div class="minAmount" ng-bind="withdrawalForm.minimum"></div>
+        </div>
+    </div>
+    <div compile="withdrawalForm.html"></div>
+</div>

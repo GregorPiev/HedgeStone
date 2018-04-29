@@ -1,0 +1,837 @@
+{
+  "page-name": "financials",
+  "page-type": "page",
+  "class": "",
+  "title": " Hedgestone Group offers a variety of financial assets.",
+  "description": "Hedgestone Group provides you with a variety of assets – stocks, commodities, currencies, or indices. It also ensures that you do not lose any trading opportunity.",
+  "keywords": "Financial products, stocks, commodities, currencies, indices",
+  "array": [
+    {
+      "section": {
+        "sectionName": "financial-top-section",
+        "sectionType": "top-section",
+        "background": "assets/images/financial-page/1.jpg",
+        "containerClass": "container",
+        "class": "text-center dark-background",
+        "array": [
+          {
+            "content": {
+              "class": "",
+              "array": [
+                {
+                  "headline": {
+                    "title": "Financial Products",
+                    "class": "hl1 merriweather-bold-font"
+                  },
+                  "precedence": 0
+                },
+                {
+                  "block": {
+                    "class": "divider"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "sectionName": "financial-secondary-section",
+        "sectionType": "",
+        "background": "",
+        "containerClass": "container",
+        "class": "text-center dark-background",
+        "array": [
+          {
+            "content": {
+              "class": "",
+              "array": [
+                {
+                  "content-body": {
+                    "class": "",
+                    "text": "Hedgestone provides you with direct access to a diverse set of financial instruments. Whether you are interested in trading stocks, commodities, currencies or indices, Hedgestone’s CFDs and options product enable you to seize new trading opportunities at the moment they emerge."
+                  },
+                  "precedence": 2
+                },
+                {
+                  "block": {
+                    "class": "table",
+                    "array": [
+                      {
+                        "card": {
+                          "class": "cell four-in-a-row",
+                          "array": [
+                            {
+                              "ng-image": {
+                                "precedence": 1,
+                                "image-name": "asset-test",
+                                "src": "assets/images/financial-page/icons/stocks.png",
+                                "alt": "Stocks",
+                                "type": "img",
+                                "class": "col-xs-12 text-center"
+                              }
+                            },
+                            {
+                              "headline": {
+                                "precedence": 0,
+                                "title": "Stocks",
+                                "class": "hl3"
+                              }
+                            },
+                            {
+                              "content-body": {
+                                "class": "",
+                                "precedence": 2,
+                                "text": "BHP, Microsoft, Apple and other blue chip, publicly-listed companies."
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "card": {
+                          "class": "cell four-in-a-row",
+                          "array": [
+                            {
+                              "ng-image": {
+                                "precedence": 1,
+                                "image-name": "asset-test",
+                                "src": "assets/images/financial-page/icons/diamond.png",
+                                "alt": "Commodities",
+                                "type": "img",
+                                "class": "col-xs-12"
+                              }
+                            },
+                            {
+                              "headline": {
+                                "precedence": 0,
+                                "title": "Commodities",
+                                "class": "hl3"
+                              }
+                            },
+                            {
+                              "content-body": {
+                                "class": "",
+                                "precedence": 2,
+                                "text": "Crude oil, gold, corn and other raw building blocks of global industry."
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "card": {
+                          "class": "cell four-in-a-row",
+                          "array": [
+                            {
+                              "ng-image": {
+                                "precedence": 0,
+                                "image-name": "asset-test",
+                                "src": "assets/images/financial-page/icons/currencies.png",
+                                "alt": "currencies",
+                                "type": "img",
+                                "class": "col-xs-12"
+                              }
+                            },
+                            {
+                              "headline": {
+                                "precedence": 1,
+                                "title": "Currencies",
+                                "class": "hl3"
+                              }
+                            },
+                            {
+                              "content-body": {
+                                "precedence": 2,
+                                "class": "",
+                                "text": "EUR/USD, AUD/JPY, GBP/USD and other highly-liquid currency pairs."
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "card": {
+                          "class": "cell four-in-a-row",
+                          "array": [
+                            {
+                              "ng-image": {
+                                "precedence": 0,
+                                "image-name": "asset-test",
+                                "src": "assets/images/financial-page/icons/indices.png",
+                                "alt": "indices",
+                                "type": "img",
+                                "class": "col-xs-12"
+                              }
+                            },
+                            {
+                              "headline": {
+                                "precedence": 1,
+                                "title": "Indices",
+                                "class": "hl3"
+                              }
+                            },
+                            {
+                              "content-body": {
+                                "precedence": 2,
+                                "class": "",
+                                "text": "NASDAQ, S&P 500, ASX 200 and other barometers of stock market performance."
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "sectionName": "cfd",
+        "sectionType": "cards-section one-card high with-arrow",
+        "background": "",
+        "containerClass": "container",
+        "class": "text-center light-background relative-position",
+        "array": [
+          {
+            "content": {
+              "class": "",
+              "array": [
+                {
+                  "card": {
+                    "class": "cell",
+                    "array": [
+                      {
+                        "ng-image": {
+                          "precedence": 0,
+                          "image-name": "asset-test",
+                          "src": "assets/images/financial-page/icons/comp.png",
+                          "alt": "CFDs",
+                          "type": "img",
+                          "class": "col-xs-12"
+                        }
+                      },
+                      {
+                        "headline": {
+                          "precedence": 1,
+                          "title": "CFDs",
+                          "class": "hl5"
+                        }
+                      },
+                      {
+                        "content-body": {
+                          "precedence": 2,
+                          "class": "",
+                          "text": "Contracts-for-difference, or CFDs for short, are a type of financial instrument that enables you to speculate with respect to the future price movements of a range of underlying assets. For each CFD trade that you enter there is a broad range of possible payouts – the potential returns are open-ended."
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "block": {
+                    "class": "arrow",
+                    "background": "assets/images/financial-page/the-arrow.png"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "sectionName": "financial-explanation",
+        "sectionType": "cards-section low",
+        "background": "",
+        "containerClass": "container",
+        "class": "text-center dark-background relative-position",
+        "array": [
+          {
+            "content": {
+              "class": "",
+              "array": [
+                {
+                  "card": {
+                    "class": "cell three-in-a-row",
+                    "array": [
+                      {
+                        "ng-image": {
+                          "precedence": 0,
+                          "image-name": "asset-test",
+                          "src": "assets/images/financial-page/icons/arrows.png",
+                          "alt": "arrows",
+                          "type": "img",
+                          "class": "col-xs-12"
+                        }
+                      },
+                      {
+                        "headline": {
+                          "precedence": 1,
+                          "title": "Long or Short",
+                          "class": "hl4"
+                        }
+                      },
+                      {
+                        "content-body": {
+                          "precedence": 2,
+                          "class": "",
+                          "text": "CFDs enable you to enter trades that can yield positive returns when prices are rising and when they are falling."
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "card": {
+                    "class": "cell three-in-a-row",
+                    "array": [
+                      {
+                        "ng-image": {
+                          "precedence": 0,
+                          "image-name": "asset-test",
+                          "src": "assets/images/financial-page/icons/graph.png",
+                          "alt": "graph",
+                          "type": "img",
+                          "class": "col-xs-12"
+                        }
+                      },
+                      {
+                        "headline": {
+                          "precedence": 1,
+                          "title": "Underlying Asset",
+                          "class": "hl4"
+                        }
+                      },
+                      {
+                        "content-body": {
+                          "precedence": 2,
+                          "class": "",
+                          "text": "Each CFD trade that you enter has a value that is directly linked to the price movements of an underlying asset."
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "card": {
+                    "class": "cell three-in-a-row",
+                    "array": [
+                      {
+                        "ng-image": {
+                          "precedence": 0,
+                          "image-name": "asset-test",
+                          "src": "assets/images/financial-page/icons/scale.png",
+                          "alt": "CFDs",
+                          "type": "img",
+                          "class": "col-xs-12"
+                        }
+                      },
+                      {
+                        "headline": {
+                          "precedence": 1,
+                          "title": "Margin Trading",
+                          "class": "hl4"
+                        }
+                      },
+                      {
+                        "content-body": {
+                          "precedence": 2,
+                          "class": "",
+                          "text": "Through the use of margin, CFDs enable you to enter positions which have a total value far greater than your capital outlay."
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "sectionName": "twoBlocksSection",
+        "sectionType": "two-blocks",
+        "class": "twoBlocks no-padding relative-position",
+        "container": false,
+        "array": [
+          {
+            "block": {
+              "class": "col-lg-12 no-padding",
+              "array": [
+                {
+                  "block": {
+                    "class": "col-md-6 left-block wrapper-block",
+                    "array": [
+                      {
+                        "block": {
+                          "class": "side-block",
+                          "array": [
+                            {
+                              "headline": {
+                                "title": "Reasons to trade CFDs with Hedgestone",
+                                "class": "hl3 text-center"
+                              }
+                            },
+                            {
+                              "unordered-list": {
+                                "class": "center no-padding",
+                                "array": [
+                                  {
+                                    "list-item": {
+                                      "content": "You want to trade primarily in instruments which are linked to the foreign exchange market",
+                                      "icon": {
+                                        "src": "/assets/images/financial-page/icons/Tick.png",
+                                        "class": "list-icon"
+                                      }
+                                    },
+                                    "precedence": 0
+                                  },
+                                  {
+                                    "list-item": {
+                                      "content": "You want to use margin (i.e. leverage) to amplify your performance",
+                                      "icon": {
+                                        "src": "/assets/images/financial-page/icons/Tick.png",
+                                        "class": "list-icon"
+                                      }
+                                    },
+                                    "precedence": 1
+                                  },
+                                  {
+                                    "list-item": {
+                                      "content": "You want to place trades which have an open-ended spectrum of payouts",
+                                      "icon": {
+                                        "src": "/assets/images/financial-page/icons/Tick.png",
+                                        "class": "list-icon"
+                                      }
+                                    },
+                                    "precedence": 1
+                                  },
+                                  {
+                                    "list-item": {
+                                      "content": "You want to be able to generate positive returns in bullish and bearish market conditions",
+                                      "icon": {
+                                        "src": "/assets/images/financial-page/icons/Tick.png",
+                                        "class": "list-icon"
+                                      }
+                                    },
+                                    "precedence": 1
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "block": {
+                    "class": "col-md-6 right-block wrapper-block",
+                    "array": [
+                      {
+                        "block": {
+                          "class": "side-block",
+                          "array": [
+                            {
+                              "headline": {
+                                "title": "Samples underlying assets for CFDs",
+                                "class": "hl3 text-center"
+                              }
+                            },
+                            {
+                              "ng-table": {
+                                "class": "",
+                                "array": [
+                                  {
+                                    "table-row": {
+                                      "class": "",
+                                      "array": [
+                                        {
+                                          "table-cell": {
+                                            "class": "cell col-lg-3",
+                                            "content": "AUD/CAD"
+                                          },
+                                          "precedence": 0
+                                        },
+                                        {
+                                          "table-cell": {
+                                            "class": "cell col-lg-3",
+                                            "content": "CAD/JPY"
+                                          },
+                                          "precedence": 1
+                                        },
+                                        {
+                                          "table-cell": {
+                                            "class": "cell col-lg-3",
+                                            "content": "EUR/NZD"
+                                          },
+                                          "precedence": 2
+                                        },
+                                        {
+                                          "table-cell": {
+                                            "class": "cell col-lg-3",
+                                            "content": "GBP/NZD"
+                                          },
+                                          "precedence": -1
+                                        }
+                                      ]
+                                    },
+                                    "precedence": 0
+                                  },
+                                  {
+                                    "table-row": {
+                                      "class": "",
+                                      "array": [
+                                        {
+                                          "table-cell": {
+                                            "class": "cell col-lg-3",
+                                            "content": "AUD/CHF"
+                                          },
+                                          "precedence": 0
+                                        },
+                                        {
+                                          "table-cell": {
+                                            "class": "cell col-lg-3",
+                                            "content": "CHF/JPY"
+                                          },
+                                          "precedence": 1
+                                        },
+                                        {
+                                          "table-cell": {
+                                            "class": "cell col-lg-3",
+                                            "content": "EUR/USD"
+                                          },
+                                          "precedence": 2
+                                        },
+                                        {
+                                          "table-cell": {
+                                            "class": "cell col-lg-3",
+                                            "content": "GBP/USD"
+                                          },
+                                          "precedence": -1
+                                        }
+                                      ]
+                                    },
+                                    "precedence": 0
+                                  },
+                                  {
+                                    "table-row": {
+                                      "class": "",
+                                      "array": [
+                                        {
+                                          "table-cell": {
+                                            "class": "cell col-lg-3",
+                                            "content": "AUD/JPY"
+                                          },
+                                          "precedence": 0
+                                        },
+                                        {
+                                          "table-cell": {
+                                            "class": "cell col-lg-3",
+                                            "content": "EUR/AUD"
+                                          },
+                                          "precedence": 1
+                                        },
+                                        {
+                                          "table-cell": {
+                                            "class": "cell col-lg-3",
+                                            "content": "GBP/AUD"
+                                          },
+                                          "precedence": 2
+                                        },
+                                        {
+                                          "table-cell": {
+                                            "class": "cell col-lg-3",
+                                            "content": "NZD/CAD"
+                                          },
+                                          "precedence": -1
+                                        }
+                                      ]
+                                    },
+                                    "precedence": 0
+                                  },
+                                  {
+                                    "table-row": {
+                                      "class": "",
+                                      "array": [
+                                        {
+                                          "table-cell": {
+                                            "class": "cell col-lg-3",
+                                            "content": "AUD/NZD"
+                                          },
+                                          "precedence": 0
+                                        },
+                                        {
+                                          "table-cell": {
+                                            "class": "cell col-lg-3",
+                                            "content": "EUR/CAD"
+                                          },
+                                          "precedence": 1
+                                        },
+                                        {
+                                          "table-cell": {
+                                            "class": "cell col-lg-3",
+                                            "content": "GBP/CAD"
+                                          },
+                                          "precedence": 2
+                                        },
+                                        {
+                                          "table-cell": {
+                                            "class": "cell col-lg-3",
+                                            "content": "NZD/CHF"
+                                          },
+                                          "precedence": -1
+                                        }
+                                      ]
+                                    },
+                                    "precedence": 0
+                                  },
+                                  {
+                                    "table-row": {
+                                      "class": "",
+                                      "array": [
+                                        {
+                                          "table-cell": {
+                                            "class": "cell col-lg-3",
+                                            "content": "AUD/USD"
+                                          },
+                                          "precedence": 0
+                                        },
+                                        {
+                                          "table-cell": {
+                                            "class": "cell col-lg-3",
+                                            "content": "EUR/GBP"
+                                          },
+                                          "precedence": 1
+                                        },
+                                        {
+                                          "table-cell": {
+                                            "class": "cell col-lg-3",
+                                            "content": "GBP/CHF"
+                                          },
+                                          "precedence": 2
+                                        },
+                                        {
+                                          "table-cell": {
+                                            "class": "cell col-lg-3",
+                                            "content": "NZD/USD"
+                                          },
+                                          "precedence": -1
+                                        }
+                                      ]
+                                    },
+                                    "precedence": 0
+                                  },
+                                  {
+                                    "table-row": {
+                                      "class": "",
+                                      "array": [
+                                        {
+                                          "table-cell": {
+                                            "class": "cell col-lg-3",
+                                            "content": "CAD/CHF"
+                                          },
+                                          "precedence": 0
+                                        },
+                                        {
+                                          "table-cell": {
+                                            "class": "cell col-lg-3",
+                                            "content": "EUR/JPY"
+                                          },
+                                          "precedence": 1
+                                        },
+                                        {
+                                          "table-cell": {
+                                            "class": "cell col-lg-3",
+                                            "content": "GBP/JPY"
+                                          },
+                                          "precedence": 2
+                                        },
+                                        {
+                                          "table-cell": {
+                                            "class": "cell col-lg-3",
+                                            "content": "USD/CAD"
+                                          },
+                                          "precedence": -1
+                                        }
+                                      ]
+                                    },
+                                    "precedence": 0
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "block": {
+              "class": "arrow visible-from-tablet-lg",
+              "background": "assets/images/financial-page/the-arrow.png"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "sectionName": "ready",
+        "sectionType": "headline-btn",
+        "background": "",
+        "containerClass": "container",
+        "class": "text-center blue-background relative-position",
+        "array": [
+          {
+            "content": {
+              "class": "container container-fluid",
+              "array": [
+                {
+                  "headline": {
+                    "precedence": 1,
+                    "title": "Ready to learn more about CFDs?",
+                    "class": "hl3 merriweather-font"
+                  }
+                },
+                {
+                  "block": {
+                    "class": "padded-block",
+                    "array": [
+                      {
+                        "btn": {
+                          "class": "btn centered-btn",
+                          "title": "speak to an agent",
+                          "destination": "about"
+                        },
+                        "precedence": 4
+                      }
+                    ]
+                  },
+                  "precedence": 3
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "sectionName": "bottom-section",
+        "sectionType": "open-account-section",
+        "class": "bottom-section",
+        "background": "",
+        "containerClass": "",
+        "array": [
+          {
+            "content": {
+              "class": "",
+              "array": [
+                {
+                  "ng-image": {
+                    "image-name": "asset-test",
+                    "src": "assets/icons/Logo.png",
+                    "alt": "some asset",
+                    "type": "img",
+                    "class": "center-img",
+                    "responsive": "img-responsive centered-item"
+                  }
+                },
+                {
+                  "block": {
+                    "class": "text-center",
+                    "array": [
+                      {
+                        "content-body": {
+                          "class": "",
+                          "text": "READY TO GET STARTED?"
+                        },
+                        "precedence": 0
+                      },
+                      {
+                        "headline": {
+                          "title": "Powerful. Dynamic. Limitless.",
+                          "class": "hl5"
+                        },
+                        "precedence": 1
+                      },
+                      {
+                        "block": {
+                          "class": "padded-block",
+                          "array": [
+                            {
+                              "logged-in": {
+                                "array": [
+                                  {
+                                    "btn": {
+                                      "class": "btn btn-transparent centered-btn",
+                                      "title": "trade",
+                                      "destination": "trade"
+                                    },
+                                    "precedence": 4
+                                  },
+                                  {
+                                    "btn": {
+                                      "class": "centered-btn",
+                                      "title": "how it works",
+                                      "destination": "education"
+                                    },
+                                    "precedence": 5
+                                  }
+                                ]
+                              }
+                            },
+                            {
+                              "anonymous": {
+                                "array": [
+                                  {
+                                    "btn": {
+                                      "class": "btn btn-transparent centered-btn",
+                                      "title": "open an account",
+                                      "destination": "create_account"
+                                    },
+                                    "precedence": 4
+                                  },
+                                  {
+                                    "btn": {
+                                      "class": "centered-btn",
+                                      "title": "how it works",
+                                      "destination": "education"
+                                    },
+                                    "precedence": 5
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        },
+                        "precedence": 3
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

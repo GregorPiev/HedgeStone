@@ -1,0 +1,207 @@
+{
+    "footer": {
+        "class": "footer",
+        "body": {
+            "block": {
+                "class": "container",
+                "array": [
+                    {
+                        "block": {
+                            "class": "no-padding table",
+                            "array": [
+                                {
+                                    "logo": {
+                                        "url": "/",
+                                        "alt": "logo of hsg",
+                                        "class": "",
+                                        "src": "assets/images/main/Logo.png"
+                                    }
+                                },
+                                {
+                                    "menu": {
+                                        "items": [
+                                            {
+                                                "title": "VERIFICATION GUIDE",
+                                                "ref": "verification_guide",
+                                                "class": ""
+                                            },
+                                            {
+                                                "title": "LEGAL DOCUMENTS",
+                                                "ref": "legal",
+                                                "class": ""
+                                            },
+                                            {
+                                                "title": "TERMS & CONDITIONS",
+                                                "link": "https://www.hedgestonegroup.com/assets/legal/Hedgestone_terms_and_conditions.pdf",
+                                                "class": ""
+                                            },
+                                            {
+                                                "title": "PRIVACY POLICY",
+                                                "link": "https://www.hedgestonegroup.com/assets/legal/Hedgestone_privacy_policy.pdf",
+                                                "class": ""
+                                            },
+                                            {
+                                                "title": "BONUS POLICY",
+                                                "link": "https://www.hedgestonegroup.com/assets/legal/Hedgestone_bonus_policy.pdf",
+                                                "class": ""
+                                            },
+                                            {
+                                                "title": "FAQ",
+                                                "ref": "faq",
+                                                "class": ""
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "block": {
+                            "class": "full-width-float",
+                            "array": [
+                                {
+                                    "credit-cards": {
+                                        "class": "cards",
+                                        "body": {
+                                            "icons": [
+                                                {
+                                                    "name": "visa",
+                                                    "src": "assets/images/footer/cards/Visa.png",
+                                                    "alt": "visa icon",
+                                                    "class": "icon"
+                                                },
+                                                {
+                                                    "name": "verifiedvisa",
+                                                    "src": "assets/icons/verifiedvisa.png",
+                                                    "alt": "visa icon",
+                                                    "class": "icon"
+                                                },
+                                                {
+                                                    "name": "mastercard",
+                                                    "src": "assets/images/footer/cards/Mastercard.png",
+                                                    "alt": "mastercard icon",
+                                                    "class": "icon"
+                                                },
+                                                {
+                                                    "name": "verifiedmaster",
+                                                    "src": "assets/icons/verifiedmaster.png",
+                                                    "alt": "mastercard icon",
+                                                    "class": "icon"
+                                                },
+                                                {
+                                                    "name": "wire",
+                                                    "src": "assets/images/footer/cards/Wire.png",
+                                                    "alt": "wire icon",
+                                                    "class": "icon"
+                                                },
+                                                {
+                                                    "name": "ecopayz",
+                                                    "src": "assets/icons/eco.png",
+                                                    "alt": "ecopayz icon",
+                                                    "class": "icon"
+                                                },
+                                                {
+                                                    "name": "debit",
+                                                    "src": "assets/images/footer/cards/Debit.png",
+                                                    "alt": "debit icon",
+                                                    "class": "icon"
+                                                },
+                                                {
+                                                    "name": "bankWire",
+                                                    "src": "assets/images/footer/cards/BankWire.png",
+                                                    "alt": "bankWire icon",
+                                                    "class": "icon"
+                                                }
+                                            ]
+                                        }
+                                    }
+                                },
+                                {
+                                    "socials": {
+                                        "class": "socials",
+                                        "body": {
+                                            "icons": [
+                                                {
+                                                    "name": "twitter",
+                                                    "url": "https://twitter.com/GroupHedgestone",
+                                                    "class": "fa fa-twitter",
+                                                    "alt": "twitter icon"
+                                                },
+                                                {
+                                                    "name": "facebook",
+                                                    "url": "https://www.facebook.com/HedgestoneGroup-1071183776247651",
+                                                    "class": "fa fa-facebook",
+                                                    "alt": "facebook icon"
+                                                },
+                                                {
+                                                    "name": "googleplus",
+                                                    "url": "https://plus.google.com/u/0/b/115247470747684484878",
+                                                    "class": "fa fa-google-plus",
+                                                    "alt": "google+ icon"
+                                                },
+                                                {
+                                                    "name": "pinterest",
+                                                    "url": "https://www.pinterest.com/HedgestoneGrp/",
+                                                    "class": "fa fa-pinterest-p",
+                                                    "alt": "pinterest icon"
+                                                },
+                                                {
+                                                    "name": "youtube",
+                                                    "url": "https://www.youtube.com/channel/UCzx0KF_ybFDylXQWFQ5vLVg",
+                                                    "class": "fa fa-youtube-play",
+                                                    "alt": "youtube icon"
+                                                },
+                                                {
+                                                    "name": "linkedin",
+                                                    "url": "https://www.linkedin.com/company/hedgestone-group",
+                                                    "class": "fa fa-linkedin",
+                                                    "alt": "linkedin icon"
+                                                }
+                                            ]
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "block": {
+                            "class": "footer-content",
+                            "array": [
+                                {
+                                    "content-body": {
+                                        "precedence": 1,
+                                        "class": "col-xs-12 text-left",
+                                        "text": "Important Notice: Although users of Hedgestone’s services ultimately receive the services from a company licensed by the IFSC under license number <a target='_blank' href='https://www.hedgestonegroup.com/assets/legal/Icon_Markets_Limited_Certificate.pdf'>IFSC/60/461/TS/17</a>, Nevski Ps Ltd is the primary service provider and is fully liable for all operations, services, employee actions and complaints. Nevski Ps Ltd’s offices are located at 4 Rabotnik Street, Kostinbrod Municipality, Petarch, Bulgaria."
+                                    }
+                                },
+                                {
+                                    "content-body": {
+                                        "precedence": 1,
+                                        "class": "col-xs-12 text-left",
+                                        "text": "Risk Warning: Trading Binary Options, CFDs and other financial derivatives is highly speculative, carries a high level of risk and may not be suitable for all investors. You may sustain a loss of some or all of your invested capital. Therefore, you should not speculate with capital that you cannot afford to lose. Please ensure you understand the risks involved before trading, and seek professional advice if necessary. <a ui-sref=\"legal\" target=\"_blank\">Click here</a> to read our full Risk Disclaimer."
+                                    }
+                                },
+                                {
+                                    "content-body": {
+                                        "precedence": 1,
+                                        "class": "col-xs-12 text-left",
+                                        "text": "Hedgestone does not accept clients from Canada and South Africa, United States and Australia "
+                                    }
+                                },
+                                {
+                                    "content-body": {
+                                        "precedence": 1,
+                                        "class": "col-xs-12 text-left",
+                                        "text": "© 2017 Hedgestone"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

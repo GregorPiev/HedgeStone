@@ -1,0 +1,9 @@
+{
+  "headline": {
+    "title": "¡Éxito!",
+    "class": "hl1"
+  },
+  "content": {
+    "text": "Usted depositó con éxito <popup-amount-currency></popup-amount-currency>.<br />Disfrute de operar con nosotros,<br/>Equipo del Grupo Hedgestone."
+  }
+}

@@ -1,0 +1,5 @@
+<li class="listItem" ng-class="::listItem.listItemData.class">
+    <span class="listItemIcon" ng-if="::listItem.iconExist()" ng-class="::[listItem.listItemData.icon.type, listItem.listItemData.icon.class]"></span>
+    <ng-image ng-if="::listItem.iconExist()" data="::listItem.listItemData.icon"></ng-image>
+    <span class="listItemContent" ng-bind="::listItem.listItemData.content"></span>
+</li>

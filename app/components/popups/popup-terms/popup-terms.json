@@ -1,0 +1,21 @@
+{
+  "primaryHeadline": {
+    "title": "Risk Disclosure",
+    "class": "hl1"
+  },
+  "secondaryHeadline": {
+    "title": "important notice",
+    "class": "hl7"
+  },
+  "content": {
+    "text": "Trading in CFDs, options and other derivatives involves significant risk. It is important for you to understand the risks involved and to seek independent advice, if necessary. While Hedgestone representatives may at times provide you with factual information about the markets, all trades placed via the Hedgestone trading platform will be placed by you at your sole discretion. You can choose to stop trading at any time. By clicking “I Accept”, you acknowledge that your capital is at risk, that Hedgestone does not guarantee that you will realize a positive return on your investment and that Hedgestone shall not be responsible for any loss arising from any investment that you make."
+  },
+  "yesBtn": {
+    "title": "i accept",
+    "class": "btn"
+  },
+  "cancelBtn": {
+    "title": "cancel",
+    "class": "btn btn-transparent"
+  }
+}

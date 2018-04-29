@@ -1,0 +1,51 @@
+@import (reference)  "../../../assets/less/resources.less";
+
+.btn {
+  display: table;
+  background: @btn-color;
+  font-family: @xbold-font-family;
+  line-height: normal;
+  float: left;
+
+  .btnContainer {
+    .vertical-center;
+  }
+
+  &.link {
+    font-family: @main-font-family;
+    width: auto;
+    background: transparent;
+    display: table-cell;
+    float: left;
+    border: none;
+    vertical-align: top;
+    text-transform: none;
+
+    .btnContainer {
+      display: initial;
+      vertical-align: top;
+    }
+
+    @media only screen and (max-width: @sm-tablet-screen) {
+      display: inline;
+    }
+
+    &.orange {
+      color: @btn-color;
+      border: none;
+      @media only screen and (max-width: @sm-tablet-screen) {
+        float: none;
+      }
+    }
+  }
+
+  &.btn-transparent {
+    background-color: transparent;
+  }
+
+  &.centered-btn {
+    display: inline-table;
+    float: none;
+  }
+}
+

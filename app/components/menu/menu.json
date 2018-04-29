@@ -1,0 +1,21 @@
+[
+  {
+    "title": "Home",
+    "ref": "home",
+    "class": "col-xs-2"
+  },
+  {
+    "title": "Trading Academy",
+    "ref": "trading_academy",
+    "class": "col-xs-2",
+    "tabs": [
+      {"title": "test2", "class": "col-xs-12", "ref": "test2"},
+      {"title": "test3", "class": "col-xs-12", "ref": "test3"},
+      {"title": "test3", "class": "col-xs-12", "ref": "test3"},
+      {"title": "test3", "class": "col-xs-12", "ref": "test3"},
+      {"title": "test3", "class": "col-xs-12", "ref": "test3"},
+      {"title": "test3", "class": "col-xs-12", "ref": "test3"},
+      {"title": "test3", "class": "col-xs-12", "ref": "test3"}
+    ]
+  }
+]

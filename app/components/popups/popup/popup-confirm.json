@@ -1,0 +1,17 @@
+{
+  "primaryHeadline": {
+    "title": "Bonus Option",
+    "class": "hl1"
+  },  
+  "content": {
+    "text": "In order to receive your bonus please agree with <a href='https://dev-staging.hedgestonegroup.com/assets/legal/Hedgestone_bonus_policy.pdf' target='_blank'>bonusT&C</a>.<br>With pressing Disagree You will not be entitled to receive to the Bonus"
+  },
+  "yesBtn": {
+    "title": "I agree",
+    "class": "btn"
+  },
+  "cancelBtn": {
+    "title": "Disagree",
+    "class": "btn btn-transparent"
+  }
+}

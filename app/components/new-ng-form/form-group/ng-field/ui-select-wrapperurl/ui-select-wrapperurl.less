@@ -1,0 +1,120 @@
+@import (reference) "../../../../../../assets/less/resources";
+  .uiSelectWrapperURL {
+     float:right;
+     margin-left: 10px;
+      z-index: 4;
+      opacity: 1;
+      .link-transition(opacity, 1.5s);
+    
+    height: 30px;
+    width:50px;
+    text-align:left;
+    background-color:#151f2a;
+    color:#6e7072;
+    .btn {
+      background-color: #151f2a;
+      height: 30px;
+      padding: 0;
+      font-size: 18px !important;
+      font-family: @main-font-family;
+      color:#6e7072;
+      margin: 0;
+      .ui-select-match-text {
+        float: none !important;
+        .vertical-center;
+        text-align: center;
+        background-color: #151f2a;
+        color:#6e7072;
+        .glyphicon {
+          font-size: 10px;
+          right: 0;
+        }
+      }
+      .caret {
+        display: none;
+      }
+
+      &:hover {
+        color: black;
+      }
+    }
+
+    input {
+      height: 30px;
+      background-color: #151f2a;
+      color:#6e7072;
+    }
+    .dropdown-menu{
+        background-color:#151f2a !important;
+        color:#6e7072 !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        top:29px !important;
+        .ui-select-choices-group{
+            .ui-select-choices-row{
+                a{color:#fff !important;}                
+            }
+        }
+    } 
+    
+  }
+  .mobileClass, .tabletSmallClass, .tabletClass{ 
+      background-color: #151f2a;
+      .dropdown{
+          position: initial !important;          
+          .ui-select-choices-group{
+              display: block;
+              list-style-type: disc;
+              -webkit-margin-before: 1em;
+              -webkit-margin-after: 1em;
+              -webkit-margin-start: 0px;
+              -webkit-margin-end: 0px;
+              -webkit-padding-start: 40px;
+              border-bottom: 1px solid #2f3338;
+              padding-left: 15px;
+              font-weight: 700;
+              a{                  
+                   font-size: 20px;
+                    padding: 20px 0 20px 5px;
+                    position: relative;
+                    display: block;
+                    &:hover{
+                        text-decoration: underline !important;
+                        color: grey;
+                    }
+              }              
+              
+          }
+      }      
+      
+      .ui-select-bootstrap{
+              .active{                 
+                      a{
+                          background-color: #404040 !important;
+                          &:hover{
+                              text-decoration: underline !important;
+                              color: grey;
+                          }
+                      }                      
+              }              
+      }
+      
+      .dropdown-menu{
+          top:54px !important;
+      }
+      .ui-select-match{
+          background-color: #151f2a;
+          margin-right: 5px;
+          &:focus{
+            border-width: 0;  
+          }
+      }
+      input{
+          margin-top: 10px;
+      }
+      .ui-select-container.ui-select-bootstrap.dropdown.ng-pristine.ng-untouched.ng-valid.open {
+            margin-right: 5px;
+      }
+      
+  }
+  

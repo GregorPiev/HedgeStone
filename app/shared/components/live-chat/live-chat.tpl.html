@@ -1,0 +1,8 @@
+<div class="liveChat" click-outside="liveChat.close()" id="liveChat" ng-class="[{ inHomePage: liveChat.inHomePage }, {up: liveChat.up && liveChat.inHomePage}]">
+    <btn data="liveChat.openBtn" btn-function="liveChat.toggle" uni-direction="liveChat.show" class="top-btn"></btn>
+    <div class="buttons" ng-show="liveChat.show" ng-class="[{'animate-enter': liveChat.show, 'animate-leave': !liveChat.show}]">
+        <btn data="liveChat.chatBtn" btn-function="liveChat.chat"></btn>
+        <btn data="liveChat.callBtn" btn-function="liveChat.close"></btn>
+        <btn data="liveChat.shareBtn" btn-function="liveChat.close"></btn>
+    </div>
+</div>

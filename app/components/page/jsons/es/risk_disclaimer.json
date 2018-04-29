@@ -1,0 +1,469 @@
+{
+  "page-name": "risk_disclaimer",
+  "page-type": "page",
+  "class": "",
+  "title": "Los clientes deben saber acerca de los riesgos, cargos e impuestos.",
+  "keywords": "Riesgo de divulgación, notas de advertencia, cargos, impuestos, terceros",
+  "description": "Aquí los clientes pueden leer sobre el riesgo de divulgación previsto en el cumplimiento de diferentes leyes. También pueden encontrar información sobre los cargos, impuestos y riesgos de terceros.",
+  "array": [
+    {
+      "section": {
+        "sectionName": "content-text",
+        "sectionType": "generic-page",
+        "background": "assets/images/sections/generic-bg.png",
+        "containerClass": "container",
+        "class": "relative-position dark-background",
+        "array": [
+          {
+            "content": {
+              "class": "text-left",
+              "array": [
+                {
+                  "headline": {
+                    "class": "hl1",
+                    "title": "Riesgo de Divulgación"
+                  }
+                },
+                {
+                  "headline": {
+                    "class": "hl3",
+                    "title": "Introducción"
+                  }
+                },
+                {
+                  "content-body": {
+                    "text": "Se aconseja a todos los Clientes actuales y potenciales revisar cuidadosamente los descargos de responsabilidad de riesgo descritos en el acuerdo contenido en este documento, que sirve como un apéndice del Acuerdo de Términos y Condiciones (el “Acuerdo”). Tanto los Clientes actuales como los potenciales deben dar su consentimiento a los términos establecidos en este Acuerdo, antes de abrir una cuenta operativa con la Compañía y comenzar a operar."
+                  }
+                },
+                {
+                  "content-body": {
+                    "text": "Este documento no servirá en ningún momento como una enumeración completa de todos los riesgos asociados con el comercio de instrumentos financieros . Este aviso sirve únicamente como un bosquejo de los términos generales y los riesgos involucrados en el comercio de instrumentos financieros."
+                  }
+                },
+                {
+                  "headline": {
+                    "class": "hl3",
+                    "title": "Advertencias sobre Riesgos Generales"
+                  }
+                },
+                {
+                  "content-body": {
+                    "text": "El Cliente no debería entrar a ningún tipo de inversión a menos que entienda claramente los riesgos relacionados con el comercio de un instrumento financiero derivado."
+                  }
+                },
+                {
+                  "content-body": {
+                    "text": "Un instrumento financiero derivado (por ejemplo, opciones, futuros, Contrato por Diferencia, etc.) es típicamente una transacción al contado no entregable, que ofrece la oportunidad de obtener una ganancia sobre los cambios en los tipos de cambio, índices, materias primas y precios de acciones. El valor del instrumento financiero derivado se ve impactado directamente por el precio del activo subyacente."
+                  }
+                },
+                {
+                  "content-body": {
+                    "text": "La Compañía no hará ningún esfuerzo para proporcionar al Cliente asesoramiento de inversión o recomendaciones relativas a dichos instrumentos financieros derivados."
+                  }
+                },
+                {
+                  "content-body": {
+                    "text": "Antes de firmar el Acuerdo de Términos y Condiciones de la Compañía (el “Acuerdo”) o colocar una orden, el Cliente debería evaluar si la inversión en un instrumento financiero específico es adecuada dada su situación financiera."
+                  }
+                },
+                {
+                  "content-body": {
+                    "text": "En el caso de que un Cliente no comprenda los riesgos asociados con una oportunidad de inversión, debería buscar el consejo de un asesor financiero independiente. Si el Cliente no comprende los riesgos que implica el comercio de instrumentos financieros derivados, no debería participar en tal actividad."
+                  }
+                },
+                {
+                  "content-body": {
+                    "text": "El Cliente reconoce que corre el riesgo de incurrir en una pérdida de capital, como resultado de una compra o venta de cualquier instrumento financiero y acuerda asumir este riesgo."
+                  }
+                },
+                {
+                  "headline": {
+                    "title": "Riesgos Generales",
+                    "class": "hl3"
+                  }
+                },
+                {
+                  "headline": {
+                    "class": "hl4",
+                    "title": "Se advierte al Cliente de los siguientes riesgos generales:"
+                  }
+                },
+                {
+                  "content-body": {
+                    "text": "La Compañía no puede garantizar el resultado de ninguna decisión de inversión, y por lo tanto no puede garantizar el capital depositado en una cuenta operativa con fines comerciales."
+                  }
+                },
+                {
+                  "content-body": {
+                    "text": "El Cliente reconoce que, independientemente de cualquier información proporcionada por la Compañía, el valor de una inversión es volátil y es probable que llegue a perder su valor."
+                  }
+                },
+                {
+                  "content-body": {
+                    "text": "El rendimiento anterior de un instrumento financiero no garantiza su rendimiento actual o futuro. El uso de datos históricos no garantiza un resultado futuro predeterminado sobre el rendimiento de un instrumento financiero."
+                  }
+                },
+                {
+                  "content-body": {
+                    "text": "El Cliente reconoce que cualquier transacción con un instrumento financiero, llevada a cabo a través de la Compañía, es de naturaleza especulativa y que se puede incurrir en pérdidas sustanciales en el proceso."
+                  }
+                },
+                {
+                  "content-body": {
+                    "text": "Ciertos instrumentos financieros pueden no tornarse líquidos, debido a la demanda reducida y el Cliente puede no ser capaz de venderlo inmediatamente u obtener información con respecto a su valor."
+                  }
+                },
+                {
+                  "headline": {
+                    "class": "hl3",
+                    "title": "Riesgos de las Transacciones con CFD"
+                  }
+                },
+                {
+                  "content-body": {
+                    "text": "El Cliente no debería comprar un instrumento financiero derivado, si no está dispuesto a asumir el riesgo asociado a tal inversión, que puede incluir la pérdida parcial o total del capital invertido."
+                  }
+                },
+                {
+                  "content-body": {
+                    "text": "Los Clientes no deben entrar en negocios con CFD sin comprender completamente los riesgos asociados a estos instrumentos financieros, que pueden incluir la pérdida parcial o total del capital invertido."
+                  }
+                },
+                {
+                  "content-body": {
+                    "text": "Si el Cliente no comprende los riesgos asociados con el comercio de CFD, no debería participar de tal actividad."
+                  }
+                },
+                {
+                  "headline": {
+                    "class": "hl4",
+                    "title": "Se advierte al Cliente de los siguientes riesgos respecto de los CFD:"
+                  }
+                },
+                {
+                  "content-body": {
+                    "text": "Los CFD son instrumentos financieros derivados con precios que se derivan de su activo subyacente (por ejemplo, materias primas, acciones, índices o monedas). Los instrumentos financieros derivados son altamente volátiles y los precios de los CFD y sus activos subyacentes pueden fluctuar rápidamente, debido a los cambios en las condiciones del mercado. Los precios de los CFD se ven afectados por una serie de factores, incluyendo las fluctuaciones en oferta y demanda, acciones gubernamentales, políticas comerciales, eventos internacionales y la confianza del consumidor."
+                  }
+                },
+                {
+                  "content-body": {
+                    "text": "Un número de instrumentos subyacentes de los CFD pueden no tornarse líquidos inmediatamente, debido a la demanda reducida for el instrumento subyacente. Como resultado, el Cliente puede no ser capaz de obtener información con respecto a su valor o el alcance de los riesgos asociados."
+                  }
+                },
+                {
+                  "content-body": {
+                    "text": "Comerciar con CFD es altamente especulativo e implica un alto grado de riesgo. Debido a que las operaciones se llevan a cabo utilizando un margen que sólo cubre un porcentaje nominal del valor del activo subyacente que se comercia, los pequeños cambios de precio en el activo subyacente del CFD pueden resultar en pérdida parcial o total del capital invertido. Antes de comerciar con CFD, los Clientes deben comprender que pueden perder el margen que tuvieron en su cuenta, que sirve como garantía para la apertura y el mantenimiento de las posiciones comerciales."
+                  }
+                },
+                {
+                  "content-body": {
+                    "text": "Comerciar CFD sólo es aplicable a las personas que: (a) están dispuestas a asumir los riesgos asociados con dichas transacciones; y (b) son financieramente capaces de soportar pérdidas de sus fondos de margen inicial y cualquier capital adicional utilizado para mantener sus posiciones."
+                  }
+                },
+                {
+                  "content-body": {
+                    "text": "Al entrar en el comercio de CFD, usted está colocando una operación relacionada a movimientos de precios fijados por la Compañía. Los precios que la Compañía le cotiza están compuestos por un spread, marca añadida y una reducción, en comparación con los precios que la Compañía podría recibir si se tratara de cubrir de las transacciones con usted por una operación en el mercado interbancario o de un tercero."
+                  }
+                },
+                {
+                  "content-body": {
+                    "text": "El apalancamiento disponible para los CFD es una característica particular del comercio de CFD (es decir, los fondos que usted necesita depositar cuando se abre una posición, en comparación con el tamaño hipotético de una operación en la que ingresa). Esto significa que un depósito de margen nominal puede llevar a grandes pérdidas como también a grandes ganancias."
+                  }
+                },
+                {
+                  "content-body": {
+                    "text": "Usted puede perder el importe total depositado en la Compañía como margen. Algunas de las características comerciales, tales como “parar-pérdida” o “limitar,” que pretenden limitar las pérdidas no son siempre efectivas, debido a las condiciones  del mercado. Todas las órdenes, incluyendo órdenes garantizadas de parar-pérdidas, pueden dar lugar a pérdidas en un corto período de tiempo. En ciertos casos, las pérdidas pueden ser mayores de lo esperado."
+                  }
+                },
+                {
+                  "content-body": {
+                    "text": "Usted debe abonarle a la Compañía todas las pérdidas que usted sufra, además de otros importes debidos en virtud de los términos y condiciones para el comercio de CFD. Si decide entrar en una operación de CFD, usted se compromete a aceptar este riesgo."
+                  }
+                },
+                {
+                  "content-body": {
+                    "text": "Las transacciones CFD tienen un pasivo contingente, ya que los Clientes deben depositar fondos en su cuenta operativa con el fin de abrir una posición. Los requisitos de margen están relacionados con el activo subyacente y pueden calcularse a partir del precio actual del instrumento subyacente."
+                  }
+                },
+                {
+                  "content-body": {
+                    "text": "El Cliente es el único responsable de controlar su cuenta y depositar los fondos necesarios para mantener sus posiciones. Si el capital marginal requerido para mantener una posición abierta es insuficiente, al Cliente se le puede pedir que deposite fondos adicionales o reducir su exposición. No hacerlo puede resultar en la liquidación de posiciones a pérdida y el Cliente será responsable de los déficits relacionados."
+                  }
+                },
+                {
+                  "content-body": {
+                    "text": "Con respecto a las transacciones de CFD, la Compañía se reserva el derecho a cerrar posiciones cuando el margen alcanza el 100% y a liquidar la cuenta del Cliente si los niveles de margen caen por debajo de 90%."
+                  }
+                },
+                {
+                  "content-body": {
+                    "text": "Las transacciones CFD no se reconocen en una bolsa de inversiones designada, pero se ejecutan a través de sistemas de comercio de la Compañía que pueden exponer al Cliente a mayores riesgos, en comparación con las transacciones de bolsa. Mientras que un número de mercados fuera de la bolsa es altamente líquido, las operaciones de derivados fuera de la bolsa pueden implicar un riesgo mayor que la inversión en derivados de bolsa. Puede ser imposible evaluar el valor de una posición fuera de la bolsa, para liquidar una posición existente, o para evaluar la exposición al riesgo."
+                  }
+                },
+                {
+                  "content-body": {
+                    "text": "Los Clientes sólo pueden ingresar operaciones de CFD con la Compañía por los activos subyacentes que son ofrecidos por la Compañía. La Compañía no garantiza seguir ofreciendo todos esos activos subyacentes. Todos los precios de los CFD son derivados de los precios de los activos subyacentes y vienen del proveedor de liquidez aplicable. La Compañía no tiene control sobre las fluctuaciones en los precios de los activos subyacentes, que pueden ser volátiles. Tales movimientos tendrán un impacto si los Clientes  pueden abrir y cerrar posiciones, así como los precios cotizados por el proveedor de liquidez de la Compañía."
+                  }
+                },
+                {
+                  "content-body": {
+                    "text": "La Compañía puede tener acceso a información que no esté disponible para usted. Sujeto a la Política de Mejor Ejecución, la Compañía no garantiza ofrecerle información de mercado que posee."
+                  }
+                },
+                {
+                  "content-body": {
+                    "text": "Algunos CFD pueden no estar líquidos inmediatamente. Como resultado, usted puede no estar en una posición para venderlos o para obtener fácilmente información sobre su valor y los riesgos asociados."
+                  }
+                },
+                {
+                  "headline": {
+                    "class": "hl3",
+                    "title": "Cargos e Impuestos"
+                  }
+                },
+                {
+                  "headline": {
+                    "class": "hl4",
+                    "title": "Se previene al Cliente de lo siguiente:"
+                  }
+                },
+                {
+                  "content-body": {
+                    "text": "Los servicios de la Compañía proporcionados al Cliente pueden estar sujetos a cargos/comisiones, que serán debidamente comunicados al Cliente. La Compañía puede cambiar sus estructuras de comisiones en cualquier momento. Es responsabilidad del Cliente estar actualizado de cualquier enmienda."
+                  }
+                },
+                {
+                  "content-body": {
+                    "text": "Antes de colocar operaciones, el Cliente debería obtener toda la información respecto de las comisiones. Si el Cliente no comprende cómo se calculan las estructuras de comisiones específicas, debería pedir una explicación detallada."
+                  }
+                },
+                {
+                  "content-body": {
+                    "text": "Las operaciones de un Cliente con instrumentos financieros pueden estar sujetas a impuestos y otras obligaciones debido a normas legales o circunstancias personales."
+                  }
+                },
+                {
+                  "content-body": {
+                    "text": "Las transacciones realizadas en el marco del Acuerdo pueden estar sujetas a impuestos y otras obligaciones en ciertas jurisdicciones. La Compañía no garantiza que tales impuestos u obligaciones no sea exigibles como tales."
+                  }
+                },
+                {
+                  "content-body": {
+                    "text": "El Cliente es el único responsable de los impuestos u obligaciones incurridos como resultado de las actividades comerciales."
+                  }
+                },
+                {
+                  "headline": {
+                    "title": "Riesgos Técnicos",
+                    "class": "hl3"
+                  }
+                },
+                {
+                  "content-body": {
+                    "text": "El Cliente es el único responsable de los riesgos de pérdidas financieras causadas por el mal funcionamiento, interrupción o desconexión del sistema, cortes de electricidad y errores de comunicación."
+                  }
+                },
+                {
+                  "content-body": {
+                    "text": "En caso de que un Cliente se comprometa a transacciones en un sistema electrónico, él/ella estarán expuestos a los riesgos relacionados con el sistema, incluyendo la falla del hardware, software, servidores y líneas de comunicación. Las consecuencias de cualquiera de estas fallas pueden provocar que la orden de un Cliente no sea ejecutada de acuerdo a sus instrucciones, o que no sea ejecutada en absoluto. La Compañía no asume ningún tipo de responsabilidad por tal falla."
+                  }
+                },
+                {
+                  "content-body": {
+                    "text": "La Compañía no asume ninguna responsabilidad por el acceso no autorizado de terceros a la información del Cliente, incluyendo direcciones electrónicas, comunicaciones electrónicas y datos personales, cuando se deban a negligencia del Cliente, o cuando los elementos antes mencionados se transmitan entre la Compañía y el Cliente u otras comunicaciones de red, teléfono, mdios electrónicos, o correo."
+                  }
+                },
+                {
+                  "content-body": {
+                    "text": "El Cliente reconoce que cualquier información no encriptada enviada a través de correo electrónico, no está protegida contra el acceso no autorizado."
+                  }
+                },
+                {
+                  "content-body": {
+                    "text": "Durante los periodos de tráfico intenso, el Cliente puede experimentar dificultades para conectarse al sistema(s) de la Compañía, en particular durante los períodos de mercado volátiles (por ejemplo, cuando se publican indicadores macroeconómicos clave)."
+                  }
+                },
+                {
+                  "content-body": {
+                    "text": "El Cliente reconoce que Internet puede estar sujeta a eventos que pueden afectar su acceso al sistema de la Compañía, incluyendo pero no limitado a interrupciones o apagones de transmisión, fallas de software y hardware, desconexión de Internet, fallas de electricidad o ataques maliciosos. A menos que se especifique lo contrario en el Acuerdo, la Compañía no se hace responsable de los daños o pérdidas resultantes de tales eventos, o de cualquier otra pérdida, costo, pasivo o gastos que puedan resultar de la incapacidad del Cliente para acceder a los sistemas de la Compañía."
+                  }
+                },
+                {
+                  "content-body": {
+                    "text": "Se le advierte al Cliente que el comercio a través de una plataforma electrónica puede plantear riesgos relacionados con la pérdida financiera y puede ser una consecuencia de: <ul><li>Falla de los dispositivos del cliente, software y conexión a Internet.</li><li>Falla, mal funcionamiento o mal uso del hardware o software de la Compañía o del Cliente.</li><li>Falla del equipo del cliente.</li><li>Configuración indebida de la terminal del cliente.</li><li>Actualizaciones retardadas de la terminal del cliente.</li></ul>"
+                  }
+                },
+                {
+                  "content-body": {
+                    "text": "El Cliente acuerda asumir los siguientes riesgos, en cuyo caso la Compañía no tiene la responsabilidad de ninguna pérdida resultante, a menos que se especifique lo contrario en el Acuerdo: <ul><li>Cortes de energía de parte del Cliente o del proveedor.</li><li>Daño físico de las líneas de comunicación utilizadas para vincular al Cliente y al proveedor con el servidor de operación o información del Cliente.</li><li>Fallas en la comunicación por parte del Cliente o proveedor.</li><li>Configuración impropia relacionada con la terminal del Cliente</li><li>Actualizaciones intempestivas de la terminal del Cliente.</li><li>Problemas de comunicación relacionados con las transacciones realizadas a través del teléfono.</li><li>El uso de medios de comunicación electrónica con los que el Cliente corre el riesgo de no recibir un mensaje (incluyendo mensajes de text) de la Compañía.</li><li>Mal funcionamiento de la plataforma operativa relacionado con la terminal del Cliente.</li><li>Cortes de comunicación a través de los canales usados por la Compañía, en particular el daño físico de los canales de comunicación de terceros.</li><li>"
+                  }
+                },
+                {
+                  "headline": {
+                    "title": "Plataforma Operativa",
+                    "class": "hl3"
+                  }
+                },
+                {
+                  "content-body": {
+                    "text": "La Compañía no proporciona la plataforma operativa del Cliente. Es proporcionada por un tercero y se rige por el acuerdo relevante firmado entre la Compañía y el proveedor de la plataforma operativa Como tal, la Compañía previene a todos los Clientes de los siguientes riesgos relacionados con la plataforma operativa:<ul><li>Operar en línea no reduce los riesgos asociados con el comercio de divisas.</li><li>El Cliente reconoce que cuando las órdenes las transmite la Compañía no podrán cancelarse.</li><li>Si un Cliente no ha recibido los resultados de una ejecución específica, pero decide repetir la ejecución, el Cliente deberá aceptar el riesgo de hacer dos transacciones en lugar de una.</li><li>El Cliente reconoce que si se envían instrucciones de modificación sobre una orden pendiente, sólo podrán ejecutarse modificaciones de parar-pérdida o tomar-ganancia, en la posición abierta.</li><li>"
+                  }
+                },
+                {
+                  "headline": {
+                    "class": "hl3",
+                    "title": "Eventos de Fuerza Mayor"
+                  }
+                },
+                {
+                  "content-body": {
+                    "text": "En caso de Eventos de Fuerza Mayor, la Compañía podría no estar en condiciones de hacer arreglos para las ejecuciones de órdenes del Cliente, o cumplir con sus obligaciones bajo el Acuerdo con el Cliente. Como resultado, el Cliente podría sufrir pérdidas financieras y aceptará el riesgo de tales pérdidas."
+                  }
+                },
+                {
+                  "headline": {
+                    "class": "hl3",
+                    "title": "Moneda extranjera"
+                  }
+                },
+                {
+                  "content-body": {
+                    "text": "Cuando un instrumento financiero es comercializado en una moneda distinta a la del país de residencia del Cliente, los tipos de cambio podrían tener un impacto negativo en el valor y rendimiento del instrumento financiero y podría dar lugar a pérdidas financieras para el Cliente."
+                  }
+                },
+                {
+                  "content-body": {
+                    "text": "La posibilidad de una ganancia o pérdida de las transacciones en los mercados extranjeros, también se ve afectada por las fluctuaciones del tipo de cambio. No se puede garantizar que se cotice un precio en todo momento o que las transacciones se ejecuten a un precio cotizado."
+                  }
+                },
+                {
+                  "headline": {
+                    "class": "hl3",
+                    "title": "Condiciones de Mercado Anormales"
+                  }
+                },
+                {
+                  "content-body": {
+                    "text": "El Cliente reconoce que bajo Condiciones de Mercado Anormales, los plazos de ejecución de una orden pueden extenderse, o puede no ser posible ejecutar las órdenes en absoluto."
+                  }
+                },
+                {
+                  "content-body": {
+                    "text": "Ciertas condiciones relacionadas con la publicación de guarismos macroeconómicos, noticias económicas o políticas pueden causar volatilidad de precios en los mercados de divisas. Existe el riesgo de que las órdenes emitidas para proteger posiciones abiertas, o para abrir nuevas posiciones, puedan ejecutarse a precios significativamente diferentes a los precios anteriores."
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "block": {
+              "class": "arrow",
+              "background": "assets/images/sections/arrow.png"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "sectionName": "bottom-section",
+        "sectionType": "open-account-section",
+        "class": "bottom-section",
+        "background": "",
+        "containerClass": "",
+        "array": [
+          {
+            "content": {
+              "class": "",
+              "array": [
+                {
+                  "ng-image": {
+                    "image-name": "asset-test",
+                    "src": "assets/icons/Logo.png",
+                    "alt": "some asset",
+                    "type": "img",
+                    "class": "center-img",
+                    "responsive": true
+                  }
+                },
+                {
+                  "block": {
+                    "class": "text-center",
+                    "array": [
+                      {
+                        "content-body": {
+                          "class": "",
+                          "text": "¿LISTO PARA COMENZAR?"
+                        },
+                        "precedence": 0
+                      },
+                      {
+                        "headline": {
+                          "title": "Poderoso. Dinámico. Sin límites.",
+                          "class": "hl5"
+                        },
+                        "precedence": 1
+                      },
+                      {
+                        "block": {
+                          "class": "padded-block",
+                          "array": [
+                            {
+                              "logged-in" : {
+                                "array": [
+                                  {
+                                    "btn": {
+                                      "class": "btn btn-transparent centered-btn",
+                                      "title": "operación",
+                                      "destination": "trade"
+                                    },
+                                    "precedence": 4
+                                  },
+                                  {
+                                    "btn": {
+                                      "class": "centered-btn",
+                                      "title": "cómo funciona",
+                                      "destination": "education"
+                                    },
+                                    "precedence": 5
+                                  }
+                                ]
+                              }
+                            },
+                            {
+                              "anonymous": {
+                                "array": [
+                                  {
+                                    "btn": {
+                                      "class": "btn btn-transparent centered-btn",
+                                      "title": "abrir una cuenta",
+                                      "destination": "create_account"
+                                    },
+                                    "precedence": 4
+                                  },
+                                  {
+                                    "btn": {
+                                      "class": "centered-btn",
+                                      "title": "cómo funciona",
+                                      "destination": "education"
+                                    },
+                                    "precedence": 5
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        },
+                        "precedence": 3
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "primaryHeadline": {
+    "title": "Deposit Failed",
+    "class": "hl1"
+  },
+  "secondaryHeadline": {
+    "title": "",
+    "class": "hl7"
+  },
+  "content": {
+    "text": "Please, double-check the information you entered, change it, if needed, and retry entering it.<br />If you need to contact our support team, please, go to our About Us page.<br />Thanks, <br />Hedgestone Group Team."
+  },
+  "yesBtn": {
+    "title": "Contact Us",
+    "class": "btn"
+  },
+  "cancelBtn": {
+    "title": "Cancel",
+    "class": "btn btn-transparent"
+  }
+}

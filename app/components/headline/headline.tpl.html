@@ -1,0 +1,4 @@
+<div class="headline" ng-class="::headline.headlineData.class" ng-attr-id="{{::headline.headlineData.id}}" ng-cloak>
+    <span class="icon" ng-if="::headline.headlineData.icon" ng-class="::[headline.headlineData.icon.type, headline.headlineData.icon.class]"></span>
+    <span class="title" ng-bind-html="::headline.headlineData.title | unsafe" id="{{::headline.headlineData.id}}"></span>
+</div>

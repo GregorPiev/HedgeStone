@@ -1,0 +1,17 @@
+<div class="popupFrame">
+    <div class="popupTradeBlock">
+        <div class="closeImg" ng-click="popupTradeBlock.cancel()">
+            <i class="fa fa-times"></i>
+        </div>
+        <div class="popup-content">
+            <headline data="popupTradeBlock.popupData.secondaryHeadline"></headline>
+            <headline data="popupTradeBlock.popupData.primaryHeadline"></headline>
+            <!--pay attention to change content body to proper attr-->
+            <content-body data="popupTradeBlock.popupData.content"></content-body>
+            <div class="btns-block">
+                <btn data="popupTradeBlock.popupData.yesBtn" btn-function="popupTradeBlock.yes"></btn>
+                <btn data="popupTradeBlock.popupData.cancelBtn" btn-function="popupTradeBlock.no"></btn>
+            </div>
+        </div>
+    </div>
+</div>

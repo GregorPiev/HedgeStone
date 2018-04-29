@@ -1,0 +1,77 @@
+@import (reference) '../../../assets/less/resources';
+@import (reference) '~bootstrap/less/bootstrap';
+
+.withdrawalForm {
+  padding: 0 50px;
+
+  @media only screen and (max-width: @sm-tablet-screen) {
+    padding: 0 15px;
+  }
+  .account-balance {
+    float: left;
+    padding: 15px 0 40px 0;
+    .balance, .minimum {
+      float: left;
+      font-size: @contentBody-font;
+      color: @content-body-color;
+    }
+
+    .balance {
+      padding-right: 30px;
+      border-right: 1px @content-body-color solid;
+      @media screen and (max-width: @sm-tablet-screen){
+        width: 100%;
+        border-bottom: 1px @content-body-color solid;
+        border-right: none;
+        padding: 0 0 15px 0;
+      }
+        .amount {
+        font-size: 24px;
+        font-family: @bold-font-family;
+      }
+    }
+
+    .minimum {
+      padding-left: 30px;
+      @media screen and (max-width: @sm-tablet-screen) {
+        width: 100%;
+        padding: 15px 0 0 0;
+      }
+      .minAmount {
+        font-size: 24px;
+        font-family: @bold-font-family;
+      }
+    }
+  }
+
+  .submit {
+    @media screen and (min-width: @screen-md) {
+      padding-left: 15px;
+    }
+
+    @media screen and (max-width: @screen-md) {
+      padding-top: 10px;
+    }
+
+    .submitBtn {
+      .no-margin;
+    }
+  }
+
+  //.form {
+  //  .ngField {
+  //    width: 33.3333%;
+  //    @media screen and (max-width: @sm-tablet-screen) {
+  //      width: 100%;
+  //    }
+  //  }
+  //
+  //  .submitBtn {
+  //    //margin: 0 0 0 15px !important;
+  //    @media screen and (max-width: @sm-tablet-screen){
+  //      .no-margin;
+  //      font-size: 13px !important;
+  //    }
+  //  }
+  //}
+}

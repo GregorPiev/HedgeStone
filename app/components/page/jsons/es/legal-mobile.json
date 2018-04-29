@@ -1,0 +1,493 @@
+{
+  "page-name": "legal",
+  "page-type": "page",
+  "class": "",
+  "title": "",
+  "description": "",
+  "keywords": "",
+  "array": [
+    {
+      "section": {
+        "sectionName": "financial-top-section",
+        "sectionType": "top-section",
+        "background": "assets/images/financial-page/1.jpg",
+        "containerClass": "container",
+        "class": "text-center dark-background",
+        "array": [
+          {
+            "content": {
+              "class": "",
+              "array": [
+                {
+                  "headline": {
+                    "title": "Legal",
+                    "class": "hl1"
+                  },
+                  "precedence": 0
+                },
+                {
+                  "block": {
+                    "class": "divider"
+                  }
+                },
+                {
+                  "content-body": {
+                    "class": "",
+                    "text": "Los documentos siguientes proporcionan detalles sobre la relación entre Icono Markets Limited, la compañía que posee y opera la marca Hedgestone, y sus clientes."
+                  },
+                  "precedence": 2
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "sectionName": "",
+        "sectionType": "legal-section",
+        "background": "",
+        "containerClass": "container",
+        "class": "text-center dark-background relative-position",
+        "array": [
+          {
+            "block": {
+              "class": "tiles",
+              "array": [
+                {
+                  "block": {
+                    "class": "tile table",
+                    "array": [
+                      {
+                        "block": {
+                          "class": "table-cell",
+                          "array": [
+                            {
+                              "headline": {
+                                "class": "table-cell",
+                                "title": "Términos y Condiciones"
+                              }
+                            },
+                            {
+                              "block": {
+                                "class": "text-center",
+                                "array": [
+                                  {
+                                    "btn": {
+                                      "class": "btn btn-transparent",
+                                      "link": "/assets/legal/Hedgestone_terms_and_conditions.pdf",
+                                      "title": "descargar"
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "block": {
+              "class": "tiles",
+              "array": [
+                {
+                  "block": {
+                    "class": "tile table",
+                    "array": [
+                      {
+                        "block": {
+                          "class": "table-cell",
+                          "array": [
+                            {
+                              "headline": {
+                                "class": "table-cell",
+                                "title": "Política de Privacidad"
+                              }
+                            },
+                            {
+                              "block": {
+                                "class": "text-center",
+                                "array": [
+                                  {
+                                    "btn": {
+                                      "class": "btn btn-transparent",
+                                      "link": "/assets/legal/Hedgestone_privacy_policy.pdf",
+                                      "title": "descargar"
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "block": {
+              "class": "tiles",
+              "array": [
+                {
+                  "block": {
+                    "class": "tile table",
+                    "array": [
+                      {
+                        "block": {
+                          "class": "table-cell",
+                          "array": [
+                            {
+                              "headline": {
+                                "class": "table-cell",
+                                "title": "Descargo de Responsabilidad de Riesgo"
+                              }
+                            },
+                            {
+                              "block": {
+                                "class": "text-center",
+                                "array": [
+                                  {
+                                    "btn": {
+                                      "class": "btn btn-transparent",
+                                      "link": "/assets/legal/Hedgestone_risk_disclaimer.pdf",
+                                      "title": "descargar"
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "block": {
+              "class": "tiles",
+              "array": [
+                {
+                  "block": {
+                    "class": "tile table",
+                    "array": [
+                      {
+                        "block": {
+                          "class": "table-cell",
+                          "array": [
+                            {
+                              "headline": {
+                                "class": "table-cell",
+                                "title": "Bonus Policy"
+                              }
+                            },
+                            {
+                              "block": {
+                                "class": "text-center",
+                                "array": [
+                                  {
+                                    "btn": {
+                                      "class": "btn btn-transparent",
+                                      "link": "/assets/legal/Hedgestone_bonus_policy.pdf",
+                                      "title": "descargar"
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "block": {
+              "class": "tiles",
+              "array": [
+                {
+                  "block": {
+                    "class": "tile table",
+                    "array": [
+                      {
+                        "block": {
+                          "class": "table-cell",
+                          "array": [
+                            {
+                              "headline": {
+                                "class": "table-cell",
+                                "title": "Política de Ejecución de Órdenes"
+                              }
+                            },
+                            {
+                              "block": {
+                                "class": "text-center",
+                                "array": [
+                                  {
+                                    "btn": {
+                                      "class": "btn btn-transparent",
+                                      "link": "/assets/legal/Hedgestone_order_execution_policy.pdf",
+                                      "title": "descargar"
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "block": {
+              "class": "tiles",
+              "array": [
+                {
+                  "block": {
+                    "class": "tile table",
+                    "array": [
+                      {
+                        "block": {
+                          "class": "table-cell",
+                          "array": [
+                            {
+                              "headline": {
+                                "class": "table-cell",
+                                "title": "Política de Conflictos de Interés"
+                              }
+                            },
+                            {
+                              "block": {
+                                "class": "text-center",
+                                "array": [
+                                  {
+                                    "btn": {
+                                      "class": "btn btn-transparent",
+                                      "link": "/assets/legal/Hedgestone_conflicts_of_interest_policy.pdf",
+                                      "title": "descargar"
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "block": {
+              "class": "tiles",
+              "array": [
+                {
+                  "block": {
+                    "class": "tile table",
+                    "array": [
+                      {
+                        "block": {
+                          "class": "table-cell",
+                          "array": [
+                            {
+                              "headline": {
+                                "class": "table-cell",
+                                "title": "Política de Manejo de Quejas"
+                              }
+                            },
+                            {
+                              "block": {
+                                "class": "text-center",
+                                "array": [
+                                  {
+                                    "btn": {
+                                      "class": "btn btn-transparent",
+                                      "link": "/assets/legal/Hedgestone_complaints_handling_policy.pdf",
+                                      "title": "descargar"
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "block": {
+              "class": "tiles",
+              "array": [
+                {
+                  "block": {
+                    "class": "tile table",
+                    "array": [
+                      {
+                        "block": {
+                          "class": "table-cell",
+                          "array": [
+                            {
+                              "headline": {
+                                "class": "table-cell",
+                                "title": "Formulario de Quejas"
+                              }
+                            },
+                            {
+                              "block": {
+                                "class": "text-center",
+                                "array": [
+                                  {
+                                    "btn": {
+                                      "class": "btn btn-transparent",
+                                      "link": "/assets/legal/Hedgestone_complaints_form.pdf",
+                                      "title": "descargar"
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "block": {
+              "class": "arrow",
+              "background": "assets/images/sections/arrow.png"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "sectionName": "bottom-section",
+        "sectionType": "open-account-section",
+        "class": "bottom-section",
+        "background": "",
+        "containerClass": "",
+        "array": [
+          {
+            "content": {
+              "class": "",
+              "array": [
+                {
+                  "ng-image": {
+                    "image-name": "asset-test",
+                    "src": "assets/icons/Logo.png",
+                    "alt": "some asset",
+                    "type": "img",
+                    "class": "center-img",
+                    "responsive": true
+                  }
+                },
+                {
+                  "block": {
+                    "class": "text-center",
+                    "array": [
+                      {
+                        "content-body": {
+                          "class": "",
+                          "text": "¿LISTO PARA COMENZAR?"
+                        },
+                        "precedence": 0
+                      },
+                      {
+                        "headline": {
+                          "title": "Poderoso. Dinámico. Sin límites.",
+                          "class": "hl5"
+                        },
+                        "precedence": 1
+                      },
+                      {
+                        "block": {
+                          "class": "padded-block",
+                          "array": [
+                            {
+                              "logged-in" : {
+                                "array": [
+                                  {
+                                    "btn": {
+                                      "class": "btn btn-transparent centered-btn",
+                                      "title": "operación",
+                                      "destination": "trade"
+                                    },
+                                    "precedence": 4
+                                  },
+                                  {
+                                    "btn": {
+                                      "class": "centered-btn",
+                                      "title": "cómo funciona",
+                                      "destination": "education"
+                                    },
+                                    "precedence": 5
+                                  }
+                                ]
+                              }
+                            },
+                            {
+                              "anonymous": {
+                                "array": [
+                                  {
+                                    "btn": {
+                                      "class": "btn btn-transparent centered-btn",
+                                      "title": "abrir una cuenta",
+                                      "destination": "create_account"
+                                    },
+                                    "precedence": 4
+                                  },
+                                  {
+                                    "btn": {
+                                      "class": "centered-btn",
+                                      "title": "cómo funciona",
+                                      "destination": "education"
+                                    },
+                                    "precedence": 5
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        },
+                        "precedence": 3
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

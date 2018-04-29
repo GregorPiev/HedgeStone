@@ -1,0 +1,586 @@
+{
+  "page-name": "tools",
+  "page-type": "page",
+  "class": "",
+  "title": "Hedgestone Group’s tools guarantee successful trading.",
+  "description": "Hedgestone Group offers sophisticated tools. Clients’ trading is facilitated by powerful desktop interface, mobile applications, and live data feeds.",
+  "keywords": "Tools; desktop interface; mobile application; live market data feeds.",
+  "array": [
+    {
+      "section": {
+        "sectionName": "tools-top-section",
+        "sectionType": "top-section",
+        "background": "assets/images/financial-page/1.jpg",
+        "containerClass": "container",
+        "class": "text-center dark-background",
+        "array": [
+          {
+            "content": {
+              "class": "",
+              "array": [
+                {
+                  "headline": {
+                    "title": "Tools",
+                    "class": "hl1"
+                  },
+                  "precedence": 0
+                },
+                {
+                  "block": {
+                    "class": "divider"
+                  }
+                },
+                {
+                  "content-body": {
+                    "class": "",
+                    "text": "With powerful desktop interface and intuitive mobile applications, Hedgestone brings the global financial markets within your reach. Whether you are performing analysis for a potential trade, monitoring existing trades or managing your account, Hedgestone’s tools deliver a robust and secure trading experience."
+                  },
+                  "precedence": 2
+                },
+                {
+                  "card": {
+                    "class": "cell three-in-a-row text-center",
+                    "array": [
+                      {
+                        "ng-image": {
+                          "precedence": 1,
+                          "image-name": "asset-test",
+                          "src": "assets/icons/clock.png",
+                          "alt": "immediate",
+                          "type": "img",
+                          "class": "col-xs-12 text-center"
+                        }
+                      },
+                      {
+                        "headline": {
+                          "precedence": 0,
+                          "title": "Immediate",
+                          "class": "hl3"
+                        }
+                      },
+                      {
+                        "content-body": {
+                          "class": "",
+                          "precedence": 2,
+                          "text": "Orders are received and executed immediately, so your positions are always locked-in before markets change."
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "card": {
+                    "class": "cell three-in-a-row",
+                    "array": [
+                      {
+                        "ng-image": {
+                          "precedence": 1,
+                          "image-name": "asset-test",
+                          "src": "assets/icons/flag.png",
+                          "alt": "market leading",
+                          "type": "img",
+                          "class": "col-xs-12"
+                        }
+                      },
+                      {
+                        "headline": {
+                          "precedence": 0,
+                          "title": "Market-Leading",
+                          "class": "hl3"
+                        }
+                      },
+                      {
+                        "content-body": {
+                          "class": "",
+                          "precedence": 2,
+                          "text": "Native mobile applications for Android delivers full platform access on-the-move."
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "card": {
+                    "class": "cell three-in-a-row",
+                    "array": [
+                      {
+                        "ng-image": {
+                          "precedence": 0,
+                          "image-name": "asset-test",
+                          "src": "assets/icons/target.png",
+                          "alt": "precisions",
+                          "type": "img",
+                          "class": "col-xs-12"
+                        }
+                      },
+                      {
+                        "headline": {
+                          "precedence": 1,
+                          "title": "Precision-Tuned",
+                          "class": "hl3"
+                        }
+                      },
+                      {
+                        "content-body": {
+                          "precedence": 2,
+                          "class": "",
+                          "text": "Live market data feeds ensure that you are delivered with price quotes which reflect underlying markets accurately."
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "sectionName": "trading-platform",
+        "sectionType": "content-asset-tools",
+        "background": "",
+        "containerClass": "container",
+        "class": "light-background relative-position",
+        "array": [
+          {
+            "asset": {
+              "array": [
+                {
+                  "ng-image": {
+                    "name": "",
+                    "src": "assets/images/sections/Screen.png",
+                    "alt": "screen",
+                    "type": "img",
+                    "class": "dividing-image",
+                    "responsive": "img-responsive "
+                  },
+                  "precedence": 0
+                }
+              ]
+            }
+          },
+          {
+            "content": {
+              "class": "",
+              "array": [
+                {
+                  "headline": {
+                    "title": "Trading Platform",
+                    "class": "hl5"
+                  }
+                },
+                {
+                  "content-body": {
+                    "class": "smaller-content",
+                    "text": "Hedgestone’s platform provides unparalleled access to the global financial markets. Analyze, trade, monitor and administer – all within a single interface."
+                  }
+                },
+                {
+                  "btn": {
+                    "class": "btn-transparent",
+                    "title": "speak to an agent",
+                    "destination": "about"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "sectionName": "cards-tools",
+        "sectionType": "cards-section-tools",
+        "background": "",
+        "containerClass": "container",
+        "class": "light-background relative-position cards-tools ",
+        "array": [
+          {
+            "block" : {
+              "class": "cards-wrapper",
+              "array": [
+                {
+                  "content": {
+                    "class": "text-left",
+                    "array": [
+                      {
+                        "card": {
+                          "class": "cell four-in-a-row",
+                          "array": [
+                            {
+                              "headline": {
+                                "precedence": 1,
+                                "title": "Trade CFDs and options",
+                                "class": "hl4"
+                              }
+                            },
+                            {
+                              "content-body": {
+                                "precedence": 2,
+                                "class": "",
+                                "text": "By trading CFDs and options in tandem with one another, you can create hybrid positions that meet your precise requirements for gaining exposure to a particular underlying asset."
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "card": {
+                          "class": "cell four-in-a-row",
+                          "array": [
+                            {
+                              "headline": {
+                                "precedence": 1,
+                                "title": "Respond to changing markets",
+                                "class": "hl4"
+                              }
+                            },
+                            {
+                              "content-body": {
+                                "precedence": 2,
+                                "class": "",
+                                "text": "Monitor your existing positions and, in the event markets changing unfavorably, use theplatforms advanced features to double-down, exit early or extend the time-to-expiry."
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "card": {
+                          "class": "cell four-in-a-row",
+                          "array": [
+                            {
+                              "headline": {
+                                "precedence": 1,
+                                "title": "View your account holistically",
+                                "class": "hl4"
+                              }
+                            },
+                            {
+                              "content-body": {
+                                "precedence": 2,
+                                "class": "",
+                                "text": "Rich analytics detailing past and current positions enable you to identify your trading strengths, and to gain insight into the total value of your open positions at any given time."
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "card": {
+                          "class": "cell four-in-a-row",
+                          "array": [
+                            {
+                              "headline": {
+                                "precedence": 1,
+                                "title": "Administer your account",
+                                "class": "hl4"
+                              }
+                            },
+                            {
+                              "content-body": {
+                                "precedence": 2,
+                                "class": "",
+                                "text": "Make deposits using a variety of payment methods, submit withdrawal requests and ensure that your account information is kept up-to-date – without having to pick up the phone."
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "block": {
+              "class": "arrow",
+              "background": "assets/images/financial-page/the-arrow.png"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "sectionName": "mobile-app",
+        "sectionType": "content-asset-tools",
+        "background": "",
+        "containerClass": "container",
+        "class": "dark-background relative-position",
+        "array": [
+          {
+            "asset": {
+              "array": [
+                {
+                  "ng-image": {
+                    "name": "",
+                    "src": "assets/images/sections/two-phones.png",
+                    "alt": "mobile",
+                    "type": "img",
+                    "class": "dividing-image",
+                    "responsive": "img-responsive "
+                  },
+                  "precedence": 0
+                }
+              ]
+            }
+          },
+          {
+            "content": {
+              "class": "",
+              "array": [
+                {
+                  "headline": {
+                    "title": "Mobile Applications",
+                    "class": "hl5"
+                  }
+                },
+                {
+                  "content-body": {
+                    "class": "smaller-content",
+                    "text": "Hedgestone’s native mobile application for Android device brings the global financial markets into the palm of your hand."
+                  }
+                },
+                {
+                  "btn": {
+                    "class": "btn-transparent",
+                    "title": "speak to an agent",
+                    "destination": "about"
+                  }
+                },
+                {
+                  "btn": {
+                    "class": "",
+                    "title": "download app",
+                    "destination": "download"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "sectionName": "cards-tools",
+        "sectionType": "cards-section-tools",
+        "background": "",
+        "containerClass": "container",
+        "class": "dark-background relative-position cards-tools",
+        "array": [
+          {
+            "block" : {
+              "class": "cards-wrapper",
+              "array": [
+                {
+                  "content": {
+                    "class": "text-left",
+                    "array": [
+                      {
+                        "card": {
+                          "class": "cell four-in-a-row",
+                          "array": [
+                            {
+                              "headline": {
+                                "precedence": 1,
+                                "title": "Live market data",
+                                "class": "hl4"
+                              }
+                            },
+                            {
+                              "content-body": {
+                                "precedence": 2,
+                                "class": "",
+                                "text": "Access live market data that closely reflects the price quotes of underlying markets, and stay up-to-speed on key market developments even when you are away from your desk."
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "card": {
+                          "class": "cell four-in-a-row",
+                          "array": [
+                            {
+                              "headline": {
+                                "precedence": 1,
+                                "title": "Mobility without compromise",
+                                "class": "hl4"
+                              }
+                            },
+                            {
+                              "content-body": {
+                                "precedence": 2,
+                                "class": "",
+                                "text": "Analyze markets, execute trades and monitor your existing positions – finally, a mobile trading experience that accounts for all essential desktop features."
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "card": {
+                          "class": "cell four-in-a-row",
+                          "array": [
+                            {
+                              "headline": {
+                                "precedence": 1,
+                                "title": "Intuitive mobile trading",
+                                "class": "hl4"
+                              }
+                            },
+                            {
+                              "content-body": {
+                                "precedence": 2,
+                                "class": "",
+                                "text": "Benefit from a simple, intuitive mobile interface that delivers the full power of Hedgestone’s financial instruments through your handheld device."
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "card": {
+                          "class": "cell four-in-a-row",
+                          "array": [
+                            {
+                              "headline": {
+                                "precedence": 1,
+                                "title": "Administer your account",
+                                "class": "hl4"
+                              }
+                            },
+                            {
+                              "content-body": {
+                                "precedence": 2,
+                                "class": "",
+                                "text": "Deposit funds into your trading account using a variety of payment methods, initiate withdrawal requests and update your account information – all from the palm of your hand."
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "block": {
+              "class": "arrow",
+              "background": "assets/images/sections/arrow.png"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "sectionName": "bottom-section",
+        "sectionType": "open-account-section",
+        "class": "bottom-section",
+        "background": "",
+        "containerClass": "",
+        "array": [
+          {
+            "content": {
+              "class": "",
+              "array": [
+                {
+                  "ng-image": {
+                    "image-name": "asset-test",
+                    "src": "assets/icons/Logo.png",
+                    "alt": "some asset",
+                    "type": "img",
+                    "class": "center-img",
+                    "responsive": "img-responsive centered-item"
+                  }
+                },
+                {
+                  "block": {
+                    "class": "text-center",
+                    "array": [
+                      {
+                        "content-body": {
+                          "class": "",
+                          "text": "READY TO GET STARTED?"
+                        },
+                        "precedence": 0
+                      },
+                      {
+                        "headline": {
+                          "title": "Powerful. Dynamic. Limitless.",
+                          "class": "hl5"
+                        },
+                        "precedence": 1
+                      },
+                      {
+                        "block": {
+                          "class": "padded-block",
+                          "array": [
+                            {
+                              "logged-in" : {
+                                "array": [
+                                  {
+                                    "btn": {
+                                      "class": "btn btn-transparent centered-btn",
+                                      "title": "trade",
+                                      "destination": "trade"
+                                    },
+                                    "precedence": 4
+                                  },
+                                  {
+                                    "btn": {
+                                      "class": "centered-btn",
+                                      "title": "how it works",
+                                      "destination": "education"
+                                    },
+                                    "precedence": 5
+                                  }
+                                ]
+                              }
+                            },
+                            {
+                              "anonymous": {
+                                "array": [
+                                  {
+                                    "btn": {
+                                      "class": "btn btn-transparent centered-btn",
+                                      "title": "open an account",
+                                      "destination": "create_account"
+                                    },
+                                    "precedence": 4
+                                  },
+                                  {
+                                    "btn": {
+                                      "class": "centered-btn",
+                                      "title": "how it works",
+                                      "destination": "education"
+                                    },
+                                    "precedence": 5
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        },
+                        "precedence": 3
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

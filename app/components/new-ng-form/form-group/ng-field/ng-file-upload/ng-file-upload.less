@@ -1,0 +1,47 @@
+@import (reference) "../../../../../../assets/less/resources";
+@import (reference) "../../../../../../assets/less/components";
+@import (reference) "../../../../btn/btn";
+
+.ngFileUpload {
+  .ngFileUploadButton {
+    div {
+    //  border: 2px solid @content-body-color;
+    //  color: white;
+      //  cursor: pointer;
+      .btn;
+      //  font-family: @xbold-font-family;
+      .btn-transparent;
+      //.no-padding;
+      font-size: 14px !important;
+      height: 35px;
+      line-height: 35px;
+      float: left;
+      cursor: pointer;
+      margin-right: 15px;
+    }
+  }
+
+  .ngFileUploadDrop {
+    .ngFileUploadButton;
+
+    div {
+      border: 2px dashed @content-body-color;
+      &:hover {
+        border: 2px dashed white;
+        .link-transition(border);
+      }
+    }
+
+    .drop-box {
+      width: 205px;
+      font-family: @main-font-family !important;
+      text-transform: none !important;
+      letter-spacing: normal;
+      color: #c2c2c2;
+    }
+  }
+
+  .ngFileUploadButton, .ngFileUploadDrop {
+    text-align: center;
+  }
+}

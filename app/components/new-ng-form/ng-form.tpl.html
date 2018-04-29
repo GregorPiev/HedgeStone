@@ -1,0 +1,22 @@
+<div class="form inForm">
+    <!--<form id="{{::ngForm.form.id}}" name="form" ng-submit="ngForm.verify(form) && ngForm.submiting(form) && ngForm.submit()" class="col-xs-12" novalidate>-->
+        <!--<div ng-class="::group.class" ng-repeat="group in ngForm.form.groups">-->
+            <!--<ng-image ng-if="::group.ng-image" data="group.ng-image"></ng-image>-->
+            <!--<headline ng-if="::group.headline" data="group.headline"></headline>-->
+            <!--<ng-label ng-if="::group.label" label-data="group.label"></ng-label>-->
+            <!--<ng-field field-data="group.filed"></ng-field>-->
+            <!--<btn ng-if="::group.btn" data="group.btn"></btn>-->
+        <!--</div>-->
+        <!--<div class="form-group checkboxes" ng-repeat="checkbox in ngForm.form.checkBoxes">-->
+            <!--<ng-form name="field" class="innerField" novalidate>-->
+                <!--<ng-checkbox data="checkbox.checkbox"></ng-checkbox>-->
+                <!--<ng-label label-data="checkbox.label" ng-if="::checkbox.label"></ng-label>-->
+                <!--<ng-msg-box form-data="field[checkbox.checkbox.name]" field-data="checkbox.checkbox"></ng-msg-box>-->
+            <!--</ng-form>-->
+        <!--</div>-->
+        <!--<ng-submit submit-data="ngForm.form.submit"></ng-submit>-->
+        <!--<btn data="ngForm.form.forgot" ng-if="::ngForm.secondBtnExists()"></btn>-->
+    <!--</form>-->
+    <form id="{{::inForm.formData.id}}" name="form" ng-submit="inForm.verify(form) && inForm.submitting(form)" novalidate
+    compile="inForm.html"></form>
+</div>

@@ -1,0 +1,28 @@
+{
+  "primaryHeadline": {
+    "title": "Get Bonus Offer",
+    "class": "hl1 bonusHeadline"
+  },
+  "secondaryHeadline": {
+    "title": "",
+    "class": "hl7"
+  },
+  "content": {
+    "class": "bonusAmount",
+    "text": ""
+  },
+  "checkbox": {
+    "text": "I Have Read Terms and Conditions"
+  },
+  "acceptBtn": {
+    "title": "Yes I Accept",
+    "class": "btn"
+  },
+  "cancelBtn": {
+    "title": "No, I decline",
+    "class": "btn btn-transparent"
+  },
+  "terms": {
+    "text": ""
+  }
+}

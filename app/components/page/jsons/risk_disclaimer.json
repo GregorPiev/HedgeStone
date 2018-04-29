@@ -1,0 +1,469 @@
+{
+  "page-name": "risk_disclaimer",
+  "page-type": "page",
+  "class": "",
+  "title": "Clients should know about risks, charges, and taxes.",
+  "keywords": "Risk disclosure, warning notice, charges, taxes, third party",
+  "description": "Here clients may read about risk disclosure provided in compliance to different laws. They can also find information about charges, taxes, and third parties risks.",
+  "array": [
+    {
+      "section": {
+        "sectionName": "content-text",
+        "sectionType": "generic-page",
+        "background": "assets/images/sections/generic-bg.png",
+        "containerClass": "container",
+        "class": "relative-position dark-background",
+        "array": [
+          {
+            "content": {
+              "class": "text-left",
+              "array": [
+                {
+                  "headline": {
+                    "class": "hl1",
+                    "title": "Risk Disclosure"
+                  }
+                },
+                {
+                  "headline": {
+                    "class": "hl3",
+                    "title": "Introduction"
+                  }
+                },
+                {
+                  "content-body": {
+                    "text": "All current and prospective Clients are advised to carefully review the risk disclosures outlined in the agreement contained herein, which serves as an appendix to the Terms and Conditions Agreement (the “Agreement”). Both current and prospective clients must consent to the prescribed terms in this Agreement prior to opening a trading account with the Company and beginning to trade."
+                  }
+                },
+                {
+                  "content-body": {
+                    "text": "This document will at no time serve as a complete account of all the risks associated with trading financial instruments. This notice serves solely as an outline of the general terms and risks involved with the trade of financial instruments."
+                  }
+                },
+                {
+                  "headline": {
+                    "class": "hl3",
+                    "title": "General Risk Warnings"
+                  }
+                },
+                {
+                  "content-body": {
+                    "text": "The Client should not enter any investment unless he/she clearly understands the risks related to trading a derivative financial instrument."
+                  }
+                },
+                {
+                  "content-body": {
+                    "text": "A derivative financial instrument (for example, an options, futures, Contract for Difference, etc.) is typically a non-deliverable spot transaction that provides the opportunity to make a profit on the changes in currency rates, indices, commodities, and share prices. The value of the derivative financial instrument is directly impacted by the price of its underlying asset."
+                  }
+                },
+                {
+                  "content-body": {
+                    "text": "The Company will make no effort to provide the Client with investment advice or recommendations concerning such derivative financial instruments."
+                  }
+                },
+                {
+                  "content-body": {
+                    "text": "Prior to signing the Company Terms and Conditions Agreement (the “Agreement”) or placing an order, the Client should evaluate whether investing in a specific financial instrument is suitable given his/her financial standing."
+                  }
+                },
+                {
+                  "content-body": {
+                    "text": "In the case that a Client does not understand the risks associated with an investment opportunity, he/she should seek the counsel of an independent financial advisor. If the Client does not understand the risks involved with trading derivative financial instruments, he/she should not engage in any trading activity."
+                  }
+                },
+                {
+                  "content-body": {
+                    "text": "The Client acknowledges that he/she runs the risk of incurring a loss in capital as a result of a purchase or sale of any financial instrument and agrees to take this risk."
+                  }
+                },
+                {
+                  "headline": {
+                    "title": "General Risks",
+                    "class": "hl3"
+                  }
+                },
+                {
+                  "headline": {
+                    "class": "hl4",
+                    "title": "The Client is cautioned against the following general risks:"
+                  }
+                },
+                {
+                  "content-body": {
+                    "text": "The Company cannot guarantee the outcome of any investment decision and hence cannot guarantee capital deposited into a trading account for trading purposes."
+                  }
+                },
+                {
+                  "content-body": {
+                    "text": "The Client acknowledges that regardless of any information provided by the Company, the value of an investment is volatile and it is probable that it may become of no value."
+                  }
+                },
+                {
+                  "content-body": {
+                    "text": "The previous performance of a financial instrument does not guarantee its current or future performance. The use of historical data does not warrant a predetermined future outcome on the performance of a financial instrument."
+                  }
+                },
+                {
+                  "content-body": {
+                    "text": "The Client acknowledges that any financial instrument transaction undertaken through the Company is of a speculative nature and that substantial losses may be incurred in the process."
+                  }
+                },
+                {
+                  "content-body": {
+                    "text": "Certain financial instruments may not become liquid due to reduced demand and the Client may not be able to sell them immediately or obtain information regarding their value."
+                  }
+                },
+                {
+                  "headline": {
+                    "class": "hl3",
+                    "title": "CFD Transaction Risks"
+                  }
+                },
+                {
+                  "content-body": {
+                    "text": "The Client should not purchase a derivative financial instrument if he/she is not willing to take on the risk associated with such an investment, which may include the partial or complete loss of invested capital."
+                  }
+                },
+                {
+                  "content-body": {
+                    "text": "Clients should not enter any CFD business dealings without fully understanding the risks associated with such financial instruments, which may include the partial or full loss of invested capital."
+                  }
+                },
+                {
+                  "content-body": {
+                    "text": "If the Client does not understand the risks associated with trading CFDs, he/she should not engage in any CFD trades."
+                  }
+                },
+                {
+                  "headline": {
+                    "class": "hl4",
+                    "title": "The Client is warned of the following risks concerning CFDs:"
+                  }
+                },
+                {
+                  "content-body": {
+                    "text": "CFDs are derivative financial instruments with prices that are derived from their underlying asset (e.g. commodities, stocks, indices, or currencies). Derivative financial instruments are highly volatile and the prices of CFDs and their underlying assets may fluctuate rapidly due to changes in market conditions. The prices of CFDs are impacted by a number of factors, including fluctuations in supply and demand, governmental actions, trade policies, international events, and consumer sentiment."
+                  }
+                },
+                {
+                  "content-body": {
+                    "text": "A number of the CFDs’ underlying instruments may not become immediately liquid due to reduced demand for the underlying instrument. As a result, the Client may not be able to obtain information regarding their value or the extent of the associated risks."
+                  }
+                },
+                {
+                  "content-body": {
+                    "text": "Trading CFDs is highly speculative and involves a high degree of risk. Because trades are conducted using a margin that only covers a nominal percentage of the value of the underlying asset being traded, small price changes in the CFD’s underlying asset may result in the partial or complete loss of invested capital. Prior to trading CFDs, Clients must understand that they may lose the margin held in their account that serves as collateral for opening and maintaining trading positions."
+                  }
+                },
+                {
+                  "content-body": {
+                    "text": "Trading CFDs is applicable only to individuals who: (a) are willing to assume the risks associated with such transactions; and (b) are financially capable of withstanding losses of their initial margin funds and any additional capital used to maintain their positions."
+                  }
+                },
+                {
+                  "content-body": {
+                    "text": "When you enter a CFD trade, you are placing a trade related to price movements set by the Company. Prices quoted to you by the Company are comprised by a spread, mark-up, or mark-down as compared to prices the Company may receive if it were to cover transactions with you by a trade in the interbank market or a third party."
+                  }
+                },
+                {
+                  "content-body": {
+                    "text": "The leverage available for CFDs is a particular feature of CFD trading (i.e. the funds you are required to deposit when a position is opened compared to the notional size of a trade you enter into). This means that a nominal margin deposit can lead to large losses as well as gains."
+                  }
+                },
+                {
+                  "content-body": {
+                    "text": "You may lose the full amount deposited with the Company as margin. Certain trading features, such as “stop-loss” or “limit” that are intended to limit losses may not always be effective due to market conditions. All orders, including guaranteed stop-loss orders, may lead to losses in a short period of time. In certain cases, incurred losses may be greater than expected."
+                  }
+                },
+                {
+                  "content-body": {
+                    "text": "You must pay the Company all losses that you sustain, in addition to other amounts payable under the terms and conditions for CFDs trading. If you decide to enter a CFD trade, you agree to accept this risk."
+                  }
+                },
+                {
+                  "content-body": {
+                    "text": "CFD transactions have a contingent liability, as Clients are required to deposit funds in their trading account in order to open a position. Margin requirements are related to the underlying asset and can be calculated from the current price of the underlying instrument."
+                  }
+                },
+                {
+                  "content-body": {
+                    "text": "The Client is solely responsible for monitoring his/her account and depositing the necessary funds needed to maintain his/her positions. If the margin capital required to keep a position open is insufficient, the Client may be asked to deposit additional funds or to reduce exposure. Failure to do so may result in the liquidation of positions at a loss and the Client will be liable for any related deficits."
+                  }
+                },
+                {
+                  "content-body": {
+                    "text": "With regards to CFD transactions, the Company reserves the right to close positions when margin reaches 100% and to liquidate the Client’s account if margin levels drop below 90%."
+                  }
+                },
+                {
+                  "content-body": {
+                    "text": "CFD transactions are not recognized on a designated investment exchange but are executed through the Company’s trading systems that may expose the Client to greater risks as compared to exchange transactions. While a number of off-exchange markets are highly liquid, transactions in off-exchange derivatives may involve greater risk than investing in on-exchange derivatives. It may be impossible to assess the value of an off-exchange position, to liquidate an existing position, or to assess risk exposure."
+                  }
+                },
+                {
+                  "content-body": {
+                    "text": "Clients may only enter CFD trades with the Company for the underlying assets that are offered by the Company. The Company does not warrant to continue offering all such underlying assets. All CFD prices are derived from the prices of the underlying assets and come from the applicable liquidity provider. The Company has no control over the fluctuations in the underlying asset prices which may be volatile. Such movements will impact whether Clients can open and close positions, as well as the prices quoted by the Company’s liquidity provider."
+                  }
+                },
+                {
+                  "content-body": {
+                    "text": "The Company may have access to information that is not available to you. Subject to its Best Execution Policy, the Company does not warrant to provide you with market information that it possesses."
+                  }
+                },
+                {
+                  "content-body": {
+                    "text": "Some CFDs may not become immediately liquid. As a result, you may not be in a position to sell them or to easily obtain information on their value and associated risks."
+                  }
+                },
+                {
+                  "headline": {
+                    "class": "hl3",
+                    "title": "Charges and Taxes"
+                  }
+                },
+                {
+                  "headline": {
+                    "class": "hl4",
+                    "title": "The Client is forewarned of the following:"
+                  }
+                },
+                {
+                  "content-body": {
+                    "text": "Company Services provided to the Client may be subject to charges/fees, which shall be duly communicated to the Client. The Company may change its fee structures at any time. It is the Client’s responsibility to remain updated of any amendments."
+                  }
+                },
+                {
+                  "content-body": {
+                    "text": "Before placing trades, the Client should obtain all information regarding fees and commissions. If the Client does not understand how specific fee structures and commissions are calculated, he/she should ask for a detailed explanation."
+                  }
+                },
+                {
+                  "content-body": {
+                    "text": "A Client’s trades in financial instruments may be subject to tax and other duties due to legal regulations or personal circumstances."
+                  }
+                },
+                {
+                  "content-body": {
+                    "text": "Transactions undertaken under the Agreement may be subject to taxes and other duties in certain jurisdictions. The Company does not warrant that such taxes or duties will not be payable as such."
+                  }
+                },
+                {
+                  "content-body": {
+                    "text": "The Client is solely responsible for any taxes or duties that may be incurred as a result of trading activities."
+                  }
+                },
+                {
+                  "headline": {
+                    "title": "Technical Risks",
+                    "class": "hl3"
+                  }
+                },
+                {
+                  "content-body": {
+                    "text": "The Client is solely responsible for the risks of financial losses caused by system malfunction, interruption, disconnection, electricity failure, and communication errors."
+                  }
+                },
+                {
+                  "content-body": {
+                    "text": "In the event that a Client undertakes transactions on an electronic system, he/she will be exposed to risks relating to the system, including the failure of hardware, software, servers, and communication lines. The consequences of any such failure may cause a Client’s order to not be executed according to his/her instructions, or to not be executed at all. The Company does not accept any liability in the case of any such failure."
+                  }
+                },
+                {
+                  "content-body": {
+                    "text": "The Company assumes no responsibility for unauthorized third party access to Client information, including electronic addresses, electronic communication, and personal data when this is due to Client negligence, or when the aforementioned items are transmitted between the Company and the Client or any other party using the Internet or other network communications, telephone, electronic means, or post."
+                  }
+                },
+                {
+                  "content-body": {
+                    "text": "The Client acknowledges that any unencrypted information sent via e-mail is not protected from unauthorized access."
+                  }
+                },
+                {
+                  "content-body": {
+                    "text": "During high traffic periods, the Client may experience difficulties connecting to the Company’s system(s), particularly during volatile market periods (for example, when key macroeconomic indicators are published)."
+                  }
+                },
+                {
+                  "content-body": {
+                    "text": "The Client acknowledges that the Internet may be subject to events that may impact his/her access to the Company’s system, including but not limited to interruptions or transmission blackouts, software and hardware failure, internet disconnection, electricity failures, or malicious attacks. Unless otherwise specified in the Agreement, the Company shall not be held liable for any damages or losses resulting from such events, or for any other losses, costs, liabilities, or expenses that may result from the Client’s inability to access the Company’s systems."
+                  }
+                },
+                {
+                  "content-body": {
+                    "text": "The Client is warned that trading via an electronic platform may pose risks related to financial loss and may be a consequence of: <ul><li>Failure of the Client’s devices, software, and Internet connection.</li><li>The Company’s or the Client’s hardware or software failure, malfunction, or misuse.</li><li>Client equipment failure.</li><li>Improper Client terminal settings.</li><li>Delayed updates of the Client’s terminal.</li></ul"
+                  }
+                },
+                {
+                  "content-body": {
+                    "text": "The Client agrees to bear the following risks, in which case the Company has no liability of any resulting loss, unless otherwise specified in the Agreement: <ul><li>Power outages from the Client’s or provider’s side.</li><li>Physical damage of the communication lines used to link the Client and provider with the trading or information server of the Client.</li><li>Communication failures from the Client or provider.</li><li>Improper settings related to the Client’s terminal.</li><li>Untimely updates of the Client’s terminal.</li><li>Communication issues related to transactions completed via telephone.</li><li>The use of electronic communication means that the Client runs the risk of non-reception of a message (including text messages) by the Client from the Company.</li><li>Trading platform malfunctions related to the Client terminal.</li><li>Communication outages via the channels used by the Company, particularly physical damage of third party communication channels.</li></ul>"
+                  }
+                },
+                {
+                  "headline": {
+                    "title": "Trading Platform",
+                    "class": "hl3"
+                  }
+                },
+                {
+                  "content-body": {
+                    "text": "The Company does not provide the Client’s trading platform. It is provided by a third party and is governed by the relevant agreement signed between the Client and the trading platform provider. As such, the Company forewarns all Clients of the following risks related to the trading platform:<ul><li>Trading online does not reduce risks associated with currency trading.</li><li>The Client acknowledges that when orders are transmitted by the Company that they shall not be cancelled.</li><li>If a Client has not received the results of a specific execution, but decides to repeat the execution, the Client shall accept the risk of making two transactions instead of one.</li><li>The Client acknowledges that if modification instructions are sent on a pending order that only Stop Loss or Take Profit modifications can be executed on the position opened.</li></ul"
+                  }
+                },
+                {
+                  "headline": {
+                    "class": "hl3",
+                    "title": "Force Majeure Events"
+                  }
+                },
+                {
+                  "content-body": {
+                    "text": "In case of a Force Majeure Event, the Company may not be in a position to arrange for Client order executions, or to fulfill its obligations under the Agreement with the Client. As a result, the Client may suffer financial loss and shall accept the risk of such losses."
+                  }
+                },
+                {
+                  "headline": {
+                    "class": "hl3",
+                    "title": "Foreign Currency"
+                  }
+                },
+                {
+                  "content-body": {
+                    "text": "When a financial instrument is traded in a currency other than the currency of the Client’s country of residence, currency exchange rates may have a negative impact on the financial instrument’s value and performance and may lead to financial losses for the Client."
+                  }
+                },
+                {
+                  "content-body": {
+                    "text": "The possibility of a profit or loss from transactions on foreign markets is also affected by exchange rate fluctuations. It cannot be guaranteed that a price will be quoted at all times or that transactions will be executed at a quoted price."
+                  }
+                },
+                {
+                  "headline": {
+                    "class": "hl3",
+                    "title": "Abnormal Market Conditions"
+                  }
+                },
+                {
+                  "content-body": {
+                    "text": "The Client acknowledges that under abnormal market conditions order execution periods may be extended, or it may be impossible for orders to be executed at all."
+                  }
+                },
+                {
+                  "content-body": {
+                    "text": "Certain conditions related to the release of macroeconomic figures, economic or political news may cause price volatility in currency markets. There is a risk that orders issued to protect open positions, or to open new positions, may be executed at prices significantly different from previous prices."
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "block": {
+              "class": "arrow",
+              "background": "assets/images/sections/arrow.png"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "sectionName": "bottom-section",
+        "sectionType": "open-account-section",
+        "class": "bottom-section",
+        "background": "",
+        "containerClass": "",
+        "array": [
+          {
+            "content": {
+              "class": "",
+              "array": [
+                {
+                  "ng-image": {
+                    "image-name": "asset-test",
+                    "src": "assets/icons/Logo.png",
+                    "alt": "some asset",
+                    "type": "img",
+                    "class": "center-img",
+                    "responsive": true
+                  }
+                },
+                {
+                  "block": {
+                    "class": "text-center",
+                    "array": [
+                      {
+                        "content-body": {
+                          "class": "",
+                          "text": "READY TO GET STARTED?"
+                        },
+                        "precedence": 0
+                      },
+                      {
+                        "headline": {
+                          "title": "Powerful. Dynamic. Limitless.",
+                          "class": "hl5"
+                        },
+                        "precedence": 1
+                      },
+                      {
+                        "block": {
+                          "class": "padded-block",
+                          "array": [
+                            {
+                              "logged-in" : {
+                                "array": [
+                                  {
+                                    "btn": {
+                                      "class": "btn btn-transparent centered-btn",
+                                      "title": "trade",
+                                      "destination": "trade"
+                                    },
+                                    "precedence": 4
+                                  },
+                                  {
+                                    "btn": {
+                                      "class": "centered-btn",
+                                      "title": "how it works",
+                                      "destination": "education"
+                                    },
+                                    "precedence": 5
+                                  }
+                                ]
+                              }
+                            },
+                            {
+                              "anonymous": {
+                                "array": [
+                                  {
+                                    "btn": {
+                                      "class": "btn btn-transparent centered-btn",
+                                      "title": "open an account",
+                                      "destination": "create_account"
+                                    },
+                                    "precedence": 4
+                                  },
+                                  {
+                                    "btn": {
+                                      "class": "centered-btn",
+                                      "title": "how it works",
+                                      "destination": "education"
+                                    },
+                                    "precedence": 5
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        },
+                        "precedence": 3
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

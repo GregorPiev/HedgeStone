@@ -1,0 +1,854 @@
+[
+  {
+    "category": "getting_started",
+    "array": [
+      {
+        "guide": {
+          "class": "",
+          "background": "",
+          "category": "advanced_topics",
+          "url": "assets/guides/Opening_An_Account.pdf",
+          "array": [
+            {
+              "block": {
+                "class": "guide-top-content",
+                "background": "assets/icons/guide-grey.png",
+                "array": [
+                  {
+                    "ng-image": {
+                      "src": "assets/icons/logo-small.png",
+                      "class": "small-logo",
+                      "responsive": true
+                    }
+                  },
+                  {
+                    "headline": {
+                      "class": "small-headline",
+                      "title": "getting started"
+                    }
+                  },
+                  {
+                    "headline": {
+                      "title": "Opening An Account",
+                      "class": "hl1"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "block": {
+                "class": "guide-content",
+                "array": [
+                  {
+                    "content-body": {
+                      "text": "To open an account and begin placing trades, follow the instructions in the guide above."
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "guide": {
+          "class": "",
+          "background": "",
+          "category": "key_concepts",
+          "url": "assets/guides/Making_A_Deposit.pdf",
+          "array": [
+            {
+              "block": {
+                "class": "guide-top-content",
+                "background": "assets/icons/guide-grey.png",
+                "array": [
+                  {
+                    "ng-image": {
+                      "src": "assets/icons/logo-small.png",
+                      "class": "small-logo",
+                      "responsive": true
+                    }
+                  },
+                  {
+                    "headline": {
+                      "class": "small-headline",
+                      "title": "getting started"
+                    }
+                  },
+                  {
+                    "headline": {
+                      "title": "Making A Deposit",
+                      "class": "hl1"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "block": {
+                "class": "guide-content",
+                "array": [
+                  {
+                    "content-body": {
+                      "text": "Follow the guide above for instructions on depositing funds into your Hedgestone account."
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "guide": {
+          "class": "",
+          "background": "",
+          "category": "advanced_topics",
+          "url": "assets/guides/How_To_Trade.pdf",
+          "array": [
+            {
+              "block": {
+                "class": "guide-top-content",
+                "background": "assets/icons/guide-grey.png",
+                "array": [
+                  {
+                    "ng-image": {
+                      "src": "assets/icons/logo-small.png",
+                      "class": "small-logo",
+                      "responsive": true
+                    }
+                  },
+                  {
+                    "headline": {
+                      "class": "small-headline",
+                      "title": "getting started"
+                    }
+                  },
+                  {
+                    "headline": {
+                      "title": "How To Trade",
+                      "class": "hl1"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "block": {
+                "class": "guide-content",
+                "array": [
+                  {
+                    "content-body": {
+                      "text": "An overview of all the trade features at Hedgestone, from CFD positions to 60-Second Options."
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "guide": {
+          "class": "",
+          "background": "",
+          "category": "advanced_topics",
+          "url": "assets/guides/Getting_Started_Opening_an_EcoPayz_Account.pdf",
+          "array": [
+            {
+              "block": {
+                "class": "guide-top-content",
+                "background": "assets/icons/guide-grey.png",
+                "array": [
+                  {
+                    "ng-image": {
+                      "src": "assets/icons/logo-small.png",
+                      "class": "small-logo",
+                      "responsive": true
+                    }
+                  },
+                  {
+                    "headline": {
+                      "class": "small-headline",
+                      "title": "getting started"
+                    }
+                  },
+                  {
+                    "headline": {
+                      "title": "Opening an EcoPayz Account",
+                      "class": "hl1"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "block": {
+                "class": "guide-content",
+                "array": [
+                  {
+                    "content-body": {
+                      "text": "Open an account with EcoPayz and make a deposit to get started right away."
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "guide": {
+          "class": "",
+          "background": "",
+          "category": "advanced_topics",
+          "url": "assets/guides/Getting_Started_Opening_a_Skrill_Account.pdf",
+          "array": [
+            {
+              "block": {
+                "class": "guide-top-content",
+                "background": "assets/icons/guide-grey.png",
+                "array": [
+                  {
+                    "ng-image": {
+                      "src": "assets/icons/logo-small.png",
+                      "class": "small-logo",
+                      "responsive": true
+                    }
+                  },
+                  {
+                    "headline": {
+                      "class": "small-headline",
+                      "title": "getting started"
+                    }
+                  },
+                  {
+                    "headline": {
+                      "title": "Opening a Skrill Account",
+                      "class": "hl1"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "block": {
+                "class": "guide-content",
+                "array": [
+                  {
+                    "content-body": {
+                      "text": "Open an account with Skrill and make a deposit to get started right away."
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "guide": {
+          "class": "",
+          "background": "",
+          "category": "advanced_topics",
+          "url": "assets/guides/Getting_Started_Opening_a_Neteller_Account.pdf",
+          "array": [
+            {
+              "block": {
+                "class": "guide-top-content",
+                "background": "assets/icons/guide-grey.png",
+                "array": [
+                  {
+                    "ng-image": {
+                      "src": "assets/icons/logo-small.png",
+                      "class": "small-logo",
+                      "responsive": true
+                    }
+                  },
+                  {
+                    "headline": {
+                      "class": "small-headline",
+                      "title": "getting started"
+                    }
+                  },
+                  {
+                    "headline": {
+                      "title": "Opening a Neteller Account",
+                      "class": "hl1"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "block": {
+                "class": "guide-content",
+                "array": [
+                  {
+                    "content-body": {
+                      "text": "Open an account with Neteller and make a deposit to get started right away."
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "category": "trading_essentials",
+    "array": [
+      {
+        "guide": {
+          "url": "assets/guides/Binary_Options_Intro_Single_Pages.pdf",
+          "class": "",
+          "category": "trading_essentials",
+          "array": [
+            {
+              "block": {
+                "class": "guide-top-content",
+                "background": "assets/icons/guide-orange.png",
+                "array": [
+                  {
+                    "ng-image": {
+                      "src": "assets/icons/logo-small.png",
+                      "class": "small-logo",
+                      "responsive": true
+                    }
+                  },
+                  {
+                    "headline": {
+                      "class": "small-headline",
+                      "title": "trading essentials"
+                    }
+                  },
+                  {
+                    "headline": {
+                      "title": "Introduction to Binary Options",
+                      "class": "hl1"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "block": {
+                "class": "guide-content",
+                "array": [
+                  {
+                    "content-body": {
+                      "text": "Everything you need to know about binary options trading."
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "guide": {
+          "class": "",
+          "background": "",
+          "category": "trading_essentials",
+          "url": "assets/guides/Introduction_to_CFDs.pdf",
+          "array": [
+            {
+              "block": {
+                "class": "guide-top-content",
+                "background": "assets/icons/guide-orange.png",
+                "array": [
+                  {
+                    "ng-image": {
+                      "src": "assets/icons/logo-small.png",
+                      "class": "small-logo",
+                      "responsive": true
+                    }
+                  },
+                  {
+                    "headline": {
+                      "class": "small-headline",
+                      "title": "trading essentials"
+                    }
+                  },
+                  {
+                    "headline": {
+                      "title": "Introduction to CFDs",
+                      "class": "hl1"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "block": {
+                "class": "guide-content",
+                "array": [
+                  {
+                    "content-body": {
+                      "text": "Getting started with the essentials of Contracts for Difference."
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "guide": {
+          "class": "",
+          "background": "",
+          "category": "trading_essentials",
+          "url": "assets/guides/Verification_Guide.pdf",
+          "array": [
+            {
+              "block": {
+                "class": "guide-top-content",
+                "background": "assets/icons/guide-orange.png",
+                "array": [
+                  {
+                    "ng-image": {
+                      "src": "assets/icons/logo-small.png",
+                      "class": "small-logo",
+                      "responsive": true
+                    }
+                  },
+                  {
+                    "headline": {
+                      "class": "small-headline",
+                      "title": "trading essentials"
+                    }
+                  },
+                  {
+                    "headline": {
+                      "title": "Verification Guide",
+                      "class": "hl1"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "block": {
+                "class": "guide-content",
+                "array": [
+                  {
+                    "content-body": {
+                      "text": "Detailed explanation about the required verification documents"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "category": "key_concepts",
+    "array": [
+      {
+        "guide": {
+          "class": "",
+          "background": "",
+          "category": "key_concepts",
+          "url": "assets/guides/Understanding_Commodities.pdf",
+          "array": [
+            {
+              "block": {
+                "class": "guide-top-content",
+                "background": "assets/icons/guide-green.png",
+                "array": [
+                  {
+                    "ng-image": {
+                      "src": "assets/icons/logo-small.png",
+                      "class": "small-logo",
+                      "responsive": true
+                    }
+                  },
+                  {
+                    "headline": {
+                      "class": "small-headline",
+                      "title": "key concepts"
+                    }
+                  },
+                  {
+                    "headline": {
+                      "title": "Understanding Commodities",
+                      "class": "hl1"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "block": {
+                "class": "guide-content",
+                "array": [
+                  {
+                    "content-body": {
+                      "text": "The fundamentals of commodities at your fingertips."
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "guide": {
+          "class": "",
+          "background": "",
+          "category": "key_concepts",
+          "url": "assets/guides/Understanding_Currencies.pdf",
+          "array": [
+            {
+              "block": {
+                "class": "guide-top-content",
+                "background": "assets/icons/guide-green.png",
+                "array": [
+                  {
+                    "ng-image": {
+                      "src": "assets/icons/logo-small.png",
+                      "class": "small-logo",
+                      "responsive": true
+                    }
+                  },
+                  {
+                    "headline": {
+                      "class": "small-headline",
+                      "title": "key concepts"
+                    }
+                  },
+                  {
+                    "headline": {
+                      "title": "Understanding Currencies",
+                      "class": "hl1"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "block": {
+                "class": "guide-content",
+                "array": [
+                  {
+                    "content-body": {
+                      "text": "Gain a comprehensive overview of the global forex market."
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "guide": {
+          "class": "",
+          "background": "",
+          "category": "key_concepts",
+          "url": "assets/guides/Understanding_Indices.pdf",
+          "array": [
+            {
+              "block": {
+                "class": "guide-top-content",
+                "background": "assets/icons/guide-green.png",
+                "array": [
+                  {
+                    "ng-image": {
+                      "src": "assets/icons/logo-small.png",
+                      "class": "small-logo",
+                      "responsive": true
+                    }
+                  },
+                  {
+                    "headline": {
+                      "class": "small-headline",
+                      "title": "key concepts"
+                    }
+                  },
+                  {
+                    "headline": {
+                      "title": "Understanding Indices",
+                      "class": "hl1"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "block": {
+                "class": "guide-content",
+                "array": [
+                  {
+                    "content-body": {
+                      "text": "From the FTSE and DAX to the NASDAQ and Dow Jones, gain entry into the world of indices with our compendium of key concepts."
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "guide": {
+          "class": "",
+          "background": "",
+          "category": "key_concepts",
+          "url": "assets/guides/Understanding_Stocks.pdf",
+          "array": [
+            {
+              "block": {
+                "class": "guide-top-content",
+                "background": "assets/icons/guide-green.png",
+                "array": [
+                  {
+                    "ng-image": {
+                      "src": "assets/icons/logo-small.png",
+                      "class": "small-logo",
+                      "responsive": true
+                    }
+                  },
+                  {
+                    "headline": {
+                      "class": "small-headline",
+                      "title": "key concepts"
+                    }
+                  },
+                  {
+                    "headline": {
+                      "title": "Understanding Stocks",
+                      "class": "hl1"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "block": {
+                "class": "guide-content",
+                "array": [
+                  {
+                    "content-body": {
+                      "text": "Everything you need to get your CFDs off the ground and start trading."
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "category": "advanced_topics",
+    "array": [
+      {
+        "guide": {
+          "class": "",
+          "background": "",
+          "category": "advanced_topics",
+          "url": "assets/guides/Understanding_Technical_Analysis.pdf",
+          "array": [
+            {
+              "block": {
+                "class": "guide-top-content",
+                "background": "assets/icons/guide-blue.png",
+                "array": [
+                  {
+                    "ng-image": {
+                      "src": "assets/icons/logo-small.png",
+                      "class": "small-logo",
+                      "responsive": true
+                    }
+                  },
+                  {
+                    "headline": {
+                      "class": "small-headline",
+                      "title": "advanced topics"
+                    }
+                  },
+                  {
+                    "headline": {
+                      "title": "Understanding Technical Analysis",
+                      "class": "hl1"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "block": {
+                "class": "guide-content",
+                "array": [
+                  {
+                    "content-body": {
+                      "text": "Everything you need to get your CFDs off the ground and start trading."
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "guide": {
+          "class": "",
+          "background": "",
+          "category": "key_concepts",
+          "url": "assets/guides/Understanding_Macroeconomics.pdf",
+          "array": [
+            {
+              "block": {
+                "class": "guide-top-content",
+                "background": "assets/icons/guide-blue.png",
+                "array": [
+                  {
+                    "ng-image": {
+                      "src": "assets/icons/logo-small.png",
+                      "class": "small-logo",
+                      "responsive": true
+                    }
+                  },
+                  {
+                    "headline": {
+                      "class": "small-headline",
+                      "title": "advanced topics"
+                    }
+                  },
+                  {
+                    "headline": {
+                      "title": "Understanding Macroeconomics",
+                      "class": "hl1"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "block": {
+                "class": "guide-content",
+                "array": [
+                  {
+                    "content-body": {
+                      "text": "Everything you need to get your CFDs off the ground and start trading."
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "guide": {
+          "class": "",
+          "background": "",
+          "category": "advanced_topics",
+          "url": "assets/guides/Understanding_Company_Announcements.pdf",
+          "array": [
+            {
+              "block": {
+                "class": "guide-top-content",
+                "background": "assets/icons/guide-blue.png",
+                "array": [
+                  {
+                    "ng-image": {
+                      "src": "assets/icons/logo-small.png",
+                      "class": "small-logo",
+                      "responsive": true
+                    }
+                  },
+                  {
+                    "headline": {
+                      "class": "small-headline",
+                      "title": "advanced topics"
+                    }
+                  },
+                  {
+                    "headline": {
+                      "title": "Understanding Company Announcements",
+                      "class": "hl1"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "block": {
+                "class": "guide-content",
+                "array": [
+                  {
+                    "content-body": {
+                      "text": "Everything you need to get your CFDs off the ground and start trading."
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "guide": {
+          "class": "",
+          "background": "",
+          "category": "advanced_topics",
+          "url": "assets/guides/Understanding_Economic_Calendar.pdf",
+          "array": [
+            {
+              "block": {
+                "class": "guide-top-content",
+                "background": "assets/icons/guide-blue.png",
+                "array": [
+                  {
+                    "ng-image": {
+                      "src": "assets/icons/logo-small.png",
+                      "class": "small-logo",
+                      "responsive": true
+                    }
+                  },
+                  {
+                    "headline": {
+                      "class": "small-headline",
+                      "title": "advanced topics"
+                    }
+                  },
+                  {
+                    "headline": {
+                      "title": "Understanding Economic Calendar",
+                      "class": "hl1"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "block": {
+                "class": "guide-content",
+                "array": [
+                  {
+                    "content-body": {
+                      "text": "Track economic calendar events and refine your trading strategy today"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+]

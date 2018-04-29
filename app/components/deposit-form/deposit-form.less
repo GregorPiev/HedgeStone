@@ -1,0 +1,19 @@
+ @import (reference) "../../../assets/less/resources";
+
+.depositForm {
+  //width: 50%;
+  @media only screen and (max-width: @mobile-screen){
+    width: 100%;
+  }
+
+  input[type=number]::-webkit-inner-spin-button,
+  input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    appearance: none;
+    margin: 0;
+  }
+  
+  input[type=number] {
+    -moz-appearance: textfield;
+  }
+}

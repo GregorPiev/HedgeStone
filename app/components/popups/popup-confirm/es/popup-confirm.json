@@ -1,0 +1,17 @@
+{
+  "primaryHeadline": {
+    "title": "Opción de Bono",
+    "class": "hl1"
+  },  
+  "content": {
+    "text": "Con el fin de recibir su bono por favor, preste conformidad con <a href='assets/legal/Hedgestone_bonus_policy.pdf' target='_blank'>Bonus T&C</a> . <br> Si presiona En Desacuerdo, usted no tendrá derecho a recibir el Bono"
+  },
+  "yesBtn": {
+    "title": "Estoy de acuerdo",
+    "class": "btn"
+  },
+  "cancelBtn": {
+    "title": "No estoy de acuerdo",
+    "class": "btn btn-transparent"
+  }
+}

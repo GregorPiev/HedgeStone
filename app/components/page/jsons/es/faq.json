@@ -1,0 +1,488 @@
+{
+  "page-name": "faq",
+  "page-type": "page",
+  "class": "",
+  "title": "Los clientes revisan las FAQ o contactan atención al cliente",
+  "description": "Con sus averiguaciones, los clientes pueden ir a la sección de preguntas frecuentes FAQ. Hay respuestas a preguntas generales, ayuda técnica, e información sobre depósitos y extracciones.",
+  "keywords": "Preguntas Frecuentes; servicio al cliente; ayuda técnica; depósitos y extracciones; apoyo; generales",
+  "array": [
+    {
+      "section": {
+        "sectionName": "faq-top-section",
+        "sectionType": "deposit-top-section",
+        "background": "/assets/images/sections/Wash.png",
+        "containerClass": "container",
+        "class": "text-center",
+        "array": [
+          {
+            "content": {
+              "class": "",
+              "array": [
+                {
+                  "headline": {
+                    "class": "hl1",
+                    "title": "Preguntas Frecuentes"
+                  }
+                },
+                {
+                  "content-body": {
+                    "text": "¿Tiene alguna pregunta? Entonces nosotros podríamos tener la respuesta. ¿Sigue buscando? <a href=\"mailto:support@hedgestonegroup.com\">Contáctenos</a>",
+                    "class": ""
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "sectionName": "faq",
+        "sectionType": "faq-section",
+        "background": "",
+        "class": "relative-position no-padding",
+        "array": [
+          {
+            "tab-set": {
+              "id": "faq",
+              "array": [
+                {
+                  "tab-btn": {
+                    "class": "tabBtn",
+                    "title": "General",
+                    "array": [
+                      {
+                        "tab-container": {
+                          "class": "",
+                          "array": [
+                            {
+                              "headline": {
+                                "class": "hl3",
+                                "title": "¿Qué tan segura es la plataforma del Grupo Hedgestone?"
+                              }
+                            },
+                            {
+                              "content-body": {
+                                "text": "El Grupo Hedgestone toma muy en serio la seguridad del cliente, en cuanto a la plataforma operativa, la protección de información del cliente y el procesamiento de pagos. Utilizamos tecnologías de encriptación avanzada y la tecnología Secure Socket Layer (SSL) para proteger sus datos contra amenazas maliciosas. No necesita ningún software específico antes de poder empezar a operar con el Grupo Hedgestone. Todo lo que necesita hacer es registrar sus datos con un especialista de cuentas y depositar fondos en su cuenta"
+                              }
+                            },
+                            {
+                              "headline": {
+                                "class": "hl3",
+                                "title": "¿Estoy obligado a hacer un depósito si abro una cuenta con el Grupo Hedgestone?"
+                              }
+                            },
+                            {
+                              "content-body": {
+                                "text": "Puede crear una cuenta con el Grupo Hedgestone sin hacer un depósito. Sin embargo, con el fin de comenzar a operar tendrá que depositar en su cuenta."
+                              }
+                            },
+                            {
+                              "headline": {
+                                "class": "hl3",
+                                "title": "¿El Grupo Hedgestone cobra comisión por abrir nuevas cuentas?"
+                              }
+                            },
+                            {
+                              "content-body": {
+                                "text": "Crear una cuenta con el Grupo Hedgestone es sin cargo."
+                              }
+                            },
+                            {
+                              "headline": {
+                                "class": "hl3",
+                                "title": "¿Dónde se guardan mis fondos?"
+                              }
+                            },
+                            {
+                              "content-body": {
+                                "text": "Sus fondos están depositados en una cuenta separada en un banco de la UE."
+                              }
+                            },
+                            {
+                              "headline": {
+                                "class": "hl3",
+                                "title": "¿Cómo puedo abrir una cuenta con el Grupo Hedgestone?"
+                              }
+                            },
+                            {
+                              "content-body": {
+                                "text": "Para abrir una cuenta con el Grupo Hedgestone, haga clic en el botón 'Crear Cuenta' situado en la parte superior del sitio Web del Grupo Hedgestone (www.hedgestonegroup.com). Después de hacer clic en el botón 'Crear Cuenta', se le pedirá proporcionar algunos datos sobre usted y aceptar los Términos y Condiciones del Grupo Hedgestone. Riesgo de divulgaciones: Operar en los mercados de valores conlleva un riesgo significativo. Usted no debería operar con fondos que no puede permitir perder"
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "tab-btn": {
+                    "class": "tabBtn",
+                    "title": "Asistencia Técnica",
+                    "array": [
+                      {
+                        "tab-container": {
+                          "class": "",
+                          "array": [
+                            {
+                              "headline": {
+                                "class": "hl3",
+                                "title": "¿Por qué no puedo iniciar sesión?"
+                              }
+                            },
+                            {
+                              "content-body": {
+                                "text": "Usted no puede iniciar sesión, en primer lugar, porque es posible que esté copiando la contraseña de su correo electrónico junto con los espacios, ya sea antes o después de la propia contraseña. Otra razón es que su navegador de Internet podría estar almacenando sus contraseñas viejas a través de cookies. Para evitar que esto suceda, borre las cookies o tratar de entrar con un navegador diferente."
+                              }
+                            },
+                            {
+                              "headline": {
+                                "class": "hl3",
+                                "title": "¿Necesito descargar algún software para utilizar la plataforma operativa del Grupo Hedgestone?"
+                              }
+                            },
+                            {
+                              "content-body": {
+                                "text": "No, no lo necesita. Con el fin de utilizar la plataforma operativa del Grupo Hedgestone, necesita abrir una cuenta con nosotros y hacer un depósito mínimo."
+                              }
+                            },
+                            {
+                              "headline": {
+                                "class": "hl3",
+                                "title": "¿Por qué algunas páginas de la plataforma no están disponibles?"
+                              }
+                            },
+                            {
+                              "content-body": {
+                                "text": "La razón es que usted podría estar utilizando <b>https://</b>. Por favor, asegúrese de cambiarlo a <b>http://</b>"
+                              }
+                            },
+                            {
+                              "headline": {
+                                "class": "hl3",
+                                "title": "¿Cómo puedo cambiar el idioma que aparece?"
+                              }
+                            },
+                            {
+                              "content-body": {
+                                "text": "Usted puede cambiar el idioma, utilizando el menú desplegable en la parte superior de la página, donde está escrito ‘Idiomas’. Después de iniciar sesión, el idioma predeterminado será siempre el que usted haya escogido al registrarse. Si desea cambiar el idioma predeterminado, por favor, póngase en contacto con nuestro servicio de atención al cliente "
+                              }
+                            },
+                            {
+                              "headline": {
+                                "class": "hl3",
+                                "title": "¿Por qué no puedo ver los videos tutoriales?"
+                              }
+                            },
+                            {
+                              "content-body": {
+                                "text": "Con el fin de ver videos tutoriales del Grupo Hedgestone, por favor, actualice su Flash. Si la actualización de Flash no ayuda, podría tener que configurar los parámetros de red para utilizar Google Public DNS."
+                              }
+                            },
+                            {
+                              "headline": {
+                                "class": "hl3",
+                                "title": "¿Cómo puedo cambiar mi nombre de usuario, contraseña o dirección de correo electrónico?"
+                              }
+                            },
+                            {
+                              "content-body": {
+                                "text": "Con el fin de cambiar su nombre de usuario, contraseña o dirección de correo electrónico, por favor, haga lo siguiente: <ul><li>Asegúrese de que haya iniciado sesión.</li><li>En la barra de navegación en la parte superior de la página, encuentre la sección “Mi Cuenta”. Haga click allí.</li><li>Al abrir su página de cuenta, encontrará una lista de enlaces en su lado derecho debajo de su foto del perfil.</li><li>Encuentre la sección “Editar mi Perfil”. Haga click allí.</li><li> Al abrir su página de perfil, vaya a la sección “Información de  Cuenta”. Allí podrá ver los campos para “Nombre de Usuario, \" \ 'Dirección de correo electrónico, \' \ 'Contraseña, \' y \ 'Confirmar contraseña. \"</li><li>Ingrese la información que desea cambiar. A continuación, vaya a la parte inferior de la página y haga clic en \ "Guardar \".</li></ul> "
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "tab-btn": {
+                    "class": "tabBtn",
+                    "title": "Depósito y Extracciones",
+                    "array": [
+                      {
+                        "tab-container": {
+                          "class": "",
+                          "array": [
+                            {
+                              "headline": {
+                                "class": "hl3",
+                                "title": "¿Puedo cancelar una extracción, después de haber presentado una solicitud de extracción?"
+                              }
+                            },
+                            {
+                              "content-body": {
+                                "text": "Depende de qué tan avanzado esté el proceso de extracción. Si recién presentó la extracción y desea cancelarla, póngase en contacto con su representante del Grupo Hedgestone. Si usted presentó una extracción hace más de unas pocas horas, los fondos probablemente ya hayan sido deducidos de su cuenta operativa. Si los fondos ya han sido deducidos de su cuenta operativa, es demasiado tarde para cancelar la operación."
+                              }
+                            },
+                            {
+                              "headline": {
+                                "class": "hl3",
+                                "title": "¿Qué quieren decir cuando me piden el código SWIFT de mi banco?"
+                              }
+                            },
+                            {
+                              "content-body": {
+                                "text": "El código SWIFT es un código utilizado para las transacciones bancarias transfronterizas. Significa Sociedad para las Telecomunicaciones Financieras Interbancarias Mundiales. El propósito de un código SWIFT es identificar un banco o una institución financiera. Su banco o institución financiera será capaz de proporcionarle el código SWIFT correcto, si les pregunta por él."
+                              }
+                            },
+                            {
+                              "headline": {
+                                "class": "hl3",
+                                "title": "¿Cómo puedo depositar fondos en operativa del Grupo Hedgestone?"
+                              }
+                            },
+                            {
+                              "content-body": {
+	                       	"text": "El Grupo Hedgestone ofrece a sus clientes una variedad de métodos de pago en función de la moneda y país: <ul><li>Visa</li><li>MasterCard</li><li>Bank wire transfer</li><li>Skrill</li><li>Neteller</li><li>WebMoney</li><li>Qiwi</li><li>Sofort</li><li>iDEAL</li><li>CashU</li></ul> Si usted tiene un método de pago preferido que no es aceptado actualmente, háganoslo saber y trataremos de encontrar una solución."
+                              }
+                            },
+                            {
+                              "headline": {
+                                "class": "hl3",
+                                "title": "¿Es fácil hacer una extracción de mi cuenta?"
+                              }
+                            },
+                            {
+                              "content-body": {
+                                "text": "El Grupo Hedgestone se compromete a proporcionar a sus clientes una experiencia de extracción rápida, transparente y sencilla. Para realizar una extracción, vaya a “Mi Cuenta” y luego a “Configuración de Cuenta”, después a “Hacer una Extracción.” Después de esto, por favor, siga las instrucciones. Por favor, tenga en cuenta que sus fondos deben extraerse usando el mismo método de pago que se utilizó al hacer el depósito."
+                              }
+                            },
+                            {
+                              "headline": {
+                                "class": "hl3",
+                                "title": "¿Cuánto bono puedo obtener cuando hago un depósito?"
+                              }
+                            },
+                            {
+                              "content-body": {
+                                "text": "El Grupo Hedgestone ofrece a sus clientes bonos como palancamiento, con el fin de aumentar su poder comercial. Tenga en cuenta que estos fondos no son extraíbles. Ciertos Volúmenes de Operaciones se requieren con el fin de extraer ganancias de cuentas con apalancamiento"
+                              }
+                            },
+                            {
+                              "headline": {
+                                "class": "hl3",
+                                "title": "¿Cómo voy a recibir mi extracción?"
+                              }
+                            },
+                            {
+                              "content-body": {
+                                "text": "Todos los depósitos se devuelven a través del método de depósito original. Los fondos que excedan el depósito original se pagan a través de transferencia bancaria."
+                              }
+                            },
+                            {
+                              "headline": {
+                                "class": "hl3",
+                                "title": "¿Cuándo puedo extraer mi dinero?"
+                              }
+                            },
+                            {
+                              "content-body": {
+                                "text": "Usted puede extraer su dinero en cualquier momento, siempre y cuando su cuenta esté verificada y que haya saldo disponible."
+                              }
+                            },
+                            {
+                              "headline": {
+                                "class": "hl3",
+                                "title": "¿Por qué tengo que enviar documentos?"
+                              }
+                            },
+                            {
+                              "content-body": {
+                                "text": "Pedimos documentos pertinentes con el fin de verificar su identidad y proteger su cuenta de la actividad fraudulenta o malversación"
+                              }
+                            },
+                            {
+                              "headline": {
+                                "class": "hl3",
+                                "title": "¿Cuánto dinero puedo operar en una sola transacción?"
+                              }
+                            },
+                            {
+                              "content-body": {
+                                "text": "Su posición por operación no debe ser mayor que 5.000 euros."
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "tab-btn": {
+                    "class": "tabBtn",
+                    "title": "Asistencia",
+                    "array": [
+                      {
+                        "tab-container": {
+                          "class": "",
+                          "array": [
+                            {
+                              "headline": {
+                                "title": "Olvidé mi contraseña. ¿Que debería hacer?",
+                                "class": "hl3"
+                              }
+                            },
+                            {
+                              "content-body": {
+                                "text": "Puede restablecer su contraseña en <a ui-sref=\"forgot_password\">esta página</a>"
+                              }
+                            },
+                            {
+                              "headline": {
+                                "title": "Mi pregunta no está respondida en las FAQ. preguntas frecuentes. ¿Cómo puedo contactar al Grupo Hedgestone?",
+                                "class": "hl3"
+                              }
+                            },
+                            {
+                              "content-body": {
+                                "text": "Por favor, enviar un correo electrónico a support@hedgestonegroup.com y estaremos encantados de responder a cualquier pregunta que no haya sido abordada en las FAQ."
+                              }
+                            },
+                            {
+                              "headline": {
+                                "title": "¿Dónde puedo gestionar los datos personales de mi cuenta?",
+                                "class": "hl3"
+                              }
+                            },
+                            {
+                              "content-body": {
+                                "text": "Los datos de su cuenta personal pueden actualizarse iniciando sesión en la plataforma del Grupo Hedgestone, y luego navegando a Mi Cuenta > Configuración de Cuenta. Una vez allí, podrá seleccionar la pestaña 'Información Personal' que le permite editar/actualizar su información personal, tal como su domicilio y número de teléfono."
+                              }
+                            },
+                            {
+                              "headline": {
+                                "title": "¿Cómo puedo presentar una queja?",
+                                "class": "hl3"
+                              }
+                            },
+                            {
+                              "content-body": {
+                                "text": "En caso de que tenga alguna queja sobre la funcionalidad del sitio web, debe completar y enviar el formulario correspondiente. Usted debe completarlo y enviarlo a support@hedgestonegroup.com"
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "block": {
+              "class": "arrow",
+              "background": "assets/images/sections/arrow.png"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "sectionName": "bottom-section",
+        "sectionType": "open-account-section",
+        "class": "bottom-section",
+        "background": "",
+        "containerClass": "",
+        "array": [
+          {
+            "content": {
+              "class": "",
+              "array": [
+                {
+                  "ng-image": {
+                    "image-name": "asset-test",
+                    "src": "assets/icons/Logo.png",
+                    "alt": "some asset",
+                    "type": "img",
+                    "class": "center-img",
+                    "responsive": true
+                  }
+                },
+                {
+                  "block": {
+                    "class": "text-center",
+                    "array": [
+                      {
+                        "content-body": {
+                          "class": "",
+                          "text": "¿LISTO PARA COMENZAR?"
+                        },
+                        "precedence": 0
+                      },
+                      {
+                        "headline": {
+                          "title": "Poderoso. Dinámico. Sin límites.",
+                          "class": "hl5"
+                        },
+                        "precedence": 1
+                      },
+                      {
+                        "block": {
+                          "class": "padded-block",
+                          "array": [
+                            {
+                              "logged-in" : {
+                                "array": [
+                                  {
+                                    "btn": {
+                                      "class": "btn btn-transparent centered-btn",
+                                      "title": "operación",
+                                      "destination": "trade"
+                                    },
+                                    "precedence": 4
+                                  },
+                                  {
+                                    "btn": {
+                                      "class": "centered-btn",
+                                      "title": "cómo funciona",
+                                      "destination": "education"
+                                    },
+                                    "precedence": 5
+                                  }
+                                ]
+                              }
+                            },
+                            {
+                              "anonymous": {
+                                "array": [
+                                  {
+                                    "btn": {
+                                      "class": "btn btn-transparent centered-btn",
+                                      "title": "abrir una cuenta",
+                                      "destination": "create_account"
+                                    },
+                                    "precedence": 4
+                                  },
+                                  {
+                                    "btn": {
+                                      "class": "centered-btn",
+                                      "title": "cómo funciona",
+                                      "destination": "education"
+                                    },
+                                    "precedence": 5
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        },
+                        "precedence": 3
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

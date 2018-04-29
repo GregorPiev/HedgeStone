@@ -1,0 +1,281 @@
+{
+  "page-name": "login",
+  "page-type": "page",
+  "class": "",
+  "title": "Inicio de sesión y acceso a la plataforma del Grupo Hedgestone.",
+  "description": "Los clientes que tienen una cuenta con el Grupo Hedgestone, pueden iniciar sesión. Aquellos que no la tienen, puede abrirla. Aquellos que olvidaron su contraseña, pueden seguir este enlace.",
+  "keywords": "Iniciar sesión, abrir una cuenta, contraseña, olvidó la contraseña; plataforma de acceso al Grupo Hedgestone.",
+  "array": [
+    {
+      "section": {
+        "sectionName": "login-top-section",
+        "sectionType": "login-section",
+        "class": "dark-background relative-position",
+        "array": [
+          {
+            "block": {
+              "class": "login-container",
+              "array": [
+                {
+                  "headline": {
+                    "title": "Inicie sesión en Su Cuenta",
+                    "class": "hl1 text-center"
+                  }
+                },
+                {
+                  "headline ": {
+                    "class": "text-center form-headline",
+                    "title": "Ingrese sus datos de inicio de sesión, para acceder a la plataforma de Hedgestone."
+                  }
+                },
+                {
+                  "block": {
+                    "class": "col-xs-8",
+                    "array": [
+                      {
+                        "login-form": {
+                          "class": "",
+                          "array": [
+                            {
+                              "new-form": {
+                                "id": "login-form",
+                                "array": [
+                                  {
+                                    "form-group": {
+                                      "class": "formGroup",
+                                      "array": [
+                                        {
+                                          "block": {
+                                            "array": [
+                                              {
+                                                "content-body": {
+                                                  "class": "formLabel",
+                                                  "text": "Dirección de correo electrónico"
+                                                }
+                                              },
+                                              {
+                                                "ng-field": {
+                                                  "element": "input",
+                                                  "withAddon": false,
+                                                  "addon": "",
+                                                  "dynamicAttrs": {
+                                                    "ng-model": "",
+                                                    "ng-class": "form-control",
+                                                    "ng-maxlength": 50
+                                                  },
+                                                  "attrs": {
+                                                    "placeholder": "",
+                                                    "name": "user_name",
+                                                    "ng-required": true,
+                                                    "type": "text",
+                                                    "ng-pattern": "/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\\.[a-zA-Z0-9-]+)*$/",
+                                                    "generic-validation": "ngField.ngFieldData"
+                                                  },
+                                                  "msgBox": {
+                                                    "pattern": "Por favor, introduzca una dirección válida de correo electrónico.",
+                                                    "required": "Este campo es requerido",
+                                                    "maxlength": "El email puede incluir un máximo de 50 caracteres."
+                                                  }
+                                                }
+                                              }
+                                            ]
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  },
+                                  {
+                                    "form-group": {
+                                      "class": "formGroup",
+                                      "array": [
+                                        {
+                                          "block": {
+                                            "array": [
+                                              {
+                                                "content-body": {
+                                                  "text": "Contraseña",
+                                                  "class": "formLabel"
+                                                }
+                                              },
+                                              {
+                                                "ng-field": {
+                                                  "element": "input",
+                                                  "withAddon": false,
+                                                  "addon": "",
+                                                  "dynamicAttrs": {
+                                                    "ng-model": "",
+                                                    "ng-class": "form-control",
+                                                    "ng-maxlength": 25,
+                                                    "ng-minlength": 6
+                                                  },
+                                                  "attrs": {
+                                                    "placeholder": "",
+                                                    "ng-pattern": "",
+                                                    "name": "password",
+                                                    "ng-required": true,
+                                                    "type": "password",
+                                                    "generic-validation": "ngField.ngFieldData"
+                                                  },
+                                                  "msgBox": {
+                                                    "required": "Este campo es requerido",
+                                                    "minlength": "La contraseña debe incluir por lo menos 6 letras.",
+                                                    "maxlength": "La contraseña no debe superar los 25 caracteres."
+                                                  }
+                                                }
+                                              }
+                                            ]
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  },
+                                  {
+                                    "ng-form-submit": {
+                                      "class": "",
+                                      "content": "iniciar sesión"
+                                    }
+                                  },
+                                  {
+                                    "btn": {
+                                      "title": "Olvidé mi contraseña",
+                                      "destination": "forgot_password",
+                                      "class": "forgot-pass link"
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "block": {
+                    "class": "col-xs-4 col-xs-12 side-text",
+                    "array": [
+                      {
+                        "content-body": {
+                          "class": "smaller-content",
+                          "text": "¿No tiene una cuenta? <br><a ui-sref=\"crear_cuenta\">Abrir una Cuenta</a>"
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "block": {
+              "class": "arrow",
+              "background": "assets/images/sections/arrow.png"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "sectionName": "bottom-section",
+        "sectionType": "open-account-section",
+        "class": "bottom-section",
+        "background": "",
+        "containerClass": "",
+        "array": [
+          {
+            "content": {
+              "class": "",
+              "array": [
+                {
+                  "ng-image": {
+                    "image-name": "asset-test",
+                    "src": "assets/icons/Logo.png",
+                    "alt": "some asset",
+                    "type": "img",
+                    "class": "center-img",
+                    "responsive": true
+                  }
+                },
+                {
+                  "block": {
+                    "class": "text-center",
+                    "array": [
+                      {
+                        "content-body": {
+                          "class": "",
+                          "text": "¿LISTO PARA COMENZAR?"
+                        },
+                        "precedence": 0
+                      },
+                      {
+                        "headline": {
+                          "title": "Poderoso. Dinámico. Sin límites.",
+                          "class": "hl5"
+                        },
+                        "precedence": 1
+                      },
+                      {
+                        "block": {
+                          "class": "padded-block",
+                          "array": [
+                            {
+                              "logged-in" : {
+                                "array": [
+                                  {
+                                    "btn": {
+                                      "class": "btn btn-transparent centered-btn",
+                                      "title": "operación",
+                                      "destination": "trade"
+                                    },
+                                    "precedence": 4
+                                  },
+                                  {
+                                    "btn": {
+                                      "class": "centered-btn",
+                                      "title": "cómo funciona",
+                                      "destination": "education"
+                                    },
+                                    "precedence": 5
+                                  }
+                                ]
+                              }
+                            },
+                            {
+                              "anonymous": {
+                                "array": [
+                                  {
+                                    "btn": {
+                                      "class": "btn btn-transparent centered-btn",
+                                      "title": "abrir una cuenta",
+                                      "destination": "create_account"
+                                    },
+                                    "precedence": 4
+                                  },
+                                  {
+                                    "btn": {
+                                      "class": "centered-btn",
+                                      "title": "cómo funciona",
+                                      "destination": "education"
+                                    },
+                                    "precedence": 5
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        },
+                        "precedence": 3
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

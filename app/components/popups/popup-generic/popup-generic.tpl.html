@@ -1,0 +1,13 @@
+<div class="popupFrame">
+    <div class="popupGeneric">
+        <div class="closeImg" ng-click="popupGeneric.cancel()">
+            <i class="fa fa-times"></i>
+        </div>
+        <div class="popup-content">
+            <ng-image ng-if="popupGeneric.popupData.img" data="popupGeneric.popupData.img"></ng-image>
+            <headline data="popupGeneric.popupData.headline"></headline>
+            <!--pay attention to change content body to proper attr-->
+            <content-body data="popupGeneric.popupData.content"></content-body>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,136 @@
+@import (reference) "../../../assets/less/resources";
+
+.winsWidgetWrapper {
+  opacity: 0;
+
+  &.loaded {
+    opacity: 1;
+    .link-transition(opacity, 1s);
+  }
+  .winsWidgetHeadline {
+    float: left;
+    text-align: left;
+  }
+
+  .winsWidget {
+    .widget;
+    background-color: @light-bg-color;
+    height: 145px;
+
+    .progress {
+      height: 6px;
+      .progress-bar-orange {
+        background-color: @btn-color;
+      }
+
+      .progress-bar-torq {
+        background-color: @turquoise;
+      }
+
+      .progress-bar-red {
+        background-color: @red;
+      }
+
+      .progress-bar-blue {
+        background-color: @blue;
+      }
+
+      .progress-bar-pink {
+        background-color: @pink;
+      }
+
+      .progress-bar-yellow {
+        background-color: @yellow;
+      }
+
+      span {
+        display: none;
+      }
+    }
+
+    .widgetContent {
+      .block {
+        //width: 20%;
+        float: left;
+        margin: 0 3%;
+        position: relative;
+        .contentBody {
+          .no-padding;
+          font-size: 20px;
+          font-family: @xbold-font-family;
+        }
+
+        .headline {
+          font-family: @xbold-font-family;
+          letter-spacing: 2px;
+          &.hl4 {
+            text-transform: uppercase;
+
+            &.currencies {
+              .title {
+                position: relative;
+                &:before {
+                  .square;
+                  background-color: @turquoise;
+                }
+              }
+            }
+
+            &.commodities {
+              .title {
+                position: relative;
+                &:before {
+                  .square;
+                  background-color: @btn-color;
+                }
+              }
+            }
+
+            &.indices {
+              .title {
+                position: relative;
+                &:before {
+                  .square;
+                  background-color: @yellow;
+                }
+              }
+            }
+
+            &.pairs {
+              .title {
+                position: relative;
+                &:before {
+                  .square;
+                  background-color: @blue;
+                }
+              }
+            }
+
+            &.stocks {
+              .title {
+                position: relative;
+                &:before {
+                  .square;
+                  background-color: @pink;
+                }
+              }
+            }
+          }
+        }
+
+      }
+    }
+
+    @media only screen and (max-width: @sm-tablet-screen) {
+      height: 100%;
+      .widgetContent {
+        .block {
+          width: 100%;
+          margin: 10px 0;
+        }
+      }
+
+    }
+  }
+}
+

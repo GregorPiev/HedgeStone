@@ -1,0 +1,281 @@
+{
+  "page-name": "privacy_policy",
+  "page-type": "page",
+  "class": "",
+  "array": [
+    {
+      "section": {
+        "sectionName": "content-text",
+        "sectionType": "generic-page",
+        "background": "assets/images/sections/generic-bg.png",
+        "containerClass": "container",
+        "class": "relative-position dark-background",
+        "array": [
+          {
+            "content": {
+              "class": "",
+              "array": [
+                {
+                  "headline": {
+                    "title": "Política de Privacidad",
+                    "class": "hl1"
+                  }
+                },
+                {
+                  "content-body": {
+                    "text": "Esta Política de Privacidad (<b>“Política”</b>) explica los procedimientos de privacidad realizados por Icon Markets Limited (la<b>“Compañía”</b>, <b>“Nosotros”</b> o <b>“Nosotros”</b>)  que proporciona el servicio (como se define en los términos del acuerdo de servicio) a sus Clientes (<b>“Cliente”</b>, <b>“Usted”</b>, o <b>“Su”</b>), y deberá interpretarse a la luz de los términos del acuerdo de servicio a los que están obligadas las partes."
+                  }
+                },
+                {
+                  "headline": {
+                    "title": "Introducción",
+                    "class": "hl3"
+                  }
+                },
+                {
+                  "content-body": {
+                    "text": "La privacidad del Cliente es importante para la Compañía. La Compañía tratará toda la información recogida por, o transmitida al Cliente , con cuidado, especialmente en materia de información de identificación personal. Además, esta Política describe cómo, cuándo y por qué la Compañía recogerá dicha información. “Información de identificación personal” (o “Información Personal”) se refiere a cualquier información que se pueda utilizar, ya sea independientemente o en conjunción con otra información, para identificar, contactar o localizar personalmente a cualquier empleado, representante, y terceros asociados con el Cliente  (referidos colectivamente como el “Usuario”). La Información Personal incluye, pero no se limita a:"
+                  }
+                },
+                {
+                  "content-body": {
+                    "text": "<ul><li>Datos personales tales como nombre, edad, ocupación y estado civil;</li><li>Datos de contacto, tales como el domicilio físico, teléfono, correo electrónico y, en algunos casos, tanto los datos de contacto privados como los relacionados con el trabajo y otra información de contacto;</li><li>Documentos de identificación, que suelen incluir una fotografía de cabeza y hombros ya sea de su pasaporte, documento nacional de identidad o licencia de conducir, según lo requerido por las leyes y normas respecto a la debida diligencia y asuntos relacionados;</li><li>Un identificador personal, dependiendo de su país de residencia;</li><li>Extensa documentación financiera, incluyendo datos comerciales, depósitos, extracciones, crédito, experiencia de inversión, tolerancia al riesgo, y, en ciertas jurisdicciones, representaciones exigidas por ley vigente o norma relativa a sus recursos financieros.</li></ul>"
+                  }
+                },
+                {
+                  "content-body": {
+                    "text": "Además, la Compañía puede procesar cualquier información que no permita la identificación, localización o contacto del Cliente, de cualquier manera en que lo decida, sin notificación previa al Cliente."
+                  }
+                },
+                {
+                  "headline": {
+                    "class": "hl3",
+                    "title": "Nuestra Promesa hacia Usted"
+                  }
+                },
+                {
+                  "content-body": {
+                    "text": "Agradecemos que nos haya proporcionado sus datos personales. La Compañía se esfuerza por mantener la privacidad de dicha información, al tiempo que le ayuda a alcanzar sus objetivos financieros. La Compañía supervisa todas las comunicaciones del sistema y registra todas las actividades que tienen lugar en el sistema, además de los controles de seguridad de rutina, que llevan a cabo nuestros expertos en seguridad de la información."
+                  }
+                },
+                {
+                  "content-body": {
+                    "text": "Nuestra Política da una idea general de los estándares con los cuales procesamos los datos personales que se recogen de usted. Si tiene alguna pregunta, estamos aquí para ayudarlo."
+                  }
+                },
+                {
+                  "headline": {
+                    "title": "Consentimiento, Notificación y Modificación",
+                    "class": "hl3"
+                  }
+                },
+                {
+                  "content-body": {
+                    "text": "Mediante la suscripción y/o utilización del Servicio, el Cliente expresa su consentimiento con los términos de esta Política. Si el Cliente no está de acuerdo con los términos y disposiciones de esta Política, el Cliente no podrá utilizar el Servicio."
+                  }
+                },
+                {
+                  "content-body": {
+                    "text": "La Compañía se reserva el derecho de cambiar esta Política, en cualquier momento y a su exclusiva discreción, con modificaciones efectivas a los diez (10) días siguientes a la publicación de la Política enmendada, en el sitio web de la Compañía. La continuada utilización del servicio por parte del Cliente, se considerará consentimiento a los términos y disposiciones de la Política enmendada."
+                  }
+                },
+                {
+                  "headline": {
+                    "class": "hl3",
+                    "title": "Recolección y Recepción de Información"
+                  }
+                },
+                {
+                  "content-body": {
+                    "text": "La Compañía recolecta y recibe Información Personal perteneciente al Usuario. Esto ocurre como parte del uso de los servicios de hosting de la Compañía, para proporcionar algunos o todos sus servicios, lo que se traduce en un cambio de ruta de la Información Personal a la Compañía desde sus servidores de producción. La Compañía también recolecta y recibe Información Personal relacionada con los Usuarios, para fines de comunicación y para proporcionar las disposiciones generales de los Servicios."
+                  }
+                },
+                {
+                  "content-body": {
+                    "text": "La Compañía utiliza cierta tecnología en sus sitios web para recolectar información de visitantes, con el fin de recopilar información estadística agregada sobre su uso de nuestros sitios web, incluyendo información relacionada con la frecuencia de las visitas, direcciones IP, la duración promedio de las visitas, las páginas que se vieron durante una visita y la efectividad de la publicidad en nuestros sitios web.<br/>La Compañía utiliza esta información para mejorar el contenido y desempeño del sitio web. No se recolecta ninguna información de identificación personal para este propósito y la Compañía no supervisa el comportamiento del visitante individual. La información contenida en las cookies de la Compañía se mantiene al mínimo y sólo puede ser leída por la Compañía o por una persona que tenga acceso físico a su computadora personal. Las cookies contienen información que se transmite al disco duro de su computadora, con el fin de mejorar nuestro sitio y ayudar a ofrecer un servicio personalizado. También nos permiten estimar el tamaño y los patrones de uso de nuestra audiencia, para almacenar información sobre sus preferencias, y que nos permiten personalizar nuestro sitio de acuerdo a sus intereses individuales, a fin de que sus búsquedas sean más eficientes y reconocerlo cuando regrese a nuestro sitio."
+                  }
+                },
+                {
+                  "content-body": {
+                    "text": "Usted puede negarse a aceptar cookies, activando la configuración en su navegador, que le permite rechazar la instalación de cookies. Sin embargo, si selecciona esta configuración, es posible que no pueda acceder a ciertas partes de nuestro sitio. A menos de que haya ajustado la configuración del navegador para rechazar las cookies, nuestro sistema emitirá cookies cuando inicie sesión en nuestro sitio."
+                  }
+                },
+                {
+                  "headline": {
+                    "class": "hl3",
+                    "title": "Utilización y Divulgación de Información Personal"
+                  }
+                },
+                {
+                  "content-body": {
+                    "text": "La Compañía sólo podrá utilizar y/o divulgar la Información Personal de los Usuarios para fines que sean pertinentes a las disposiciones del Servicio."
+                  }
+                },
+                {
+                  "content-body": {
+                    "text": "La Compañía, sus empresas asociadas y otras personas que actúen en nuestro nombre, pueden procesar y utilizar sus datos personales para: <ul><li>Cumplir con cualesquiera leyes aplicables, normas, procesos legales, pedidos gubernamentales y/o para cumplir con obligaciones regulatorias y solicitudes a escala global (incluyendo la presentación de informes y ser auditado por los organismos regulatorios y bursátiles nacionales e internacionales).</li><li>Hacer cumplir los términos y condiciones de nuestro acuerdo de servicios con usted, incluyendo la investigación de posibles violaciones de los mismos.</li><li>Administrar y operar servicios, de acuerdo con los documentos de Clientes, incluyendo autorizar o confirmar transacciones.</li><li>Llevar a cabo controles crediticios y de lavado de dinero, con el fin de prevenir el fraude (esto puede incluir información relativa a las afiliaciones políticas y los delitos cometidos o presuntamente cometidos), y ponerse en contacto con usted acerca de otros servicios que ofrecemos.</li><li>Ejercer y defender los derechos legales de la Compañía.</li><li>Proteger contra el daño a los derechos, propiedad o seguridad de la Compañía, sus filiales, accionistas, clientes, usuarios, o del público.</li><li>Monitorear las comunicaciones (incluyendo correo electrónico, mensajería instantánea, fax, teléfono y otras comunicaciones electrónicas) con usted o su agente(s) para el control de calidad y de seguridad, como un registro de las órdenes, instrucciones, y asuntos relacionados, y para cumplir con leyes y reglamentos aplicables, los acuerdos y las políticas y procedimientos aplicables, y según lo permitido por ley o regulación aplicable.</li></ul>"
+                  }
+                },
+                {
+                  "headline": {
+                    "title": "Seguridad",
+                    "class": "hl3"
+                  }
+                },
+                {
+                  "content-body": {
+                    "text": "La Compañía mantiene medidas de seguridad físicas, técnicas y de procedimientos apropiadas, para proteger cualquier información que usted nos proporcione, por pérdida accidental o no autorizada, mal uso, daño, modificación, acceso o divulgación."
+                  }
+                },
+                {
+                  "content-body": {
+                    "text": "La Compañía emplea medidas de seguridad físicas, electrónicas y de procedimientos, para proteger la Información Personal y no almacena Información Personal durante más tiempo de lo necesario."
+                  }
+                },
+                {
+                  "content-body": {
+                    "text": "El/los centros de datos de la Compañía contienen tanto servidores internos como externos. El acceso al servidor interno de la Compañía se limita a los individuos, servidores y sitios pre-aprobados, mientras que a nuestros servidores externos se puede acceder a través de Internet."
+                  }
+                },
+                {
+                  "content-body": {
+                    "text": "Usted puede mejorar aún más la protección de datos a través de las siguientes medidas: <ul><li>Identificación - Los Usuarios acceden al sistema ingresando nombre de usuario y contraseña. Su contraseña es personal y no debe ser divulgada a otros, incluido el personal de servicio al cliente . Nunca guarde su nombre de usuario o contraseña en su computadora o en cualquier otro medio de fácil acceso.</li><li>Contraseña - Elija una contraseña que no pueda ser fácilmente descifrada, preferiblemente que consista en caracteres y dígitos aleatorios. Cambie su contraseña cada tres meses. En el caso de que su contraseña pueda haber sido comprometida, debe restablecerla inmediatamente.</li><li>Salir - Al final de cualquier actividad en el sistema, asegúrese de salir correctamente, haciendo clic en 'Salir'.</li><li>Comunicaciones Encriptadas - Ya sea un candado cerrado o una llave entera (dependiendo de la versión del navegador instalado en su computadora) aparecerá en la ventana cuando ejecute transacciones en su cuenta. Haciendo doble clic sobre este símbolo aparecerá el certificado digital emitido a este sitio.</li></ul>"
+                  }
+                },
+                {
+                  "headline": {
+                    "title": "Comunicación a Terceros",
+                    "class": "hl3"
+                  }
+                },
+                {
+                  "content-body": {
+                    "text": "La Compañía puede transferir Información Personal a terceros para los fines descritos en la Sección 5 de la presente Política de Privacidad. En tales casos, la Compañía realiza esfuerzos razonables para asegurar que los terceros, ya sea: (i) suscriban a los estándares de privacidad equivalente a esta Política o acuerden por escrito cumplir con estos estándares; o, (ii) estén obligados por leyes que proporcionen al menos el nivel equivalente de protección de privacidad, como se describió en esta Política."
+                  }
+                },
+                {
+                  "headline": {
+                    "title": "Menores de Edad",
+                    "class": "hl3"
+                  }
+                },
+                {
+                  "content-body": {
+                    "text": "Los Servicios de la Compañía no están dirigidos a personas menores de dieciocho (18) años de edad (<b>“menor”</b>). La Compañía no procesará la Información Personal de Usuarios que considere menores."
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "block": {
+              "class": "arrow",
+              "background": "assets/images/sections/arrow.png"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "sectionName": "bottom-section",
+        "sectionType": "open-account-section",
+        "class": "bottom-section",
+        "background": "",
+        "containerClass": "",
+        "array": [
+          {
+            "content": {
+              "class": "",
+              "array": [
+                {
+                  "ng-image": {
+                    "image-name": "asset-test",
+                    "src": "assets/icons/Logo.png",
+                    "alt": "some asset",
+                    "type": "img",
+                    "class": "center-img",
+                    "responsive": true
+                  }
+                },
+                {
+                  "block": {
+                    "class": "text-center",
+                    "array": [
+                      {
+                        "content-body": {
+                          "class": "",
+                          "text": "¿LISTO PARA COMENZAR?"
+                        },
+                        "precedence": 0
+                      },
+                      {
+                        "headline": {
+                          "title": "Poderoso. Dinámico. Sin límites.",
+                          "class": "hl5"
+                        },
+                        "precedence": 1
+                      },
+                      {
+                        "block": {
+                          "class": "padded-block",
+                          "array": [
+                            {
+                              "logged-in" : {
+                                "array": [
+                                  {
+                                    "btn": {
+                                      "class": "btn btn-transparent centered-btn",
+                                      "title": "operación",
+                                      "destination": "trade"
+                                    },
+                                    "precedence": 4
+                                  },
+                                  {
+                                    "btn": {
+                                      "class": "centered-btn",
+                                      "title": "cómo funciona",
+                                      "destination": "education"
+                                    },
+                                    "precedence": 5
+                                  }
+                                ]
+                              }
+                            },
+                            {
+                              "anonymous": {
+                                "array": [
+                                  {
+                                    "btn": {
+                                      "class": "btn btn-transparent centered-btn",
+                                      "title": "abrir una cuenta",
+                                      "destination": "create_account"
+                                    },
+                                    "precedence": 4
+                                  },
+                                  {
+                                    "btn": {
+                                      "class": "centered-btn",
+                                      "title": "cómo funciona",
+                                      "destination": "education"
+                                    },
+                                    "precedence": 5
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        },
+                        "precedence": 3
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

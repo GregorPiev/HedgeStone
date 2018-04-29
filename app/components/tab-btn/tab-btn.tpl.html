@@ -1,0 +1,9 @@
+<div>
+    <div class="tabBtn" ng-class="[tabBtn.tabBtnData.class, { 'active': tabBtn.tabBtnData.show, 'disabled': tabBtn.isDisabled() }]" ng-click="tabBtn.switch()">
+        <ng-image ng-if="::tabBtn.iconExist()" data="::tabBtn.tabBtnData.icon"></ng-image>
+        <span class="tabBtnTitle" ng-bind="::tabBtn.tabBtnData.title"></span>
+        <span class="comingSoonBadge">
+            <span class="badge" ng-if="::tabBtn.isDisabled()">SOON</span>
+        </span>
+    </div>
+</div>

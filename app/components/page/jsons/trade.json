@@ -1,0 +1,316 @@
+{
+  "page-name": "trade",
+  "page-type": "page",
+  "class": "",
+  "title": "Traders should know that trading involves risks.",
+  "description": "Trading involves risks. Traders should be very clear about what currency they want to trade, what options they choose, and how much money they want to invest.",
+  "keywords": "Risk; binary options trading; CFD; OneTouch; Ladder; highest trading volume.",
+  "array": [
+    {
+      "section": {
+        "sectionName": "trade-top-section",
+        "sectionType": "top-section trade-top-section",
+        "containerClass": "container",
+        "class": "text-center dark-background",
+        "array": [
+          {
+            "content": {
+              "class": "",
+              "array": [
+                {
+                  "headline": {
+                    "title": "Trading Platform",
+                    "class": "hl1"
+                  },
+                  "precedence": 0
+                },
+                {
+                  "content-body": {
+                    "class": "",
+                    "text": "Binary Options trading involves substantial risk and may result in the loss of invested capital."
+                  },
+                  "precedence": 2
+                },
+                {
+                  "block": {
+                    "class": "platform-block",
+                    "array": [
+                      {
+                        "platform": {
+                          "type": "full_platform",
+                          "test": {}
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "block": {
+                    "class": "widgets-block",
+                    "array": [
+                      {
+                        "clock": {}
+                      },
+                      {
+                        "btn": {
+                          "class": "btn btn-transparent share-screen",
+                          "title": "share screen",
+                          "link": "http://get.teamviewer.com/bvgvdhr",
+                          "target": "window"
+                        }
+                      },
+                      {
+                        "account-balance": {
+                          "array": [
+                            {
+                              "headline": {
+                                "title": "ACCOUNT BALANCE",
+                                "class": "hl4"
+                              },
+                              "precedence": 0
+                            },
+                            {
+                              "headline-fitText": {
+                                "title": "",
+                                "class": "hl1",
+                                "id": "userBalance"
+                              },
+                              "precedence": 1
+                            },
+                            {
+                              "btn": {
+                                "class": "",
+                                "title": "DEPOSIT",
+                                "destination": "deposit"
+                              },
+                              "precedence": 2
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "how-to-trade": {
+                          "array": [
+                            {
+                              "headline": {
+                                "class": "hl4",
+                                "title": "HOW TO TRADE"
+                              }
+                            },
+                            {
+                              "tab-set": {
+                                "selectTabs": true,
+                                "array": [
+                                  {
+                                    "tab-btn": {
+                                      "class": "tabBtn",
+                                      "title": "CFD",
+                                      "array": [
+                                        {
+                                          "tab-container": {
+                                            "class": "",
+                                            "array": [
+                                              {
+                                                "unordered-list": {
+                                                  "ordered": true,
+                                                  "class": "center styled",
+                                                  "array": [
+                                                    {
+                                                      "list-item": {
+                                                        "content": "Specify the asset that you want to trade."
+                                                      },
+                                                      "precedence": 0
+                                                    },
+                                                    {
+                                                      "list-item": {
+                                                        "content": "Specify the amount of leverage that you want to use."
+                                                      },
+                                                      "precedence": 1
+                                                    },
+                                                    {
+                                                      "list-item": {
+                                                        "content": "Specify the 'Stop Loss' (maximum loss) that you are willing to incur."
+                                                      },
+                                                      "precedence": 2
+                                                    },
+                                                    {
+                                                      "list-item": {
+                                                        "content": "Specify the 'Take Profit' (maximum profit) that you are hoping to achieve."
+                                                      },
+                                                      "precedence": 3
+                                                    },
+                                                    {
+                                                      "list-item": {
+                                                        "content": "Select \"Buy\" if you expect the rate to increase; or, select \"Sell\" if you expect the rate to decrease."
+                                                      },
+                                                      "precedence": 4
+                                                    },
+                                                    {
+                                                      "content-body": {
+                                                        "class": "",
+                                                        "text": "Please note: the ‘Stop Loss’ and ‘Take Profit’ can be changed over the course of a trade."
+                                                      }
+                                                    }
+                                                  ]
+                                                }
+                                              }
+                                            ]
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  },
+                                  {
+                                    "tab-btn": {
+                                      "class": "tabBtn",
+                                      "title": "Binary",
+                                      "array": [
+                                        {
+                                          "tab-container": {
+                                            "array": [
+                                              {
+                                                "unordered-list": {
+                                                  "ordered": true,
+                                                  "class": "center styled",
+                                                  "array": [
+                                                    {
+                                                      "list-item": {
+                                                        "content": "Specify the asset that you want to trade."
+                                                      },
+                                                      "precedence": 0
+                                                    },
+                                                    {
+                                                      "list-item": {
+                                                        "content": "Specify when you want the option to expire."
+                                                      },
+                                                      "precedence": 1
+                                                    },
+                                                    {
+                                                      "list-item": {
+                                                        "content": "Specify the amount that you want to trade."
+                                                      },
+                                                      "precedence": 2
+                                                    },
+                                                    {
+                                                      "list-item": {
+                                                        "content": "Select \"Call\" if you expect the asset's price to be higher than the offered price when the option expires; or, select \"Put\" if you expect the asset's price to be lower than the offered price when the option expires."
+                                                      },
+                                                      "precedence": 3
+                                                    }
+                                                  ]
+                                                }
+                                              }
+                                            ]
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  },
+                                  {
+                                    "tab-btn": {
+                                      "class": "tabBtn",
+                                      "title": "One Touch",
+                                      "array": [
+                                        {
+                                          "tab-container": {
+                                            "array": [
+                                              {
+                                                "unordered-list": {
+                                                  "ordered": true,
+                                                  "class": "center styled",
+                                                  "array": [
+                                                    {
+                                                      "list-item": {
+                                                        "content": "Specify the asset that you want to trade."
+                                                      },
+                                                      "precedence": 0
+                                                    },
+                                                    {
+                                                      "list-item": {
+                                                        "content": "Specify the amount that you want to trade."
+                                                      },
+                                                      "precedence": 1
+                                                    },
+                                                    {
+                                                      "list-item": {
+                                                        "content": " Click \"Apply\" if you believe the asset's price will reach the listed Goal Rate at least once before the option expires."
+                                                      },
+                                                      "precedence": 2
+                                                    }
+                                                  ]
+                                                }
+                                              }
+                                            ]
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  },
+                                  {
+                                    "tab-btn": {
+                                      "class": "tabBtn",
+                                      "title": "Ladder",
+                                      "array": [
+                                        {
+                                          "tab-container": {
+                                            "array": [
+                                              {
+                                                "unordered-list": {
+                                                  "ordered": true,
+                                                  "class": "center styled",
+                                                  "array": [
+                                                    {
+                                                      "list-item": {
+                                                        "content": "Specify the asset that you want to trade."
+                                                      },
+                                                      "precedence": 0
+                                                    },
+                                                    {
+                                                      "list-item": {
+                                                        "content": "Specify when you want the option to expiry."
+                                                      },
+                                                      "precedence": 1
+                                                    },
+                                                    {
+                                                      "list-item": {
+                                                        "content": "Specify the amount that you want to trade."
+                                                      },
+                                                      "precedence": 2
+                                                    },
+                                                    {
+                                                      "list-item": {
+                                                        "content": "For any of the price levels 5 price levels quoted: select \"Above\" if you expect the asset price to reach above the price level before the option expires; or, select \"Below\" if you expect the asset price to reach below the price level before the option expires."
+                                                      },
+                                                      "precedence": 3
+                                                    },
+                                                    {
+                                                      "content-body": {
+                                                        "text": "Please note: different ladder price level offer different potential payouts/losses."
+                                                      }
+                                                    }
+                                                  ]
+                                                }
+                                              }
+                                            ]
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,275 @@
+{
+  "page-name": "articles",
+  "page-type": "page",
+  "class": "",
+  "title": "Las noticias del mercado son publicadas diariamente por el Grupo Hedgestone",
+  "description": "Hedgestone Group publishes daily stock market news in which it highlights movements of major currencies, commodities, main indices, and individual companies.",
+  "keywords": "Daily market analysis; global stock market; currencies; commodities.",
+  "array": [
+    {
+      "section": {
+        "sectionName": "articles-top-section",
+        "sectionType": "top-section deposit-top-section",
+        "background": "/assets/images/sections/Wash.png",
+        "containerClass": "container",
+        "class": "text-center relative-position",
+        "array": [
+          {
+            "content": {
+              "class": "",
+              "array": [
+                {
+                  "headline": {
+                    "class": "hl1",
+                    "title": "Noticias del mercado"
+                  }
+                },
+                {
+                  "content-body": {
+                    "text": "Manténgase al tanto de los importantes desarrollos del mercado con Hedgestone.",
+                    "class": ""
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "sectionName": "articles-section",
+        "sectionType": "article-section",
+        "background": "",
+        "containerClass": "",
+        "class": "no-padding relative-position",
+        "array": [
+          {
+            "tab-set": {
+              "id": "latest_news",
+              "class": "",
+              "array": [
+                {
+                  "tab-btn": {
+                    "class": "",
+                    "title": "All",
+                    "array": [
+                      {
+                        "tab-container": {
+                          "class": "",
+                          "array": [
+                            {
+                              "article-list": {
+                                "type": "articles",
+                                "class": "",
+                                "array": [],
+                                "category": "all"
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "tab-btn": {
+                    "class": "",
+                    "title": "Noticias Diarias del Mercado",
+                    "array": [
+                      {
+                        "tab-container": {
+                          "category": "market",
+                          "class": "",
+                          "array": [
+                            {
+                              "article-list": {
+                                "type": "articles",
+                                "class": "",
+                                "category": "market",
+                                "array": []
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "tab-btn": {
+                    "class": "",
+                    "title": "Blog de Hedgestone",
+                    "array": [
+                      {
+                        "tab-container": {
+                          "category": "blog",
+                          "class": "",
+                          "array": [
+                            {
+                              "article-list": {
+                                "type": "articles",
+                                "class": "",
+                                "category": "blog",
+                                "array": []
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }                
+              ]
+            }
+          },
+          {
+            "read-more": {
+              "max": 8,
+              "filter": "articles"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "sectionName": "economical-calendar",
+        "sectionType": "relative-position light-background economical-calendar",
+        "class": "",
+        "containerClass": "container",
+        "array": [
+          {
+            "content": {
+              "class": "",
+              "array": [
+                {
+                  "headline": {
+                    "class": "hl5 text-center",
+                    "title": "Calendario económico"
+                  }
+                },
+                {
+                  "economic-calendar": {
+                  }
+                },
+                {
+                  "content-body": {
+                    "text": "The real-time Economic Calendar covers economic events and indicators from all over the world. It's automatically updated when new data is released. The Real-time Economic Calendar only provides<br>general information and it is not meant to be a trading guide. FXStreet commits to offer the most accurate contents but due to the large amount of data and the wide range of official sources, FXStreet<br>cannot be held responsible for the eventual inaccuracies that might occur. The Real-time Economic Calendar may also be subject to change without any previous notice. "
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "block": {
+              "class": "arrow",
+              "background": "assets/images/sections/arrow.png"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "sectionName": "bottom-section",
+        "sectionType": "open-account-section",
+        "class": "bottom-section",
+        "background": "",
+        "containerClass": "",
+        "array": [
+          {
+            "content": {
+              "class": "",
+              "array": [
+                {
+                  "ng-image": {
+                    "image-name": "asset-test",
+                    "src": "assets/icons/Logo.png",
+                    "alt": "some asset",
+                    "type": "img",
+                    "class": "center-img",
+                    "responsive": true
+                  }
+                },
+                {
+                  "block": {
+                    "class": "text-center",
+                    "array": [
+                      {
+                        "content-body": {
+                          "class": "",
+                          "text": "READY TO GET STARTED?"
+                        },
+                        "precedence": 0
+                      },
+                      {
+                        "headline": {
+                          "title": "Powerful. Dynamic. Limitless.",
+                          "class": "hl5"
+                        },
+                        "precedence": 1
+                      },
+                      {
+                        "block": {
+                          "class": "padded-block",
+                          "array": [
+                            {
+                              "logged-in": {
+                                "array": [
+                                  {
+                                    "btn": {
+                                      "class": "btn btn-transparent centered-btn",
+                                      "title": "trade",
+                                      "destination": "trade"
+                                    },
+                                    "precedence": 4
+                                  },
+                                  {
+                                    "btn": {
+                                      "class": "centered-btn",
+                                      "title": "how it works",
+                                      "destination": "education"
+                                    },
+                                    "precedence": 5
+                                  }
+                                ]
+                              }
+                            },
+                            {
+                              "anonymous": {
+                                "array": [
+                                  {
+                                    "btn": {
+                                      "class": "btn btn-transparent centered-btn",
+                                      "title": "open an account",
+                                      "destination": "create_account"
+                                    },
+                                    "precedence": 4
+                                  },
+                                  {
+                                    "btn": {
+                                      "class": "centered-btn",
+                                      "title": "how it works",
+                                      "destination": "education"
+                                    },
+                                    "precedence": 5
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        },
+                        "precedence": 3
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

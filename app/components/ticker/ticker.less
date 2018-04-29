@@ -1,0 +1,32 @@
+@import (reference)  "../../../assets/less/resources.less";
+
+.ticker {
+  position: relative;
+  float: left;
+  width: 100%;
+  .tickerContainer {
+    float: left;
+    background-color: @light-bg-color;
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+    .link-transition(height);
+    &.open {
+      height: 197px;
+
+      .tickerAsset {
+        height: 197px;
+        .link-transition(height);
+      }
+    }
+  }
+
+  .tickerText {
+    width: 100%;
+    position: absolute;
+    bottom: -50px;
+    left: 0;
+    text-align: center;
+    color: @content-body-color;
+  }
+}

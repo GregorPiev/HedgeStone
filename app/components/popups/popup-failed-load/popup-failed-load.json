@@ -1,0 +1,21 @@
+{
+  "primaryHeadline": {
+    "title": "Failed to Load Page",
+    "class": "hl1"
+  },
+  "secondaryHeadline": {
+    "title": "important notice",
+    "class": "hl7"
+  },
+  "content": {
+    "text": "We are experiencing problems with loading the web page at the moment. <br>Please, click the \"Retry\" button to reload.<br>In case you continue experiencing problems with loading this page, please, contact our customer support team at support@hedgestonegroup.com. <br><br>Thank you."
+  },
+  "yesBtn": {
+    "title": "Contact Us",
+    "class": "btn"
+  },
+  "cancelBtn": {
+    "title": "Retry",
+    "class": "btn btn-transparent"
+  }
+}

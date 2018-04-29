@@ -1,0 +1,316 @@
+{
+  "page-name": "trade",
+  "page-type": "page",
+  "class": "",
+  "title": "Los operadores deberían saber que comerciar implica riesgos.",
+  "description": "Comerciar implica riesgos. Los operadores deben tener muy claro cuál es la moneda que quieren comerciar, qué opciones eligen, y la cantidad de dinero que desean invertir.",
+  "keywords": "Riesgo; comercio de opciones binarias; CFD; OneTouch; escalera; volumen más alto de operaciones",
+  "array": [
+    {
+      "section": {
+        "sectionName": "trade-top-section",
+        "sectionType": "top-section trade-top-section",
+        "containerClass": "container",
+        "class": "text-center dark-background",
+        "array": [
+          {
+            "content": {
+              "class": "",
+              "array": [
+                {
+                  "headline": {
+                    "title": "Plataforma Operativa",
+                    "class": "hl1"
+                  },
+                  "precedence": 0
+                },
+                {
+                  "content-body": {
+                    "class": "",
+                    "text": "El comercio de Opciones Binarias implica un riesgo sustancial y puede resultar en la pérdida del capital invertido."
+                  },
+                  "precedence": 2
+                },
+                {
+                  "block": {
+                    "class": "platform-block",
+                    "array": [
+                      {
+                        "platform": {
+                          "type": "full_platform",
+                          "test": {}
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "block": {
+                    "class": "widgets-block",
+                    "array": [
+                      {
+                        "clock": {}
+                      },
+                      {
+                        "btn": {
+                          "class": "btn btn-transparent share-screen",
+                          "title": "pantalla-compartida",
+                          "link": "http://get.teamviewer.com/bvgvdhr",
+                          "target": "window"
+                        }
+                      },
+                      {
+                        "account-balance": {
+                          "array": [
+                            {
+                              "headline": {
+                                "title": "SALDO DE LA CUENTA",
+                                "class": "hl4"
+                              },
+                              "precedence": 0
+                            },
+                            {
+                              "headline-fitText": {
+                                "title": "",
+                                "class": "hl1",
+                                "id": "userBalance"
+                              },
+                              "precedence": 1
+                            },
+                            {
+                              "btn": {
+                                "class": "",
+                                "title": "DEPOSITAR",
+                                "destination": "deposit"
+                              },
+                              "precedence": 2
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "how-to-trade": {
+                          "array": [
+                            {
+                              "headline": {
+                                "class": "hl4",
+                                "title": "CÓMO COMERCIAR"
+                              }
+                            },
+                            {
+                              "tab-set": {
+                                "selectTabs": true,
+                                "array": [
+                                  {
+                                    "tab-btn": {
+                                      "class": "tabBtn",
+                                      "title": "CFD",
+                                      "array": [
+                                        {
+                                          "tab-container": {
+                                            "class": "",
+                                            "array": [
+                                              {
+                                                "unordered-list": {
+                                                  "ordered": true,
+                                                  "class": "center styled",
+                                                  "array": [
+                                                    {
+                                                      "list-item": {
+                                                        "content": "Especifique el activo que desea comerciar."
+                                                      },
+                                                      "precedence": 0
+                                                    },
+                                                    {
+                                                      "list-item": {
+                                                        "content": "Especifique la cantidad de apalancamiento que desea utilizar."
+                                                      },
+                                                      "precedence": 1
+                                                    },
+                                                    {
+                                                      "list-item": {
+                                                        "content": "Especifique el 'Parar Pérdida' (pérdida máxima) que está dispuesto a efectuar."
+                                                      },
+                                                      "precedence": 2
+                                                    },
+                                                    {
+                                                      "list-item": {
+                                                        "content": "Especifique el 'Tomar Ganancia' (ganancia máxima) que está dispuesto a efectuar."
+                                                      },
+                                                      "precedence": 3
+                                                    },
+                                                    {
+                                                      "list-item": {
+                                                        "content": "Seleccione \"Comprar\ "si espera que la tasa aumente, o bien, seleccione \ 'vender\' si espera que la tasa disminuya."
+                                                      },
+                                                      "precedence": 4
+                                                    },
+                                                    {
+                                                      "content-body": {
+                                                        "class": "",
+                                                        "text": "Por favor, tenga en cuenta: el 'Parar Pérdida' y el  'Tomar Ganancia' pueden cambiarse en el transcurso de una operación."
+                                                      }
+                                                    }
+                                                  ]
+                                                }
+                                              }
+                                            ]
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  },
+                                  {
+                                    "tab-btn": {
+                                      "class": "tabBtn",
+                                      "title": "Binary",
+                                      "array": [
+                                        {
+                                          "tab-container": {
+                                            "array": [
+                                              {
+                                                "unordered-list": {
+                                                  "ordered": true,
+                                                  "class": "center styled",
+                                                  "array": [
+                                                    {
+                                                      "list-item": {
+                                                        "content": "Especifique el activo que desea comerciar."
+                                                      },
+                                                      "precedence": 0
+                                                    },
+                                                    {
+                                                      "list-item": {
+                                                        "content": "Especifique cuándo desea que la opción venza."
+                                                      },
+                                                      "precedence": 1
+                                                    },
+                                                    {
+                                                      "list-item": {
+                                                        "content": "Especifique el importe que desea comerciar."
+                                                      },
+                                                      "precedence": 2
+                                                    },
+                                                    {
+                                                      "list-item": {
+                                                        "content": "Seleccione \"Llamar\" si espera que el precio del activo sea mayor que el precio ofrecido cuando la opción venza, o bien, seleccione \"Poner\" si espera que el precio del activo sea inferior al precio ofrecido cuando la opción venza."
+                                                      },
+                                                      "precedence": 3
+                                                    }
+                                                  ]
+                                                }
+                                              }
+                                            ]
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  },
+                                  {
+                                    "tab-btn": {
+                                      "class": "tabBtn",
+                                      "title": "One Touch",
+                                      "array": [
+                                        {
+                                          "tab-container": {
+                                            "array": [
+                                              {
+                                                "unordered-list": {
+                                                  "ordered": true,
+                                                  "class": "center styled",
+                                                  "array": [
+                                                    {
+                                                      "list-item": {
+                                                        "content": "Especifique el activo que desea comerciar."
+                                                      },
+                                                      "precedence": 0
+                                                    },
+                                                    {
+                                                      "list-item": {
+                                                        "content": "Especifique el importe que desea comerciar."
+                                                      },
+                                                      "precedence": 1
+                                                    },
+                                                    {
+                                                      "list-item": {
+                                                        "content": " Haga clic en \"Aplicar\" si usted cree que el precio del activo llegará a la Tasa Objetivo al menos una vez antes del vencimiento de la opción."
+                                                      },
+                                                      "precedence": 2
+                                                    }
+                                                  ]
+                                                }
+                                              }
+                                            ]
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  },
+                                  {
+                                    "tab-btn": {
+                                      "class": "tabBtn",
+                                      "title": "Escalera",
+                                      "array": [
+                                        {
+                                          "tab-container": {
+                                            "array": [
+                                              {
+                                                "unordered-list": {
+                                                  "ordered": true,
+                                                  "class": "center styled",
+                                                  "array": [
+                                                    {
+                                                      "list-item": {
+                                                        "content": "Especifique el activo que desea comerciar."
+                                                      },
+                                                      "precedence": 0
+                                                    },
+                                                    {
+                                                      "list-item": {
+                                                        "content": "Especifique cuándo desea que la opción venza."
+                                                      },
+                                                      "precedence": 1
+                                                    },
+                                                    {
+                                                      "list-item": {
+                                                        "content": "Especifique el importe que desea comerciar."
+                                                      },
+                                                      "precedence": 2
+                                                    },
+                                                    {
+                                                      "list-item": {
+                                                        "content": "Para cualquiera de los niveles de precios, 5 niveles de precio cotizan: seleccione \" Por encima de \" si espera que el precio de los activos pase por encima del nivel de precios antes de que venza la opción, o bien, seleccione \ 'Por debajo de \' si espera que el precio de los activos esté por debajo del nivel de precios, antes del vencimiento de la opción"
+                                                      },
+                                                      "precedence": 3
+                                                    },
+                                                    {
+                                                      "content-body": {
+                                                        "text": "Tenga en cuenta: diferentes niveles de precios de escalera ofrecen diferentes pagos potenciales/pérdidas."
+                                                      }
+                                                    }
+                                                  ]
+                                                }
+                                              }
+                                            ]
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

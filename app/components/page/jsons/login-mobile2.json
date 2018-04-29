@@ -1,0 +1,218 @@
+{
+  "page-name": "login",
+  "page-type": "page",
+  "class": "",
+  "array": [
+    {
+      "section": {
+        "sectionName": "login-top-section",
+        "sectionType": "login-section",
+        "class": "dark-background relative-position",
+        "array": [
+          {
+            "block": {
+              "class": "login-container",
+              "array": [
+                {
+                  "headline": {
+                    "title": "Login to your account",
+                    "class": "hl1 text-center"
+                  }
+                },
+                {
+                  "content-body": {
+                    "class": "text-center smaller-content",
+                    "text": "Enter your login details to access the Hedgestone platform."
+                  }
+                },
+                {
+                  "block": {
+                    "class": "col-sm-4 col-xs-12 text-center",
+                    "array": [
+                      {
+                        "content-body": {
+                          "class": "no-padding smaller-content",
+                          "text": "Don't Have an account? <br><a ui-sref=\"create_account\">Open An Account</a>"
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "block": {
+                    "class": "col-sm-8 col-xs-12 padded-block",
+                    "array": [
+                      {
+                        "login-form": {
+                          "class": "",
+                          "form": {
+                            "name": "test",
+                            "forgot": {
+                              "class": "link col-xs-12 col-sm-6 forgot-pass",
+                              "title": "Forgot Password",
+                              "destination": "forgot_password"
+                            },
+                            "submit": {
+                              "class": "",
+                              "content": "login"
+                            },
+                            "groups": [
+                              {
+                                "label": {
+                                  "title": "Email Address"
+                                },
+                                "filed": {
+                                  "element": "input",
+                                  "type": "text",
+                                  "required": true,
+                                  "model": "",
+                                  "class": "col-xs-12 no-padding",
+                                  "name": "Email",
+                                  "placeholder": "",
+                                  "pattern": "email",
+                                  "msgBox": {
+                                    "pattern": "Invalid email address",
+                                    "required": "This field is required!"
+                                  }
+                                }
+                              },
+                              {
+                                "label": {
+                                  "title": "Password"
+                                },
+                                "filed": {
+                                  "element": "input",
+                                  "type": "password",
+                                  "required": true,
+                                  "model": "",
+                                  "class": "col-xs-12 no-padding",
+                                  "name": "Password",
+                                  "placeholder": "",
+                                  "msgBox": {
+                                    "pattern": "Invalid email address",
+                                    "required": "This field is required!"
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "block": {
+              "class": "arrow",
+              "background": "assets/images/sections/arrow.png"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "sectionName": "bottom-section",
+        "sectionType": "open-account-section",
+        "class": "bottom-section",
+        "background": "",
+        "containerClass": "",
+        "array": [
+          {
+            "content": {
+              "class": "",
+              "array": [
+                {
+                  "ng-image": {
+                    "image-name": "asset-test",
+                    "src": "assets/icons/Logo.png",
+                    "alt": "some asset",
+                    "type": "img",
+                    "class": "center-img",
+                    "responsive": true
+                  }
+                },
+                {
+                  "block": {
+                    "class": "text-center",
+                    "array": [
+                      {
+                        "content-body": {
+                          "class": "",
+                          "text": "READY TO GET STARTED?"
+                        },
+                        "precedence": 0
+                      },
+                      {
+                        "headline": {
+                          "title": "Powerful. Dynamic. Limitless.",
+                          "class": "hl5"
+                        },
+                        "precedence": 1
+                      },
+                      {
+                        "block": {
+                          "class": "padded-block",
+                          "array": [
+                            {
+                              "logged-in" : {
+                                "array": [
+                                  {
+                                    "btn": {
+                                      "class": "btn btn-transparent centered-btn",
+                                      "title": "trade",
+                                      "destination": "trade"
+                                    },
+                                    "precedence": 4
+                                  },
+                                  {
+                                    "btn": {
+                                      "class": "centered-btn",
+                                      "title": "how it works",
+                                      "destination": "education"
+                                    },
+                                    "precedence": 5
+                                  }
+                                ]
+                              }
+                            },
+                            {
+                              "anonymous": {
+                                "array": [
+                                  {
+                                    "btn": {
+                                      "class": "btn btn-transparent centered-btn",
+                                      "title": "open an account",
+                                      "destination": "create_account"
+                                    },
+                                    "precedence": 4
+                                  },
+                                  {
+                                    "btn": {
+                                      "class": "centered-btn",
+                                      "title": "how it works",
+                                      "destination": "education"
+                                    },
+                                    "precedence": 5
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        },
+                        "precedence": 3
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+<div class="popupFrame">
+    <div class="popupSuccess">
+        <div class="closeImg" ng-click="popupSuccess.cancel()">
+            <i class="fa fa-times"></i>
+        </div>
+        <div class="popup-content">
+            <ng-image ng-if="popupSuccess.popupData.img" data="popupSuccess.popupData.img"></ng-image>
+            <headline data="popupSuccess.popupData.headline"></headline>
+            <!--pay attention to change content body to proper attr-->
+            <content-body data="popupSuccess.popupData.content"></content-body>
+        </div>
+    </div>
+</div>

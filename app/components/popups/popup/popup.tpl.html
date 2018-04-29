@@ -1,0 +1,29 @@
+<div class="popupFrame">
+    <div class="popup">
+        <div class="closeImg" ng-click="::popup.cancel()" ng-hide="::removecancel">
+            <i class="fa fa-times"></i>
+        </div>
+        <div class="popup-content">
+            <ng-image ng-if="popup.popupData.img" data="popup.popupData.img"></ng-image>
+            <headline data="popup.popupData.secondaryHeadline"></headline>
+            <headline data="popup.popupData.primaryHeadline"></headline>
+            <!--pay attention to change content body to proper attr-->
+            <content-body data="popup.popupData.content"></content-body>
+            <div class="popupCheckbox" ng-if="popup.popupData.checkbox">
+                <input ng-model="popup.acceptTerms" type="checkbox" id="checkbox">
+                <label for="checkbox" ng-bind-html="popup.popupData.checkbox.text | unsafe"></label>
+            </div>
+            <div class="btns-block">
+                <btn ng-if="popup.popupData.yesBtn.title" data="popup.popupData.yesBtn" btn-function="popup.yes"></btn>
+                <btn ng-if="popup.popupData.acceptBtn.title" data="popup.popupData.acceptBtn" btn-function="popup.yes"
+                     ng-disabled="!popup.acceptTerms"></btn>
+                <btn ng-if="popup.popupData.cancelBtn.title" data="popup.popupData.cancelBtn" btn-function="popup.no"></btn>
+            </div>
+            <div class="popupDataTerms" ng-if="popup.popupData.terms" ng-cloak>
+                <scrollable always-visible="true" class="orangeScroller">
+                    <div ng-bind-html="popup.popupData.terms.text | unsafe"></div>
+                </scrollable>
+            </div>
+        </div>
+    </div>
+</div>

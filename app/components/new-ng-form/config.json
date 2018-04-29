@@ -1,0 +1,60 @@
+{
+  "name": "test",
+  "submit": {
+    "class": "col-xs-6",
+    "content": "Submit TEXT"
+  },
+  "fields": [
+    {
+      "element": "input",
+      "type": "text",
+      "required": true,
+      "model": "",
+      "class": "col-xs-12",
+      "name": "Email",
+      "minlength": 10,
+      "maxlength": 20,
+      "placeholder": "bnaya a geve",
+      "pattern": "email",
+      "icon": {
+        "type": "fa",
+        "name": "fa-user"
+      },
+      "msgBox": {
+        "pattern": "Invalid email address",
+        "minlength": "Email Address to short",
+        "required": "This field is required!",
+        "maxlength": "Email Address to long"
+      }
+    },
+    {
+      "element": "select",
+      "required": true,
+      "model": "",
+      "class": "",
+      "name": "country",
+      "icon": {
+        "type": "fa",
+        "name": "fa-user"
+      },
+      "options": [
+        {
+          "id": 1,
+          "label": "aLabel",
+          "subItem": { "name": "aSubItem" }
+        },
+        {
+          "id": 1,
+          "label": "test",
+          "subItem": { "name": "aSubItem" }
+        }
+      ],
+      "msgBox": {
+        "pattern": "Invalid email address",
+        "minlength": "Email Address to short",
+        "required": "This field is required!",
+        "maxlength": "Email Address to long"
+      }
+    }
+  ]
+}

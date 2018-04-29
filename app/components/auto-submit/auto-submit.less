@@ -1,0 +1,27 @@
+@import (reference) "../../../assets/less/resources";
+
+.autoSubmit {
+  display: block;
+  position: fixed;
+  z-index: 99999;
+  width: 100%;
+  height: 100%;
+  top: 0;
+
+  .autoSubmitContainer {
+    position: fixed;
+
+    .closeImg {
+      position: absolute;
+    }
+    .autoSubmitFrameWrapper {
+      width: 100%;
+      height: 100%;
+    }
+    iframe {
+      width: 100%;
+      height: 100%;
+      padding: 10px;
+    }
+  }
+}

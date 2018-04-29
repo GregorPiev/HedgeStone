@@ -1,0 +1,249 @@
+{
+  "page-name": "guides",
+  "page-type": "page",
+  "class": "",
+  "title": "Las guías comerciales ayudan a los clientes a perfeccionar sus habilidades.",
+  "keywords": "Guías comerciales descargables; opciones comerciales binarias; comercio de CFD, herramientas educativas",
+  "description": "Las guías comerciales descargables del Grupo Hedgestone le enseñan a los clientes todo lo que necesitan saber acerca de las opciones binarias y el comercio de CFD para invertir con éxito.",
+  "array": [
+    {
+      "section": {
+        "sectionName": "articles-top-section",
+        "sectionType": "top-section deposit-top-section",
+        "background": "/assets/images/sections/Wash.png",
+        "containerClass": "container",
+        "class": "text-center relative-position",
+        "array": [
+          {
+            "content": {
+              "class": "",
+              "array": [
+                {
+                  "headline": {
+                    "class": "hl1",
+                    "title": "Guías Comerciales"
+                  }
+                },
+                {
+                  "content-body": {
+                    "text": "Guías descargables que le enseñan los pros y contras del comercio con Hedgestone.",
+                    "class": ""
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "sectionName": "guides-section",
+        "sectionType": "guides-section",
+        "background": "",
+        "containerClass": "",
+        "class": "no-padding relative-position",
+        "array": [
+          {
+            "article-list": {
+              "class": "",
+              "type": "guides",
+              "array": [
+                {
+                  "tab-set": {
+                    "id": "guides",
+                    "class": "",
+                    "array": [
+                      {
+                        "tab-btn": {
+                          "class": "",
+                          "title": "Todos",
+                          "array": [
+                            {
+                              "tab-container": {
+                                "category": "All",
+                                "class": "",
+                                "array": []
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "tab-btn": {
+                          "class": "",
+                          "title": "Empezando",
+                          "array": [
+                            {
+                              "tab-container": {
+                                "category": "getting_started",
+                                "class": "",
+                                "array": []
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "tab-btn": {
+                          "class": "",
+                          "title": "Key Concepts",
+                          "array": [
+                            {
+                              "tab-container": {
+                                "category": "key_concepts",
+                                "class": "",
+                                "array": []
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "tab-btn": {
+                          "class": "",
+                          "title": "Fundamentos del Comercio",
+                          "array": [
+                            {
+                              "tab-container": {
+                                "category": "trading_essentials",
+                                "class": "",
+                                "array": []
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "tab-btn": {
+                          "class": "",
+                          "title": "Temas Avanzados",
+                          "array": [
+                            {
+                              "tab-container": {
+                                "category": "advanced_topics",
+                                "class": "",
+                                "array": []
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "block": {
+              "class": "arrow",
+              "background": "assets/images/sections/arrow.png"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "sectionName": "bottom-section",
+        "sectionType": "open-account-section",
+        "class": "bottom-section",
+        "background": "",
+        "containerClass": "",
+        "array": [
+          {
+            "content": {
+              "class": "",
+              "array": [
+                {
+                  "ng-image": {
+                    "image-name": "asset-test",
+                    "src": "assets/icons/Logo.png",
+                    "alt": "some asset",
+                    "type": "img",
+                    "class": "center-img",
+                    "responsive": true
+                  }
+                },
+                {
+                  "block": {
+                    "class": "text-center",
+                    "array": [
+                      {
+                        "content-body": {
+                          "class": "",
+                          "text": "¿LISTO PARA COMENZAR?"
+                        },
+                        "precedence": 0
+                      },
+                      {
+                        "headline": {
+                          "title": "Poderoso. Dinámico. Sin límites.",
+                          "class": "hl5"
+                        },
+                        "precedence": 1
+                      },
+                      {
+                        "block": {
+                          "class": "padded-block",
+                          "array": [
+                            {
+                              "logged-in" : {
+                                "array": [
+                                  {
+                                    "btn": {
+                                      "class": "btn btn-transparent centered-btn",
+                                      "title": "operación",
+                                      "destination": "trade"
+                                    },
+                                    "precedence": 4
+                                  },
+                                  {
+                                    "btn": {
+                                      "class": "centered-btn",
+                                      "title": "cómo funciona",
+                                      "destination": "education"
+                                    },
+                                    "precedence": 5
+                                  }
+                                ]
+                              }
+                            },
+                            {
+                              "anonymous": {
+                                "array": [
+                                  {
+                                    "btn": {
+                                      "class": "btn btn-transparent centered-btn",
+                                      "title": "abrir una cuenta",
+                                      "destination": "create_account"
+                                    },
+                                    "precedence": 4
+                                  },
+                                  {
+                                    "btn": {
+                                      "class": "centered-btn",
+                                      "title": "cómo funciona",
+                                      "destination": "education"
+                                    },
+                                    "precedence": 5
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        },
+                        "precedence": 3
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

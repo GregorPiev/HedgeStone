@@ -1,0 +1,586 @@
+{
+  "page-name": "tools",
+  "page-type": "page",
+  "class": "",
+  "title": "Las herramientas del Grupo Hedgestone garantizan el éxito comercial.",
+  "description": "El Grupo Hedgestone ofrece herramientas sofisticadas. El comercio de los clientes se ve facilitado por la interfaz de escritorio de gran alcance, las aplicaciones móviles, y la alimentación de datos en tiempo real.",
+  "keywords": "Herramientas; interfaz de escritorio, aplicaciones móviles, alimentación de datos del mercado en tiempo real.",
+  "array": [
+    {
+      "section": {
+        "sectionName": "tools-top-section",
+        "sectionType": "top-section",
+        "background": "assets/images/financial-page/1.jpg",
+        "containerClass": "container",
+        "class": "text-center dark-background",
+        "array": [
+          {
+            "content": {
+              "class": "",
+              "array": [
+                {
+                  "headline": {
+                    "title": "Tools",
+                    "class": "hl1"
+                  },
+                  "precedence": 0
+                },
+                {
+                  "block": {
+                    "class": "divider"
+                  }
+                },
+                {
+                  "content-body": {
+                    "class": "",
+                    "text": "Con la interfaz de escritorio de gran alcance y las aplicaciones móviles intuitivas, Hedgestone pone los mercados financieros globales a su alcance. Ya sea que esté realizando análisis para un potencial comercio, el seguimiento de operaciones existentes o la gestión de su cuenta, las herramientas de Hedgestone le dan una robusta y segura experiencia comercial."
+                  },
+                  "precedence": 2
+                },
+                {
+                  "card": {
+                    "class": "cell three-in-a-row text-center",
+                    "array": [
+                      {
+                        "ng-image": {
+                          "precedence": 1,
+                          "image-name": "asset-test",
+                          "src": "assets/icons/clock.png",
+                          "alt": "immediate",
+                          "type": "img",
+                          "class": "col-xs-12 text-center"
+                        }
+                      },
+                      {
+                        "headline": {
+                          "precedence": 0,
+                          "title": "Immediate",
+                          "class": "hl3"
+                        }
+                      },
+                      {
+                        "content-body": {
+                          "class": "",
+                          "precedence": 2,
+                          "text": "Las órdenes se reciben y ejecutan inmediatamente, por lo que sus posiciones siempre se bloquean antes de que cambien los mercados."
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "card": {
+                    "class": "cell three-in-a-row",
+                    "array": [
+                      {
+                        "ng-image": {
+                          "precedence": 1,
+                          "image-name": "asset-test",
+                          "src": "assets/icons/flag.png",
+                          "alt": "market leading",
+                          "type": "img",
+                          "class": "col-xs-12"
+                        }
+                      },
+                      {
+                        "headline": {
+                          "precedence": 0,
+                          "title": "Market-Leading",
+                          "class": "hl3"
+                        }
+                      },
+                      {
+                        "content-body": {
+                          "class": "",
+                          "precedence": 2,
+                          "text": "Las aplicaciones móviles nativas para Android otorgan acceso a la plataforma completa en movimiento."
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "card": {
+                    "class": "cell three-in-a-row",
+                    "array": [
+                      {
+                        "ng-image": {
+                          "precedence": 0,
+                          "image-name": "asset-test",
+                          "src": "assets/icons/target.png",
+                          "alt": "precisions",
+                          "type": "img",
+                          "class": "col-xs-12"
+                        }
+                      },
+                      {
+                        "headline": {
+                          "precedence": 1,
+                          "title": "Precision-Tuned",
+                          "class": "hl3"
+                        }
+                      },
+                      {
+                        "content-body": {
+                          "precedence": 2,
+                          "class": "",
+                          "text": "La alimentación de datos del mercado en tiempo real asegura que le entreguen a usted, las cotizaciones de precios que reflejan con precisión los mercados subyacentes."
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "sectionName": "trading-platform",
+        "sectionType": "content-asset-tools",
+        "background": "",
+        "containerClass": "container",
+        "class": "light-background relative-position",
+        "array": [
+          {
+            "asset": {
+              "array": [
+                {
+                  "ng-image": {
+                    "name": "",
+                    "src": "assets/images/sections/Screen.png",
+                    "alt": "screen",
+                    "type": "img",
+                    "class": "dividing-image",
+                    "responsive": "img-responsive "
+                  },
+                  "precedence": 0
+                }
+              ]
+            }
+          },
+          {
+            "content": {
+              "class": "",
+              "array": [
+                {
+                  "headline": {
+                    "title": "Trading Platform",
+                    "class": "hl5"
+                  }
+                },
+                {
+                  "content-body": {
+                    "class": "smaller-content",
+                    "text": "La plataforma de Hedgestone ofrece un acceso sin precedentes a los mercados financieros globales. Analizar, comerciar, monitorear y administrar - todo dentro de una sola interfaz."
+                  }
+                },
+                {
+                  "btn": {
+                    "class": "btn-transparent",
+                    "title": "Hable con un agente",
+                    "destination": "about"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "sectionName": "cards-tools",
+        "sectionType": "cards-section-tools",
+        "background": "",
+        "containerClass": "container",
+        "class": "light-background relative-position cards-tools ",
+        "array": [
+          {
+            "block" : {
+              "class": "cards-wrapper",
+              "array": [
+                {
+                  "content": {
+                    "class": "text-left",
+                    "array": [
+                      {
+                        "card": {
+                          "class": "cell four-in-a-row",
+                          "array": [
+                            {
+                              "headline": {
+                                "precedence": 1,
+                                "title": "Opere con CFD y opciones",
+                                "class": "hl4"
+                              }
+                            },
+                            {
+                              "content-body": {
+                                "precedence": 2,
+                                "class": "",
+                                "text": "Operar con CFD y opciones en conjunto, unos con otros, puede crear posiciones híbridas que cumplan los requisitos precisos para la obtención de la exposición a un activo subyacente en particular."
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "card": {
+                          "class": "cell four-in-a-row",
+                          "array": [
+                            {
+                              "headline": {
+                                "precedence": 1,
+                                "title": "Responda a los mercados cambiantes",
+                                "class": "hl4"
+                              }
+                            },
+                            {
+                              "content-body": {
+                                "precedence": 2,
+                                "class": "",
+                                "text": "Controle sus posiciones existentes y, en caso que los mercados cambien desfavorablemente, utilice las características avanzadas de las plataformas para hacer doble hacia abajo, salir tempranamente o extender el tiempo de vencimiento."
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "card": {
+                          "class": "cell four-in-a-row",
+                          "array": [
+                            {
+                              "headline": {
+                                "precedence": 1,
+                                "title": "Vea su cuenta de manera integral",
+                                "class": "hl4"
+                              }
+                            },
+                            {
+                              "content-body": {
+                                "precedence": 2,
+                                "class": "",
+                                "text": "Un análisis rico detallando posiciones pasado y actuales le permitirá identificar sus fortalezas comerciales, y ganar comprensión del valor total de sus posiciones abiertas en un momento dado."
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "card": {
+                          "class": "cell four-in-a-row",
+                          "array": [
+                            {
+                              "headline": {
+                                "precedence": 1,
+                                "title": "Administre su cuenta",
+                                "class": "hl4"
+                              }
+                            },
+                            {
+                              "content-body": {
+                                "precedence": 2,
+                                "class": "",
+                                "text": "Efectúe depósitos usando una variedad de métodos de pago, presente solicitudes de extracción y asegure que la información de su cuenta se mantenga al día, sin tener que levantar el teléfono."
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "block": {
+              "class": "arrow",
+              "background": "assets/images/financial-page/the-arrow.png"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "sectionName": "mobile-app",
+        "sectionType": "content-asset-tools",
+        "background": "",
+        "containerClass": "container",
+        "class": "dark-background relative-position",
+        "array": [
+          {
+            "asset": {
+              "array": [
+                {
+                  "ng-image": {
+                    "name": "",
+                    "src": "assets/images/sections/two-phones.png",
+                    "alt": "mobile",
+                    "type": "img",
+                    "class": "dividing-image",
+                    "responsive": "img-responsive "
+                  },
+                  "precedence": 0
+                }
+              ]
+            }
+          },
+          {
+            "content": {
+              "class": "",
+              "array": [
+                {
+                  "headline": {
+                    "title": "Aplicaciones Móviles",
+                    "class": "hl5"
+                  }
+                },
+                {
+                  "content-body": {
+                    "class": "smaller-content",
+                    "text": "La aplicación móvil nativa de Hedgestone para el dispositivo Android le trae los mercados financieros globales a la palma de su mano."
+                  }
+                },
+                {
+                  "btn": {
+                    "class": "btn-transparent",
+                    "title": "Hable con un agente",
+                    "destination": "about"
+                  }
+                },
+                {
+                  "btn": {
+                    "class": "",
+                    "title": "descargar aplicación",
+                    "destination": "download"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "sectionName": "cards-tools",
+        "sectionType": "cards-section-tools",
+        "background": "",
+        "containerClass": "container",
+        "class": "dark-background relative-position cards-tools",
+        "array": [
+          {
+            "block" : {
+              "class": "cards-wrapper",
+              "array": [
+                {
+                  "content": {
+                    "class": "text-left",
+                    "array": [
+                      {
+                        "card": {
+                          "class": "cell four-in-a-row",
+                          "array": [
+                            {
+                              "headline": {
+                                "precedence": 1,
+                                "title": "Datos de mercado en tiempo real",
+                                "class": "hl4"
+                              }
+                            },
+                            {
+                              "content-body": {
+                                "precedence": 2,
+                                "class": "",
+                                "text": "Acceda a los datos de mercado en tiempo real que reflejan estrechamente las cotizaciones de precios de los mercados subyacentes, y manténgase a la velocidad con las principales novedades del mercado, incluso cuando esté lejos de su escritorio."
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "card": {
+                          "class": "cell four-in-a-row",
+                          "array": [
+                            {
+                              "headline": {
+                                "precedence": 1,
+                                "title": "Movilidad sin compromiso",
+                                "class": "hl4"
+                              }
+                            },
+                            {
+                              "content-body": {
+                                "precedence": 2,
+                                "class": "",
+                                "text": "Analice los mercados, ejecute operaciones y controle sus posiciones existentes - por último, una experiencia de comercio móvil que da cuenta de todas las características esenciales del escritorio."
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "card": {
+                          "class": "cell four-in-a-row",
+                          "array": [
+                            {
+                              "headline": {
+                                "precedence": 1,
+                                "title": "Comercio móvil intuitivo",
+                                "class": "hl4"
+                              }
+                            },
+                            {
+                              "content-body": {
+                                "precedence": 2,
+                                "class": "",
+                                "text": "Benefíciese de una simple interfaz móvil, intuitiva, que proporciona toda la potencia de los instrumentos financieros de Hedgestone a través de su dispositivo de mano."
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "card": {
+                          "class": "cell four-in-a-row",
+                          "array": [
+                            {
+                              "headline": {
+                                "precedence": 1,
+                                "title": "Administre su cuenta",
+                                "class": "hl4"
+                              }
+                            },
+                            {
+                              "content-body": {
+                                "precedence": 2,
+                                "class": "",
+                                "text": "Deposite fondos en su cuenta operativa utilizando una variedad de métodos de pago, inicie solicitudes de extracción y actualice su información de cuenta - todo desde la palma de su mano."
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "block": {
+              "class": "arrow",
+              "background": "assets/images/sections/arrow.png"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "sectionName": "bottom-section",
+        "sectionType": "open-account-section",
+        "class": "bottom-section",
+        "background": "",
+        "containerClass": "",
+        "array": [
+          {
+            "content": {
+              "class": "",
+              "array": [
+                {
+                  "ng-image": {
+                    "image-name": "asset-test",
+                    "src": "assets/icons/Logo.png",
+                    "alt": "some asset",
+                    "type": "img",
+                    "class": "center-img",
+                    "responsive": "img-responsive centered-item"
+                  }
+                },
+                {
+                  "block": {
+                    "class": "text-center",
+                    "array": [
+                      {
+                        "content-body": {
+                          "class": "",
+                          "text": "¿LISTO PARA COMENZAR?"
+                        },
+                        "precedence": 0
+                      },
+                      {
+                        "headline": {
+                          "title": "Poderoso. Dinámico. Sin límites.",
+                          "class": "hl5"
+                        },
+                        "precedence": 1
+                      },
+                      {
+                        "block": {
+                          "class": "padded-block",
+                          "array": [
+                            {
+                              "logged-in" : {
+                                "array": [
+                                  {
+                                    "btn": {
+                                      "class": "btn btn-transparent centered-btn",
+                                      "title": "operación",
+                                      "destination": "trade"
+                                    },
+                                    "precedence": 4
+                                  },
+                                  {
+                                    "btn": {
+                                      "class": "centered-btn",
+                                      "title": "cómo funciona",
+                                      "destination": "education"
+                                    },
+                                    "precedence": 5
+                                  }
+                                ]
+                              }
+                            },
+                            {
+                              "anonymous": {
+                                "array": [
+                                  {
+                                    "btn": {
+                                      "class": "btn btn-transparent centered-btn",
+                                      "title": "abrir una cuenta",
+                                      "destination": "create_account"
+                                    },
+                                    "precedence": 4
+                                  },
+                                  {
+                                    "btn": {
+                                      "class": "centered-btn",
+                                      "title": "cómo funciona",
+                                      "destination": "education"
+                                    },
+                                    "precedence": 5
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        },
+                        "precedence": 3
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

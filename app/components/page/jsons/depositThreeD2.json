@@ -1,0 +1,788 @@
+{
+  "page-name": "deposit",
+  "page-type": "page",
+  "class": "",
+  "description": "Customers who wish to make a deposit, should use methods approved by Hedgestone Group and fill their card’s details carefully not leaving out required information.",
+  "title": "Clients should use approved methods to deposit money.",
+  "keywords": "Deposit; approved methods; card information; payment details.",
+  "array": [
+    {
+      "auto-submit": {}
+    },
+    {
+      "custom-iframe": {}
+    },
+    {
+      "section": {
+        "sectionName": "deposit-top-section",
+        "sectionType": "deposit-top-section",
+        "background": "/assets/images/sections/Wash.png",
+        "containerClass": "container",
+        "class": "text-center",
+        "array": [
+          {
+            "content": {
+              "class": "",
+              "array": [
+                {
+                  "headline": {
+                    "class": "hl1",
+                    "title": "Add funds to your account"
+                  }
+                },
+                {
+                  "content-body": {
+                    "text": "Use one of our approved methods to deposit funds.",
+                    "class": ""
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "sectionName": "deposit-form",
+        "sectionType": "deposit-form",
+        "background": "",
+        "class": "text-center relative-position no-padding",
+        "array": [
+          {
+            "tab-set": {
+              "array": [
+                {
+                  "tab-btn": {
+                    "icon": {
+                      "src": "/assets/icons/Visa.png"
+                    },
+                    "class": "tabBtn with-icon",
+                    "title": "Pay with Card",
+                    "array": [
+                      {
+                        "tab-container": {
+                          "class": "",
+                          "array": [
+                            {
+                              "block": {
+                                "class": "cards-block",
+                                "array": [
+                                  {
+                                    "ng-image": {
+                                      "precedence": 1,
+                                      "image-name": "asset-test",
+                                      "src": "/assets/images/footer/cards/Visa.png",
+                                      "alt": "Visa",
+                                      "type": "img",
+                                      "class": ""
+                                    }
+                                  },
+                                  {
+                                    "ng-image": {
+                                      "precedence": 1,
+                                      "image-name": "asset-test",
+                                      "src": "/assets/images/footer/cards/Mastercard.png",
+                                      "alt": "Mastercard",
+                                      "type": "img",
+                                      "class": ""
+                                    }
+                                  },
+                                  {
+                                    "ng-image": {
+                                      "precedence": 1,
+                                      "image-name": "asset-test",
+                                      "src": "/assets/icons/Debit.png",
+                                      "alt": "Mastercard",
+                                      "type": "img",
+                                      "class": ""
+                                    }
+                                  }
+                                ]
+                              }
+                            },
+                            {
+                              "block": {
+                                "class": "d-form",
+                                "array": [
+                                  {
+                                    "deposit-three-d-form": {
+                                      "class": "text-left",
+                                      "form": {
+                                        "name": "test",
+                                        "submit": {
+                                          "class": "col-xs-6 no-padding",
+                                          "content": "deposit"
+                                        },
+                                        "groups": [
+                                          {
+                                            "headline": {
+                                              "class": "hl3",
+                                              "title": "Secured Payment Details"
+                                            },
+                                            "label": {
+                                              "title": "Amount"
+                                            },
+                                            "filed": {
+                                              "element": "input",
+                                              "type": "number",
+                                              "required": true,
+                                              "model": 250,
+                                              "class": "",
+                                              "name": "amount",
+                                              "min": 250,
+                                              "max": 25000,
+                                              "placeholder": "",
+                                              "pattern": "",
+                                              "withAddon": true,
+                                              "addon": "",
+                                              "msgBox": {
+                                                "required": "This field is required!",
+                                                "min": "The minimum deposit amount stands on 250.",
+                                                "max": "The maximum deposit amount stands on 25000."
+                                              }
+                                            }
+                                          },
+                                          {
+                                            "label": {
+                                              "title": "Promo Code (optional)"
+                                            },
+                                            "filed": {
+                                              "element": "input",
+                                              "type": "text",
+                                              "model": "",
+                                              "class": "left-side",
+                                              "name": "promo",
+                                              "placeholder": "",
+                                              "msgBox": {
+                                              }
+                                            },
+                                            "btn": {
+                                              "title": "apply",
+                                              "class": "side-btn",
+                                              "destination": ""
+                                            }
+                                          },
+                                          {
+                                            "headline": {
+                                              "title": "Card Information",
+                                              "class": "hl3"
+                                            },
+                                            "label": {
+                                              "title": "Credit Card Type"
+                                            },
+                                            "filed": {
+                                              "element": "select",
+                                              "options": [
+                                                {
+                                                  "id": 1,
+                                                  "label": "Master Card",
+                                                  "subItem": {
+                                                    "name": "master"
+                                                  }
+                                                },
+                                                {
+                                                  "id": 2,
+                                                  "label": "Visa",
+                                                  "subItem": {
+                                                    "name": "visa"
+                                                  }
+                                                },
+                                                {
+                                                  "id": 3,
+                                                  "label": "Visa Debit",
+                                                  "subItem": {
+                                                    "name": "visadebit"
+                                                  }
+                                                },
+                                                {
+                                                  "id": 4,
+                                                  "label": "Visa Electron",
+                                                  "subItem": {
+                                                    "name": "visaelectron"
+                                                  }
+                                                },
+                                                {
+                                                  "id": 5,
+                                                  "label": "Maestro",
+                                                  "subItem": {
+                                                    "name": "maestro"
+                                                  }
+                                                }
+                                              ],
+                                              "required": true,
+                                              "model": "",
+                                              "class": "",
+                                              "name": "card_type",
+                                              "placeholder": "",
+                                              "msgBox": {
+                                                "required": "This field is required!"
+                                              }
+                                            }
+                                          },
+                                          {
+                                            "label": {
+                                              "title": "Credit Card Number"
+                                            },
+                                            "filed": {
+                                              "element": "input",
+                                              "type": "number",
+                                              "required": true,
+                                              "model": "",
+                                              "class": "",
+                                              "name": "cc_number",
+                                              "placeholder": "",
+                                              "msgBox": {
+                                                "required": "This field is required!"
+                                              }
+                                            }
+                                          },
+                                          {
+                                            "label": {
+                                              "title": "Expiration Date"
+                                            },
+                                            "filed": {
+                                              "element": "select",
+                                              "options": [
+                                                {
+                                                  "id": "01",
+                                                  "label": "01 - January",
+                                                  "subItem": {
+                                                    "name": "01"
+                                                  }
+                                                },
+                                                {
+                                                  "id": "02",
+                                                  "label": "02 - February",
+                                                  "subItem": {
+                                                    "name": "02"
+                                                  }
+                                                },
+                                                {
+                                                  "id": "03",
+                                                  "label": "03 - March",
+                                                  "subItem": {
+                                                    "name": "03"
+                                                  }
+                                                },
+                                                {
+                                                  "id": "04",
+                                                  "label": "04 - April",
+                                                  "subItem": {
+                                                    "name": "04"
+                                                  }
+                                                },
+                                                {
+                                                  "id": "05",
+                                                  "label": "05 - May",
+                                                  "subItem": {
+                                                    "name": "05"
+                                                  }
+                                                },
+                                                {
+                                                  "id": "06",
+                                                  "label": "06 - June",
+                                                  "subItem": {
+                                                    "name": "06"
+                                                  }
+                                                },
+                                                {
+                                                  "id": "07",
+                                                  "label": "07 - July",
+                                                  "subItem": {
+                                                    "name": "07"
+                                                  }
+                                                },
+                                                {
+                                                  "id": "08",
+                                                  "label": "08 - August",
+                                                  "subItem": {
+                                                    "name": "08"
+                                                  }
+                                                },
+                                                {
+                                                  "id": "09",
+                                                  "label": "09 - September",
+                                                  "subItem": {
+                                                    "name": "09"
+                                                  }
+                                                },
+                                                {
+                                                  "id": "10",
+                                                  "label": "10 - October",
+                                                  "subItem": {
+                                                    "name": "10"
+                                                  }
+                                                },
+                                                {
+                                                  "id": "11",
+                                                  "label": "11 - November",
+                                                  "subItem": {
+                                                    "name": "11"
+                                                  }
+                                                },
+                                                {
+                                                  "id": "12",
+                                                  "label": "12 - December",
+                                                  "subItem": {
+                                                    "name": "12"
+                                                  }
+                                                }
+                                              ],
+                                              "required": true,
+                                              "model": "06",
+                                              "class": "left-side",
+                                              "name": "expire_month",
+                                              "msgBox": {
+                                                "required": "This field is required!"
+                                              }
+                                            }
+                                          },
+                                          {
+                                            "class": "",
+                                            "filed": {
+                                              "element": "select",
+                                              "options": [],
+                                              "required": true,
+                                              "model": "2018",
+                                              "class": "right-side",
+                                              "name": "expire_year",
+                                              "msgBox": {
+                                                "required": "This field is required!"
+                                              }
+                                            }
+                                          },
+                                          {
+                                            "label": {
+                                              "title": "CVV"
+                                            },
+                                            "filed": {
+                                              "element": "input",
+                                              "type": "text",
+                                              "required": true,
+                                              "model": "",
+                                              "class": "",
+                                              "name": "cvv",
+                                              "placeholder": "",
+                                              "minlength": 3,
+                                              "maxlength": 3,
+                                              "msgBox": {
+                                                "required": "CVV field is required!",
+                                                "minlength": "CVV field allow only 3 digits",
+                                                "maxlength": "CVV field allow only 3 digits"
+                                              }
+                                            }
+                                          },
+                                          {
+                                            "headline": {
+                                              "class": "hl3",
+                                              "title": "Card Holder Information"
+                                            },
+                                            "label": {
+                                              "title": "First Name"
+                                            },
+                                            "filed": {
+                                              "element": "input",
+                                              "type": "text",
+                                              "required": true,
+                                              "model": "",
+                                              "class": "",
+                                              "name": "first_name",
+                                              "placeholder": "",
+                                              "msgBox": {
+                                                "pattern": "Invalid email address",
+                                                "required": "This field is required!"
+                                              }
+                                            }
+                                          },
+                                          {
+                                            "label": {
+                                              "title": "Last Name"
+                                            },
+                                            "filed": {
+                                              "element": "input",
+                                              "type": "text",
+                                              "required": true,
+                                              "model": "",
+                                              "class": "",
+                                              "name": "last_name",
+                                              "placeholder": "",
+                                              "msgBox": {
+                                                "pattern": "Invalid email address",
+                                                "required": "This field is required!"
+                                              }
+                                            }
+                                          },
+                                          {
+                                            "label": {
+                                              "title": "Address"
+                                            },
+                                            "filed": {
+                                              "element": "input",
+                                              "type": "text",
+                                              "required": true,
+                                              "model": "",
+                                              "class": "",
+                                              "name": "address",
+                                              "placeholder": "",
+                                              "msgBox": {
+                                                "required": "This field is required!"
+                                              }
+                                            }
+                                          },
+                                          {
+                                            "label": {
+                                              "title": "City"
+                                            },
+                                            "filed": {
+                                              "element": "input",
+                                              "type": "text",
+                                              "required": true,
+                                              "model": "",
+                                              "class": "left-side",
+                                              "name": "city",
+                                              "placeholder": "",
+                                              "msgBox": {
+                                                "pattern": "Invalid email address",
+                                                "required": "This field is required!"
+                                              }
+                                            }
+                                          },
+                                          {
+                                            "class": "right-group",
+                                            "label": {
+                                              "title": "Postal Code",
+                                              "class": "no-"
+                                            },
+                                            "filed": {
+                                              "element": "input",
+                                              "type": "text",
+                                              "required": true,
+                                              "model": "",
+                                              "class": "right-side",
+                                              "name": "postal",
+                                              "placeholder": "",
+                                              "msgBox": {
+                                                "pattern": "Invalid email address",
+                                                "required": "This field is required!"
+                                              }
+                                            }
+                                          },
+                                          {
+                                            "label": {
+                                              "title": "Phone Number"
+                                            },
+                                            "filed": {
+                                              "element": "phone",
+                                              "select": {
+                                                "element": "select",
+                                                "type": "ui-select",
+                                                "withNumber": true,
+                                                "model": "",
+                                                "class": "",
+                                                "name": "Country"
+                                              },
+                                              "input": {
+                                                "element": "input",
+                                                "type": "text",
+                                                "required": true,
+                                                "model": "",
+                                                "class": "",
+                                                "name": "phone",
+                                                "placeholder": "",
+                                                "msgBox": {
+                                                  "required": "This field is required!"
+                                                }
+                                              }
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "content-body": {
+                                      "text": "Your credit card will be charged by Hedgestone Group.<br> Should you require our assistance or support, please, do not hesitate to contact us by phone (UK) +44 203 318 5207. <br>We are here to help you.<br><br>Iconic PS Ltd, a company which processes card transactions for Icon Markets Limited, takes liability for any complaints originating from users who deposit money through Iconic PS Ltd. Iconic PS Ltd’s offices are located at 1404 Sofia City, Sofia District, Triaditsa Region, R.A. Gotse Delchev, bl. 249, Bulgaria."
+                                    }
+                                  }
+                                ]
+                              }
+                            },
+                            {
+                              "block": {
+                                "class": "facts col-sm-4 col-sm-offset-1 col-xs-12",
+                                "array": [
+                                  {
+                                    "unordered-list": {
+                                      "class": "",
+                                      "array": [
+                                        {
+                                          "list-item": {
+                                            "content": "SSL Secure Site",
+                                            "icon": {
+                                              "src": "/assets/icons/SSL.png",
+                                              "responsive": true,
+                                              "class": "list-icon"
+                                            }
+                                          },
+                                          "precedence": 0
+                                        },
+                                        {
+                                          "list-item": {
+                                            "content": "Fully licensed and regulated",
+                                            "icon": {
+                                              "src": "/assets/icons/License.png",
+                                              "responsive": true,
+                                              "class": "list-icon"
+                                            }
+                                          },
+                                          "precedence": 1
+                                        },
+                                        {
+                                          "list-item": {
+                                            "content": "Secured by Mcafee",
+                                            "icon": {
+                                              "src": "/assets/icons/McAfee.png",
+                                              "responsive": true,
+                                              "class": "list-icon"
+                                            }
+                                          },
+                                          "precedence": 1
+                                        }
+                                      ]
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "tab-btn": {
+                    "icon": {
+                      "src": "/assets/icons/eco.png"
+                    },
+                    "class": "tabBtn with-icon",
+                    "title": "Pay with ecoPayz",
+                    "array": [
+                      {
+                        "tab-container": {
+                          "class": "",
+                          "array": [
+                            {
+                              "ng-image": {
+                                "precedence": 1,
+                                "image-name": "asset-test",
+                                "src": "/assets/icons/eco.png",
+                                "alt": "ecoPayz",
+                                "type": "img",
+                                "class": "text-left"
+                              }
+                            },
+                            {
+                              "headline": {
+                                "class": "hl3 text-left",
+                                "title": "ecoPayz Payment"
+                              }
+                            },
+                            {
+                              "headline": {
+                                "title": "Option 1:",
+                                "class": "hl3 text-left no-padding"
+                              }
+                            },
+                            {
+                              "content-body": {
+                                "class": "text-left col-xs-12",
+                                "text": "Please do the following: <ol><li>Copy the following MerchantID: <b>112375</b></li><li><a href=\"https://secure.test.ecopayz.com/Login.aspx\" target=\"_blank\">Click here</a> and login into your ecoPayz account.</li><li>When in your account, choose <b>\"Transfer Money\"</b> &#8594; <b>\"To a merchant\"</b></li><li>Enter your transfer details.</li><li>Choose the option to <b>\"Enter the merchant account number\"</b>.</li><li>Paste the copied \"MerchantID\" from line 1 above.</li><li>Click the \"Continue >>\" button.</li></ol>"
+                              }
+                            },
+                            {
+                              "headline": {
+                                "title": "Option 2:",
+                                "class": "hl3 text-left no-padding"
+                              }
+                            },
+                            {
+                              "content-body": {
+                                "class": "text-left col-xs-12",
+                                "text": "Please do the following: <ol><li><a href=\"https://secure.test.ecopayz.com/Login.aspx\" target=\"_blank\">Click here</a> and login into your ecoPayz account.</li><li>When in your account, choose <b>\"Transfer Money\"</b> &#8594; <b>\"To a merchant\"</b></li><li>Enter your transfer details.</li><li>Choose the option to <b>\"Search for a merchant\"</b> and find us: <b>\"Hedgestonegroup.com\"</b></li><li>Click the \"Continue >>\" button.</li></ol>"
+                              }
+                            },
+                            {
+                              "content-body": {
+                                "class": "text-left col-xs-12",
+                                "text": "You must notify us through your account manager. <br> Customer Support: <a href=\"mailto:support@hedgestonegroup.com\">support@hedgestonegroup.com</a> <br>United Kingdom: <a href=\"tel:+44 203 318 5207\">+44 203 318 5207</a> <br>New Zealand: <a href=\"tel:+64 9 973 0349\">+64 9 973 0349</a><br>South Africa: <a href=\"tel:+27 10 007 2565\">+27 10 007 2565</a>"
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "tab-btn": {
+                    "class": "tabBtn with-icon",
+                    "icon": {
+                      "src": "/assets/images/footer/cards/Wire.png"
+                    },
+                    "title": "Pay with Wire Transfer",
+                    "array": [
+                      {
+                        "tab-container": {
+                          "class": "wire-transfer",
+                          "array": [
+                            {
+                              "ng-image": {
+                                "precedence": 1,
+                                "image-name": "asset-test",
+                                "src": "/assets/images/footer/cards/Wire.png",
+                                "alt": "Visa",
+                                "type": "img",
+                                "class": "text-left"
+                              }
+                            },
+                            {
+                              "headline": {
+                                "class": "hl3 text-left",
+                                "title": "Wire Transfer"
+                              }
+                            },
+                            {
+                              "content-body": {
+                                "class": "text-left col-xs-12",
+                                "text": "If you wish to fund your account via wire transfer, you must first notify us through your account manager. <br> Customer Support: <a href=\"mailto:support@hedgestonegroup.com \">support@hedgestonegroup.com</a> <br>United Kingdom: <a href=\"tel:+44 203 318 5207\">+44 203 318 5207</a> <br>New Zealand: <a href=\"tel:+64 9 973 0349\">+64 9 973 0349</a>"
+                              }
+                            },
+                            {
+                              "content-body": {
+                                "class": "text-left col-xs-12",
+                                "text": "When you submit a deposit via wire, it will appear in your account as ‘pending’, and you will not be able to trade with these funds until they have been verified as received by our finance team. To speed up the process, please be sure to include your name as the reference for the payment. Payments without names may take longer to be approved. Deposits that have not been received one week from submission will be automatically cancelled. Please ensure you send the funds promptly after submitting this page. Thank you."
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "block": {
+              "class": "arrow",
+              "background": "assets/images/sections/arrow.png"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "sectionName": "bottom-section",
+        "sectionType": "open-account-section",
+        "class": "bottom-section",
+        "background": "",
+        "containerClass": "",
+        "array": [
+          {
+            "content": {
+              "class": "",
+              "array": [
+                {
+                  "ng-image": {
+                    "image-name": "asset-test",
+                    "src": "assets/icons/Logo.png",
+                    "alt": "some asset",
+                    "type": "img",
+                    "class": "center-img",
+                    "responsive": true
+                  }
+                },
+                {
+                  "block": {
+                    "class": "text-center",
+                    "array": [
+                      {
+                        "content-body": {
+                          "class": "",
+                          "text": "READY TO GET STARTED?"
+                        },
+                        "precedence": 0
+                      },
+                      {
+                        "headline": {
+                          "title": "Powerful. Dynamic. Limitless.",
+                          "class": "hl5"
+                        },
+                        "precedence": 1
+                      },
+                      {
+                        "block": {
+                          "class": "padded-block",
+                          "array": [
+                            {
+                              "logged-in": {
+                                "array": [
+                                  {
+                                    "btn": {
+                                      "class": "btn btn-transparent centered-btn",
+                                      "title": "trade",
+                                      "destination": "trade"
+                                    },
+                                    "precedence": 4
+                                  },
+                                  {
+                                    "btn": {
+                                      "class": "centered-btn",
+                                      "title": "how it works",
+                                      "destination": "education"
+                                    },
+                                    "precedence": 5
+                                  }
+                                ]
+                              }
+                            },
+                            {
+                              "anonymous": {
+                                "array": [
+                                  {
+                                    "btn": {
+                                      "class": "btn btn-transparent centered-btn",
+                                      "title": "open an account",
+                                      "destination": "create_account"
+                                    },
+                                    "precedence": 4
+                                  },
+                                  {
+                                    "btn": {
+                                      "class": "centered-btn",
+                                      "title": "how it works",
+                                      "destination": "education"
+                                    },
+                                    "precedence": 5
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        },
+                        "precedence": 3
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

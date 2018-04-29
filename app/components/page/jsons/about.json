@@ -1,0 +1,274 @@
+
+{
+    "page-name": "about",
+    "page-type": "page",
+    "class": "",
+    "title": "Hedgestone Group provides excellent trading solutions.",
+    "description": "Providing various trading solutions, Hedgestone Group leads investors to success. Mobile application and educational material facilitate their trading.",
+    "keywords": "CFDs; binary options; desktop and mobile applications; trading educational materials.",
+    "array": [
+        {
+            "section": {
+                "sectionName": "about-top-section",
+                "sectionType": "top-section about-top-section",
+                "background": "assets/images/financial-page/1.jpg",
+                "containerClass": "container",
+                "class": "text-center relative-position",
+                "array": [
+                    {
+                        "content": {
+                            "class": "",
+                            "array": [
+                                {
+                                    "headline": {
+                                        "title": "About",
+                                        "class": "hl1"
+                                    },
+                                    "precedence": 0
+                                },
+                                {
+                                    "block": {
+                                        "class": "divider"
+                                    }
+                                },
+                                {
+                                    "content-body": {
+                                        "class": "",
+                                        "text": "Hedgestone is a leading provider of CFD and options trading solutions. With powerful desktop and mobile trading applications, rich trader education materials and timely market insights, we help individual investors to participate in the ever-changing global financial markets."
+                                    },
+                                    "precedence": 2
+                                },
+                                {
+                                    "block": {
+                                        "class": "top-cards-block table-horizontal-center",
+                                        "array": [
+                                            {
+                                                "card": {
+                                                    "class": "cell",
+                                                    "array": [
+                                                        {
+                                                            "headline": {
+                                                                "precedence": 0,
+                                                                "title": "Email",
+                                                                "class": "hl3 no-padding"
+                                                            }
+                                                        },
+                                                        {
+                                                            "content-body": {
+                                                                "class": "",
+                                                                "precedence": 2,
+                                                                "text": "<div style='display:inline-block; width:155px;text-align:right;margin-right:10px;'>Customer Support:</div> <a href=\"mailto:support@hedgestonegroup.com\">support@hedgestonegroup.com</a><br/><div style='display:inline-block; width:177px;text-align:right;margin-right:10px;'>Doc. Verification:</div> <a href=\"mailto:verification@hedgestonegroup.com\">verification@hedgestonegroup.com</a>"
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "card": {
+                                                    "class": "cell",
+                                                    "array": [
+                                                        {
+                                                            "headline": {
+                                                                "precedence": 0,
+                                                                "title": "Call",
+                                                                "class": "hl3 no-padding"
+                                                            }
+                                                        },
+                                                        {
+                                                            "content-body": {
+                                                                "class": "",
+                                                                "precedence": 2,
+                                                                "text": "<div class='table-responsive' style='border:none;'><table class='table table-condensed' style='border:none;'><tr><td class='text-right' style='border:none;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td> <td class='text-left' style='border:none;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td><tr><td class='text-right' style='border:none;'>United Kingdom:</td><td class='text-left' style='border:none;'><a href='tel:+44 2036705899'>+44 203 670 5899</a></td></tr></table></div>"
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "block": {
+                                        "class": "bottom-cards-block table-horizontal-center text-left",
+                                        "array": [
+                                            {
+                                                "card": {
+                                                    "class": "cell",
+                                                    "array": [
+                                                        {
+                                                            "headline": {
+                                                                "precedence": 0,
+                                                                "title": "AUSTRALIA",
+                                                                "class": "hl4"
+                                                            }
+                                                        },
+                                                        {
+                                                            "content-body": {
+                                                                "class": "",
+                                                                "precedence": 2,
+                                                                "text": "+61 28 046 6547"
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "card": {
+                                                    "class": "cell",
+                                                    "array": [
+                                                        {
+                                                            "headline": {
+                                                                "precedence": 0,
+                                                                "title": "CANADA",
+                                                                "class": "hl4"
+                                                            }
+                                                        },
+                                                        {
+                                                            "content-body": {
+                                                                "class": "",
+                                                                "precedence": 2,
+                                                                "text": "+1 647 560 0103"
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "card": {
+                                                    "class": "cell",
+                                                    "array": [
+                                                        {
+                                                            "headline": {
+                                                                "precedence": 1,
+                                                                "title": "NEW ZEALAND",
+                                                                "class": "hl4"
+                                                            }
+                                                        },
+                                                        {
+                                                            "content-body": {
+                                                                "precedence": 2,
+                                                                "class": "",
+                                                                "text": "+64 9 973 0349"
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "block": {
+                            "class": "arrow",
+                            "background": "assets/images/sections/arrow.png"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "section": {
+                "sectionName": "bottom-section",
+                "sectionType": "open-account-section",
+                "class": "bottom-section",
+                "background": "",
+                "containerClass": "",
+                "array": [
+                    {
+                        "content": {
+                            "class": "",
+                            "array": [
+                                {
+                                    "ng-image": {
+                                        "image-name": "asset-test",
+                                        "src": "assets/icons/Logo.png",
+                                        "alt": "some asset",
+                                        "type": "img",
+                                        "class": "center-img",
+                                        "responsive": true
+                                    }
+                                },
+                                {
+                                    "block": {
+                                        "class": "text-center",
+                                        "array": [
+                                            {
+                                                "content-body": {
+                                                    "class": "",
+                                                    "text": "READY TO GET STARTED?"
+                                                },
+                                                "precedence": 0
+                                            },
+                                            {
+                                                "headline": {
+                                                    "title": "Powerful. Dynamic. Limitless.",
+                                                    "class": "hl5"
+                                                },
+                                                "precedence": 1
+                                            },
+                                            {
+                                                "block": {
+                                                    "class": "padded-block",
+                                                    "array": [
+                                                        {
+                                                            "logged-in": {
+                                                                "array": [
+                                                                    {
+                                                                        "btn": {
+                                                                            "class": "btn btn-transparent centered-btn",
+                                                                            "title": "trade",
+                                                                            "destination": "trade"
+                                                                        },
+                                                                        "precedence": 4
+                                                                    },
+                                                                    {
+                                                                        "btn": {
+                                                                            "class": "centered-btn",
+                                                                            "title": "how it works",
+                                                                            "destination": "education"
+                                                                        },
+                                                                        "precedence": 5
+                                                                    }
+                                                                ]
+                                                            }
+                                                        },
+                                                        {
+                                                            "anonymous": {
+                                                                "array": [
+                                                                    {
+                                                                        "btn": {
+                                                                            "class": "btn btn-transparent centered-btn",
+                                                                            "title": "open an account",
+                                                                            "destination": "create_account"
+                                                                        },
+                                                                        "precedence": 4
+                                                                    },
+                                                                    {
+                                                                        "btn": {
+                                                                            "class": "centered-btn",
+                                                                            "title": "how it works",
+                                                                            "destination": "education"
+                                                                        },
+                                                                        "precedence": 5
+                                                                    }
+                                                                ]
+                                                            }
+                                                        }
+                                                    ]
+                                                },
+                                                "precedence": 3
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

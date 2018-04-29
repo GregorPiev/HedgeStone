@@ -1,0 +1,29 @@
+@import (reference) '../../../assets/less/resources';
+.article {
+  background-position: top !important;
+  background-repeat: no-repeat;
+  margin-bottom: 100px;
+  &.forThumbnail {
+    background-image: none !important;
+    float: left;
+    &.small-thumbnail {
+      width: 25%;
+    }
+    &.big-thumbnail {
+      width: 50%;
+    }
+    @media only screen and (max-width: @sm-tablet-screen) {
+      &.small-thumbnail {
+        width: 50%;
+      }
+      &.big-thumbnail {
+        width: 100%;
+      }
+    }
+    @media only screen and (max-width: @mobile-screen) {
+      &.small-thumbnail {
+        width: 100%;
+      }
+    }
+  }
+}

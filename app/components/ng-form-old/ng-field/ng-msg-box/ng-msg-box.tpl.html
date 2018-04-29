@@ -1,0 +1,3 @@
+<div class="ngMsgBox" ng-messages="ngMsgBox.form.$error" ng-hide="ngMsgBox.form.$valid || !ngMsgBox.form.$touched">
+    <span ng-message-exp="::key" ng-repeat="(key, msg) in ::ngMsgBox.field.msgBox">{{::msg}}</span>
+</div>

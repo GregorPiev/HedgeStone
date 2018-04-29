@@ -1,0 +1,746 @@
+{
+  "name": "home",
+  "page-type": "page",
+  "class": "no-padding",
+  "title": "Hedgestone provides first-class online trading solutions.",
+  "description": "Customers of the regulated Hedgestone Group speculate with numerous tradeable assets, easily access its platform, and talk to market experts in three countries.",
+  "keywords": "Trading platform; online CFD; financial markets; trading platform.",
+  "array": [
+    {
+      "section": {
+        "sectionName": "home-top-section",
+        "sectionType": "home-top-section",
+        "background": "assets/images/sections/bg.jpg",
+        "containerClass": "container",
+        "class": "",
+        "array": [
+          {
+            "content": {
+              "class": "",
+              "array": [
+                {
+                  "headline": {
+                    "title": "One platform.",
+                    "class": "hl1"
+                  },
+                  "precedence": 0
+                },
+                {
+                  "headline": {
+                    "title": "Unlimited possibilities.",
+                    "class": "hl1"
+                  },
+                  "precedence": 1
+                },
+                {
+                  "content-body": {
+                    "class": "",
+                    "text": "Discover the benefits of trading the global financial markets with Hedgestone."
+                  },
+                  "precedence": 2
+                },
+                {
+                  "block": {
+                    "class": "no-padding btn-container",
+                    "array": [
+                      {
+                        "logged-in": {
+                          "array": [
+                            {
+                              "btn": {
+                                "class": "btn btn-transparent centered-btn",
+                                "title": "trade",
+                                "destination": "trade"
+                              },
+                              "precedence": 4
+                            },
+                            {
+                              "btn": {
+                                "class": "centered-btn",
+                                "title": "how it works",
+                                "destination": "education"
+                              },
+                              "precedence": 5
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "anonymous": {
+                          "array": [
+                            {
+                              "btn": {
+                                "class": "btn btn-transparent centered-btn",
+                                "title": "open an account",
+                                "destination": "create_account"
+                              },
+                              "precedence": 4
+                            },
+                            {
+                              "btn": {
+                                "class": "centered-btn",
+                                "title": "how it works",
+                                "destination": "education"
+                              },
+                              "precedence": 5
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  },
+                  "precedence": 3
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "sectionName": "ticker",
+        "sectionType": "ticker",
+        "containerClass": "container",
+        "class": "light-background",
+        "array": [
+          {
+            "ticker": {
+              "notice": "Rates are indicative rates only, are not based on actual market trades and are subject to delays. All data is provided for information purposes only.",
+              "array": [
+                {
+                  "ticker-asset": {}
+                },
+                {
+                  "ticker-asset": {}
+                },
+                {
+                  "ticker-asset": {}
+                },
+                {
+                  "ticker-asset": {}
+                },
+                {
+                  "ticker-asset": {}
+                }
+              ],
+              "currencies": [
+                {
+                  "id": 91,
+                  "name": "EUR/USD",
+                  "type": "CURRENCIES",
+                  "assetId": 6252
+                },
+                {
+                  "id": 35,
+                  "name": "AUD/USD",
+                  "type": "CURRENCIES",
+                  "assetId": 13406
+                },
+                {
+                  "id": 259,
+                  "name": "GBP/JPY",
+                  "type": "CURRENCIES",
+                  "assetId": 16150
+                },
+                {
+                  "id": 95,
+                  "name": "GBP/USD",
+                  "type": "CURRENCIES",
+                  "assetId": 18435
+                },
+                {
+                  "id": 122,
+                  "name": "GBP/RUB",
+                  "type": "CURRENCIES",
+                  "assetId": "undefined"
+
+                },
+                {
+                  "id": 69,
+                  "name": "EUR/GBP",
+                  "type": "CURRENCIES",
+                  "assetId": 15348
+                },
+                {
+                  "id": 277,
+                  "name": "AUD/CHF",
+                  "type": "CURRENCIES",
+                  "assetId": "undefined"
+                }
+              ],
+              "assets": [
+                {
+                  "id": 98,
+                  "name": "Dow Jones",
+                  "type": "DJI:IND"
+                },
+                {
+                  "id": 86,
+                  "name": "S&P 500",
+                  "type": "GSPC:IND"
+                },
+                {
+                  "id": 89,
+                  "name": "FTSE 100",
+                  "type": "FTSE:IND"
+                },
+                {
+                  "id": 126,
+                  "name": "NIKKEi 225",
+                  "type": "N225:IND"
+                },
+                {
+                  "id": 87,
+                  "name": "DAX Index",
+                  "type": "DAX:IND"
+                },
+                {
+                  "id": 104,
+                  "name": "AAPL - Apple",
+                  "type": "AAPL:STOCK"
+                },
+                {
+                  "id": 318,
+                  "name": "MSFT - Microsoft",
+                  "type": "MSFT:STOCK"
+                },
+                {
+                  "id": 424,
+                  "name": "BMW.DE - BMW",
+                  "type": "BMW.DE:STOCK"
+                },
+                {
+                  "id": 370,
+                  "name": "DB - DEUTSCHE BANK",
+                  "type": "DB:STOCK"
+                },
+                {
+                  "id": 105,
+                  "name": "GOGO - Google",
+                  "type": "GOOGL:STOCK"
+                },
+                {
+                  "id": 973,
+                  "name": "GOLD",
+                  "type": "GCQ16:CMX"
+                },
+                {
+                  "id": 41,
+                  "name": "SILVER",
+                  "type": "SIN16:CMX"
+                },
+                {
+                  "id": 158,
+                  "name": "COFFEE",
+                  "type": "KCN16:NYB"
+                },
+                {
+                  "id": 85,
+                  "name": "SUGAR",
+                  "type": "SBN16:NYB"
+                },
+                {
+                  "id": 508,
+                  "name": "COPPER",
+                  "type": "HGN16:CMX"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "sectionName": "ticker-text",
+        "sectionType": "ticker-text",
+        "class": "dark-background ",
+        "containerClass": "container",
+        "array": [
+          
+        ]
+      }
+    },
+    {
+      "section": {
+        "sectionName": "powerful-dynamic",
+        "sectionType": "cards-section low",
+        "class": "dark-background ",
+        "containerClass": "container",
+        "array": [
+          {
+            "content": {
+              "class": "",
+              "array": [
+                {
+                  "headline": {
+                    "title": "Powerful. Dynamic. Limitless.",
+                    "class": "hl2 text-center"
+                  },
+                  "precedence": 0
+                },
+                {
+                  "content-body": {
+                    "class": "text-center smaller-content",
+                    "text": "A leading provider of online CFD and options trading solutions."
+                  },
+                  "precedence": 1
+                },
+                {
+                  "block": {
+                    "class": "container table text-center padded-cards",
+                    "array": [
+                      {
+                        "card": {
+                          "class": "cell five-in-a-row",
+                          "array": [
+                            {
+                              "ng-image": {
+                                "precedence": 1,
+                                "image-name": "asset-test",
+                                "src": "assets/icons/glob-icon.png",
+                                "alt": "some alt",
+                                "type": "img",
+                                "class": "col-xs-12 text-center"
+                              }
+                            },
+                            {
+                              "headline": {
+                                "precedence": 0,
+                                "title": "200+",
+                                "class": "hl3"
+                              }
+                            },
+                            {
+                              "content-body": {
+                                "class": "smallest-content",
+                                "precedence": 2,
+                                "text": "Tradable assets across a range of global markets."
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "card": {
+                          "class": "cell five-in-a-row",
+                          "array": [
+                            {
+                              "ng-image": {
+                                "precedence": 1,
+                                "image-name": "asset-test",
+                                "src": "assets/icons/moon-icon.png",
+                                "alt": "some alt",
+                                "type": "img",
+                                "class": "col-xs-12"
+                              }
+                            },
+                            {
+                              "headline": {
+                                "precedence": 0,
+                                "title": "24 Hour",
+                                "class": "hl3"
+                              }
+                            },
+                            {
+                              "content-body": {
+                                "class": "smallest-content",
+                                "precedence": 2,
+                                "text": "Access to trading platform and support services."
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "card": {
+                          "class": "cell five-in-a-row",
+                          "array": [
+                            {
+                              "ng-image": {
+                                "precedence": 0,
+                                "image-name": "asset-test",
+                                "src": "assets/icons/person-icon.png",
+                                "alt": "some alt",
+                                "type": "img",
+                                "class": "col-xs-12"
+                              }
+                            },
+                            {
+                              "headline": {
+                                "precedence": 1,
+                                "title": "140+",
+                                "class": "hl3"
+                              }
+                            },
+                            {
+                              "content-body": {
+                                "precedence": 2,
+                                "class": "smallest-content",
+                                "text": "Market experts across 5 offices and 3 countries."
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "card": {
+                          "class": "cell five-in-a-row",
+                          "array": [
+                            {
+                              "ng-image": {
+                                "precedence": 0,
+                                "image-name": "asset-test",
+                                "src": "assets/icons/lightning-icon.png",
+                                "alt": "some alt",
+                                "type": "img",
+                                "class": "col-xs-12"
+                              }
+                            },
+                            {
+                              "headline": {
+                                "precedence": 1,
+                                "title": "Instant",
+                                "class": "hl3"
+                              }
+                            },
+                            {
+                              "content-body": {
+                                "precedence": 2,
+                                "class": "smallest-content",
+                                "text": "Processing of client withdrawal requests."
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "card": {
+                          "class": "cell five-in-a-row",
+                          "array": [
+                            {
+                              "ng-image": {
+                                "precedence": 0,
+                                "image-name": "asset-test",
+                                "src": "assets/icons/shield-icon.png",
+                                "alt": "some alt",
+                                "type": "img",
+                                "class": "col-xs-12"
+                              }
+                            },
+                            {
+                              "headline": {
+                                "precedence": 1,
+                                "title": "Secure",
+                                "class": "hl3"
+                              }
+                            },
+                            {
+                              "content-body": {
+                                "precedence": 2,
+                                "class": "smallest-content",
+                                "text": "Trading with regulated financial services firm."
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "sectionName": "top-trades",
+        "sectionType": "content-asset",
+        "class": "relative-position",
+        "containerClass": "container",
+        "array": [
+          {
+            "asset": {
+              "array": [
+                {
+                  "ng-image": {
+                    "image-name": "asset-test",
+                    "src": "assets/images/sections/TopTrades.png",
+                    "alt": "some asset",
+                    "type": "img",
+                    "class": "dividing-image",
+                    "responsive": "img-responsive"
+                  },
+                  "precedence": 0
+                }
+              ]
+            }
+          },
+          {
+            "content": {
+              "class": "",
+              "array": [
+                {
+                  "headline": {
+                    "title": "Heighten your returns.",
+                    "class": "hl5"
+                  }
+                },
+                {
+                  "content-body": {
+                    "class": "smaller-content",
+                    "text": "Hedgestone empowers you with CFDs and options products that enable you to take on the exact market exposure you seek, precisely when you seek it."
+                  }
+                },
+                {
+                  "btn": {
+                    "class": "",
+                    "title": "Financial Products",
+                    "destination": "financials"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "sectionName": "mobile-trading",
+        "sectionType": "content-text",
+        "class": "dark-background relative-position",
+        "background": "assets/images/sections/phone-1280.png",
+        "containerClass": "container",
+        "array": [
+          {
+            "content": {
+              "class": "right-content",
+              "array": [
+                {
+                  "headline": {
+                    "title": "Trade any place, any time.",
+                    "class": "hl5"
+                  }
+                },
+                {
+                  "content-body": {
+                    "class": "smaller-content",
+                    "text": "Hedgestone’s sophisticated online platform and intuitive mobile applications enable you to trade on-the-go, wherever your trading takes you."
+                  }
+                },
+                {
+                  "btn": {
+                    "class": "",
+                    "title": "Tools",
+                    "destination": "tools"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "sectionName": "accelerate-learning",
+        "sectionType": "content-asset",
+        "class": "light-background relative-position",
+        "background": "assets/images/sections/scala-bg.png",
+        "containerClass": "container",
+        "array": [
+          {
+            "asset": {
+              "array": [
+                {
+                  "precedence": 0
+                }
+              ]
+            }
+          },
+          {
+            "content": {
+              "class": "",
+              "array": [
+                {
+                  "headline": {
+                    "title": "Accelerate your learning.",
+                    "class": "hl5"
+                  }
+                },
+                {
+                  "content-body": {
+                    "class": "smaller-content",
+                    "text": "Hedgestone’s online learning center, personalized training programs and live webinars enable you to enhance your knowledge on an ongoing basis."
+                  }
+                },
+                {
+                  "btn": {
+                    "class": "",
+                    "title": "Education",
+                    "destination": "education"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "sectionName": "identify-oppor",
+        "sectionType": "content-text",
+        "class": "dark-background relative-position",
+        "background": "assets/images/sections/grid-bg.png",
+        "containerClass": "container",
+        "array": [
+          {
+            "content": {
+              "class": "right-content",
+              "array": [
+                {
+                  "btn": {
+                    "title": "market news",
+                    "destination": "latest_news"
+                  },
+                  "precedence": 2
+                },
+                {
+                  "headline": {
+                    "title": "Identify opportunities.",
+                    "class": "hl5"
+                  },
+                  "precedence": 0
+                },
+                {
+                  "content-body": {
+                    "class": "smaller-content",
+                    "text": "Hedgestone’s analysts deliver daily market commentary and video reports that enable you to stay on top of key market developments."
+                  },
+                  "precedence": 1
+                }
+              ]
+            }
+          },
+          {
+            "block": {
+              "class": "arrow",
+              "background": "assets/images/sections/arrow.png"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "sectionName": "bottom-section",
+        "sectionType": "open-account-section",
+        "class": "bottom-section",
+        "background": "",
+        "containerClass": "",
+        "array": [
+          {
+            "content": {
+              "class": "",
+              "array": [
+                {
+                  "ng-image": {
+                    "image-name": "asset-test",
+                    "src": "assets/icons/Logo.png",
+                    "alt": "some asset",
+                    "type": "img",
+                    "class": "center-img",
+                    "responsive": true
+                  }
+                },
+                {
+                  "block": {
+                    "class": "text-center",
+                    "array": [
+                      {
+                        "content-body": {
+                          "class": "",
+                          "text": "READY TO GET STARTED?"
+                        },
+                        "precedence": 0
+                      },
+                      {
+                        "headline": {
+                          "title": "Powerful. Dynamic. Limitless.",
+                          "class": "hl5"
+                        },
+                        "precedence": 1
+                      },
+                      {
+                        "block": {
+                          "class": "padded-block",
+                          "array": [
+                            {
+                              "logged-in": {
+                                "array": [
+                                  {
+                                    "btn": {
+                                      "class": "btn btn-transparent centered-btn",
+                                      "title": "trade",
+                                      "destination": "trade"
+                                    },
+                                    "precedence": 4
+                                  },
+                                  {
+                                    "btn": {
+                                      "class": "centered-btn",
+                                      "title": "how it works",
+                                      "destination": "education"
+                                    },
+                                    "precedence": 5
+                                  }
+                                ]
+                              }
+                            },
+                            {
+                              "anonymous": {
+                                "array": [
+                                  {
+                                    "btn": {
+                                      "class": "btn btn-transparent centered-btn",
+                                      "title": "open an account",
+                                      "destination": "create_account",
+                                      "analytics": {
+                                        "category": "open-account2",
+                                        "action": "play - test case",
+                                        "details": "open account section"
+                                      }
+                                    },
+                                    "precedence": 4
+                                  },
+                                  {
+                                    "btn": {
+                                      "class": "centered-btn",
+                                      "title": "how it works",
+                                      "destination": "education"
+                                    },
+                                    "precedence": 5
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        },
+                        "precedence": 3
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

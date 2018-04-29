@@ -1,0 +1,16 @@
+<div class="field" ng-class="ngField.field.class">
+    <ng-form name="ngField.fieldCtrl.field" class="innerField" novalidate>
+        <ng-input-icon input-icon-data="ngField.field.icon" ng-if="::ngField.isDefined(ngField.field.icon)">
+        </ng-input-icon>
+        <span class="input-group-addon" id="basic-addon1" ng-bind-html="ngField.field.addon | unsafe" ng-if="::ngField.field.withAddon"></span>
+        <ng-input input-data="ngField.field" ng-if="::ngField.field.element == 'input'" form-data="ngField.fieldCtrl.field[ngField.field.name]"></ng-input>
+        <ng-file-upload input-data="ngField.field" ng-if="::ngField.field.element == 'ngFileUpload'" form-data="ngField.fieldCtrl.field[ngField.field.name]"></ng-file-upload>
+        <ng-select select-data="ngField.field" ng-if="::ngField.field.element == 'select'" form-data="ngField.fieldCtrl.field[ngField.field.name]"></ng-select>
+        <div ng-if="ngField.field.element === 'phone'">
+            <ng-select class="field phone-prefix" select-data="ngField.field.select"></ng-select>
+            <ng-input class="field phone-input" input-data="ngField.field.input" form-data="ngField.fieldCtrl.field[ngField.field.input.name]"></ng-input>
+            <ng-msg-box form-data="ngField.fieldCtrl.field[ngField.field.input.name]" field-data="ngField.field.input"></ng-msg-box>
+        </div>
+        <ng-msg-box ng-if="::ngField.field.element !== 'phone'" form-data="ngField.fieldCtrl.field[ngField.field.name]" field-data="ngField.field"></ng-msg-box>
+    </ng-form>
+</div>

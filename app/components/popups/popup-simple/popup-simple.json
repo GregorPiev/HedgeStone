@@ -1,0 +1,12 @@
+{
+  "img": {
+    "src": "http://www.geognos.com/api/en/countries/flag/<countrycode>.png"
+  },
+  "headline": {
+    "title": "We're Sorry",
+    "class": "hl1"
+  },
+  "content": {
+    "text": "Kindly note Hedgstone does not accept clients <br/> located in <country>."
+  }
+}

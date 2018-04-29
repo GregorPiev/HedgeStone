@@ -1,0 +1,28 @@
+{
+  "primaryHeadline": {
+    "title": "Obtenga una Oferta de Bono",
+    "class": "hl1 bonusHeadline"
+  },
+  "secondaryHeadline": {
+    "title": "",
+    "class": "hl7"
+  },
+  "content": {
+    "class": "bonusAmount",
+    "text": ""
+  },
+  "checkbox": {
+    "text": "He leído los Términos y Condiciones"
+  },
+  "acceptBtn": {
+    "title": "Sí, acepto",
+    "class": "btn"
+  },
+  "cancelBtn": {
+    "title": "No, no acepto",
+    "class": "btn btn-transparent"
+  },
+  "terms": {
+    "text": ""
+  }
+}

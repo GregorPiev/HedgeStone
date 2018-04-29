@@ -1,0 +1,7 @@
+<div class="ngFileUpload" ng-class="{'error': !ngFileUpload.form.$valid && ngFileUpload.form.$touched}">
+    <div class="button" type="file" ngf-select ng-model="ngFileUpload.input.model" ngf-multiple="false" name="file" ngf-pattern="'image/*,application/pdf'" accept="image/*,application/pdf" ngf-max-size="5MB" required ngf-model-invalid="errorFile">Select File</div>
+    <div ngf-drop ngf-select ng-model="ngFileUpload.input.model" class="drop-box"
+         ngf-drag-over-class="'dragover'" ngf-multiple="false" ngf-allow-dir="false"
+         accept="image/*,application/pdf"
+         ngf-pattern="'image/*,application/pdf'" ng-bind="ngFileUpload.thumb"></div>
+</div>

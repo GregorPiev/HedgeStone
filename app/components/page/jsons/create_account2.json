@@ -1,0 +1,472 @@
+{
+  "page-name": "create_account",
+  "page-type": "page",
+  "class": "",
+  "title": "Open an account with Hedgestone Group and trade.",
+  "description": "Aspiring trades can open a free account with Hedgestone Group and start trading. If they have any questions, clients can look for an answer in FQA section.",
+  "keywords": "Account; open a trading account; FQA; terms and conditions.",
+  "array": [
+    {
+      "section": {
+        "sectionName": "login-top-section",
+        "sectionType": "create-account-section",
+        "class": "dark-background relative-position",
+        "array": [
+          {
+            "block": {
+              "class": "create-account-container",
+              "array": [
+                {
+                  "headline": {
+                    "title": "Open An Account",
+                    "class": "hl1 text-center"
+                  }
+                },
+                {
+                  "headline": {
+                    "class": "text-center form-headline",
+                    "title": "Open a trading account with Hedgestone."
+                  }
+                },
+                {
+                  "block": {
+                    "class": "col-sm-8 col-xs-12 no-padding",
+                    "array": [
+                      {
+                        "create-account-form": {
+                          "class": "",
+                          "form": {
+                            "name": "test",
+                            "submit": {
+                              "class": "",
+                              "content": "open account"
+                            },
+                            "groups": [
+                              {
+                                "label": {
+                                  "title": "First Name"
+                                },
+                                "filed": {
+                                  "element": "input",
+                                  "type": "text",
+                                  "required": true,
+                                  "model": "",
+                                  "class": "left-side",
+                                  "name": "FirstName",
+                                  "maxlength": 20,
+                                  "placeholder": "",
+                                  "pattern": "",
+                                  "msgBox": {
+                                    "required": "This field is required!",
+                                    "maxlength": "First Name must include a maximum of 20 letters."
+                                  }
+                                }
+                              },
+                              {
+                                "class": "right-group",
+                                "label": {
+                                  "title": "Last Name"
+                                },
+                                "filed": {
+                                  "element": "input",
+                                  "type": "text",
+                                  "required": true,
+                                  "model": "",
+                                  "class": "right-side",
+                                  "maxlength": 20,
+                                  "name": "LastName",
+                                  "placeholder": "",
+                                  "pattern": "",
+                                  "msgBox": {
+                                    "required": "This field is required!",
+                                    "maxlength": "Last Name must include a maximum of 20 letters."
+                                  }
+                                }
+                              },
+                              {
+                                "label": {
+                                  "title": "Email"
+                                },
+                                "filed": {
+                                  "element": "input",
+                                  "type": "text",
+                                  "required": true,
+                                  "model": "",
+                                  "class": "left-side",
+                                  "name": "Email",
+                                  "placeholder": "",
+                                  "pattern": "email",
+                                  "msgBox": {
+                                    "pattern": "Invalid email address",
+                                    "required": "This field is required!"
+                                  }
+                                }
+                              },
+                              {
+                                "class": "right-group",
+                                "label": {
+                                  "title": "Currency"
+                                },
+                                "filed": {
+                                  "element": "select",
+                                  "required": true,
+                                  "model": "",
+                                  "class": "form-control right-side",
+                                  "name": "Currency",
+                                  "options": [
+                                    {
+                                      "id": "GBP",
+                                      "label": "GBP",
+                                      "subItem": { "name": "GBP" }
+                                    },
+                                    {
+                                      "id": "USD",
+                                      "label": "USD",
+                                      "subItem": { "name": "USD" }
+                                    },
+                                    {
+                                      "id": "EUR",
+                                      "label": "EUR",
+                                      "subItem": { "name": "EUR" }
+                                    },
+                                    {
+                                      "id": "CAD",
+                                      "label": "CAD",
+                                      "subItem": { "name": "CAD" }
+                                    },
+                                    {
+                                      "id": "AUD",
+                                      "label": "AUD",
+                                      "subItem": { "name": "AUD" }
+                                    }
+                                  ],
+                                  "msgBox": {
+                                    "required": "This field is required!"
+                                  }
+                                }
+                              },
+                              {
+                                "label": {
+                                  "title": "Phone Number"
+                                },
+                                "filed": {
+                                  "element": "phone",
+                                  "select": {
+                                    "element": "select",
+                                    "type": "ui-select",
+                                    "withNumber": true,
+                                    "model": "",
+                                    "class": "",
+                                    "name": "Country"
+                                  },
+                                  "input": {
+                                    "element": "input",
+                                    "type": "text",
+                                    "required": true,
+                                    "model": "",
+                                    "class": "",
+                                    "name": "Phone",
+                                    "placeholder": "",
+                                    "msgBox": {
+                                      "required": "This field is required!"
+                                    }
+                                  }
+                                }
+                              },
+                              {
+                                "label": {
+                                  "title": "Date of Birth"
+                                },
+                                "filed": {
+
+                                }
+                              },
+                              {
+                                "class": "col-xs-3 no-padding dob",
+                                "filed": {
+                                  "element": "select",
+                                  "required": true,
+                                  "model": "",
+                                  "class": "col-xs-3 form-control",
+                                  "name": "Day",
+                                  "placeholder": "Day",
+                                  "options": [],
+                                  "msgBox": {
+                                    "required": "This field is required!"
+                                  }
+                                }
+                              },
+                              {
+                                "class": "col-xs-6 dob",
+                                "filed": {
+                                  "element": "select",
+                                  "required": true,
+                                  "model": "",
+                                  "class": "col-xs-6 form-control",
+                                  "name": "Month",
+                                  "placeholder": "Month",
+                                  "options": [
+                                    {
+                                      "id": "01",
+                                      "label": "01 - January",
+                                      "subItem": { "name": "01" }
+                                    },
+                                    {
+                                      "id": "02",
+                                      "label": "02 - February",
+                                      "subItem": { "name": "02" }
+                                    },
+                                    {
+                                      "id": "03",
+                                      "label": "03 - March",
+                                      "subItem": { "name": "03" }
+                                    },
+                                    {
+                                      "id": "04",
+                                      "label": "04 - April",
+                                      "subItem": { "name": "04" }
+                                    },
+                                    {
+                                      "id": "05",
+                                      "label": "05 - May",
+                                      "subItem": { "name": "05" }
+                                    },
+                                    {
+                                      "id": "06",
+                                      "label": "06 - June",
+                                      "subItem": { "name": "06" }
+                                    },
+                                    {
+                                      "id": "07",
+                                      "label": "07 - July",
+                                      "subItem": { "name": "07" }
+                                    },
+                                    {
+                                      "id": "08",
+                                      "label": "08 - August",
+                                      "subItem": { "name": "08" }
+                                    },
+                                    {
+                                      "id": "09",
+                                      "label": "09 - September",
+                                      "subItem": { "name": "09" }
+                                    },
+                                    {
+                                      "id": "10",
+                                      "label": "10 - October",
+                                      "subItem": { "name": "10" }
+                                    },
+                                    {
+                                      "id": "11",
+                                      "label": "11 - November",
+                                      "subItem": { "name": "11" }
+                                    },
+                                    {
+                                      "id": "12",
+                                      "label": "12 - December",
+                                      "subItem": { "name": "12" }
+                                    }
+                                  ],
+                                  "msgBox": {
+                                    "required": "This field is required!"
+                                  }
+                                }
+                              },
+                              {
+                                "class": "col-xs-3 no-padding dob",
+                                "filed": {
+                                  "element": "select",
+                                  "required": true,
+                                  "model": "",
+                                  "placeholder": "Year",
+                                  "class": "col-xs-4 form-control",
+                                  "name": "Year",
+                                  "options": [],
+                                  "msgBox": {
+                                    "required": "This field is required!"
+                                  }
+                                }
+                              },
+                              {
+
+                                "label": {
+                                  "title": "Password"
+                                },
+                                "filed": {
+                                  "element": "input",
+                                  "type": "password",
+                                  "required": true,
+                                  "model": "",
+                                  "class": "left-side",
+                                  "name": "Password",
+                                  "placeholder": "",
+                                  "msgBox": {
+                                    "required": "This field is required!"
+                                  }
+                                }
+                              },
+                              {
+                                "class": "right-group",
+                                "label": {
+                                  "title": "Confirm Password"
+                                },
+                                "filed": {
+                                  "element": "input",
+                                  "type": "confirm",
+                                  "required": true,
+                                  "model": "",
+                                  "class": "right-side",
+                                  "name": "ConfirmPassword",
+                                  "placeholder": "",
+                                  "msgBox": {
+                                    "confirmPassword": "Passwords do not match",
+                                    "required": "This field is required!"
+                                  }
+                                }
+                              }
+                            ],
+                            "checkBoxes": [
+                              {
+                                "checkbox": {
+                                  "required": true,
+                                  "checked": false,
+                                  "label": "I have read and accepted the <a ui-sref=\"terms_and_conditions\" target=\"_blank\">Terms & Conditions</a>, <a ui-sref=\"risk_disclaimer\" target=\"_blank\">Risk Disclaimer</a> and <a ui-sref=\"privacy_policy\" target=\"_blank\">Privacy Policy</a>",
+                                  "name": "Terms",
+                                  "msgBox": {
+                                    "required": "Please accept our terms and conditions."
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "block": {
+                    "class": "col-sm-4 col-xs-12 side-text",
+                    "array": [
+                      {
+                        "content-body": {
+                          "class": "smaller-content",
+                          "text": "Already have an account? <a ui-sref=\"login\"><br>Log in</a>"
+                        }
+                      },
+                      {
+                        "content-body": {
+                          "class": "smaller-content no-padding",
+                          "text": "Got a question? Read our <a ui-sref=\"faq\">FAQ</a>"
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "block": {
+              "class": "arrow",
+              "background": "assets/images/sections/arrow.png"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "sectionName": "bottom-section",
+        "sectionType": "open-account-section",
+        "class": "bottom-section",
+        "background": "",
+        "containerClass": "",
+        "array": [
+          {
+            "content": {
+              "class": "",
+              "array": [
+                {
+                  "ng-image": {
+                    "image-name": "asset-test",
+                    "src": "assets/icons/Logo.png",
+                    "alt": "some asset",
+                    "type": "img",
+                    "class": "center-img",
+                    "responsive": true
+                  }
+                },
+                {
+                  "block": {
+                    "class": "text-center",
+                    "array": [
+                      {
+                        "content-body": {
+                          "class": "",
+                          "text": "READY TO GET STARTED?"
+                        },
+                        "precedence": 0
+                      },
+                      {
+                        "headline": {
+                          "title": "Powerful. Dynamic. Limitless.",
+                          "class": "hl5"
+                        },
+                        "precedence": 1
+                      },
+                      {
+                        "block": {
+                          "class": "padded-block",
+                          "array": [
+                            {
+                              "logged-in" : {
+                                "array": [
+                                  {
+                                    "btn": {
+                                      "class": "btn btn-transparent centered-btn",
+                                      "title": "trade",
+                                      "destination": "trade"
+                                    },
+                                    "precedence": 4
+                                  },
+                                  {
+                                    "btn": {
+                                      "class": "centered-btn",
+                                      "title": "how it works",
+                                      "destination": "education"
+                                    },
+                                    "precedence": 5
+                                  }
+                                ]
+                              }
+                            },
+                            {
+                              "anonymous": {
+                                "array": [
+                                  {
+                                    "btn": {
+                                      "class": "centered-btn",
+                                      "title": "how it works",
+                                      "destination": "education"
+                                    },
+                                    "precedence": 5
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        },
+                        "precedence": 3
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

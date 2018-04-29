@@ -1,0 +1,84 @@
+@import (reference) '../../../../assets/less/resources';
+
+.liveChat {
+  position: fixed;
+  z-index: 99;
+  bottom: 0;
+  right: 10%;
+  width: @livechat-width;
+  .drop-shadow;
+  .btn {
+    display: inline-table;
+    width: 100%;
+    height: @livechat-openBtn;
+    border-radius: 3px 3px 0 0;
+    font-size: 16px !important;
+    &.top-btn {
+      float: left;
+      margin: 0;
+      @media only screen and (max-width: @mobile-screen) {
+        margin-left: 5%;
+      }
+    }
+
+    i {
+      font-size: 14px;
+    }
+  }
+
+  &.inHomePage {
+    bottom: -@livechat-openBtn ;
+    &.up {
+      bottom: 0;
+      .link-transition(bottom, 1.5s);
+    }
+  }
+
+  .buttons {
+    background-color: @light-bg-color;
+    border: 1px solid @livechat-border;
+    padding: 0;
+
+    .btn {
+      display: table;
+      width: @livechat-btn;
+      height: @livechat-openBtn+10px;
+      float: none;
+      margin: 20px auto;
+      border-radius: 3px;
+    }
+
+    &.animate-enter {
+      padding: @livechat-padding 0;
+      height: @livechat-height;
+      .link-transition(all);
+    }
+
+    &.animate-leave {
+      height: 0;
+      padding: 0;
+      .btn {
+        opacity: 0;
+        .link-transition(opacity);
+      }
+      .link-transition(all);
+    }
+  }
+
+  .svgIcon {
+    display: table;
+    margin-top: 7px;
+    margin-right: 2px;
+    margin-left: -12px;
+  }
+
+  @media only screen and (max-width: @mobile-screen) {
+    right: auto;
+    width: 100%;
+    text-align: center;
+    .btn, .buttons {
+      width: 90%;
+      margin: auto;
+    }
+  }
+}

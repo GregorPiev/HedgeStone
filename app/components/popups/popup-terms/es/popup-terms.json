@@ -1,0 +1,21 @@
+{
+  "primaryHeadline": {
+    "title": "Riesgo de Divulgación",
+    "class": "hl1"
+  },
+  "secondaryHeadline": {
+    "title": "Aviso Importante",
+    "class": "hl7"
+  },
+  "content": {
+    "text": "El comercio con CFD, opciones y otros derivados implica un riesgo significativo. Es importante que usted comprenda los riesgos asociados y busque asesoramiento independiente, si es necesario. Si bien los representantes de Hedgestone a veces puedan proporcionarle información objetiva acerca de los mercados, todas las operaciones realizadas a través de la plataforma operativa de Hedgestone serán colocadas por usted a su exclusiva discreción. Usted puede optar por dejar de operar en cualquier momento. Al hacer clic en "Acepto", usted reconoce que su capital está en riesgo, que Hedgestone no garantiza que usted obtenga un retorno positivo de su inversión y que Hedgestone no será responsable por ninguna pérdida derivada de ninguna inversión que realice."
+  },
+  "yesBtn": {
+    "title": "acepto",
+    "class": "btn"
+  },
+  "cancelBtn": {
+    "title": "cancelar",
+    "class": "btn btn-transparent"
+  }
+}

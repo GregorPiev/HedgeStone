@@ -1,0 +1,161 @@
+@import (reference) "../../../../assets/less/resources";
+.tickerAsset {
+  position: relative;
+  float: left;
+  width: 20%;
+  padding: 20px 15px;
+  cursor: pointer;
+  text-align: left;
+  height: 0px;
+  overflow: hidden;
+  // &:after {
+  //   content: "";
+  //   position: absolute;
+  //   top: 0;
+  //   left: 0;
+  //   width: 100%;
+  //   height: 100%;
+  //   opacity: 0;
+  //   // z-index: -10;
+  //   // background: url('/assets/icons/Hedgestone-Loader.gif') center center no-repeat, black;
+  //   -webkit-transition: 1s linear all;
+  //   -moz-transition: 1s linear all;
+  //   -ms-transition: 1s linear all;
+  //   -o-transition: 1s linear all;
+  //   transition: 1s linear all;
+  // }
+
+  &.logoLoading:after {
+    opacity: 1;
+  }
+
+  // &.showLogoLoading {
+  //   &:after {
+  //     // z-index: 10;
+  //   }
+  // }
+
+  .tickerAssetContainer {
+    color: #fff;
+    -webkit-transition: 0.7s linear opacity;
+    -moz-transition: 0.7s linear opacity;
+    -ms-transition: 0.7s linear opacity;
+    -o-transition: 0.7s linear opacity;
+    transition: 0.7s linear opacity;
+    opacity: 1;
+    &.switching {
+      opacity: 0;
+    }
+  }
+
+  .tooltip-inner {
+    background-color: @ticker-bg;
+    border: 2px solid @transparent-btn-border-color;
+    opacity: 1;
+  }
+
+  .tooltip.bottom .tooltip-arrow {
+    margin-left: -6px;
+    border-width: 0 6px 7px !important;
+  }
+
+  .tooltip.top .tooltip-arrow {
+    margin-left: -6px;
+    border-width: 7px 6px 0 !important;
+  }
+
+  .tooltip.top .tooltip-arrow:before {
+    border-width: 11px 10px 0 !important;
+    margin-left: -10px;
+    .tooltip-border(@transparent-btn-border-color, top);
+
+  }
+
+  .tooltip.bottom .tooltip-arrow:before {
+    border-width: 0 11px 10px !important;
+    margin-left: -11px;
+    .tooltip-border(@transparent-btn-border-color, bottom);
+  }
+
+  //.tooltip-arrow:after {
+  //  top: 0;
+  //  margin-left: -6px;
+  //  content: '';
+  //  border-width: 0 11px 11px;
+  //  border-bottom-color: @transparent-btn-border-color;
+  //}
+
+  .assetType {
+    font-size: @headline-hl6;
+    font-family: @bold-font-family;
+    color: @content-body-color;
+    text-transform: uppercase;
+  }
+
+  .assetName {
+    font-size: 18px;
+    font-family: @bold-font-family;
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-bottom: 15px;
+  }
+
+  .assetPercentageChange {
+    font-size: @headline-hl1;
+    font-family: @thin-font-family;
+    color: @account-balance-color;
+    width: 100%;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+    margin-bottom: 10px;
+    float: left;
+    &:after {
+      //float: left;
+      content: "%";
+      font-size: 32px;
+    }
+  }
+
+  .assetChange {
+    font-family: @bold-font-family;
+    text-transform: uppercase;
+    font-size: 18px;
+    float: left;
+    &.positive {
+      .turquoise;
+    }
+
+    &.negative {
+      color: @btn-color;
+    }
+  }
+
+  img {
+    margin: 0 15px;
+    float: left;
+  }
+
+  .assetRate {
+    font-size: 18px;
+    float: left;
+    font-family: @bold-font-family;
+    text-transform: uppercase;
+  }
+
+  @media only screen and (max-width: @config-tablet) {
+    width: 25%;
+    padding: 20px 5px;
+  }
+
+  @media only screen and (max-width: @config-tabletSmall) {
+    width: 33.33%;
+    padding: 20px 5px;
+  }
+
+  @media only screen and (max-width: @config-mobile) {
+    width: 50%;
+    padding: 20px 5px;
+    .assetName {
+      font-size: 16px;
+    }
+  }
+}

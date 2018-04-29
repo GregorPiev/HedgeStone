@@ -1,0 +1,121 @@
+@import (reference) "../../../assets/less/resources";
+@import (reference) "../btn/btn";
+
+.depositAndWithdrawal {
+  background-color: @light-bg-color;
+  .dataTables_length {
+    padding: 15px;
+    float: left;
+    color: @content-body-color;
+    select {
+      border-radius: 3px;
+      color: black;
+    }
+  }
+
+  .dataTables_filter {
+    float: right;
+    color: @content-body-color;
+    padding: 15px;
+    width: 100%;
+    text-align: right;
+    input[type=search] {
+      border-radius: 3px;
+      color: black;
+      width: 221px;
+      height: 40px;
+      border: 0;
+      padding: 0 10px;
+      font-size: 16px;
+      -webkit-outline: 0;
+      -moz-outline: 0;
+      -ms-outline: 0;
+      -o-outline: 0;
+      outline: 0;
+    }
+  }
+
+  .dataTables_paginate {
+    float: right;
+    .paginate_button {
+      display: none;
+      &.previous, &.next {
+        .btn;
+        .btn-transparent;
+        height: 28px;
+        line-height: 28px;
+        margin-left: 10px;
+        cursor: pointer;
+        font-size: 14px !important;
+        margin-top: 0;
+      }
+    }
+
+    span {
+      display: none;
+    }
+  }
+
+  .dataTables_info {
+    float: left;
+    color: @content-body-color;
+    margin-top: 10px;
+  }
+
+  .dataTable {
+    font-family: @main-font-family;
+    color: @content-body-color;
+    background-color: @light-bg-color;
+    position: relative;
+    width: 100% !important;
+    thead {
+      tr {
+        background-color: @tab-btn-border-color;
+      }
+    }
+
+    tbody {
+      tr {
+        position: relative;
+        &:after {
+          content: '';
+          position: absolute;
+          left: 0;
+          width: 3px;
+          height: 34px;
+          margin-top: 1px;
+          @media (max-width: 1150px) {
+            height: 53px;
+          }
+        }
+
+        &.approved:after {
+          background: @turquoise;
+        }
+
+        &.canceled:after {
+          background: @btn-color;
+        }
+      }
+    }
+  }
+
+  .table-striped > tbody > tr:nth-of-type(odd) {
+    background-color: @light-bg-color;
+  }
+
+  .table > tbody > tr > td {
+    border-top-color: @tab-btn-border-color;
+    text-align: left;
+    width: 15% !important;
+    vertical-align: middle;
+    height: 35px;
+    @media (max-width: 1150px) {
+      height: 54px;
+    }
+  }
+  .table > thead > tr > th {
+    border-bottom-color: @dark-bg-color;
+    width: 15% !important;
+  }
+}

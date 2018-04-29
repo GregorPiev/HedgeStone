@@ -1,0 +1,211 @@
+[
+  {
+    "sectionName": "twoBlocksSection",
+    "sectionType": "2-blocks",
+    "class": "twoBlocks",
+    "container": false,
+    "body": {
+      "grid": {
+        "class": "col-lg-12",
+        "array": [
+          {
+            "block": {
+              "class": "col-lg-6",
+              "body": {
+                "headline": {
+                  "title": "Primary Headline",
+                  "class": "h1 text-center"
+                },
+                "unordered-list": {
+                  "class": "center",
+                  "array": [
+                    {
+                      "list-item": {
+                        "content": "Lorem ipsum ver stuh be all got vempire thanks to all of you for coming bnaya develop this",
+                        "icon": {
+                          "type": "fa",
+                          "class": "fa-user"
+                        }
+                      },
+                      "precedence": 0
+                    },
+                    {
+                      "list-item": {
+                        "content": "Lorem ipsum ver stuh be all got vempire thanks to all of you for coming bnaya develop this",
+                        "icon": {
+                          "type": "fa",
+                          "class": "fa-user"
+                        }
+                      },
+                      "precedence": 1
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "block": {
+              "class": "col-lg-6",
+              "body": {
+                "headline": {
+                  "title": "Primary Headline",
+                  "class": "h1 text-center"
+                },
+                "ng-table": {
+                  "class": "col-lg-12",
+                  "array": [
+                    {
+                      "table-row": {
+                        "class": "",
+                        "array": [
+                          {
+                            "table-cell": {
+                              "class": "cell col-lg-3",
+                              "content": "CAD/JPY"
+                            },
+                            "precedence": 0
+                          },
+                          {
+                            "table-cell": {
+                              "class": "cell col-lg-3",
+                              "content": "CAD2/JPY"
+                            },
+                            "precedence": 1
+                          },
+                          {
+                            "table-cell": {
+                              "class": "cell col-lg-3",
+                              "content": "CAD/JPY"
+                            },
+                            "precedence": 2
+                          },
+                          {
+                            "table-cell": {
+                              "class": "cell col-lg-3",
+                              "content": "CAD3/JPY"
+                            },
+                            "precedence": -1
+                          }
+                        ]
+                      },
+                      "precedence": 0
+                    },
+                    {
+                      "table-row": {
+                        "class": "",
+                        "array": [
+                          {
+                            "table-cell": {
+                              "class": "cell col-lg-3",
+                              "content": "CAD/JPY"
+                            },
+                            "precedence": 0
+                          },
+                          {
+                            "table-cell": {
+                              "class": "cell col-lg-3",
+                              "content": "CAD2/JPY"
+                            },
+                            "precedence": 1
+                          },
+                          {
+                            "table-cell": {
+                              "class": "cell col-lg-3",
+                              "content": "CAD/JPY"
+                            },
+                            "precedence": 2
+                          },
+                          {
+                            "table-cell": {
+                              "class": "cell col-lg-3",
+                              "content": "CAD3/JPY"
+                            },
+                            "precedence": -1
+                          }
+                        ]
+                      },
+                      "precedence": 0
+                    },
+                    {
+                      "table-row": {
+                        "class": "",
+                        "array": [
+                          {
+                            "table-cell": {
+                              "class": "cell col-lg-3",
+                              "content": "CAD/JPY"
+                            },
+                            "precedence": 0
+                          },
+                          {
+                            "table-cell": {
+                              "class": "cell col-lg-3",
+                              "content": "CAD2/JPY"
+                            },
+                            "precedence": 1
+                          },
+                          {
+                            "table-cell": {
+                              "class": "cell col-lg-3",
+                              "content": "CAD/JPY"
+                            },
+                            "precedence": 2
+                          },
+                          {
+                            "table-cell": {
+                              "class": "cell col-lg-3",
+                              "content": "CAD3/JPY"
+                            },
+                            "precedence": -1
+                          }
+                        ]
+                      },
+                      "precedence": 0
+                    },
+                    {
+                      "table-row": {
+                        "class": "",
+                        "array": [
+                          {
+                            "table-cell": {
+                              "class": "cell col-lg-3",
+                              "content": "CAD/JPY"
+                            },
+                            "precedence": 0
+                          },
+                          {
+                            "table-cell": {
+                              "class": "cell col-lg-3",
+                              "content": "CAD2/JPY"
+                            },
+                            "precedence": 1
+                          },
+                          {
+                            "table-cell": {
+                              "class": "cell col-lg-3",
+                              "content": "CAD/JPY"
+                            },
+                            "precedence": 2
+                          },
+                          {
+                            "table-cell": {
+                              "class": "cell col-lg-3",
+                              "content": "CAD3/JPY"
+                            },
+                            "precedence": -1
+                          }
+                        ]
+                      },
+                      "precedence": 0
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+]

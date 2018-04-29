@@ -1,0 +1,1467 @@
+{
+  "page-name": "financials",
+  "page-type": "page",
+  "class": "",
+  "title": " El Grupo Hedgestone ofrece una variedad de activos financieros.",
+  "description": "El Grupo Hedgestone le proporciona una variedad de activos - acciones, materias primas, divisas o índices. También le asegura que no se pierde ninguna oportunidad comercial.",
+  "keywords": "Productos financieros, acciones, materias primas, divisas, índices",
+  "array": [
+    {
+      "section": {
+        "sectionName": "financial-top-section",
+        "sectionType": "top-section",
+        "background": "assets/images/financial-page/1.jpg",
+        "containerClass": "container",
+        "class": "text-center dark-background",
+        "array": [
+          {
+            "content": {
+              "class": "",
+              "array": [
+                {
+                  "headline": {
+                    "title": "Productos Financieros",
+                    "class": "hl1"
+                  },
+                  "precedence": 0
+                },
+                {
+                  "block": {
+                    "class": "divider"
+                  }
+                },
+                {
+                  "content-body": {
+                    "class": "",
+                    "text": "Hedgestone le proporciona acceso directo a un conjunto diverso de instrumentos financieros. Si usted está interesado en el comercio de acciones, materias primas, divisas o índices, los CFD y las opciones de productos de Hedgestone le permiten aprovechar las nuevas oportunidades comerciales, en el momento en que surgen"
+                  },
+                  "precedence": 2
+                },
+                {
+                  "block": {
+                    "class": "table",
+                    "array": [
+                      {
+                        "card": {
+                          "class": "cell four-in-a-row",
+                          "array": [
+                            {
+                              "ng-image": {
+                                "precedence": 1,
+                                "image-name": "asset-test",
+                                "src": "assets/images/financial-page/icons/stocks.png",
+                                "alt": "Stocks",
+                                "type": "img",
+                                "class": "col-xs-12 text-center"
+                              }
+                            },
+                            {
+                              "headline": {
+                                "precedence": 0,
+                                "title": "Acciones",
+                                "class": "hl3"
+                              }
+                            },
+                            {
+                              "content-body": {
+                                "class": "",
+                                "precedence": 2,
+                                "text": "BHP, Microsoft, Apple y otras compañías que cotizan en bolsa de blue chip."
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "card": {
+                          "class": "cell four-in-a-row",
+                          "array": [
+                            {
+                              "ng-image": {
+                                "precedence": 1,
+                                "image-name": "asset-test",
+                                "src": "assets/images/financial-page/icons/diamond.png",
+                                "alt": "Materias primas",
+                                "type": "img",
+                                "class": "col-xs-12"
+                              }
+                            },
+                            {
+                              "headline": {
+                                "precedence": 0,
+                                "title": "Materias primas",
+                                "class": "hl3"
+                              }
+                            },
+                            {
+                              "content-body": {
+                                "class": "",
+                                "precedence": 2,
+                                "text": "Petróleo crudo, oro, maíz y otros bloques de construcción en bruto de la industria mundial."
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "card": {
+                          "class": "cell four-in-a-row",
+                          "array": [
+                            {
+                              "ng-image": {
+                                "precedence": 0,
+                                "image-name": "asset-test",
+                                "src": "assets/images/financial-page/icons/currencies.png",
+                                "alt": "divisas",
+                                "type": "img",
+                                "class": "col-xs-12"
+                              }
+                            },
+                            {
+                              "headline": {
+                                "precedence": 1,
+                                "title": "Divisas",
+                                "class": "hl3"
+                              }
+                            },
+                            {
+                              "content-body": {
+                                "precedence": 2,
+                                "class": "",
+                                "text": "EUR /USD, AUD/JPY, GBP/USD y otros pares de divisas de alta liquidez."
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "card": {
+                          "class": "cell four-in-a-row",
+                          "array": [
+                            {
+                              "ng-image": {
+                                "precedence": 0,
+                                "image-name": "asset-test",
+                                "src": "assets/images/financial-page/icons/indices.png",
+                                "alt": "indices",
+                                "type": "img",
+                                "class": "col-xs-12"
+                              }
+                            },
+                            {
+                              "headline": {
+                                "precedence": 1,
+                                "title": "Índices",
+                                "class": "hl3"
+                              }
+                            },
+                            {
+                              "content-body": {
+                                "precedence": 2,
+                                "class": "",
+                                "text": "NASDAQ, S&P 500 y otros barómetros del desempeño del mercado de valores."
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "sectionName": "cfd",
+        "sectionType": "cards-section one-card high with-arrow",
+        "background": "",
+        "containerClass": "container",
+        "class": "text-center light-background relative-position",
+        "array": [
+          {
+            "content": {
+              "class": "",
+              "array": [
+                {
+                  "card": {
+                    "class": "cell",
+                    "array": [
+                      {
+                        "ng-image": {
+                          "precedence": 0,
+                          "image-name": "asset-test",
+                          "src": "assets/images/financial-page/icons/comp.png",
+                          "alt": "CFD",
+                          "type": "img",
+                          "class": "col-xs-12"
+                        }
+                      },
+                      {
+                        "headline": {
+                          "precedence": 1,
+                          "title": "CFD",
+                          "class": "hl5"
+                        }
+                      },
+                      {
+                        "content-body": {
+                          "precedence": 2,
+                          "class": "",
+                          "text": "Contratos-por-diferencia o CFD (según sus siglas en inglés), son un tipo de instrumento financiero que le permite especular con respecto a los futuros movimientos de precios de una amplia gama de activos subyacentes. Por cada operación de CFD que se ingresa existe una amplia gama de posibles pagos - los beneficios potenciales son abiertos."
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "block": {
+                    "class": "arrow",
+                    "background": "assets/images/financial-page/the-arrow.png"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "sectionName": "financial-explanation",
+        "sectionType": "cards-section low",
+        "background": "",
+        "containerClass": "container",
+        "class": "text-center dark-background relative-position",
+        "array": [
+          {
+            "content": {
+              "class": "",
+              "array": [
+                {
+                  "card": {
+                    "class": "cell three-in-a-row",
+                    "array": [
+                      {
+                        "ng-image": {
+                          "precedence": 0,
+                          "image-name": "asset-test",
+                          "src": "assets/images/financial-page/icons/arrows.png",
+                          "alt": "arrows",
+                          "type": "img",
+                          "class": "col-xs-12"
+                        }
+                      },
+                      {
+                        "headline": {
+                          "precedence": 1,
+                          "title": "Largo o Corto",
+                          "class": "hl4"
+                        }
+                      },
+                      {
+                        "content-body": {
+                          "precedence": 2,
+                          "class": "",
+                          "text": "Los CFD le permiten ingresar operaciones que pueden producir resultados positivos cuando los precios están subiendo y cuando están bajando."
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "card": {
+                    "class": "cell three-in-a-row",
+                    "array": [
+                      {
+                        "ng-image": {
+                          "precedence": 0,
+                          "image-name": "asset-test",
+                          "src": "assets/images/financial-page/icons/graph.png",
+                          "alt": "graph",
+                          "type": "img",
+                          "class": "col-xs-12"
+                        }
+                      },
+                      {
+                        "headline": {
+                          "precedence": 1,
+                          "title": "Activo Subyacente",
+                          "class": "hl4"
+                        }
+                      },
+                      {
+                        "content-body": {
+                          "precedence": 2,
+                          "class": "",
+                          "text": "Cada operación de CFD que usted ingresa tiene un valor que está directamente vinculado a las fluctuaciones del precio de un activo subyacente."
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "card": {
+                    "class": "cell three-in-a-row",
+                    "array": [
+                      {
+                        "ng-image": {
+                          "precedence": 0,
+                          "image-name": "asset-test",
+                          "src": "assets/images/financial-page/icons/scale.png",
+                          "alt": "CFDs",
+                          "type": "img",
+                          "class": "col-xs-12"
+                        }
+                      },
+                      {
+                        "headline": {
+                          "precedence": 1,
+                          "title": "Margen Operativo",
+                          "class": "hl4"
+                        }
+                      },
+                      {
+                        "content-body": {
+                          "precedence": 2,
+                          "class": "",
+                          "text": "A través de la utilización del margen, los CFD le permiten ingresar posiciones que tienen un valor total mucho mayor que el desembolso de capital."
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "sectionName": "financial-explanation",
+        "sectionType": "financial-explanation",
+        "background": "assets/images/financial-page/Gradient.png",
+        "containerClass": "container",
+        "class": "text-center dark-background relative-position with-arrow",
+        "array": [
+          {
+            "content": {
+              "class": "full-width",
+              "array": [
+                {
+                  "headline": {
+                    "precedence": 1,
+                    "title": "¿Cómo funcionan los CFD?",
+                    "class": "hl3"
+                  }
+                },
+                {
+                  "block": {
+                    "class": "padded-block table link-block",
+                    "array": [
+                      {
+                        "content-body": {
+                          "class": "no-padding",
+                          "text": "¿Le interesa saber más? "
+                        }
+                      },
+                      {
+                        "btn": {
+                          "class": "link",
+                          "title": "Explore nuestros materiales educativos",
+                          "destination": "education"
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "block": {
+              "class": "arrow visible-from-tablet-lg",
+              "background": "assets/images/financial-page/arrow3.png"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "sectionName": "twoBlocksSection",
+        "sectionType": "two-blocks",
+        "class": "twoBlocks no-padding relative-position",
+        "container": false,
+        "array": [
+          {
+            "block": {
+              "class": "col-lg-12 no-padding",
+              "array": [
+                {
+                  "block": {
+                    "class": "col-md-6 left-block wrapper-block",
+                    "array": [
+                      {
+                        "block": {
+                          "class": "side-block",
+                          "array": [
+                            {
+                              "headline": {
+                                "title": "Razones para operar CFD con Hedgestone",
+                                "class": "hl3 text-center"
+                              }
+                            },
+                            {
+                              "unordered-list": {
+                                "class": "center no-padding",
+                                "array": [
+                                  {
+                                    "list-item": {
+                                      "content": "Usted quiere operar principalmente con instrumentos que están relacionados con el mercado de divisas",
+                                      "icon": {
+                                        "src": "/assets/images/financial-page/icons/Tick.png",
+                                        "class": "list-icon"
+                                      }
+                                    },
+                                    "precedence": 0
+                                  },
+                                  {
+                                    "list-item": {
+                                      "content": "Usted quiere utilizar el margen (es decir, el apalancamiento) para amplificar su rendimiento",
+                                      "icon": {
+                                        "src": "/assets/images/financial-page/icons/Tick.png",
+                                        "class": "list-icon"
+                                      }
+                                    },
+                                    "precedence": 1
+                                  },
+                                  {
+                                    "list-item": {
+                                      "content": "Usted quiere colocar operaciones que tengan un espectro abierto de pagos",
+                                      "icon": {
+                                        "src": "/assets/images/financial-page/icons/Tick.png",
+                                        "class": "list-icon"
+                                      }
+                                    },
+                                    "precedence": 1
+                                  },
+                                  {
+                                    "list-item": {
+                                      "content": "Usted quiere poder generar resultados positivos en condiciones del mercado alcista y bajista",
+                                      "icon": {
+                                        "src": "/assets/images/financial-page/icons/Tick.png",
+                                        "class": "list-icon"
+                                      }
+                                    },
+                                    "precedence": 1
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "block": {
+                    "class": "col-md-6 right-block wrapper-block",
+                    "array": [
+                      {
+                        "block": {
+                          "class": "side-block",
+                          "array": [
+                            {
+                              "headline": {
+                                "title": "Muestras de activos subyacentes para CFD",
+                                "class": "hl3 text-center"
+                              }
+                            },
+                            {
+                              "ng-table": {
+                                "class": "",
+                                "array": [
+                                  {
+                                    "table-row": {
+                                      "class": "",
+                                      "array": [
+                                        {
+                                          "table-cell": {
+                                            "class": "cell col-lg-3",
+                                            "content": "AUD/CAD"
+                                          },
+                                          "precedence": 0
+                                        },
+                                        {
+                                          "table-cell": {
+                                            "class": "cell col-lg-3",
+                                            "content": "CAD/JPY"
+                                          },
+                                          "precedence": 1
+                                        },
+                                        {
+                                          "table-cell": {
+                                            "class": "cell col-lg-3",
+                                            "content": "EUR/NZD"
+                                          },
+                                          "precedence": 2
+                                        },
+                                        {
+                                          "table-cell": {
+                                            "class": "cell col-lg-3",
+                                            "content": "GBP/NZD"
+                                          },
+                                          "precedence": -1
+                                        }
+                                      ]
+                                    },
+                                    "precedence": 0
+                                  },
+                                  {
+                                    "table-row": {
+                                      "class": "",
+                                      "array": [
+                                        {
+                                          "table-cell": {
+                                            "class": "cell col-lg-3",
+                                            "content": "AUD/CHF"
+                                          },
+                                          "precedence": 0
+                                        },
+                                        {
+                                          "table-cell": {
+                                            "class": "cell col-lg-3",
+                                            "content": "CHF/JPY"
+                                          },
+                                          "precedence": 1
+                                        },
+                                        {
+                                          "table-cell": {
+                                            "class": "cell col-lg-3",
+                                            "content": "EUR/USD"
+                                          },
+                                          "precedence": 2
+                                        },
+                                        {
+                                          "table-cell": {
+                                            "class": "cell col-lg-3",
+                                            "content": "GBP/USD"
+                                          },
+                                          "precedence": -1
+                                        }
+                                      ]
+                                    },
+                                    "precedence": 0
+                                  },
+                                  {
+                                    "table-row": {
+                                      "class": "",
+                                      "array": [
+                                        {
+                                          "table-cell": {
+                                            "class": "cell col-lg-3",
+                                            "content": "AUD/JPY"
+                                          },
+                                          "precedence": 0
+                                        },
+                                        {
+                                          "table-cell": {
+                                            "class": "cell col-lg-3",
+                                            "content": "EUR/AUD"
+                                          },
+                                          "precedence": 1
+                                        },
+                                        {
+                                          "table-cell": {
+                                            "class": "cell col-lg-3",
+                                            "content": "GBP/AUD"
+                                          },
+                                          "precedence": 2
+                                        },
+                                        {
+                                          "table-cell": {
+                                            "class": "cell col-lg-3",
+                                            "content": "NZD/CAD"
+                                          },
+                                          "precedence": -1
+                                        }
+                                      ]
+                                    },
+                                    "precedence": 0
+                                  },
+                                  {
+                                    "table-row": {
+                                      "class": "",
+                                      "array": [
+                                        {
+                                          "table-cell": {
+                                            "class": "cell col-lg-3",
+                                            "content": "AUD/NZD"
+                                          },
+                                          "precedence": 0
+                                        },
+                                        {
+                                          "table-cell": {
+                                            "class": "cell col-lg-3",
+                                            "content": "EUR/CAD"
+                                          },
+                                          "precedence": 1
+                                        },
+                                        {
+                                          "table-cell": {
+                                            "class": "cell col-lg-3",
+                                            "content": "GBP/CAD"
+                                          },
+                                          "precedence": 2
+                                        },
+                                        {
+                                          "table-cell": {
+                                            "class": "cell col-lg-3",
+                                            "content": "NZD/CHF"
+                                          },
+                                          "precedence": -1
+                                        }
+                                      ]
+                                    },
+                                    "precedence": 0
+                                  },
+                                  {
+                                    "table-row": {
+                                      "class": "",
+                                      "array": [
+                                        {
+                                          "table-cell": {
+                                            "class": "cell col-lg-3",
+                                            "content": "AUD/USD"
+                                          },
+                                          "precedence": 0
+                                        },
+                                        {
+                                          "table-cell": {
+                                            "class": "cell col-lg-3",
+                                            "content": "EUR/GBP"
+                                          },
+                                          "precedence": 1
+                                        },
+                                        {
+                                          "table-cell": {
+                                            "class": "cell col-lg-3",
+                                            "content": "GBP/CHF"
+                                          },
+                                          "precedence": 2
+                                        },
+                                        {
+                                          "table-cell": {
+                                            "class": "cell col-lg-3",
+                                            "content": "NZD/USD"
+                                          },
+                                          "precedence": -1
+                                        }
+                                      ]
+                                    },
+                                    "precedence": 0
+                                  },
+                                  {
+                                    "table-row": {
+                                      "class": "",
+                                      "array": [
+                                        {
+                                          "table-cell": {
+                                            "class": "cell col-lg-3",
+                                            "content": "CAD/CHF"
+                                          },
+                                          "precedence": 0
+                                        },
+                                        {
+                                          "table-cell": {
+                                            "class": "cell col-lg-3",
+                                            "content": "EUR/JPY"
+                                          },
+                                          "precedence": 1
+                                        },
+                                        {
+                                          "table-cell": {
+                                            "class": "cell col-lg-3",
+                                            "content": "GBP/JPY"
+                                          },
+                                          "precedence": 2
+                                        },
+                                        {
+                                          "table-cell": {
+                                            "class": "cell col-lg-3",
+                                            "content": "USD/CAD"
+                                          },
+                                          "precedence": -1
+                                        }
+                                      ]
+                                    },
+                                    "precedence": 0
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "block": {
+              "class": "arrow visible-from-tablet-lg",
+              "background": "assets/images/financial-page/the-arrow.png"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "sectionName": "ready",
+        "sectionType": "headline-btn",
+        "background": "",
+        "containerClass": "container",
+        "class": "text-center dark-background relative-position",
+        "array": [
+          {
+            "content": {
+              "class": "container container-fluid",
+              "array": [
+                {
+                  "headline": {
+                    "precedence": 1,
+                    "title": "Listo para aprender más sobre los CFD?",
+                    "class": "hl3"
+                  }
+                },
+                {
+                  "block": {
+                    "class": "padded-block",
+                    "array": [
+                      {
+                        "btn": {
+                          "class": "btn centered-btn",
+                          "title": "Hable con un agente",
+                          "destination": "about"
+                        },
+                        "precedence": 4
+                      }
+                    ]
+                  },
+                  "precedence": 3
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "sectionName": "options",
+        "sectionType": "cards-section one-card high with-arrow",
+        "background": "",
+        "containerClass": "container",
+        "class": "text-center light-background relative-position",
+        "array": [
+          {
+            "content": {
+              "class": "",
+              "array": [
+                {
+                  "card": {
+                    "class": "cell",
+                    "array": [
+                      {
+                        "ng-image": {
+                          "precedence": 0,
+                          "image-name": "asset-test",
+                          "src": "assets/images/financial-page/icons/dollar-arrow.png",
+                          "alt": "options",
+                          "type": "img",
+                          "class": "col-xs-12"
+                        }
+                      },
+                      {
+                        "headline": {
+                          "precedence": 1,
+                          "title": "Opciones",
+                          "class": "hl5"
+                        }
+                      },
+                      {
+                        "content-body": {
+                          "precedence": 2,
+                          "class": "",
+                          "text": "Las opciones son un tipo de instrumento financiero que permite a los operadores especular con respecto al futuro comportamiento de los precios de una amplia gama de acciones subyacentes, materias primas, divisas e índices. A diferencia de los CFD, por cada operación que usted ingrese, el pago potencial máximo es conocido desde el principio "
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "block": {
+                    "class": "arrow",
+                    "background": "assets/images/financial-page/the-arrow.png"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "sectionName": "financial-explanation",
+        "sectionType": "cards-section low",
+        "background": "",
+        "containerClass": "container",
+        "class": "text-center dark-background relative-position",
+        "array": [
+          {
+            "content": {
+              "class": "",
+              "array": [
+                {
+                  "card": {
+                    "class": "cell three-in-a-row",
+                    "array": [
+                      {
+                        "ng-image": {
+                          "precedence": 0,
+                          "image-name": "asset-test",
+                          "src": "assets/images/financial-page/icons/comp-arrow.png",
+                          "alt": "arrows",
+                          "type": "img",
+                          "class": "col-xs-12"
+                        }
+                      },
+                      {
+                        "headline": {
+                          "precedence": 1,
+                          "title": "Presented Upfront",
+                          "class": "hl4"
+                        }
+                      },
+                      {
+                        "content-body": {
+                          "precedence": 2,
+                          "class": "",
+                          "text": "El rendimiento potencial y la pérdida potencial de una opción se presenta a usted antes de colocar la operación."
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "card": {
+                    "class": "cell three-in-a-row",
+                    "array": [
+                      {
+                        "ng-image": {
+                          "precedence": 0,
+                          "image-name": "asset-test",
+                          "src": "assets/images/financial-page/icons/clock.png",
+                          "alt": "gráfico",
+                          "type": "img",
+                          "class": "col-xs-12"
+                        }
+                      },
+                      {
+                        "headline": {
+                          "precedence": 1,
+                          "title": "Duración Fija",
+                          "class": "hl4"
+                        }
+                      },
+                      {
+                        "content-body": {
+                          "precedence": 2,
+                          "class": "",
+                          "text": "Las opciones se establecen para tiempos predeterminados de vencimiento - segundos, horas o semanas desde el momento de ingresar por primera vez una operación."
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "card": {
+                    "class": "cell three-in-a-row",
+                    "array": [
+                      {
+                        "ng-image": {
+                          "precedence": 0,
+                          "image-name": "asset-test",
+                          "src": "assets/images/financial-page/icons/returns.png",
+                          "alt": "CFDs",
+                          "type": "img",
+                          "class": "col-xs-12"
+                        }
+                      },
+                      {
+                        "headline": {
+                          "precedence": 1,
+                          "title": "Retornos Altos",
+                          "class": "hl4"
+                        }
+                      },
+                      {
+                        "content-body": {
+                          "precedence": 2,
+                          "class": "",
+                          "text": "Dentro de un corto período de tiempo, una opción puede producir rendimientos netos excepcionalmente altos - a veces superiores al 90%."
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "sectionName": "financial-explanation",
+        "sectionType": "financial-explanation",
+        "background": "assets/images/financial-page/Gradient.png",
+        "containerClass": "container",
+        "class": "text-center dark-background relative-position",
+        "array": [
+          {
+            "content": {
+              "class": "full-width",
+              "array": [
+                {
+                  "headline": {
+                    "precedence": 1,
+                    "title": "¿Cómo funcionan las opciones?",
+                    "class": "hl3"
+                  }
+                },
+                {
+                  "block": {
+                    "class": "padded-block table link-block",
+                    "array": [
+                      {
+                        "content-body": {
+                          "class": "no-padding",
+                          "text": "¿Le interesa saber más? "
+                        }
+                      },
+                      {
+                        "btn": {
+                          "class": "link",
+                          "title": "Explore nuestros materiales educativos",
+                          "destination": "education"
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "block": {
+                    "class": "arrow visible-from-tablet-lg",
+                    "background": "assets/images/financial-page/arrow3.png"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "sectionName": "twoBlocksSection",
+        "sectionType": "two-blocks",
+        "class": "twoBlocks no-padding relative-position",
+        "container": false,
+        "array": [
+          {
+            "block": {
+              "class": "col-lg-12 no-padding",
+              "array": [
+                {
+                  "block": {
+                    "class": "col-md-6 left-block wrapper-block",
+                    "array": [
+                      {
+                        "block": {
+                          "class": "side-block",
+                          "array": [
+                            {
+                              "headline": {
+                                "title": "Razones para operar opciones con Hedgestone",
+                                "class": "hl3 text-center"
+                              }
+                            },
+                            {
+                              "unordered-list": {
+                                "class": "center no-padding",
+                                "array": [
+                                  {
+                                    "list-item": {
+                                      "content": "Usted quiere especular respecto a los precios futuros de acciones, materias primas, divisas e índices",
+                                      "icon": {
+                                        "src": "/assets/images/financial-page/icons/Tick.png",
+                                        "class": "list-icon"
+                                      }
+                                    },
+                                    "precedence": 0
+                                  },
+                                  {
+                                    "list-item": {
+                                      "content": "Usted quiere operar con instrumentos que vencen en un momento predeterminado en el futuro",
+                                      "icon": {
+                                        "src": "/assets/images/financial-page/icons/Tick.png",
+                                        "class": "list-icon"
+                                      }
+                                    },
+                                    "precedence": 1
+                                  },
+                                  {
+                                    "list-item": {
+                                      "content": "Usted quiere saber su máximo potencial de pago y la máxima potencial pérdida por adelantado",
+                                      "icon": {
+                                        "src": "/assets/images/financial-page/icons/Tick.png",
+                                        "class": "list-icon"
+                                      }
+                                    },
+                                    "precedence": 1
+                                  },
+                                  {
+                                    "list-item": {
+                                      "content": "Usted quiere obtener altos retornos potenciales dentro de plazos muy cortos",
+                                      "icon": {
+                                        "src": "/assets/images/financial-page/icons/Tick.png",
+                                        "class": "list-icon"
+                                      }
+                                    },
+                                    "precedence": 1
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "block": {
+                    "class": "col-md-6 right-block wrapper-block",
+                    "array": [
+                      {
+                        "block": {
+                          "class": "side-block",
+                          "array": [
+                            {
+                              "headline": {
+                                "title": "Muestras de activos subyacentes para opciones",
+                                "class": "hl3 text-center"
+                              }
+                            },
+                            {
+                              "ng-table": {
+                                "class": "",
+                                "array": [
+                                  {
+                                    "table-row": {
+                                      "class": "",
+                                      "array": [
+                                        {
+                                          "table-cell": {
+                                            "class": "cell col-sm-3",
+                                            "content": "APPLE"
+                                          },
+                                          "precedence": 0
+                                        },
+                                        {
+                                          "table-cell": {
+                                            "class": "cell col-sm-3",
+                                            "content": "ALLIANZ"
+                                          },
+                                          "precedence": 1
+                                        },
+                                        {
+                                          "table-cell": {
+                                            "class": "cell col-sm-3",
+                                            "content": "COBRE"
+                                          },
+                                          "precedence": 2
+                                        },
+                                        {
+                                          "table-cell": {
+                                            "class": "cell col-sm-3",
+                                            "content": "EUR/USD"
+                                          },
+                                          "precedence": -1
+                                        }
+                                      ]
+                                    },
+                                    "precedence": 0
+                                  },
+                                  {
+                                    "table-row": {
+                                      "class": "",
+                                      "array": [
+                                        {
+                                          "table-cell": {
+                                            "class": "cell col-sm-3",
+                                            "content": "FACEBOOK"
+                                          },
+                                          "precedence": 0
+                                        },
+                                        {
+                                          "table-cell": {
+                                            "class": "cell col-sm-3",
+                                            "content": "DAIMLER"
+                                          },
+                                          "precedence": 1
+                                        },
+                                        {
+                                          "table-cell": {
+                                            "class": "cell col-sm-3",
+                                            "content": "ORO"
+                                          },
+                                          "precedence": 2
+                                        },
+                                        {
+                                          "table-cell": {
+                                            "class": "cell col-sm-3",
+                                            "content": "EUR/CAD"
+                                          },
+                                          "precedence": -1
+                                        }
+                                      ]
+                                    },
+                                    "precedence": 0
+                                  },
+                                  {
+                                    "table-row": {
+                                      "class": "",
+                                      "array": [
+                                        {
+                                          "table-cell": {
+                                            "class": "cell col-sm-3",
+                                            "content": "TATA STEEL"
+                                          },
+                                          "precedence": 0
+                                        },
+                                        {
+                                          "table-cell": {
+                                            "class": "cell col-lg-3",
+                                            "content": "METRO"
+                                          },
+                                          "precedence": 1
+                                        },
+                                        {
+                                          "table-cell": {
+                                            "class": "cell col-sm-3",
+                                            "content": "PLATINO"
+                                          },
+                                          "precedence": 2
+                                        },
+                                        {
+                                          "table-cell": {
+                                            "class": "cell col-sm-3",
+                                            "content": "CAD/JPY"
+                                          },
+                                          "precedence": -1
+                                        }
+                                      ]
+                                    },
+                                    "precedence": 0
+                                  },
+                                  {
+                                    "table-row": {
+                                      "class": "",
+                                      "array": [
+                                        {
+                                          "table-cell": {
+                                            "class": "cell col-lg-3",
+                                            "content": "STARBUCKS"
+                                          },
+                                          "precedence": 0
+                                        },
+                                        {
+                                          "table-cell": {
+                                            "class": "cell col-sm-3",
+                                            "content": "SIEMENS"
+                                          },
+                                          "precedence": 1
+                                        },
+                                        {
+                                          "table-cell": {
+                                            "class": "cell col-sm-3",
+                                            "content": "CAFÉ"
+                                          },
+                                          "precedence": 2
+                                        },
+                                        {
+                                          "table-cell": {
+                                            "class": "cell col-sm-3",
+                                            "content": "NIKKEI 225"
+                                          },
+                                          "precedence": -1
+                                        }
+                                      ]
+                                    },
+                                    "precedence": 0
+                                  },
+                                  {
+                                    "table-row": {
+                                      "class": "",
+                                      "array": [
+                                        {
+                                          "table-cell": {
+                                            "class": "cell col-sm-3",
+                                            "content": "EBAY"
+                                          },
+                                          "precedence": 0
+                                        },
+                                        {
+                                          "table-cell": {
+                                            "class": "cell col-sm-3",
+                                            "content": "VOLKSWAGEN"
+                                          },
+                                          "precedence": 1
+                                        },
+                                        {
+                                          "table-cell": {
+                                            "class": "cell col-sm-3",
+                                            "content": "PLATA"
+                                          },
+                                          "precedence": 2
+                                        },
+                                        {
+                                          "table-cell": {
+                                            "class": "cell col-sm-3",
+                                            "content": "FTSE 100"
+                                          },
+                                          "precedence": -1
+                                        }
+                                      ]
+                                    },
+                                    "precedence": 0
+                                  },
+                                  {
+                                    "table-row": {
+                                      "class": "",
+                                      "array": [
+                                        {
+                                          "table-cell": {
+                                            "class": "cell col-sm-3",
+                                            "content": "SONY"
+                                          },
+                                          "precedence": 0
+                                        },
+                                        {
+                                          "table-cell": {
+                                            "class": "cell col-lg-3",
+                                            "content": "CITIGROUP"
+                                          },
+                                          "precedence": 1
+                                        },
+                                        {
+                                          "table-cell": {
+                                            "class": "cell col-lg-3",
+                                            "content": "PETRÓLEO"
+                                          },
+                                          "precedence": 2
+                                        },
+                                        {
+                                          "table-cell": {
+                                            "class": "cell col-lg-3",
+                                            "content": "S&P 500"
+                                          },
+                                          "precedence": -1
+                                        }
+                                      ]
+                                    },
+                                    "precedence": 0
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "block": {
+              "class": "arrow visible-from-tablet-lg",
+              "background": "assets/images/financial-page/the-arrow.png"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "sectionName": "ready",
+        "sectionType": "headline-btn with-arrow",
+        "background": "",
+        "containerClass": "container",
+        "class": "text-center dark-background relative-position",
+        "array": [
+          {
+            "content": {
+              "class": "",
+              "array": [
+                {
+                  "headline": {
+                    "precedence": 1,
+                    "title": "¿Está listo para aprender más sobre opciones?",
+                    "class": "hl3"
+                  }
+                },
+                {
+                  "block": {
+                    "class": "padded-block",
+                    "array": [
+                      {
+                        "btn": {
+                          "class": "btn centered-btn",
+                          "title": "Hable con un agente",
+                          "destination": "about"
+                        },
+                        "precedence": 4
+                      }
+                    ]
+                  },
+                  "precedence": 3
+                },
+                {
+                  "block": {
+                    "class": "arrow",
+                    "background": "assets/images/sections/arrow.png"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "sectionName": "bottom-section",
+        "sectionType": "open-account-section",
+        "class": "bottom-section",
+        "background": "",
+        "containerClass": "",
+        "array": [
+          {
+            "content": {
+              "class": "",
+              "array": [
+                {
+                  "ng-image": {
+                    "image-name": "asset-test",
+                    "src": "assets/icons/Logo.png",
+                    "alt": "some asset",
+                    "type": "img",
+                    "class": "center-img",
+                    "responsive": "img-responsive centered-item"
+                  }
+                },
+                {
+                  "block": {
+                    "class": "text-center",
+                    "array": [
+                      {
+                        "content-body": {
+                          "class": "",
+                          "text": "¿LISTO PARA COMENZAR?"
+                        },
+                        "precedence": 0
+                      },
+                      {
+                        "headline": {
+                          "title": "Poderoso. Dinámico. Sin límites.",
+                          "class": "hl5"
+                        },
+                        "precedence": 1
+                      },
+                      {
+                        "block": {
+                          "class": "padded-block",
+                          "array": [
+                            {
+                              "logged-in": {
+                                "array": [
+                                  {
+                                    "btn": {
+                                      "class": "btn btn-transparent centered-btn",
+                                      "title": "operación",
+                                      "destination": "trade"
+                                    },
+                                    "precedence": 4
+                                  },
+                                  {
+                                    "btn": {
+                                      "class": "centered-btn",
+                                      "title": "cómo funciona",
+                                      "destination": "education"
+                                    },
+                                    "precedence": 5
+                                  }
+                                ]
+                              }
+                            },
+                            {
+                              "anonymous": {
+                                "array": [
+                                  {
+                                    "btn": {
+                                      "class": "btn btn-transparent centered-btn",
+                                      "title": "abrir una cuenta",
+                                      "destination": "create_account"
+                                    },
+                                    "precedence": 4
+                                  },
+                                  {
+                                    "btn": {
+                                      "class": "centered-btn",
+                                      "title": "cómo funciona",
+                                      "destination": "education"
+                                    },
+                                    "precedence": 5
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        },
+                        "precedence": 3
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

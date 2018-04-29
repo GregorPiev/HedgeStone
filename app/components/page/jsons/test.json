@@ -1,0 +1,302 @@
+{
+  "page-name": "home",
+  "page-type": "page",
+  "sections": [
+    {
+      "sectionName": "bnaya-a-gever",
+      "sectionType": "top-section",
+      "background": "https://dev-bnaya-new_ott.ott-dev.tech/assets/images/marketupdatesBg.jpg",
+      "class": "col-xs-12",
+      "body": {
+        "content": {
+          "class": "col-xs-7",
+          "array": [
+            {
+              "headline": {
+                "title": "Primary Headline",
+                "class": "hl1",
+                "icon": {
+                  "type": "fa",
+                  "class": "fa-user"
+                }
+              },
+              "precedence": 0
+            },
+            {
+              "headline": {
+                "title": "Secondery Headline",
+                "class": "hl2"
+              },
+              "precedence": 1
+            },
+            {
+              "content-body": {
+                "text": "Lorem ipsum dolor sit amet, ex qui eripuit quaestio, per quod purto et. Eros novum affert eos ei, te ornatus consetetur pri. Id sed impetus voluptua. His ne velit honestatis."
+              },
+              "precedence": 2
+            },
+            {
+              "btn": {
+                "title": "Financial Products",
+                "destination": "pages"
+              },
+              "precedence": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "sectionName": "financial-products",
+      "sectionType": "image-text",
+      "class": "class-test",
+      "container": true,
+      "body": {
+        "asset": {
+          "asset-name": "asset-test",
+          "src": "http://www.exite.co.il/userfiles/images/681936C0-CFF7-092F-FE74-03A3841DC84D%20-%20Copy.jpg",
+          "alt": "some asset",
+          "type": "img",
+          "class": "col-xs-5"
+        },
+        "content": {
+          "class": "col-xs-7",
+          "array": [
+            {
+              "headline": {
+                "title": "Primary Headline",
+                "class": "h1",
+                "icon": {
+                  "type": "fa",
+                  "class": "fa-user"
+                }
+              },
+              "precedence": 0
+            },
+            {
+              "content-body": {
+                "text": "Lorem ipsum dolor sit amet, ex qui eripuit quaestio, per quod purto et. Eros novum affert eos ei, te ornatus consetetur pri. Id sed impetus voluptua. His ne velit honestatis."
+              },
+              "precedence": 1
+            },
+            {
+              "btn": {
+                "title": "Financial Products",
+                "destination": "test"
+              },
+              "precedence": 2
+            }
+          ]
+        }
+      }
+    },
+    {
+      "sectionName": "financial-products",
+      "sectionType": "image-text",
+      "body": {
+        "content": {
+          "class": "col-xs-7",
+          "array": [
+            {
+              "headline": {
+                "title": "Primary Headline",
+                "class": "h1",
+                "icon": {
+                  "type": "fa",
+                  "class": "fa-user"
+                },
+                "precedence": 0
+              }
+            },
+            {
+              "content-body": {
+                "text": "Lorem ipsum dolor sit amet, ex qui eripuit quaestio, per quod purto et. Eros novum affert eos ei, te ornatus consetetur pri. Id sed impetus voluptua. His ne velit honestatis."
+              },
+              "precedence": 1
+            },
+            {
+              "btn": {
+                "title": "Financial Products",
+                "destination": "test"
+              },
+              "precedence": 2
+            }
+          ]
+        }
+      }
+    },
+    {
+      "sectionName": "tabs-section",
+      "sectionType": "tabs",
+      "class": "col-xs-12",
+      "body": {
+        "content": {
+          "class": "col-xs-12",
+          "array": [
+            {
+              "headline": {
+                "title": "Bnaya Headline",
+                "class": "hl1 text-center"
+              },
+              "precedence": 0
+            },
+            {
+              "content-body": {
+                "class": "col-xs-10 col-xs-offset-1 text-center",
+                "text": "Lorem ipsum dolor sit amet, ex qui eripuit quaestio, per quod purto et. Eros novum affert eos ei, te ornatus consetetur pri. Id sed impetus voluptua. His ne velit honestatis."
+              },
+              "precedence": 1
+            }
+          ]
+        },
+        "block": {
+          "class": "col-xs-12 table",
+          "array": [
+            {
+              "card": {
+                "class": "cell",
+                "body": {
+                  "asset": {
+                    "precedence": 1,
+                    "asset-name": "asset-test",
+                    "src": "http://www.exite.co.il/userfiles/images/681936C0-CFF7-092F-FE74-03A3841DC84D%20-%20Copy.jpg",
+                    "alt": "some alt",
+                    "type": "img",
+                    "class": "col-xs-12"
+                  },
+                  "headline": {
+                    "precedence": 0,
+                    "title": "Primary Headline",
+                    "class": "hl2"
+                  },
+                  "content-body": {
+                    "precedence": 2,
+                    "text": "Lorem ipsum dolor sit amet, ex qui eripuit quaestio, per quod purto et. Eros novum affert eos ei, te ornatus consetetur pri. Id sed impetus voluptua. His ne velit honestatis."
+                  }
+                }
+              }
+            },
+            {
+              "card": {
+                "class": "cell",
+                "body": {
+                  "asset": {
+                    "precedence": 0,
+                    "asset-name": "asset-test",
+                    "src": "http://www.exite.co.il/userfiles/images/681936C0-CFF7-092F-FE74-03A3841DC84D%20-%20Copy.jpg",
+                    "alt": "some alt",
+                    "type": "img",
+                    "class": "col-xs-12"
+                  },
+                  "headline": {
+                    "precedence": 1,
+                    "title": "Primary Headline",
+                    "class": "hl2"
+                  },
+                  "content-body": {
+                    "precedence": 2,
+                    "text": "Lorem ipsum dolor sit amet, ex qui eripuit quaestio, per quod purto et. Eros novum affert eos ei, te ornatus consetetur pri. Id sed impetus voluptua. His ne velit honestatis."
+                  }
+                }
+              }
+            },
+            {
+              "card": {
+                "class": "cell",
+                "body": {
+                  "asset": {
+                    "precedence": 0,
+                    "asset-name": "asset-test",
+                    "src": "http://www.exite.co.il/userfiles/images/681936C0-CFF7-092F-FE74-03A3841DC84D%20-%20Copy.jpg",
+                    "alt": "some alt",
+                    "type": "img",
+                    "class": "col-xs-12"
+                  },
+                  "headline": {
+                    "precedence": 1,
+                    "title": "Primary Headline",
+                    "class": "hl2"
+                  },
+                  "content-body": {
+                    "precedence": 2,
+                    "text": "Lorem ipsum dolor sit amet, ex qui eripuit quaestio, per quod purto et. Eros novum affert eos ei, te ornatus consetetur pri. Id sed impetus voluptua. His ne velit honestatis."
+                  }
+                }
+              }
+            },
+            {
+              "card": {
+                "class": "cell",
+                "body": {
+                  "asset": {
+                    "precedence": 0,
+                    "asset-name": "asset-test",
+                    "src": "http://www.exite.co.il/userfiles/images/681936C0-CFF7-092F-FE74-03A3841DC84D%20-%20Copy.jpg",
+                    "alt": "some alt",
+                    "type": "img",
+                    "class": "col-xs-12"
+                  },
+                  "headline": {
+                    "precedence": 1,
+                    "title": "Primary Headline",
+                    "class": "hl2"
+                  },
+                  "content-body": {
+                    "precedence": 2,
+                    "text": "Lorem ipsum dolor sit amet, ex qui eripuit quaestio, per quod purto et. Eros novum affert eos ei, te ornatus consetetur pri. Id sed impetus voluptua. His ne velit honestatis."
+                  }
+                }
+              }
+            }
+          ]
+        }
+      }
+    }
+  ,
+    {
+      "sectionName": "tabs-section",
+      "sectionType": "tabs",
+      "class": "col-xs-12",
+      "body": {
+        "content": {
+          "class": "col-xs-12",
+          "array": [
+            {
+              "headline": {
+                "title": "Bnaya Headline",
+                "class": "hl1 text-center"
+              },
+              "precedence": 0
+            },
+            {
+              "content-body": {
+                "class": "col-xs-10 col-xs-offset-1 text-center",
+                "text": "Lorem ipsum dolor sit amet, ex qui eripuit quaestio, per quod purto et. Eros novum affert eos ei, te ornatus consetetur pri. Id sed impetus voluptua. His ne velit honestatis."
+              },
+              "precedence": 1
+            }
+          ]
+        },
+        "block": {
+          "class": "table-vertical-center",
+          "array": [
+            {
+              "btn": {
+                "title": "Financial Products 1",
+                "destination": "test"
+              },
+              "precedence": 2
+            },
+            {
+              "btn": {
+                "title": "Financial Products 2",
+                "destination": "test"
+              },
+              "precedence": 1
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

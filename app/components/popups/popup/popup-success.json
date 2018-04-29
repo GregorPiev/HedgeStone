@@ -1,0 +1,9 @@
+{
+  "primaryHeadline": {
+    "title": "Success!",
+    "class": "hl1"
+  },
+  "content": {
+    "text": "You successfully deposited <popup-amount-currency></popup-amount-currency><br />Enjoy trading with us,<br />Hedgestone Group team."
+  }
+}

@@ -1,0 +1,24 @@
+<div class="mobileMenu navbar navbar-inverse" ng-class="mobileMenu.mobileMenuData.class" click-outside="mobileMenu.closeThis()" ng-attr-id="{{mobileMenu.mobileMenuData.id}}">
+    <div class="navbar-inner">
+        <div class="">
+            <div class="navbar-btn-wrapper">
+                <button class="navbar-toggle btn-navbar" ng-click="mobileMenu.isCollapsed = !mobileMenu.isCollapsed">
+                    <!--<span ng-show="mobileMenu.isCollapsed" class="icon-bar"></span>-->
+                    <!--<span ng-show="mobileMenu.isCollapsed" class="icon-bar"></span>-->
+                    <!--<span ng-show="mobileMenu.isCollapsed" class="icon-bar"></span>-->
+                    <!--<span ng-show="!mobileMenu.isCollapsed"><i class="glyphicon glyphicon-remove"></i></span>-->
+                    <img ng-src="{{mobileMenu.mobileMenuData.hideIcon}}" ng-show="mobileMenu.isCollapsed">
+                    <img ng-src="{{mobileMenu.mobileMenuData.showIcon}}" ng-show="!mobileMenu.isCollapsed">
+                </button>
+                <div class="nav-collapse navbar-list" ng-hide="mobileMenu.isCollapsed">
+                    <ul class="nav">
+                        <li ng-repeat="tab in ::mobileMenu.mobileMenuData.items" ng-class="tab.class"><a ui-sref="{{::tab.ref}}">{{::tab.title}}</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- /.nav-collapse -->
+        </div>
+    </div>
+    <!-- /navbar-inner -->
+</div>

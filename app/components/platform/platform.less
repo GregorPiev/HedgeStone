@@ -1,0 +1,40 @@
+@import (reference) "../../../assets/less/resources";
+
+#so_container {}
+
+/**
+ *
+ * Those commented out rules are fixes for the platform.
+ * If we take the platform out of the iFrame, uncomment them.
+ *
+ */
+
+//.platform *, .FFcellFix:after, .FFcellFix:before{
+//  box-sizing: content-box !important;
+//  -webkit-box-sizing: content-box !important;
+//  -moz-box-sizing: content-box !important;
+//}
+
+.platform {
+  //text-align: left;
+  //.label {
+  //  text-align: left !important;
+  //}
+  //.content {
+  //  display: initial;
+  //}
+  //.directionControl *, .positionControls *{
+  //  -webkit-box-sizing: border-box !important;
+  //  -moz-box-sizing: border-box !important;
+  //  box-sizing: border-box !important;
+  //}
+
+
+  // delete this role if decide not using iframe.
+  iframe {
+    width: 100%;
+    min-height: 1004px !important;
+    height: 1188px;
+    max-height: 2000px;
+  }
+}

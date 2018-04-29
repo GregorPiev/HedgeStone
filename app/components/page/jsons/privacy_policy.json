@@ -1,0 +1,281 @@
+{
+  "page-name": "privacy_policy",
+  "page-type": "page",
+  "class": "",
+  "array": [
+    {
+      "section": {
+        "sectionName": "content-text",
+        "sectionType": "generic-page",
+        "background": "assets/images/sections/generic-bg.png",
+        "containerClass": "container",
+        "class": "relative-position dark-background",
+        "array": [
+          {
+            "content": {
+              "class": "",
+              "array": [
+                {
+                  "headline": {
+                    "title": "Privacy Policy",
+                    "class": "hl1"
+                  }
+                },
+                {
+                  "content-body": {
+                    "text": "This Privacy Policy (<b>“Policy”</b>) explains the privacy procedures performed by Icon Markets Limited (the <b>“Company”</b>, <b>“We”</b> or <b>“Us”</b>) in providing the Service (as defined in the Terms of Service agreement) to its customers (<b>“Client”</b>, <b>“You”</b>, or <b>“Your”</b>) and shall be read in the light of the Terms of Service agreement to which the parties are bound."
+                  }
+                },
+                {
+                  "headline": {
+                    "title": "Introduction",
+                    "class": "hl3"
+                  }
+                },
+                {
+                  "content-body": {
+                    "text": "The Client’s privacy is important to the Company. The Company shall treat all information collected by, or transmitted to the Client, with care, particularly where personally identifiable information is concerned. Further, this Policy describes how, when, and why the Company will collect such information. “Personally identifiable information” (or “Personal Information”) refers to any information that may be used, either independently or in conjunction with other information, to personally identify, contact, or locate any employee, representative, and third party associated with the Client (collectively referred to as the “User”). Personal Information includes, but is not limited to:"
+                  }
+                },
+                {
+                  "content-body": {
+                    "text": "<ul><li>Personal details such as name, age, occupation, and marital status;</li><li>Contact details such as physical address, telephone, email, and, in some cases, both private and work-related contact details and other contact information;</li><li>Identification documents, which typically include a head and shoulders photograph from either your passport, national identity card, or driver's license, as required by laws and regulations addressing due diligence and related matters;</li><li>A personal identifier, depending on your country of residence;</li><li>Extensive financial documentation, including trading data, deposits, withdrawals, credit, investment experience, risk tolerance, and, in certain jurisdictions, representations required under applicable law or regulation concerning your financial resources.</li></ul>"
+                  }
+                },
+                {
+                  "content-body": {
+                    "text": "In addition, the Company may process any information that does not enable identification, location, or contacting of the Client in any way it so chooses without prior notification of the Client."
+                  }
+                },
+                {
+                  "headline": {
+                    "class": "hl3",
+                    "title": "Our Promise To You"
+                  }
+                },
+                {
+                  "content-body": {
+                    "text": "We appreciate that you have provided us with your personal data. The Company strives to maintain the privacy of such information while helping you achieve your financial objectives. The Company supervises all system communications and records all activities taking place in the system, in addition to routine security checks that are carried out by our information security experts."
+                  }
+                },
+                {
+                  "content-body": {
+                    "text": "Our Policy outlines the standards by which we process personal data that is collected from you. If you have any questions, we are here to help."
+                  }
+                },
+                {
+                  "headline": {
+                    "title": "Consent, Notification and Modification",
+                    "class": "hl3"
+                  }
+                },
+                {
+                  "content-body": {
+                    "text": "By subscribing to and/or using the Service, the Client expresses his/her consent to the terms of this Policy. If the Client does not agree to the terms and provisions of this Policy, the Client shall not use the Service."
+                  }
+                },
+                {
+                  "content-body": {
+                    "text": "The Company reserves the right to change this Policy at any time at its sole discretion, with modifications effective ten (10) days following the posting of the amended Policy on the Company’s website. The Client’s continued use of the Service shall constitute consent to the terms and provisions of the amended Policy."
+                  }
+                },
+                {
+                  "headline": {
+                    "class": "hl3",
+                    "title": "Collection and Reciept of Information"
+                  }
+                },
+                {
+                  "content-body": {
+                    "text": "The Company collects and receives Personal Information pertaining to the User. This occurs on part of the Company’s use of hosting services to provide some or all of its Services, which results in a rerouting of Personal Information to the Company from its production servers. The Company also collects and receives Personal Information related to Users for communication purposes and to provide the general provisions of the Services."
+                  }
+                },
+                {
+                  "content-body": {
+                    "text": "The Company uses certain technology on its websites to collect information from visitors in order to compile aggregate statistical information about their use of our websites, including information related to the frequency of visits, IP addresses, the average length of visits, pages that are viewed during a visit, and the effectiveness of advertising on our websites.<br/>The company uses this information to improve website content and performance. No personally identifiable information is collected for this purpose, and the Company does not monitor individual visitor behavior. Information held in cookies set by the Company is kept to a minimum and can only be read by the Company or by an individual who has physical access to your personal computer. Cookies contain information that is transferred to your computer’s hard drive in order to improve our site and to help deliver personalized service. They also enable us to estimate our audience's size and usage patterns, to store information about your preferences, and to enable us to customize our site according to your individual interests in order for your searches to be more efficient and to recognize you when you return to our site."
+                  }
+                },
+                {
+                  "content-body": {
+                    "text": "You may refuse to accept cookies by activating the setting on your browser that enables you to refuse the setting of cookies. However, if you select this setting, you may be unable to access certain parts of our site. Unless you have adjusted your browser settings to refuse cookies, our system will issue cookies when you log in to our site."
+                  }
+                },
+                {
+                  "headline": {
+                    "class": "hl3",
+                    "title": "Use and Disclosure of Personal Information"
+                  }
+                },
+                {
+                  "content-body": {
+                    "text": "The Company shall only use and/or disclose the Personal Information of Users for purposes that are pertinent to the provisions of the Service."
+                  }
+                },
+                {
+                  "content-body": {
+                    "text": "The company, its associated firms and other persons acting on our behalf may process and use your personal data to: <ul><li>Comply with any applicable law, regulation, legal process or governmental request and/or comply with legal and regulatory obligations and requests on a global scale (including reporting to and being audited by national and international regulatory and exchange bodies).</li><li>Enforce the terms and conditions of our services agreement with you, including investigations of potential violations thereof.</li><li>Administer and operate services in accordance with customer documents, including authorizing or confirming transactions.</li><li>Carry out credit and money laundering checks for the purpose of fraud prevention (this may include information concerning political affiliations and criminal offences committed or alleged to have been committed), and to contact you about other Services we offer.</li><li>Exercise and defend the Company's legal rights.</li><li>Protect against harm to the rights, property or safety of the Company, its affiliates, shareholders, Clients, Users, or the public.</li><li>Monitor communications (including email, instant messaging, facsimile, telephone, and other electronic communications) with you or your agent(s) for quality control and security purposes, as a record of your orders, instructions, and related matters, and to comply with applicable laws and regulations, our agreements, and any applicable policies and procedures, and as otherwise permitted under any applicable law or regulation.</li></ul>"
+                  }
+                },
+                {
+                  "headline": {
+                    "title": "Security",
+                    "class": "hl3"
+                  }
+                },
+                {
+                  "content-body": {
+                    "text": "The Company maintains appropriate physical, technical, and procedural safeguards to protect any information that you provide to us from accidental or unauthorized loss, misuse, damage, modification, access, or disclosure."
+                  }
+                },
+                {
+                  "content-body": {
+                    "text": "The Company employs physical, electronic, and procedural safeguards to protect Personal Information and does not store Personal Information for longer than necessary."
+                  }
+                },
+                {
+                  "content-body": {
+                    "text": "The Company’s datacenter(s) contain both internal and external servers. Access to the Company’s internal server is restricted to pre-approved individuals, servers, and locations, while our external servers can be accessed via the Internet."
+                  }
+                },
+                {
+                  "content-body": {
+                    "text": "You can further enhance your data protection through the following measures: <ul><li>Identification - Users access the system by entering a username and password. Your password is personal and must not be disclosed to others, including customer service personnel. Never save your username or password on a computer, or on any other easily accessible means.</li><li>Password - Choose a password that cannot be easily deciphered, preferably consisting of random characters and digits. Change your password every three months. In the event that your password may have been compromised, you must reset it immediately.</li><li>Logout - At the end of any activity in the system, be sure to exit properly by clicking ‘Logout.’</li><li>Encrypted Communications - Either a closed lock or a complete key (depending on the browser version installed on your computer) will appear in your window when you execute transactions in your account. Double-clicking on this symbol will display the digital certificate issued to this site.</li></ul>"
+                  }
+                },
+                {
+                  "headline": {
+                    "title": "Third Party Communication",
+                    "class": "hl3"
+                  }
+                },
+                {
+                  "content-body": {
+                    "text": "The Company may transfer Personal Information to third parties for the purposes described in Section 5 of this Privacy Policy. In such cases, the Company makes reasonable efforts to ensure that third parties either: (i) subscribe to privacy standards equivalent to this Policy or agree in writing to commit to such standards; or, (ii) are bound by laws providing at least the equivalent level of privacy protection as outlined in this Policy."
+                  }
+                },
+                {
+                  "headline": {
+                    "title": "Minors",
+                    "class": "hl3"
+                  }
+                },
+                {
+                  "content-body": {
+                    "text": "Company Services are not directed to individuals under eighteen (18) years of age (<b>“minor”</b>). The Company shall not process the Personal Information of Users deemed to be minors."
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "block": {
+              "class": "arrow",
+              "background": "assets/images/sections/arrow.png"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "sectionName": "bottom-section",
+        "sectionType": "open-account-section",
+        "class": "bottom-section",
+        "background": "",
+        "containerClass": "",
+        "array": [
+          {
+            "content": {
+              "class": "",
+              "array": [
+                {
+                  "ng-image": {
+                    "image-name": "asset-test",
+                    "src": "assets/icons/Logo.png",
+                    "alt": "some asset",
+                    "type": "img",
+                    "class": "center-img",
+                    "responsive": true
+                  }
+                },
+                {
+                  "block": {
+                    "class": "text-center",
+                    "array": [
+                      {
+                        "content-body": {
+                          "class": "",
+                          "text": "READY TO GET STARTED?"
+                        },
+                        "precedence": 0
+                      },
+                      {
+                        "headline": {
+                          "title": "Powerful. Dynamic. Limitless.",
+                          "class": "hl5"
+                        },
+                        "precedence": 1
+                      },
+                      {
+                        "block": {
+                          "class": "padded-block",
+                          "array": [
+                            {
+                              "logged-in" : {
+                                "array": [
+                                  {
+                                    "btn": {
+                                      "class": "btn btn-transparent centered-btn",
+                                      "title": "trade",
+                                      "destination": "trade"
+                                    },
+                                    "precedence": 4
+                                  },
+                                  {
+                                    "btn": {
+                                      "class": "centered-btn",
+                                      "title": "how it works",
+                                      "destination": "education"
+                                    },
+                                    "precedence": 5
+                                  }
+                                ]
+                              }
+                            },
+                            {
+                              "anonymous": {
+                                "array": [
+                                  {
+                                    "btn": {
+                                      "class": "btn btn-transparent centered-btn",
+                                      "title": "open an account",
+                                      "destination": "create_account"
+                                    },
+                                    "precedence": 4
+                                  },
+                                  {
+                                    "btn": {
+                                      "class": "centered-btn",
+                                      "title": "how it works",
+                                      "destination": "education"
+                                    },
+                                    "precedence": 5
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        },
+                        "precedence": 3
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

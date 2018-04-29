@@ -1,0 +1,217 @@
+{
+  "page-name": "verify-token",
+  "page-type": "page",
+  "class": "",
+  "array": [
+    {
+      "section": {
+        "sectionName": "login-top-section",
+        "sectionType": "login-section",
+        "class": "dark-background relative-position",
+        "array": [
+          {
+            "block": {
+              "class": "login-container",
+              "array": [
+                {
+                  "headline": {
+                    "title": "Verificar Ficha",
+                    "class": "hl1 text-center"
+                  }
+                },
+                {
+                  "headline": {
+                    "class": "text-center form-headline",
+                    "title": "Por favor, copie y pegue la ficha enviada por correo electrónico"
+                  }
+                },
+                {
+                  "block": {
+                    "class": "col-md-6 col-sm-8 col-xs-12 horizontal-center",
+                    "array": [
+                      {
+                        "verify-form": {
+                          "class": "",
+                          "array": [
+                            {
+                              "new-form": {
+                                "id": "verify-form",
+                                "array": [
+                                  {
+                                    "form-group": {
+                                      "class": "formGroup",
+                                      "array": [
+                                        {
+                                          "block": {
+                                            "array": [
+                                              {
+                                                "content-body": {
+                                                  "text": "Ficha de Verificación",
+                                                  "class": "formLabel col-xs-12"
+                                                }
+                                              },
+                                              {
+                                                "ng-field": {
+                                                  "element": "input",
+                                                  "withAddon": false,
+                                                  "addon": "",
+                                                  "dynamicAttrs": {
+                                                    "ng-model": "",
+                                                    "ng-class": "form-control"
+                                                  },
+                                                  "attrs": {
+                                                    "placeholder": "",
+                                                    "ng-pattern": "",
+                                                    "name": "token",
+                                                    "ng-required": true,
+                                                    "type": "text",
+                                                    "generic-validation": "ngField.ngFieldData"
+                                                  },
+                                                  "msgBox": {
+                                                    "required": "Este campo es requerido"
+                                                  }
+                                                }
+                                              }
+                                            ]
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  },
+                                  {
+                                    "ng-form-submit": {
+                                      "class": "",
+                                      "content": "OBTENGA NUEVA CONTRASEÑA"
+                                    }
+                                  },
+                                  {
+                                    "btn": {
+                                      "class": "forgot-pass link",
+                                      "title": "Atrás a Iniciar sesión",
+                                      "destination": "login"
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "block": {
+              "class": "arrow",
+              "background": "assets/images/sections/arrow.png"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "sectionName": "bottom-section",
+        "sectionType": "open-account-section",
+        "class": "bottom-section",
+        "background": "",
+        "containerClass": "",
+        "array": [
+          {
+            "content": {
+              "class": "",
+              "array": [
+                {
+                  "ng-image": {
+                    "image-name": "asset-test",
+                    "src": "assets/icons/Logo.png",
+                    "alt": "some asset",
+                    "type": "img",
+                    "class": "center-img",
+                    "responsive": true
+                  }
+                },
+                {
+                  "block": {
+                    "class": "text-center",
+                    "array": [
+                      {
+                        "content-body": {
+                          "class": "",
+                          "text": "¿LISTO PARA COMENZAR?"
+                        },
+                        "precedence": 0
+                      },
+                      {
+                        "headline": {
+                          "title": "Poderoso. Dinámico. Sin límites.",
+                          "class": "hl5"
+                        },
+                        "precedence": 1
+                      },
+                      {
+                        "block": {
+                          "class": "padded-block",
+                          "array": [
+                            {
+                              "logged-in" : {
+                                "array": [
+                                  {
+                                    "btn": {
+                                      "class": "btn btn-transparent centered-btn",
+                                      "title": "operación",
+                                      "destination": "trade"
+                                    },
+                                    "precedence": 4
+                                  },
+                                  {
+                                    "btn": {
+                                      "class": "centered-btn",
+                                      "title": "cómo funciona",
+                                      "destination": "education"
+                                    },
+                                    "precedence": 5
+                                  }
+                                ]
+                              }
+                            },
+                            {
+                              "anonymous": {
+                                "array": [
+                                  {
+                                    "btn": {
+                                      "class": "btn btn-transparent centered-btn",
+                                      "title": "abrir una cuenta",
+                                      "destination": "create_account"
+                                    },
+                                    "precedence": 4
+                                  },
+                                  {
+                                    "btn": {
+                                      "class": "centered-btn",
+                                      "title": "cómo funciona",
+                                      "destination": "education"
+                                    },
+                                    "precedence": 5
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        },
+                        "precedence": 3
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

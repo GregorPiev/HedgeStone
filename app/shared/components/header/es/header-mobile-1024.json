@@ -1,0 +1,156 @@
+{
+  "header": {
+    "class": "header no-padding container",
+    "array": [
+      {
+        "block": {
+          "class": "header-top",
+          "array": [
+            {
+              "block": {
+                "class": "table container no-padding",
+                "array": [
+                  {
+                    "access-menu": {
+                      "class": "",
+                      "array": [
+                        {
+                          "mobile-menu": {
+                            "class": "",
+                            "id": "mobile-menu-account",
+                            "showIcon": "assets/icons/Close.png",
+                            "hideIcon": "assets/icons/Menu.png",
+                            "items": [
+                              {
+                                "title": "Productos Financieros",
+                                "ref": "financials",
+                                "class": ""
+                              },
+                              {
+                                "title": "Herramientas",
+                                "ref": "tools",
+                                "class": ""
+                              },
+                              {
+                                "title": "Educación",
+                                "ref": "education",
+                                "class": ""
+                              },
+                              {
+                                "title": "Noticias del Mercado",
+                                "ref": "latest_news",
+                                "class": ""
+                              },
+                              {
+                                "title": "Acerca de",
+                                "ref": "about",
+                                "class": ""
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "ui-select-wrapper": {
+                            "disabled": true,
+                            "element": "select",
+                            "type": "ui-select",
+                            "model": "",
+                            "class": "ngSelect",
+                            "name": "CountrySelector",
+                            "forCountries": true
+                          }
+                        },
+                        {
+                          "logged-in": {
+                            "array": [ 
+                              {
+                                    "ui-select-wrapperurl": {
+                                      "disabled": false,
+                                      "element": "select",
+                                      "type": "ui-select",
+                                      "model": "",
+                                      "class": "ngSelect",
+                                      "forLanguages": true,
+                                      "name": "LanguageSelector"
+                                    },
+                                    "precedence": 1
+                              },                                
+                              {
+                                "btn": {
+                                  "class": "headerBtn pull-right",
+                                  "title": "Cerrar sesión",
+                                  "destination": "logout"
+                                },
+                                "precedence": 2
+                              },
+                              {
+                                "btn": {
+                                  "class": "headerBtn btn-transparent pull-right",
+                                  "title": "Depositar",
+                                  "destination": "deposit"
+                                },
+                                "precedence": 3
+                              },
+                              {
+                                "btn": {
+                                  "class": "headerBtn btn-transparent pull-right",
+                                  "title": "operación",
+                                  "destination": "trade"
+                                },
+                                "precedence": 4
+                              },
+                              {
+                                "btn": {
+                                  "class": "headerBtn btn-transparent pull-right",
+                                  "title": "Administrar Cuenta",
+                                  "destination": "account"
+                                },
+                                "precedence": 5
+                              }                              
+                            ]
+                          }
+                        },
+                        {
+                          "anonymous": {
+                            "class": "",
+                            "array": [
+                              {
+                                    "ui-select-wrapperurl": {
+                                      "disabled": false,
+                                      "element": "select",
+                                      "type": "ui-select",
+                                      "model": "",
+                                      "class": "ngSelect",
+                                      "forLanguages": true,
+                                      "name": "LanguageSelector"
+                                    }
+                              },                              
+                              {
+                                "btn": {
+                                  "class": "headerBtn pull-right login-btn",
+                                  "title": "iniciar sesión",
+                                  "destination": "login"
+                                }
+                              },
+                              {
+                                "btn": {
+                                  "class": "btn-transparent headerBtn pull-right",
+                                  "title": "Abra una Cuenta",
+                                  "destination": "create_account"
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

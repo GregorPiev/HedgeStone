@@ -1,0 +1,114 @@
+@import (reference) '../../../assets/less/resources';
+
+.docField {
+  float: left;
+  width: 50%;
+  background-color: @light-bg-color;
+  border: 1px solid @border-color;
+  &.left {
+    @media(max-width: 1150px) {
+      width: 40%;
+    }
+  }
+  &.right {
+    @media(max-width: 1150px) {
+      width: 60%;
+    }
+  }
+}
+
+.docUploadForm {
+  .contentBody {
+    font-size: 14px !important;
+  }
+  .docCard {
+    .docField;
+    padding: 30px 40px;
+    height: 100%;
+    & > .block {
+      .no-padding;
+      margin-bottom: 20px;
+      .ngField.hidden {
+        display: none;
+      }
+    }
+  }
+
+  .submit {
+    float: right;
+    margin-top: 15px;
+  }
+
+  .docInfo {
+    .docField;
+
+    padding: 15px;
+    &.docFieldHeadline {
+      height: 50px;
+    }
+    &.docFieldCell {
+      height: 130px;
+      font-weight: 700;
+    }
+  }
+
+  .history {
+    display: table;
+    max-width: 480px;
+    margin: 60px auto 30px auto;
+  }
+
+  .docUploadLabel {
+    float: left;
+    line-height: 39px;
+    margin-right: 15px;
+  }
+
+  .cvvBlock {
+    margin-bottom: 20px;
+  }
+
+  .cvvField {
+    height: 35px;
+    float: right;
+    width: 145px;
+    margin-right: 80px;
+  }
+
+  .cvvInput {
+    background: 0;
+    border: 0;
+    text-align: center;
+    height: 100%;
+    &:focus {
+      border: 0;
+      outline-color: transparent;
+    }
+  }
+
+  .submit {
+    margin-right: 116px;
+    width: 210px;
+    .btn {
+      width: 100%;
+      height: 36px;
+      line-height: 35px;
+    }
+
+  }
+
+  .blockMid {
+    width: 100%;
+    height: 177px;
+  }
+
+  .blockHigh {
+    width: 100%;
+    height: 264px;
+  }
+
+  .blockLow {
+    width: 100%;
+    height: 128px;
+  }
+}

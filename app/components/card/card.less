@@ -1,0 +1,24 @@
+@import (reference) "../../../assets/less/resources";
+
+.card {
+  display: table-cell;
+
+  .headline, .ngImage, .contentBody {
+    padding: 0;
+    float: none;
+  }
+
+  &.cell {
+    &.five-in-a-row {
+      width: 20%;
+    }
+
+    &.four-in-a-row {
+      width: 25%;
+    }
+
+    &.three-in-a-row {
+      width: 33.3333%;
+    }
+  }
+}

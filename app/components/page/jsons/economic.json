@@ -1,0 +1,208 @@
+{
+  "page-name": "articles",
+  "page-type": "page",
+  "class": "",
+  "title": "Market news are posted daily by Hedgestone Group",
+  "description": "Hedgestone Group publishes daily stock market news in which it highlights movements of major currencies, commodities, main indices, and individual companies.",
+  "keywords": "Daily market analysis; global stock market; currencies; commodities.",
+  "array": [
+    {
+      "section": {
+        "sectionName": "articles-top-section",
+        "sectionType": "top-section deposit-top-section",
+        "background": "/assets/images/sections/Wash.png",
+        "containerClass": "container",
+        "class": "text-center relative-position",
+        "array": [
+          {
+            "content": {
+              "class": "",
+              "array": [
+                {
+                  "headline": {
+                    "class": "hl1",
+                    "title": "Market News"
+                  }
+                },
+                {
+                  "content-body": {
+                    "text": "Stay on top of important market developments with Hedgestone.",
+                    "class": ""
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "sectionName": "articles-section",
+        "sectionType": "article-section",
+        "background": "",
+        "containerClass": "",
+        "class": "no-padding relative-position",
+        "array": [
+          {
+            "headline": {
+              "class": "hl5",
+              "title": "All the articles..."
+            }
+          },
+          {
+            "content-body": {
+              "text": "<p>Lorem ipsum dolor sit amet, ne vix stet quaerendum concludaturque, vel ut utinam primis causae. Cu mel eleifend similique. Ei pri malorum scaevola. Mea sanctus omittantur ut, his cu tale consetetur mediocritatem, eos homero scaevola conclusionemque at. Ei vix simul euismod consulatu, homero saperet accusam et his. Duo essent aeterno dissentiunt ut.</p><p>Qui id sint ignota. Nam ei everti causae scribentur, utamur aperiam intellegat cu sit. Duis copiosae perfecto nam ut, ut eum pertinax petentium. Id utamur vituperatoribus sit. Cu duo ferri reprehendunt, cu modo insolens ius.</p><p>Id nec minim eirmod, ad vidisse persius ius. Facer dignissim his ea. In est zril ignota similique. Ex pri malorum epicuri complectitur. Vim alia graecis ad. Case facer solet duo ne, cu eum feugait pericula. At est nostrud ancillae, pri ullum honestatis disputando et.</p><p>Case movet nostro an nam, eos partem quaestio referrentur ut. Sed facer electram ea. Ius ludus feugait aliquando in. Ei munere percipitur quo, et eam cibo dicunt dolorum, mea ea quem patrioque. Ne per elitr populo, feugait fabellas disputando ei cum. Dolor consul facilisi cum et, ei vero nobis duo.</p><p>Te pri eius justo assueverit. Tollit dolore regione te mei, usu exerci ceteros appareat at. An vim ipsum pertinacia. At mel detraxit vulputate. Populo periculis temporibus te mea, consul oblique definitionem et mei. Vix autem paulo accusata id.</p>"
+            }
+          },
+          {
+            "block": {
+              "class": "arrow",
+              "background": "assets/images/sections/arrow-light.png"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "sectionName": "economical-calendar",
+        "sectionType": "relative-position light-background economical-calendar",
+        "class": "",
+        "containerClass": "container",
+        "array": [
+          {
+            "content": {
+              "class": "",
+              "array": [
+                {
+                  "headline": {
+                    "class": "hl5 text-center",
+                    "title": "Economic Calendar"
+                  }
+                },
+                {
+                  "economic-calendar": {
+
+                  }
+                },
+                {
+                  "content-body": {
+                    "text": "The real-time Economic Calendar covers economic events and indicators from all over the world. It's automatically updated when new data is released. The Real-time Economic Calendar only provides<br>general information and it is not meant to be a trading guide. FXStreet commits to offer the most accurate contents but due to the large amount of data and the wide range of official sources, FXStreet<br>cannot be held responsible for the eventual inaccuracies that might occur. The Real-time Economic Calendar may also be subject to change without any previous notice. "
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "block": {
+              "class": "arrow",
+              "background": "assets/images/sections/arrow.png"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "sectionName": "bottom-section",
+        "sectionType": "open-account-section",
+        "class": "bottom-section",
+        "background": "",
+        "containerClass": "",
+        "array": [
+          {
+            "content": {
+              "class": "",
+              "array": [
+                {
+                  "ng-image": {
+                    "image-name": "asset-test",
+                    "src": "assets/icons/Logo.png",
+                    "alt": "some asset",
+                    "type": "img",
+                    "class": "center-img",
+                    "responsive": true
+                  }
+                },
+                {
+                  "block": {
+                    "class": "text-center",
+                    "array": [
+                      {
+                        "content-body": {
+                          "class": "",
+                          "text": "READY TO GET STARTED?"
+                        },
+                        "precedence": 0
+                      },
+                      {
+                        "headline": {
+                          "title": "Powerful. Dynamic. Limitless.",
+                          "class": "hl5"
+                        },
+                        "precedence": 1
+                      },
+                      {
+                        "block": {
+                          "class": "padded-block",
+                          "array": [
+                            {
+                              "logged-in" : {
+                                "array": [
+                                  {
+                                    "btn": {
+                                      "class": "btn btn-transparent centered-btn",
+                                      "title": "trade",
+                                      "destination": "trade"
+                                    },
+                                    "precedence": 4
+                                  },
+                                  {
+                                    "btn": {
+                                      "class": "centered-btn",
+                                      "title": "how it works",
+                                      "destination": "education"
+                                    },
+                                    "precedence": 5
+                                  }
+                                ]
+                              }
+                            },
+                            {
+                              "anonymous": {
+                                "array": [
+                                  {
+                                    "btn": {
+                                      "class": "btn btn-transparent centered-btn",
+                                      "title": "open an account",
+                                      "destination": "create_account"
+                                    },
+                                    "precedence": 4
+                                  },
+                                  {
+                                    "btn": {
+                                      "class": "centered-btn",
+                                      "title": "how it works",
+                                      "destination": "education"
+                                    },
+                                    "precedence": 5
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        },
+                        "precedence": 3
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,418 @@
+{
+  "page-name": "education",
+  "page-type": "page",
+  "class": "",
+  "title": "El Grupo Hedgestone ofrece material educativo útil.",
+  "description": "A los clientes del Grupo Hedgestone se les ofrece una buena selección de material educativo para que se familiaricen con los conceptos clave y las técnicas analíticas.",
+  "keywords": "Material educativo; técnicas analíticas; videos y guías educativas; webinars; conceptos clave.",
+  "array": [
+    {
+      "section": {
+        "sectionName": "education-top-section",
+        "sectionType": "top-section materialCards",
+        "background": "assets/images/financial-page/1.jpg",
+        "containerClass": "container",
+        "class": "text-center dark-background relative-position",
+        "array": [
+          {
+            "content": {
+              "class": "container container-fluid",
+              "array": [
+                {
+                  "headline": {
+                    "title": "Educación",
+                    "class": "hl1"
+                  },
+                  "precedence": 0
+                },
+                {
+                  "block": {
+                    "class": "divider"
+                  }
+                },
+                {
+                  "content-body": {
+                    "class": "",
+                    "text": "Si usted es principiante o tienen alguna experiencia, los materiales educativos de Hedgestone lo ayudarán a familiarizarse con conceptos clave, características de la plataforma y técnicas analíticas, que encontrará en su viaje para convertirse en un operador exitoso."
+                  },
+                  "precedence": 2
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "sectionName": "education",
+        "sectionType": "materialCards",
+        "class": "materialCards dark-background relative-position",
+        "containerClass": "container",
+        "array": [
+          {
+            "block": {
+              "class": "wrapper",
+              "array": [
+                {
+                  "card": {
+                    "class": "col-lg-12 no-padding",
+                    "array": [
+                      {
+                        "coming-soon": {
+                          "class": "comingSoon",
+                          "array": [
+                            {
+                              "headline": {
+                                "title": "vivo",
+                                "class": "hl6 text-center"
+                              }
+                            },
+                            {
+                              "headline": {
+                                "title": "Videos Tutoriales",
+                                "class": "hl3 text-center"
+                              }
+                            },
+                            {
+                              "headline": {
+                                "title": "Próximamente",
+                                "class": "hl1 text-center"
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "block": {
+                          "class": "col-lg-12 no-padding",
+                          "array": [
+                            {
+                              "ng-image": {
+                                "asset-name": "asset-test",
+                                "src": "/assets/images/education/thumbnail-card.png",
+                                "alt": "some alt",
+                                "type": "img",
+                                "class": "col-xs-12 no-padding",
+                                "responsive": true
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "block": {
+                          "class": "col-xs-12 content-block",
+                          "array": [
+                            {
+                              "card-icon": {
+                                "class": "",
+                                "array": [
+                                  {
+                                    "ng-image": {
+                                      "asset-name": "asset-test",
+                                      "src": "/assets/images/education/play-circle.png",
+                                      "alt": "some alt",
+                                      "type": "img",
+                                      "class": ""
+                                    }
+                                  }
+                                ]
+                              }
+                            },
+                            {
+                              "headline": {
+                                "title": "atractivo",
+                                "class": "text-center hl6"
+                              }
+                            },
+                            {
+                              "headline": {
+                                "title": "Videos Tutoriales",
+                                "class": "hl3 text-center no-padding"
+                              }
+                            },
+                            {
+                              "filtered-content-body": {
+                                "text": "Impresionantes videos que le enseñan los pros y contras del comercio en línea.",
+                                "class": "text-center"
+                              }
+                            },
+                            {
+                              "btn": {
+                                "title": "mirar las guías de video",
+                                "destination": "test"
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "card": {
+                    "class": "col-lg-12 no-padding",
+                    "array": [
+                      {
+                        "block": {
+                          "class": "col-lg-12 no-padding",
+                          "array": [
+                            {
+                              "ng-image": {
+                                "asset-name": "asset-test",
+                                "src": "/assets/images/education/thumbnail-card.png",
+                                "alt": "some alt",
+                                "type": "img",
+                                "class": "col-xs-12 no-padding",
+                                "responsive": true
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "block": {
+                          "class": "col-xs-12 content-block",
+                          "array": [
+                            {
+                              "card-icon": {
+                                "class": "",
+                                "array": [
+                                  {
+                                    "ng-image": {
+                                      "asset-name": "asset-test",
+                                      "src": "/assets/images/education/book-circle.png",
+                                      "alt": "some alt",
+                                      "type": "img",
+                                      "class": ""
+                                    }
+                                  }
+                                ]
+                              }
+                            },
+                            {
+                              "headline": {
+                                "title": "información",
+                                "class": "text-center hl6"
+                              }
+                            },
+                            {
+                              "headline": {
+                                "title": "Guías",
+                                "class": "hl3 no-padding text-center"
+                              }
+                            },
+                            {
+                              "filtered-content-body": {
+                                "text": "Guías descargables que cuentan con instrucciones detalladas para operar CFD y opciones.",
+                                "class": "text-center"
+                              }
+                            },
+                            {
+                              "btn": {
+                                "title": "leer nuestras guías",
+                                "destination": "guides"
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "card": {
+                    "class": "col-lg-12 no-padding",
+                    "array": [
+                      {
+                        "coming-soon": {
+                          "class": "comingSoon",
+                          "array": [
+                            {
+                              "headline": {
+                                "title": "vivo",
+                                "class": "hl6 text-center"
+                              }
+                            },
+                            {
+                              "headline": {
+                                "title": "Seminarios web",
+                                "class": "hl3 text-center"
+                              }
+                            },
+                            {
+                              "headline": {
+                                "title": "Próximamente",
+                                "class": "hl1 text-center"
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "block": {
+                          "class": "col-lg-12 no-padding",
+                          "array": [
+                            {
+                              "ng-image": {
+                                "asset-name": "asset-test",
+                                "src": "/assets/images/education/thumbnail-card.png",
+                                "alt": "some alt",
+                                "type": "img",
+                                "class": "col-xs-12 no-padding",
+                                "responsive": true
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "block": {
+                          "class": "col-xs-12 content-block",
+                          "array": [
+                            {
+                              "card-icon": {
+                                "class": "",
+                                "array": [
+                                  {
+                                    "ng-image": {
+                                      "asset-name": "asset-test",
+                                      "src": "/assets/images/education/person-circle.png",
+                                      "alt": "some alt",
+                                      "type": "img",
+                                      "class": ""
+                                    }
+                                  }
+                                ]
+                              }
+                            },
+                            {
+                              "headline": {
+                                "title": "sub encabezamiento",
+                                "class": "text-center hl6"
+                              }
+                            },
+                            {
+                              "headline": {
+                                "title": "Seminarios web",
+                                "class": "hl3 no-padding text-center"
+                              }
+                            },
+                            {
+                              "filtered-content-body": {
+                                "text": "Seminarios web interactivos que son dictados por los especialistas de mercado de Hedgestone.",
+                                "class": "text-center"
+                              }
+                            },
+                            {
+                              "btn": {
+                                "title": "aprenda de los expertos",
+                                "destination": "test"
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "block": {
+              "class": "arrow",
+              "background": "assets/images/sections/arrow.png"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "sectionName": "bottom-section",
+        "sectionType": "open-account-section",
+        "class": "bottom-section",
+        "background": "",
+        "containerClass": "",
+        "array": [
+          {
+            "content": {
+              "class": "",
+              "array": [
+                {
+                  "ng-image": {
+                    "image-name": "asset-test",
+                    "src": "assets/icons/Logo.png",
+                    "alt": "some asset",
+                    "type": "img",
+                    "class": "center-img",
+                    "responsive": "img-responsive centered-item"
+                  }
+                },
+                {
+                  "block": {
+                    "class": "text-center",
+                    "array": [
+                      {
+                        "content-body": {
+                          "class": "",
+                          "text": "¿LISTO PARA COMENZAR?"
+                        },
+                        "precedence": 0
+                      },
+                      {
+                        "headline": {
+                          "title": "Poderoso. Dinámico. Sin límites.",
+                          "class": "hl5"
+                        },
+                        "precedence": 1
+                      },
+                      {
+                        "block": {
+                          "class": "padded-block",
+                          "array": [
+                            {
+                              "logged-in": {
+                                "array": [
+                                  {
+                                    "btn": {
+                                      "class": "btn btn-transparent centered-btn",
+                                      "title": "operación",
+                                      "destination": "trade"
+                                    },
+                                    "precedence": 4
+                                  }
+                                ]
+                              }
+                            },
+                            {
+                              "anonymous": {
+                                "array": [
+                                  {
+                                    "btn": {
+                                      "class": "btn btn-transparent centered-btn",
+                                      "title": "abrir una cuenta",
+                                      "destination": "create_account"
+                                    },
+                                    "precedence": 4
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        },
+                        "precedence": 3
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

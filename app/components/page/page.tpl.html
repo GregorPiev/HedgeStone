@@ -1,0 +1,13 @@
+<div class="page" ng-class="::[page.pageData.page-name, page.pageData.class, {'withHeader': page.isTransparentHeader()}]">
+    <update-title name="title" title="{{::page.pageData.title}}"></update-title>
+    <update-meta charset="ISO-8859-1"></update-meta>
+    <update-meta http-equiv="Content-Language" content="es"></update-meta>
+    <update-meta name="description" content="{{::page.pageData.description}}"></update-meta>
+    <update-meta name="keywords" content="{{::page.pageData.keywords}}"></update-meta>
+    <update-meta property="og:title" content="{{::page.pageData.title}}"></update-meta>
+    <update-meta property="og:image" content="{{::page.pageData.image}}"></update-meta>
+    <update-meta property="og:type" content="{{::page.pageData.type}}"></update-meta>
+    <update-meta property="og:url" content="{{::page.$window.location.href}}"></update-meta>
+    <!--<section ng-repeat="section in page.pageData.sections" data="section"></section>-->
+    <div compile-with-watch="page.html"></div>
+</div>

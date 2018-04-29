@@ -1,0 +1,22 @@
+<div class="video" ng-class="::[video.videoData.class, {'forThumbnail' : video.videoData.forThumbnail}]">
+    <div ng-if="::video.videoData.forThumbnail">
+        <thumbnail ng-click="video.showFullVideo()" data="video.videoData.thumbnail"></thumbnail>
+    </div>
+    <div ng-if="::!video.videoData.forThumbnail">
+        <update-title name="title" title="{{::video.videoData.title}}"></update-title>
+        <update-meta charset="ISO-8859-1"></update-meta>
+        <update-meta http-equiv="Content-Language" content="es"></update-meta>
+        <update-meta name="description" content="{{::video.videoData.description}}"></update-meta>
+        <update-meta name="keywords" content="{{::video.videoData.keywords}}"></update-meta>
+        <update-meta property="og:title" content="{{::video.videoData.title}}"></update-meta>
+        <update-meta property="og:image" content="{{::video.videoData.image}}"></update-meta>
+        <update-meta property="og:type" content="article"></update-meta>
+        <update-meta property="og:url" content={{::video.$window.location.href}}></update-meta>
+        <div class="clip">
+            <div class="embed-responsive embed-responsive-16by9">
+                <youtube-video class="embed-responsive-item" video-url="::video.videoData.url"></youtube-video>
+            </div>
+        </div>
+        <div ng-class="::video.videoData.class" compile="::video.html"></div>
+    </div>
+</div>

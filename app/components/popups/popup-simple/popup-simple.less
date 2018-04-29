@@ -1,0 +1,17 @@
+@import (reference) '../../../../assets/less/resources';
+
+.popupFrame {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.popupSimple {
+  width: 100%;
+  height: 100%;
+  
+
+  @media only screen and (min-width: @popup-width) {
+    width: @popup-width;
+    height: @popup-height;
+  }
+}

@@ -1,0 +1,9 @@
+<div class="article-list" ng-class="::articleList.articleData.class" ng-style="::articleList.articleData.backgroundStyle" compile-with-watch="articleList.html">
+    <div ng-repeat="article in articleList.articles| limitTo : articleList.maxSize : 0 ">
+        <article ng-if="article.article" data="article.article"></article>
+        <video ng-if="article.video" data="article.video"></video>
+    </div>
+    <!--    <div ng-hide="articleList.showReadMore()">
+            <read-more max="8" filter="articles"></read-more>
+        </div>-->
+</div>

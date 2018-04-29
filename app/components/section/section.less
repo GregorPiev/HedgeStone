@@ -1,0 +1,23 @@
+@import (reference) "../../../assets/less/resources";
+@import '../../../assets/less/label';
+
+.section {
+  .app-width;
+  float: left;
+  width: 100%;
+  line-height: 1.2;
+
+  &.dark-background {
+    background-color: @dark-bg-color;
+  }
+  &.light-background {
+    background-color: @light-bg-color;
+  }
+}
+
+@media only screen and (max-width: @sm-tablet-screen) {
+  .container {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}

@@ -1,0 +1,488 @@
+{
+  "page-name": "faq",
+  "page-type": "page",
+  "class": "",
+  "title": "Clients either check FAQ or contact customer service",
+  "description": "With their inquiries, clients can go to the FAQ section. There are answers to general questions, technical help, and an information about deposits and withdrawal.",
+  "keywords": "Frequently Asked Questions; customer service; technical help; deposits and withdrawals; support; general",
+  "array": [
+    {
+      "section": {
+        "sectionName": "faq-top-section",
+        "sectionType": "deposit-top-section",
+        "background": "/assets/images/sections/Wash.png",
+        "containerClass": "container",
+        "class": "text-center",
+        "array": [
+          {
+            "content": {
+              "class": "",
+              "array": [
+                {
+                  "headline": {
+                    "class": "hl1",
+                    "title": "Frequently Asked Questions"
+                  }
+                },
+                {
+                  "content-body": {
+                    "text": "Got a question? Then we might have the answer. Still looking? <a href=\"mailto:support@hedgestonegroup.com\">Contact Us</a>",
+                    "class": ""
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "sectionName": "faq",
+        "sectionType": "faq-section",
+        "background": "",
+        "class": "relative-position no-padding",
+        "array": [
+          {
+            "tab-set": {
+              "id": "faq",
+              "array": [
+                {
+                  "tab-btn": {
+                    "class": "tabBtn",
+                    "title": "General",
+                    "array": [
+                      {
+                        "tab-container": {
+                          "class": "",
+                          "array": [
+                            {
+                              "headline": {
+                                "class": "hl3",
+                                "title": "How secure is the Hedgestone Group platform?"
+                              }
+                            },
+                            {
+                              "content-body": {
+                                "text": "Hedgestone Group takes client security very seriously in terms of the trading platform, protecting client information and processing payments. We use advanced encryption technologies and Secure Socket Layer (SSL) technology to protect your data from malicious threats. You do not need any specific software before you can begin trading with Hedgestone Group. All you need to do is register your details with an account specialist and deposit funds into your account."
+                              }
+                            },
+                            {
+                              "headline": {
+                                "class": "hl3",
+                                "title": "Am I required to make a deposit if I open an account with Hedgestone Group?"
+                              }
+                            },
+                            {
+                              "content-body": {
+                                "text": "You can create account with Hedgestone Group without making a deposit. However, in order to begin trading you will need to fund your account."
+                              }
+                            },
+                            {
+                              "headline": {
+                                "class": "hl3",
+                                "title": "Does Hedgestone Group charge a registration fee on new accounts?"
+                              }
+                            },
+                            {
+                              "content-body": {
+                                "text": "Creating an account with Hedgestone Group is free of charge."
+                              }
+                            },
+                            {
+                              "headline": {
+                                "class": "hl3",
+                                "title": "Where are my funds kept?"
+                              }
+                            },
+                            {
+                              "content-body": {
+                                "text": "Your funds are kept in a segregated account in an EU bank."
+                              }
+                            },
+                            {
+                              "headline": {
+                                "class": "hl3",
+                                "title": "How can I open an account with Hedgestone Group?"
+                              }
+                            },
+                            {
+                              "content-body": {
+                                "text": "To open an account with Hedgestone Group, click on the ‘Create Account’ button located at the top of the Hedgestone Group website (www.hedgestonegroup.com). After clicking on the ‘Create Account’ button you will be asked to provide a few details about yourself and accept the Hedgestone Group Terms and Conditions. Risk disclosure: Trading at stock markets entails significant risk. You should not trade with funds that you cannot afford to lose."
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "tab-btn": {
+                    "class": "tabBtn",
+                    "title": "Technical Help",
+                    "array": [
+                      {
+                        "tab-container": {
+                          "class": "",
+                          "array": [
+                            {
+                              "headline": {
+                                "class": "hl3",
+                                "title": "Why can’t I log in?"
+                              }
+                            },
+                            {
+                              "content-body": {
+                                "text": "You cannot log in, first, because you might be copying your password from your email together with spaces either before or after the password itself. Another reason is that your Internet Browser might be storing your old passwords through Cookies. To prevent this from happening, clear the Cookies or try to enter with a different browser."
+                              }
+                            },
+                            {
+                              "headline": {
+                                "class": "hl3",
+                                "title": "Do I need to download any software to use Hedgestone Group trading platform?"
+                              }
+                            },
+                            {
+                              "content-body": {
+                                "text": "No, you don’t. In order to use Hedgestone Group trading platform, you need to open an account with us and make a minimum deposit."
+                              }
+                            },
+                            {
+                              "headline": {
+                                "class": "hl3",
+                                "title": "Why are some pages of the platform not available?"
+                              }
+                            },
+                            {
+                              "content-body": {
+                                "text": "The reason is that you might be using <b>https://</b>. Please, make sure to change it to <b>http://</b>."
+                              }
+                            },
+                            {
+                              "headline": {
+                                "class": "hl3",
+                                "title": "How do I change the displayed language?"
+                              }
+                            },
+                            {
+                              "content-body": {
+                                "text": "ou can change the displayed language by using the drop down menu at the top of the page, where it is written “Languages.” After you log in, the default language will always be the one you selected at registration. If you want to change your default language, please, contact our Customer Support."
+                              }
+                            },
+                            {
+                              "headline": {
+                                "class": "hl3",
+                                "title": "Why can’t I see video tutorials?"
+                              }
+                            },
+                            {
+                              "content-body": {
+                                "text": "In order to see Hedgestone Group video tutorials, please, update your Flash. It updating your Flash does not help, you might need to configure network settings to use Google Public DNS."
+                              }
+                            },
+                            {
+                              "headline": {
+                                "class": "hl3",
+                                "title": "How do I change my username, password, or email address?"
+                              }
+                            },
+                            {
+                              "content-body": {
+                                "text": "In order to change your username, password, or email address, please, do the following: <ul><li>Make sure you are logged in.</li><li>On the navigation bar at the top of the page, find “My Account” section. Click on it.</li><li>When you open your Account page, find a list of links on its right-hand side underneath your profile icon photo.</li><li>Find “Edit my Profile” section. Click on it.</li><li>When you open your profile page, go to the “Account Information” section. There you will see fields for “Username,\" \"E-mail address,\" \"Password,\" and \"Confirm password.\"</li><li>Enter the information you wish to change. Then scroll to the bottom of the page and click \"Save\".</li></ul>"
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "tab-btn": {
+                    "class": "tabBtn",
+                    "title": "Deposit & Withdrawals",
+                    "array": [
+                      {
+                        "tab-container": {
+                          "class": "",
+                          "array": [
+                            {
+                              "headline": {
+                                "class": "hl3",
+                                "title": "Am I able to cancel a withdrawal after lodging a withdrawal request?"
+                              }
+                            },
+                            {
+                              "content-body": {
+                                "text": "It depends on how far along you are in the withdrawal process. If you just lodged a withdrawal and wish to cancel, please contact your Hedgestone Group representative. If you lodged a withdrawal more than a few hours ago, the funds have probably already been deducted from your trading account. If the funds have been deducted from your trading account, it is too late to cancel the withdrawal."
+                              }
+                            },
+                            {
+                              "headline": {
+                                "class": "hl3",
+                                "title": "What do you mean when you ask for my bank's SWIFT code?"
+                              }
+                            },
+                            {
+                              "content-body": {
+                                "text": "A SWIFT code is a code used for cross-border banking transactions. It stands for Society for Worldwide Interbank Financial Telecommunication. The purpose of a SWIFT code is to identify a bank or a financial institution. Your bank or financial institution will be able to provide you with the correct SWIFT code if you ask them for it."
+                              }
+                            },
+                            {
+                              "headline": {
+                                "class": "hl3",
+                                "title": "How can I deposit funds into my Hedgestone Group trading account?"
+                              }
+                            },
+                            {
+                              "content-body": {
+                                "text": "Hedgestone Group provides its clients with a variety of payment methods depending on currency and country: <ul><li>Visa</li><li>MasterCard</li><li>Bank wire transfer</li><li>Skrill</li><li>Neteller</li><li>WebMoney</li><li>Qiwi</li><li>Sofort</li><li>iDEAL</li><li>CashU</li></ul> If you have a preferred payment method that is not currently supported, let us know and we will try to find a way to accommodate you."
+                              }
+                            },
+                            {
+                              "headline": {
+                                "class": "hl3",
+                                "title": "How easy is it to make a withdrawal from my account?"
+                              }
+                            },
+                            {
+                              "content-body": {
+                                "text": "Hedgestone Group is committed to providing its clients with a fast, transparent and straight-forward withdrawal experience. In order to make a withdrawal, navigate to “My Account” then to “Account Settings,” then to “Make a Withdrawal.” After this, please, follow the instructions. Please, note that your funds must be withdrawn using the same payment method that was used when making a deposit."
+                              }
+                            },
+                            {
+                              "headline": {
+                                "class": "hl3",
+                                "title": "How much bonus can I get when I make a deposit?"
+                              }
+                            },
+                            {
+                              "content-body": {
+                                "text": "Hedgestone Group offers clients bonuses as leverage in order to increase their trading power. Please note that these funds are not withdrawable. Certain trading volumes are required in order to withdraw profits from leveraged accounts."
+                              }
+                            },
+                            {
+                              "headline": {
+                                "class": "hl3",
+                                "title": "How will I receive my withdrawal?"
+                              }
+                            },
+                            {
+                              "content-body": {
+                                "text": "All deposits go back via the original deposit method. Funds that exceed the original deposit are paid through wire transfer."
+                              }
+                            },
+                            {
+                              "headline": {
+                                "class": "hl3",
+                                "title": "When can I withdraw my money?"
+                              }
+                            },
+                            {
+                              "content-body": {
+                                "text": "You can withdraw your money anytime as long as your account is verified and there is an available balance."
+                              }
+                            },
+                            {
+                              "headline": {
+                                "class": "hl3",
+                                "title": "Why do I have to send documents?"
+                              }
+                            },
+                            {
+                              "content-body": {
+                                "text": "We ask for relevant documents in order to verify your identity and protect your account from fraudulent activity or misappropriation."
+                              }
+                            },
+                            {
+                              "headline": {
+                                "class": "hl3",
+                                "title": "How much money can I trade in a single transaction?"
+                              }
+                            },
+                            {
+                              "content-body": {
+                                "text": "Your position per trade should not be larger than 5,000 euro."
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "tab-btn": {
+                    "class": "tabBtn",
+                    "title": "Support",
+                    "array": [
+                      {
+                        "tab-container": {
+                          "class": "",
+                          "array": [
+                            {
+                              "headline": {
+                                "title": "I forgot my password. What should I do?",
+                                "class": "hl3"
+                              }
+                            },
+                            {
+                              "content-body": {
+                                "text": "You can reset your password in <a ui-sref=\"forgot_password\">this page</a>"
+                              }
+                            },
+                            {
+                              "headline": {
+                                "title": "My question is not answered in the FAQs. How can I contact Hedgestone Group?",
+                                "class": "hl3"
+                              }
+                            },
+                            {
+                              "content-body": {
+                                "text": "Please, send us an email to support@hedgestonegroup.com and we will be happy to help answer any questions that have not been addressed in the FAQs."
+                              }
+                            },
+                            {
+                              "headline": {
+                                "title": "Where can I manage the personal details for my account?",
+                                "class": "hl3"
+                              }
+                            },
+                            {
+                              "content-body": {
+                                "text": "Your personal account details can be updated by logging in to the Hedgestone Group platform, then navigating to My Account > Account Settings. Once there you will be able to select the ‘Personal Information’ tab that enables you to edit/update your personal information, such as your address and phone number."
+                              }
+                            },
+                            {
+                              "headline": {
+                                "title": "How can I submit a complaint?",
+                                "class": "hl3"
+                              }
+                            },
+                            {
+                              "content-body": {
+                                "text": "In case you have any complaints about the functionality of the website you must fill in and send the appropriate form. You should complete it and send it to support@hedgestonegroup.com"
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "block": {
+              "class": "arrow",
+              "background": "assets/images/sections/arrow.png"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "sectionName": "bottom-section",
+        "sectionType": "open-account-section",
+        "class": "bottom-section",
+        "background": "",
+        "containerClass": "",
+        "array": [
+          {
+            "content": {
+              "class": "",
+              "array": [
+                {
+                  "ng-image": {
+                    "image-name": "asset-test",
+                    "src": "assets/icons/Logo.png",
+                    "alt": "some asset",
+                    "type": "img",
+                    "class": "center-img",
+                    "responsive": true
+                  }
+                },
+                {
+                  "block": {
+                    "class": "text-center",
+                    "array": [
+                      {
+                        "content-body": {
+                          "class": "",
+                          "text": "READY TO GET STARTED?"
+                        },
+                        "precedence": 0
+                      },
+                      {
+                        "headline": {
+                          "title": "Powerful. Dynamic. Limitless.",
+                          "class": "hl5"
+                        },
+                        "precedence": 1
+                      },
+                      {
+                        "block": {
+                          "class": "padded-block",
+                          "array": [
+                            {
+                              "logged-in" : {
+                                "array": [
+                                  {
+                                    "btn": {
+                                      "class": "btn btn-transparent centered-btn",
+                                      "title": "trade",
+                                      "destination": "trade"
+                                    },
+                                    "precedence": 4
+                                  },
+                                  {
+                                    "btn": {
+                                      "class": "centered-btn",
+                                      "title": "how it works",
+                                      "destination": "education"
+                                    },
+                                    "precedence": 5
+                                  }
+                                ]
+                              }
+                            },
+                            {
+                              "anonymous": {
+                                "array": [
+                                  {
+                                    "btn": {
+                                      "class": "btn btn-transparent centered-btn",
+                                      "title": "open an account",
+                                      "destination": "create_account"
+                                    },
+                                    "precedence": 4
+                                  },
+                                  {
+                                    "btn": {
+                                      "class": "centered-btn",
+                                      "title": "how it works",
+                                      "destination": "education"
+                                    },
+                                    "precedence": 5
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        },
+                        "precedence": 3
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

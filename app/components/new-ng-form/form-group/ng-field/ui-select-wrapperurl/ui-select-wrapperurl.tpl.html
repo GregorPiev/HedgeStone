@@ -1,0 +1,25 @@
+<div class="uiSelectWrapperURL" ng-class="uiSelectWrapperurl.getMedia()">
+    <ui-select name="{{uiSelectWrapperurl.select.name}}" ng-model="uiSelectWrapperurl.select.selected"
+               ng-if="!uiSelectWrapperurl.resolutionChecker.isMobile() || uiSelectWrapperurl.select.forLanguages"
+               onkeypress="return false;" on-select="uiSelectWrapperurl.navigateTo($select.selected.lang)">
+        <ui-select-match placeholder="" >
+            <img alt="{{$select.selected.lang}}" ng-src="/assets/languages/{{$select.selected.flag}}"/>
+        </ui-select-match>
+        <ui-select-choices repeat="language in uiSelectWrapperurl.languages" >
+            <img ng-src="/assets/languages/{{language.flag}}"/>
+            {{language.name}}
+        </ui-select-choices>
+    </ui-select>
+
+    <div ng-if="uiSelectWrapperurl.resolutionChecker.isMobile() && !uiSelectWrapperurl.select.forLanguages" class="ngSelect">
+        <select ng-disabled="uiSelectWrapperurl.select.disabled"
+                ng-required="uiSelectWrapperurl.select.required" class="form-control mobileSelect"
+                name="{{uiSelectWrapperurl.select.name}}"
+                ng-class="::[{'withIcon': uiSelectWrapperurl.isDefined(uiSelectWrapperurl.select.icon)}, uiSelectWrapperurl.select.class]"
+                ng-options="language in uiSelectWrapperurl.languages"
+                ng-model="uiSelectWrapperurl.select.selected">
+            <option value="" selected disabled>{{uiSelectWrapperurl.select.languages}}</option>
+        </select>
+    </div>
+</div>
+

@@ -1,0 +1,11 @@
+<div class="ngFileUpload">
+    <div class="ngFileUploadButton">
+        <div type="file" ngf-select ng-model="ngFileUpload.ngFileUploadData['ng-model']" ngf-multiple="false"
+              ngf-model-invalid="errorFile">SELECT FILE</div>
+    </div>
+    <div class="ngFileUploadDrop">
+        <div ngf-drop ngf-select ng-model="ngFileUpload.ngFileUploadData['ng-model']" class="drop-box"
+             ngf-drag-over-class="'dragover'" ngf-multiple="false" ngf-allow-dir="false"
+             ng-bind="ngFileUpload.thumb" disabled></div>
+    </div>
+</div>

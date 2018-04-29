@@ -1,0 +1,21 @@
+{
+  "block": {
+    "class": "header-bottom",
+    "array": [
+      {
+        "block": {
+          "class": "table-cell",
+          "array": [
+            {
+              "logo": {
+                "class": "",
+                "ref": "home",
+                "src": "/assets/images/main/Logo.svg"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

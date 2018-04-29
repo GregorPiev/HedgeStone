@@ -1,0 +1,21 @@
+{
+  "primaryHeadline": {
+    "title": "Missing Regulation Documents",
+    "class": "hl1"
+  },
+  "secondaryHeadline": {
+    "title": "important notice",
+    "class": "hl7"
+  },
+  "content": {
+    "text": "You're still missing some required regulation documents.<br />Please see our <a ui-sref='verification_guide'>Verification Guide</a>, or contact us, for more details."
+  },
+  "yesBtn": {
+    "title": "Contact Us",
+    "class": "btn"
+  },
+  "cancelBtn": {
+    "title": "cancel",
+    "class": "btn btn-transparent"
+  }
+}

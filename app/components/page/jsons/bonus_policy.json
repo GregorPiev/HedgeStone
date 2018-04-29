@@ -1,0 +1,39 @@
+{
+  "page-name": "risk_disclaimer",
+  "page-type": "page",
+  "class": "",
+  "title": "Trading bonuses comply with Hedgestone Group’s Bonus Policy.",
+  "keywords": "Bonus Policy, trading bonuses, Terms and Conditions",
+  "description": "Trading bonuses offered to the clients of Hedgestone Group are subjects to the provisions of its Bonus Policy, which is added to its Terms and Conditions.",
+  "array": [
+    {
+      "section": {
+        "sectionName": "content-text",
+        "sectionType": "generic-page",
+        "background": "assets/images/sections/generic-bg.png",
+        "containerClass": "container",
+        "class": "relative-position dark-background",
+        "array": [
+          {
+            "content": {
+              "class": "text-left",
+              "array": [
+                {
+                  "headline": {
+                    "class": "hl1",
+                    "title": "Bonus Policy"
+                  }
+                },
+                {
+                  "content-body": {
+                    "text": "<p>All trading bonuses offered by Icon Markets Limited (hereafter, the &ldquo;Company&rdquo;) are subject to the provisions of this Bonus Policy (the &ldquo;Policy&rdquo;). This Policy is an addendum to the Company&rsquo;s main &ldquo;Terms &amp; Conditions&rdquo; which can be found at the Company&rsquo;s website (www.hedgestonegroup.com). Before accepting a bonus from the Company, the Client must read, understand and accept the provisions of this Policy by returning a signed copy to the Company.</p><br/><p>1. Eligibility</p><p>1.1. Any promotional offer is valid for only for the period stated in the promotional offer, unless otherwise designated. <br/>1.2. The Company offers different bonus schemes and other trading benefits to some of its Clients from time-to-time.<br/>1.3. The decision of whether to grant a bonus to a certain Client is at the Company&rsquo;s sole and exclusive discretion.<br/>1.4. The Client will be given the opportunity to accept or decline any bonus or promotional offer presented to the Client by the Company.<br/>1.5. The Client will be deemed to have accepted a bonus when he/she explicitly indicates as such by returning a signed Bonus Agreement to the Company, or by digitally signing such an Agreement by clicking &ldquo;I Accept&rdquo;.<br/>1.6. The Client will be eligible to receive a bonus only in the currency that his/her trading account is denominated in.<br/><br/>2. Withdrawals<br/><p>2.1. The Company makes a distinction between Client funds that are available for trading (the &ldquo;Trading Balance&rdquo;) and Client funds that are available for withdrawals (the &ldquo;Withdrawal Balance&rdquo;).<br/>2.2. The Client&rsquo;s Trading Balance is calculated as the sum of the Client&rsquo;s deposits, the Client&rsquo;s bonuses, if any, and the Client&rsquo;s net trading profits.<br/>2.3. If the Client has not accepted a bonus the Client&rsquo;s Withdrawal Balance is calculated as the sum of the Client&rsquo;s deposits and the Client&rsquo;s net trading profits.<br/>2.4. If the Client has accepted a bonus and achieved a trading volume of 20 times the sum of the deposited amount and the bonus amount (the &ldquo;Required Volume&rdquo;), the Client&rsquo;s Withdrawal Balance is calculated as the sum of the Client&rsquo;s deposits, the Client&rsquo;s bonuses and the Client&rsquo;s net trading profits.<br/>2.5. If the Client has accepted a bonus, has not achieved the Required Volume and has made trading losses, the Client&rsquo;s Withdrawal Balance is calculated as the sum of the Client&rsquo;s deposits less the Client&rsquo;s total trading losses. In the event of the Client wishing to make a withdrawal under these circumstances, the Client&rsquo;s bonus will become null and void, and the Client&rsquo;s total losses will be deducted from the funds available for withdrawal.<br/>2.6. If the Client has accepted a bonus, has not achieved the Required Volume and has made trading profits, the Client&rsquo;s Withdrawal Balance is calculated as the sum of the Client&rsquo;s deposits. In the event of the Client wishing to make a withdrawal under these circumstances, the Client&rsquo;s bonus will become null and void, the Client&rsquo;s profits will be cancelled, and only the Client&rsquo;s deposited funds will be available for withdrawal.<br/>2.7. Clients can only make withdrawals provided that they have no positions open at the time of making the withdrawal request.<br/>2.8. Examples of Trading Balance and Withdrawal Balance calculations are provided below:<br/>2.8.1. Example 1<br/>The Client deposited 5,000 USD, received a 5,000 USD bonus, achieved 300,000 USD in trading volume, and made 10,000 USD in profit.</p><p>The Client has met the Required Volume of (5,000 + 5,000) * 20=200,000 USD.<br/>Trading Balance=5,000 + 5,000 + 10,000=20,000 USD.<br/>Withdrawal Balance=5,000 + 5,000 + 10,000=20,000 USD.<br/>If Client withdraws 5,000 USD, his/her Trading Balance following the withdrawal will be 15,000 USD and his/her Withdrawal Balance will be 15,000 USD.</p><p>2.8.2. Example 2<br/>The Client deposited 5,000 USD, received a 2,500 USD bonus, achieved 20,000 USD in trading volume, and made 500 USD in profit.</p><p>The Client has not met the Required Volume of (5,000 + 2,500) * 20=150,000 USD.<br/>Trading Balance=5,000 + 2,500 + 500=8,000 USD.<br/>Withdrawal Balance=5,000 USD, as the Client&rsquo;s bonus and profits will be declared null and void if the client wishes to make a withdrawal prior to reaching the Required Volume.<br/>If the Client wishes to withdraw 5,000 USD, after making the withdrawal his/her Trading Balance will be 0 USD and his/ her Withdrawal Balance will be 0 USD. Because of the Client&rsquo;s bonus and the fact that the Client has not met the Required Volume, the 500 USD in profit and the 2,500 USD bonus amount are declared null and void.</p><p>2.8.3. Example 3<br/>The Client deposited 5,000 USD, received a 2,500 USD bonus, achieved 20,000 USD in trading volume, and incurred a loss of 500 USD.</p><p>The Client has not met the Required Volume of (5,000 + 2,500) * 20=150,000 USD.<br/>Trading Balance=5,000 + 2,500 - 500=7,000 USD.<br/>Withdrawal Balance=5,000 &ndash; 500=4,500 USD. Because of the Client&rsquo;s bonus and the fact that the Client has not met the Required Volume, the bonus is cancelled and 100% of his/ her trading losses are deducted from the Client&rsquo;s deposit amount. </p><br/><p>3. Other</p><p>3.1. In the event of a modification of the Policy, Clients will be notified in advance by the Company. Clients will have the right to accept the changes and to keep the trading benefit in his/her account or not to accept the changes. In the event of the Client not accepting the changes, the terms which were in effect at the time the Client accepted the bonus shall prevail.<br/>3.2. The Company expects that bonuses awarded to a Client will be used by the Client to place trades. If within 3 months of being awarded with a bonus the Client has not reached a trading turnover of five times the sum of the deposit amount and the bonus amount, the Company reserves the right to declare the bonus, and any profits associated with the bonus, null and void. The Company is not obligated to notify the Client of such cancellations.<br/>3.3. The Company reserves the right to suspend, cancel or terminate a bonus or any aspect of a bonus, at any time and without any prior notice, where the Client has failed to have met his/her obligations or where the Company suspects that any kind of abuse, manipulation or fraud of any sort has taken place.<br/>3.4. Under no circumstances shall the Company be liable for any consequences of any suspension, cancelation or termination of a bonus.</p>"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

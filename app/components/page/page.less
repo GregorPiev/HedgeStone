@@ -1,0 +1,37 @@
+@import (reference) "../../../assets/less/resources";
+
+.page {
+  .page-width;
+  .no-padding;
+  @media only screen and (max-width: 1200px) {
+    padding-top: @header-top-height !important;
+  }
+
+  &.withHeader {
+    padding-top: @header-top-height+@header-bottom-height !important;
+    @media only screen and (max-width: @mobile-screen) {
+      padding-top: @header-top-height+@header-bottom-height-mobile !important;
+    }
+
+    .header-bottom {
+      background-color: @dark-bg-color;
+      border-bottom: 1px solid @border-color;
+    }
+  }
+
+  .header-bottom {
+    display: table;
+    position: absolute;
+    height: @header-bottom-height;
+    width: 100%;
+    top: @header-top-height;
+    padding: 0 15px;
+
+    @media only screen and (max-width: @mobile-screen) {
+      height: @header-bottom-height-mobile;
+      .logo {
+        padding-right: 100px;
+      }
+    }
+  }
+}

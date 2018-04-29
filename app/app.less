@@ -1,0 +1,49 @@
+@import "~font-awesome/less/font-awesome";
+@import "~bootstrap/less/bootstrap";
+@import "../assets/less/resources";
+@import "~angular-ui-select/select.css";
+
+body {
+  font-family: @main-font-family;
+  background-color: @body-color;
+  font-size: @small-font;
+  @media only screen and (max-width: 768px) {
+    font-size: 12px;
+  }
+  @media only screen and (max-width: 400px) {
+    font-size: 9px;
+  }
+}
+
+v-accordion {
+  .col-xs-12;
+  .pull-left;
+}
+
+.ng-toast {
+  position: fixed;
+  top: 90px;
+  width: 100%;
+  z-index: 6;
+  ul {
+    list-style: none;
+    padding: 0 20px;
+    width: 100%;
+    li {
+      width: 100%;
+    }
+  }
+}
+
+a {
+  color: @btn-color;
+  &:hover {
+    color: white;
+    text-decoration: none;
+    -webkit-transition: color 0.5s;
+    -moz-transition:  color 0.5s;
+    -ms-transition:  color 0.5s;
+    -o-transition:  color 0.5s;
+    transition:  color 0.5s;
+  }
+}

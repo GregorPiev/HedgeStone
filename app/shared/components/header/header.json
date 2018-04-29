@@ -1,0 +1,199 @@
+{
+  "header": {
+    "class": "header no-padding",
+    "array": [
+      {
+        "block": {
+          "class": "header-top",
+          "array": [
+            {
+              "block": {
+                "class": "table container",
+                "array": [
+                  {
+                    "access-menu": {
+                      "class": "",
+                      "array": [                       
+                        {
+                          "menu": {
+                            "class": "",
+                            "items": [
+                              {
+                                "title": "About",
+                                "ref": "about",
+                                "class": ""
+                              },
+
+                              {
+                                "title": "Market News",
+                                "ref": "latest_news",
+                                "class": ""
+                              },
+
+                              {
+                                "title": "Education",
+                                "ref": "education",
+                                "class": ""
+                              },
+                              {
+                                "title": "Tools",
+                                "ref": "tools",
+                                "class": ""
+                              },
+                              {
+                                "title": "Financial Products",
+                                "ref": "financials",
+                                "class": ""
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "logged-in": {
+                            "array": [
+                              {
+                                    "ui-select-wrapperurl": {
+                                      "disabled": false,
+                                      "element": "select",
+                                      "type": "ui-select",
+                                      "model": "",
+                                      "class": "ngSelect",
+                                      "forLanguages": true,
+                                      "name": "LanguageSelector"
+                                    },
+                                    "precedence": 1
+                              },                              
+                              {
+                                "btn": {
+                                  "class": "headerBtn pull-right",
+                                  "title": "Log Out",
+                                  "destination": "logout"
+                                },
+                                "precedence": 2
+                              },
+                              {
+                                "btn": {
+                                  "class": "headerBtn btn-transparent pull-right",
+                                  "title": "Deposit",
+                                  "destination": "deposit"
+                                },
+                                "precedence": 3
+                              },
+                              {
+                                "btn": {
+                                  "class": "headerBtn btn-transparent pull-right",
+                                  "title": "Trade",
+                                  "destination": "trade"
+                                },
+                                "precedence": 4
+                              },
+                              {
+                                "btn": {
+                                  "class": "headerBtn btn-transparent pull-right",
+                                  "title": "Manage Account",
+                                  "destination": "account"
+                                },
+                                "precedence": 5
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "anonymous": {
+                            "class": "",
+                            "array": [
+                             {
+                                    "ui-select-wrapperurl": {
+                                      "disabled": false,
+                                      "element": "select",
+                                      "type": "ui-select",
+                                      "model": "",
+                                      "class": "ngSelect",
+                                      "forLanguages": true,
+                                      "name": "LanguageSelector"
+                                    }
+                              },                                 
+                                                            
+                              {
+                                "btn": {
+                                  "class": "headerBtn pull-right",
+                                  "title": "login",
+                                  "destination": "login"
+                                }
+                              },
+                              {
+                                "btn": {
+                                  "class": "btn-transparent headerBtn pull-right",
+                                  "title": "Open an account",
+                                  "destination": "create_account"
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "block": {
+          "class": "header-bottom",
+          "array": [
+            {
+              "block": {
+                "class": "container",
+                "array": [
+                  {
+                    "logo": {
+                      "class": "",
+                      "ref": "home",
+                      "src": "/assets/images/main/Logo.svg"
+                    }
+                  },
+                  {
+                    "menu": {
+                      "class": "",
+                      "items": [
+                        {
+                          "title": "About",
+                          "ref": "about",
+                          "class": ""
+                        },
+                        {
+                          "title": "Market News",
+                          "ref": "latest_news",
+                          "class": ""
+                        },
+
+                        {
+                          "title": "Education",
+                          "ref": "education",
+                          "class": ""
+                        },
+                        {
+                          "title": "Tools",
+                          "ref": "tools",
+                          "class": ""
+                        },
+                        {
+                          "title": "Financial Products",
+                          "ref": "financials",
+                          "class": ""
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

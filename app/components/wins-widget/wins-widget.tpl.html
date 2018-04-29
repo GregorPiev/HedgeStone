@@ -1,0 +1,9 @@
+<div ng-class="[{'hide' : winsWidget.totalAmount === 0}, {'loaded': winsWidget.loaded}]" class="winsWidgetWrapper">
+    <div class="headline hl4 winsWidgetHeadline">TOTAL OF {{winsWidget.totalAmount}} WINS</div>
+    <div class="winsWidget">
+        <uib-progress>
+            <uib-bar ng-repeat="bar in winsWidget.bars track by $index" value="bar.value" type="{{bar.color}}"><span>{{bar.value}}%</span></uib-bar>
+        </uib-progress>
+        <div class="widgetContent" compile="::winsWidget.html"></div>
+    </div>
+</div>

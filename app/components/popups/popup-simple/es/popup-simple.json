@@ -1,0 +1,12 @@
+{
+  "img": {
+    "src": "http://www.geognos.com/api/en/countries/flag/<countrycode>.png"
+  },
+  "headline": {
+    "title": "Perdón",
+    "class": "hl1"
+  },
+  "content": {
+    "text": "Tenga en cuenta que Hedgstone no acepta clientes <br/> situados en <country>."
+  }
+}

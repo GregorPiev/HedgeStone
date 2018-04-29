@@ -1,0 +1,17 @@
+<div class="popupFrame">
+    <div class="popupFailed">
+        <div class="closeImg" ng-click="popupFailed.cancel()">
+            <i class="fa fa-times"></i>
+        </div>
+        <div class="popup-content">
+            <headline data="popupFailedLoad.popupData.secondaryHeadline"></headline>
+            <headline data="popupFailedLoad.popupData.primaryHeadline"></headline>
+            <!--pay attention to change content body to proper attr-->
+            <content-body data="popupFailedLoad.popupData.content"></content-body>
+            <div class="btns-block">
+                <btn data="popupFailedLoad.popupData.yesBtn" btn-function="popupFailedLoad.yes"></btn>
+                <btn data="popupFailedLoad.popupData.cancelBtn" btn-function="popupFailedLoad.no"></btn>
+            </div>
+        </div>
+    </div>
+</div>

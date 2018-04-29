@@ -1,0 +1,11 @@
+<div class="tickerAsset" ng-class="[{logoLoading: tickerAsset.logoLoading}, {showLogoLoading: tickerAsset.refreshing}]">
+    <div class="tickerAssetContainer" ng-class="{switching: tickerAsset.switching}">
+        <div class="type assetType" uib-tooltip="Asset Type" tooltip-is-open="tickerAsset.tool" tooltip-placement="bottom" ng-bind="tickerAsset.assetData[1].type"></div>
+        <div class="type assetName" uib-tooltip="Asset Name" ng-bind="tickerAsset.assetData[1].name"></div>
+        <div class="type assetPercentageChange" uib-tooltip="Change from “open value”" ng-bind="tickerAsset.changeInPercentage"></div>
+        <div class="type assetRate" uib-tooltip="Current Rate" ng-bind="tickerAsset.assetData[0].rate"></div>
+        <img ng-show="tickerAsset.change >= 0" src="../../../../assets/icons/Arrow-torq.png" class="positive">
+        <img ng-show="tickerAsset.change < 0" src="../../../../assets/icons/Arrow-orange.png" class="negative">
+        <div class="type assetChange" uib-tooltip="Change from “open value” today" ng-bind="tickerAsset.change" ng-class="{positive: tickerAsset.change >= 0, negative: tickerAsset.change < 0}"></div>
+    </div>
+</div>

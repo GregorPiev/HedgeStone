@@ -1,0 +1,508 @@
+{
+  "page-name": "account",
+  "page-type": "page",
+  "class": "",
+  "title": "Los Clientes pueden ver el historial comercial y editar las cuentas.",
+  "keywords": "Configuración de la cuenta, historia comercial; depósito; detalles de la cuenta",
+  "array": [
+    {
+      "section": {
+        "sectionName": "account-top-section",
+        "sectionType": "deposit-top-section",
+        "background": "/assets/images/sections/Wash.png",
+        "containerClass": "container",
+        "class": "text-center",
+        "array": [
+          {
+            "content": {
+              "class": "",
+              "array": [
+                {
+                  "headline": {
+                    "id": "username",
+                    "class": "hl1",
+                    "title": ""
+                  }
+                },
+                {
+                  "content-body": {
+                    "text": "Depositar fondos, ver el historial comercial y editar detalles de su cuenta.",
+                    "class": ""
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "sectionName": "account-setting",
+        "sectionType": "account-setting-section",
+        "background": "",
+        "class": "relative-position no-padding",
+        "array": [
+          {
+            "tab-set": {
+              "selectTabs": true,
+              "array": [
+                {
+                  "tab-btn": {
+                    "class": "tabBtn",
+                    "title": "Configuración de Cuenta",
+                    "array": [
+                      {
+                        "tab-container": {
+                          "class": "",
+                          "array": [
+                            {
+                              "account-form": {
+                                "class": "text-left no-padding col-md-9 col-xs-6",
+                                "form": {
+                                  "name": "test",
+                                  "submit": {
+                                    "class": "no-padding",
+                                    "content": "guardar cambios"
+                                  },
+                                  "groups": [
+                                    {
+                                      "headline": {
+                                        "class": "hl3",
+                                        "title": "Datos Personales"
+                                      },
+                                      "label": {
+                                        "title": "Nombre de Pila"
+                                      },
+                                      "filed": {
+                                        "element": "input",
+                                        "type": "text",
+                                        "required": true,
+                                        "model": "",
+                                        "class": "left-side",
+                                        "name": "firstName",
+                                        "placeholder": "",
+                                        "msgBox": {
+                                          "required": "Este campo es requerido"
+                                        }
+                                      }
+                                    },
+                                    {
+                                      "class": "right-group",
+                                      "label": {
+                                        "title": "Apellido"
+                                      },
+                                      "filed": {
+                                        "element": "input",
+                                        "type": "text",
+                                        "required": true,
+                                        "model": "",
+                                        "class": "right-side",
+                                        "name": "lastName",
+                                        "msgBox": {
+                                          "required": "Este campo es requerido"
+                                        }
+                                      }
+                                    },
+                                    {
+                                      "label": {
+                                        "title": "Email"
+                                      },
+                                      "filed": {
+                                        "element": "input",
+                                        "type": "text",
+                                        "required": true,
+                                        "model": "",
+                                        "class": "left-side",
+                                        "name": "email",
+                                        "placeholder": "",
+                                        "pattern": "email",
+                                        "msgBox": {
+                                          "pattern": "Dirección de correo electrónico inválida",
+                                          "required": "Este campo es requerido"
+                                        }
+                                      }
+                                    },
+                                    {
+                                      "class": "right-group",
+                                      "label": {
+                                        "title": "Número de Teléfono"
+                                      },
+                                      "filed": {
+                                        "element": "input",
+                                        "type": "text",
+                                        "required": false,
+                                        "model": "",
+                                        "class": "right-side",
+                                        "name": "phoneNumber",
+                                        "placeholder": "",
+                                        "msgBox": {
+                                          "required": "Este campo es requerido"
+                                        }
+                                      }
+                                    },
+                                    {
+                                      "label": {
+                                        "title": "Domicilio"
+                                      },
+                                      "filed": {
+                                        "element": "input",
+                                        "type": "text",
+                                        "required": true,
+                                        "model": "",
+                                        "class": "left-side",
+                                        "name": "address",
+                                        "placeholder": "",
+                                        "pattern": "",
+                                        "msgBox": {
+                                          "required": "Este campo es requerido"
+                                        }
+                                      }
+                                    },
+                                    {
+                                      "class": "right-group",
+                                      "label": {
+                                        "title": "Código postal"
+                                      },
+                                      "filed": {
+                                        "element": "input",
+                                        "type": "text",
+                                        "required": true,
+                                        "model": "",
+                                        "class": "right-side",
+                                        "name": "postcode",
+                                        "placeholder": "",
+                                        "msgBox": {
+                                          "required": "Este campo es requerido"
+                                        }
+                                      }
+                                    },
+                                    {
+                                      "label": {
+                                        "title": "País"
+                                      },
+                                      "filed": {
+                                        "element": "input",
+                                        "type": "text",
+                                        "required": true,
+                                        "model": "",
+                                        "class": "left-side",
+                                        "name": "country",
+                                        "placeholder": "",
+                                        "msgBox": {
+                                          "required": "Este campo es requerido"
+                                        }
+                                      }
+                                    },
+                                    {
+                                      "class": "right-group",
+                                      "label": {
+                                        "title": "Ciudad"
+                                      },
+                                      "filed": {
+                                        "element": "input",
+                                        "type": "text",
+                                        "required": true,
+                                        "model": "",
+                                        "class": "right-side",
+                                        "name": "city",
+                                        "placeholder": "",
+                                        "msgBox": {
+                                          "required": "Este campo es requerido"
+                                        }
+                                      }
+                                    },
+                                    {
+                                      "headline": {
+                                        "class": "hl3",
+                                        "title": "Configuración"
+                                      },
+                                      "label": {
+                                        "title": "Crear Nueva Contraseña"
+                                      },
+                                      "filed": {
+                                        "element": "input",
+                                        "type": "password",
+                                        "required": false,
+                                        "model": "",
+                                        "class": "left-side",
+                                        "name": "newPassword",
+                                        "placeholder": "",
+                                        "pattern": "",
+                                        "msgBox": {
+                                          "required": "Este campo es requerido"
+                                        }
+                                      }
+                                    },
+                                    {
+                                      "class": "right-group",
+                                      "label": {
+                                        "title": "Re-ingrese la Nueva Contraseña"
+                                      },
+                                      "filed": {
+                                        "element": "input",
+                                        "type": "password",
+                                        "required": false,
+                                        "model": "",
+                                        "class": "right-side",
+                                        "name": "confirmNewPassword",
+                                        "placeholder": "",
+                                        "msgBox": {
+                                          "required": "Este campo es requerido"
+                                        }
+                                      }
+                                    }
+                                  ]
+                                }
+                              }
+                            },
+                            {
+                              "block": {
+                                "class": "widgets-block col-sm-3 col-xs-6",
+                                "array": [
+                                  {
+                                    "account-balance": {
+                                      "array": [
+                                        {
+                                          "headline": {
+                                            "title": "SALDO DE LA CUENTA",
+                                            "class": "hl4"
+                                          },
+                                          "precedence": 0
+                                        },
+                                        {
+                                          "headline": {
+                                            "title": "",
+                                            "class": "hl1",
+                                            "id": "userBalance"
+                                          },
+                                          "precedence": 1
+                                        },
+                                        {
+                                          "btn": {
+                                            "class": "",
+                                            "title": "DEPOSIT",
+                                            "destination": "deposit"
+                                          },
+                                          "precedence": 2
+                                        },
+                                        {
+                                          "content-body": {
+                                            "text": "<a ui-sref=\"withdrawal\">Hacer una extracción</a>"
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  },
+                                  {
+                                    "account-overview": {
+                                      "type": "highest-volume",
+                                      "array": [
+                                        {
+                                          "headline": {
+                                            "title": "PERSPECTIVA GENERAL DE CUENTA",
+                                            "class": "hl4"
+                                          }
+                                        },
+                                        {
+                                          "ng-table": {
+                                            "class": "text-left",
+                                            "array": [
+                                              {
+                                                "table-row": {
+                                                  "class": "",
+                                                  "array": [
+                                                    {
+                                                      "table-cell": {
+                                                        "class": "cell col-lg-6",
+                                                        "content": "Posiciones Abiertas"
+                                                      },
+                                                      "precedence": 0
+                                                    },
+                                                    {
+                                                      "table-cell": {
+                                                        "class": "cell col-lg-6 bold turquoise text-right",
+                                                        "content": "+10"
+                                                      },
+                                                      "precedence": 1
+                                                    }
+                                                  ]
+                                                },
+                                                "precedence": 0
+                                              },
+                                              {
+                                                "table-row": {
+                                                  "class": "",
+                                                  "array": [
+                                                    {
+                                                      "table-cell": {
+                                                        "class": "cell col-lg-6",
+                                                        "content": "Nº de cuenta"
+                                                      },
+                                                      "precedence": 0
+                                                    },
+                                                    {
+                                                      "table-cell": {
+                                                        "id": "account_number",
+                                                        "class": "cell col-lg-6 bold text-right",
+                                                        "content": ""
+                                                      },
+                                                      "precedence": 1
+                                                    }
+                                                  ]
+                                                },
+                                                "precedence": 1
+                                              },
+                                              {
+                                                "table-row": {
+                                                  "class": "",
+                                                  "array": [
+                                                    {
+                                                      "table-cell": {
+                                                        "class": "cell col-lg-6",
+                                                        "content": "Fecha de Creación"
+                                                      },
+                                                      "precedence": 0
+                                                    },
+                                                    {
+                                                      "table-cell": {
+                                                        "id": "date",
+                                                        "class": "cell col-lg-6 bold text-right",
+                                                        "content": ""
+                                                      },
+                                                      "precedence": 1
+                                                    }
+                                                  ]
+                                                },
+                                                "precedence": 2
+                                              }
+                                            ]
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "block": {
+              "class": "arrow",
+              "background": "assets/images/sections/arrow.png"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "sectionName": "bottom-section",
+        "sectionType": "open-account-section",
+        "class": "bottom-section",
+        "background": "",
+        "containerClass": "",
+        "array": [
+          {
+            "content": {
+              "class": "",
+              "array": [
+                {
+                  "ng-image": {
+                    "image-name": "asset-test",
+                    "src": "assets/icons/Logo.png",
+                    "alt": "algún activo",
+                    "type": "img",
+                    "class": "center-img",
+                    "responsive": true
+                  }
+                },
+                {
+                  "block": {
+                    "class": "text-center",
+                    "array": [
+                      {
+                        "content-body": {
+                          "class": "",
+                          "text": "¿LISTO PARA COMENZAR?"
+                        },
+                        "precedence": 0
+                      },
+                      {
+                        "headline": {
+                          "title": "Poderoso. Dinámico. Sin límites.",
+                          "class": "hl5"
+                        },
+                        "precedence": 1
+                      },
+                      {
+                        "block": {
+                          "class": "padded-block",
+                          "array": [
+                            {
+                              "logged-in" : {
+                                "array": [
+                                  {
+                                    "btn": {
+                                      "class": "btn btn-transparent centered-btn",
+                                      "title": "operación",
+                                      "destination": "trade"
+                                    },
+                                    "precedence": 4
+                                  },
+                                  {
+                                    "btn": {
+                                      "class": "centered-btn",
+                                      "title": "cómo funciona",
+                                      "destination": "education"
+                                    },
+                                    "precedence": 5
+                                  }
+                                ]
+                              }
+                            },
+                            {
+                              "anonymous": {
+                                "array": [
+                                  {
+                                    "btn": {
+                                      "class": "btn btn-transparent centered-btn",
+                                      "title": "abrir una cuenta",
+                                      "destination": "create_account"
+                                    },
+                                    "precedence": 4
+                                  },
+                                  {
+                                    "btn": {
+                                      "class": "centered-btn",
+                                      "title": "cómo funciona",
+                                      "destination": "education"
+                                    },
+                                    "precedence": 5
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        },
+                        "precedence": 3
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

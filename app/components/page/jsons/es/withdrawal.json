@@ -1,0 +1,234 @@
+{
+  "page-name": "forgot-password",
+  "page-type": "page",
+  "class": "",
+  "title": "",
+  "keywords": "",
+  "description": "",
+  "array": [
+    {
+      "section": {
+        "sectionName": "login-top-section",
+        "sectionType": "login-section withdrawal",
+        "class": "dark-background relative-position",
+        "array": [
+          {
+            "block": {
+              "class": "login-container",
+              "array": [
+                {
+                  "headline": {
+                    "title": "Haga una Extracción",
+                    "class": "hl1 text-center"
+                  }
+                },
+                {
+                  "headline": {
+                    "class": "text-center form-headline",
+                    "title": "Comprometidos con un procedimiento de extracción rápido, eficiente y transparente"
+                  }
+                },
+                {
+                  "content-body": {
+                    "class": "",
+                    "text": "Con el fin de extraer fondos de su cuenta operativa Hedgestone, tiene que presentar una solicitud de extracción. Amablemente, tenga en cuenta los siguientes puntos importantes en relación al procedimiento de extracción:"
+                  }
+                },
+                {
+                  "content-body": {
+                    "class": "",
+                    "text": "<ul><li> Puede tomar hasta tres días hábiles para que nuestro equipo de procesamiento de pagos procese las solicitudes de extracción.</li><li>De modo que a fin de cumplir con las regulaciones contra el lavado de dinero, es posible que tenga que presentar una copia de su identificación emitida por el gobierno, antes de cumplir con su solicitud de extracción.</li><li>Los fondos sólo pueden ser retirados a la fuente original de la transferencia.</li></ul>"
+                  }
+                },
+                {
+                  "block": {
+                    "class": "",
+                    "array": [
+                      {
+                        "withdrawal-form": {
+                          "forgot": {},
+                          "class": "",
+                          "array": [
+                            {
+                              "new-form": {
+                                "id": "withdrawal-form",
+                                "array": [
+                                  {
+                                    "content-body": {
+                                      "class": "formLabel col-xs-12 no-padding",
+                                      "text": "Importe de Extracción"
+                                    }
+                                  },
+                                  {
+                                    "form-group": {
+                                      "class": "formGroup col-xs-12 col-md-4 no-padding",
+                                      "array": [
+                                        {
+                                          "block": {
+                                            "class": "col-xs-12 no-padding",
+                                            "array": [
+                                              {
+                                                "ng-field": {
+                                                  "element": "input",
+                                                  "withAddon": false,
+                                                  "addon": "",
+                                                  "dynamicAttrs": {
+                                                    "ng-model": "",
+                                                    "ng-class": "form-control",
+                                                    "numeric": ""
+                                                  },
+                                                  "attrs": {
+                                                    "placeholder": "",
+                                                    "name": "withdrawalAmount",
+                                                    "ng-required": true,
+                                                    "ng-pattern": "/^[0-9]*$/",
+                                                    "ng-model-options": "{ 'debounce': { 'default': 0 }}",
+                                                    "min": 10,
+                                                    "type": "number",
+                                                    "ng-pattern": "",
+                                                    "generic-validation": "ngField.ngFieldData"
+                                                  },
+                                                  "msgBox": {
+                                                    "required": "Por favor, ingrese un importe válido.",
+                                                    "min": "El importe mínimo de extracción es ",
+                                                    "number": "Bloquear caracteres",
+                                                    "max": "El importe que solicitó extraer excede a su saldo de cuenta."
+                                                  }
+                                                }
+                                              }
+                                            ]
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  },
+                                  {
+                                    "ng-form-submit": {
+                                      "class": "",
+                                      "content": "Haga una Extracción"
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "block": {
+              "class": "arrow",
+              "background": "assets/images/sections/arrow.png"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "sectionName": "bottom-section",
+        "sectionType": "open-account-section",
+        "class": "bottom-section",
+        "background": "",
+        "containerClass": "",
+        "array": [
+          {
+            "content": {
+              "class": "",
+              "array": [
+                {
+                  "ng-image": {
+                    "image-name": "asset-test",
+                    "src": "assets/icons/Logo.png",
+                    "alt": "algún activo",
+                    "type": "img",
+                    "class": "center-img",
+                    "responsive": true
+                  }
+                },
+                {
+                  "block": {
+                    "class": "text-center",
+                    "array": [
+                      {
+                        "content-body": {
+                          "class": "",
+                          "text": "¿LISTO PARA COMENZAR?"
+                        },
+                        "precedence": 0
+                      },
+                      {
+                        "headline": {
+                          "title": "Poderoso. Dinámico. Sin límites.",
+                          "class": "hl5"
+                        },
+                        "precedence": 1
+                      },
+                      {
+                        "block": {
+                          "class": "padded-block",
+                          "array": [
+                            {
+                              "logged-in" : {
+                                "array": [
+                                  {
+                                    "btn": {
+                                      "class": "btn btn-transparent centered-btn",
+                                      "title": "operación",
+                                      "destination": "trade"
+                                    },
+                                    "precedence": 4
+                                  },
+                                  {
+                                    "btn": {
+                                      "class": "centered-btn",
+                                      "title": "cómo funciona",
+                                      "destination": "education"
+                                    },
+                                    "precedence": 5
+                                  }
+                                ]
+                              }
+                            },
+                            {
+                              "anonymous": {
+                                "array": [
+                                  {
+                                    "btn": {
+                                      "class": "btn btn-transparent centered-btn",
+                                      "title": "abrir una cuenta",
+                                      "destination": "create_account"
+                                    },
+                                    "precedence": 4
+                                  },
+                                  {
+                                    "btn": {
+                                      "class": "centered-btn",
+                                      "title": "cómo funciona",
+                                      "destination": "education"
+                                    },
+                                    "precedence": 5
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        },
+                        "precedence": 3
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

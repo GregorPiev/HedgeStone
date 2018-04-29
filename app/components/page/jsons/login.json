@@ -1,0 +1,281 @@
+{
+  "page-name": "login",
+  "page-type": "page",
+  "class": "",
+  "title": "Login and access Hedgestone Group’s platform.",
+  "description": "Clients who have an account with Hedgestone Group, may login. Those who do not have it, may open it. Those who forgot their password, may follow this link.",
+  "keywords": "Login; open an account; password; forgot password; access Hedgestone Group’s platform.",
+  "array": [
+    {
+      "section": {
+        "sectionName": "login-top-section",
+        "sectionType": "login-section",
+        "class": "dark-background relative-position",
+        "array": [
+          {
+            "block": {
+              "class": "login-container",
+              "array": [
+                {
+                  "headline": {
+                    "title": "Login To Your Account",
+                    "class": "hl1 text-center"
+                  }
+                },
+                {
+                  "headline ": {
+                    "class": "text-center form-headline",
+                    "title": "Enter your login details to access the Hedgestone platform."
+                  }
+                },
+                {
+                  "block": {
+                    "class": "col-xs-8",
+                    "array": [
+                      {
+                        "login-form": {
+                          "class": "",
+                          "array": [
+                            {
+                              "new-form": {
+                                "id": "login-form",
+                                "array": [
+                                  {
+                                    "form-group": {
+                                      "class": "formGroup",
+                                      "array": [
+                                        {
+                                          "block": {
+                                            "array": [
+                                              {
+                                                "content-body": {
+                                                  "class": "formLabel",
+                                                  "text": "Email Address"
+                                                }
+                                              },
+                                              {
+                                                "ng-field": {
+                                                  "element": "input",
+                                                  "withAddon": false,
+                                                  "addon": "",
+                                                  "dynamicAttrs": {
+                                                    "ng-model": "",
+                                                    "ng-class": "form-control",
+                                                    "ng-maxlength": 50
+                                                  },
+                                                  "attrs": {
+                                                    "placeholder": "",
+                                                    "name": "user_name",
+                                                    "ng-required": true,
+                                                    "type": "text",
+                                                    "ng-pattern": "/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\\.[a-zA-Z0-9-]+)*$/",
+                                                    "generic-validation": "ngField.ngFieldData"
+                                                  },
+                                                  "msgBox": {
+                                                    "pattern": "Please insert a valid email address.",
+                                                    "required": "This field is required",
+                                                    "maxlength": "Email can only include a maximum of 50 characters."
+                                                  }
+                                                }
+                                              }
+                                            ]
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  },
+                                  {
+                                    "form-group": {
+                                      "class": "formGroup",
+                                      "array": [
+                                        {
+                                          "block": {
+                                            "array": [
+                                              {
+                                                "content-body": {
+                                                  "text": "Password",
+                                                  "class": "formLabel"
+                                                }
+                                              },
+                                              {
+                                                "ng-field": {
+                                                  "element": "input",
+                                                  "withAddon": false,
+                                                  "addon": "",
+                                                  "dynamicAttrs": {
+                                                    "ng-model": "",
+                                                    "ng-class": "form-control",
+                                                    "ng-maxlength": 25,
+                                                    "ng-minlength": 6
+                                                  },
+                                                  "attrs": {
+                                                    "placeholder": "",
+                                                    "ng-pattern": "",
+                                                    "name": "password",
+                                                    "ng-required": true,
+                                                    "type": "password",
+                                                    "generic-validation": "ngField.ngFieldData"
+                                                  },
+                                                  "msgBox": {
+                                                    "required": "This field is required",
+                                                    "minlength": "Password must include at least 6 characters.",
+                                                    "maxlength": "Password should not exceed 25 characters."
+                                                  }
+                                                }
+                                              }
+                                            ]
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  },
+                                  {
+                                    "ng-form-submit": {
+                                      "class": "",
+                                      "content": "login"
+                                    }
+                                  },
+                                  {
+                                    "btn": {
+                                      "title": "Forgot Password",
+                                      "destination": "forgot_password",
+                                      "class": "forgot-pass link"
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "block": {
+                    "class": "col-xs-4 col-xs-12 side-text",
+                    "array": [
+                      {
+                        "content-body": {
+                          "class": "smaller-content",
+                          "text": "Don't Have an account? <br><a ui-sref=\"create_account\">Open An Account</a>"
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "block": {
+              "class": "arrow",
+              "background": "assets/images/sections/arrow.png"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "sectionName": "bottom-section",
+        "sectionType": "open-account-section",
+        "class": "bottom-section",
+        "background": "",
+        "containerClass": "",
+        "array": [
+          {
+            "content": {
+              "class": "",
+              "array": [
+                {
+                  "ng-image": {
+                    "image-name": "asset-test",
+                    "src": "assets/icons/Logo.png",
+                    "alt": "some asset",
+                    "type": "img",
+                    "class": "center-img",
+                    "responsive": true
+                  }
+                },
+                {
+                  "block": {
+                    "class": "text-center",
+                    "array": [
+                      {
+                        "content-body": {
+                          "class": "",
+                          "text": "READY TO GET STARTED?"
+                        },
+                        "precedence": 0
+                      },
+                      {
+                        "headline": {
+                          "title": "Powerful. Dynamic. Limitless.",
+                          "class": "hl5"
+                        },
+                        "precedence": 1
+                      },
+                      {
+                        "block": {
+                          "class": "padded-block",
+                          "array": [
+                            {
+                              "logged-in" : {
+                                "array": [
+                                  {
+                                    "btn": {
+                                      "class": "btn btn-transparent centered-btn",
+                                      "title": "trade",
+                                      "destination": "trade"
+                                    },
+                                    "precedence": 4
+                                  },
+                                  {
+                                    "btn": {
+                                      "class": "centered-btn",
+                                      "title": "how it works",
+                                      "destination": "education"
+                                    },
+                                    "precedence": 5
+                                  }
+                                ]
+                              }
+                            },
+                            {
+                              "anonymous": {
+                                "array": [
+                                  {
+                                    "btn": {
+                                      "class": "btn btn-transparent centered-btn",
+                                      "title": "open an account",
+                                      "destination": "create_account"
+                                    },
+                                    "precedence": 4
+                                  },
+                                  {
+                                    "btn": {
+                                      "class": "centered-btn",
+                                      "title": "how it works",
+                                      "destination": "education"
+                                    },
+                                    "precedence": 5
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        },
+                        "precedence": 3
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

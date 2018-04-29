@@ -1,0 +1,21 @@
+{
+  "primaryHeadline": {
+    "title": "Documentos de Normas Faltantes",
+    "class": "hl1"
+  },
+  "secondaryHeadline": {
+    "title": "Aviso Importante",
+    "class": "hl7"
+  },
+  "content": {
+    "text": "A usted todavía le faltan algunos documentos de normas requeridos.<br/>Por favor, consulte nuestra <a ui-sref='verification_guide'>Guía de Verificación</a>, o póngase en contacto con nosotros, para más detalles."
+  },
+  "yesBtn": {
+    "title": "Contáctenos",
+    "class": "btn"
+  },
+  "cancelBtn": {
+    "title": "cancelar",
+    "class": "btn btn-transparent"
+  }
+}

@@ -1,0 +1,923 @@
+{
+  "page-name": "account",
+  "page-type": "page",
+  "class": "",
+  "title": "Clients can see trading history and edit accounts.",
+  "keywords": "Account settings; trading history; deposit; account details.",
+  "array": [
+    {
+      "section": {
+        "sectionName": "account-top-section",
+        "sectionType": "deposit-top-section",
+        "background": "/assets/images/sections/Wash.png",
+        "containerClass": "container",
+        "class": "text-center",
+        "array": [
+          {
+            "content": {
+              "class": "",
+              "array": [
+                {
+                  "headline": {
+                    "id": "username",
+                    "class": "hl1",
+                    "title": ""
+                  }
+                },
+                {
+                  "content-body": {
+                    "text": "Deposit funds, see trading history and edit your account details.",
+                    "class": ""
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "sectionName": "account-setting",
+        "sectionType": "account-setting-section",
+        "background": "",
+        "class": "relative-position no-padding",
+        "array": [
+          {
+            "tab-set": {
+              "selectTabs": true,
+              "array": [
+                {
+                  "tab-btn": {
+                    "class": "tabBtn",
+                    "title": "Account Settings",
+                    "array": [
+                      {
+                        "tab-container": {
+                          "class": "",
+                          "array": [
+                            {
+                              "account-form": {
+                                "class": "text-left no-padding col-sm-9 col-xs-6",
+                                "form": {
+                                  "name": "test",
+                                  "submit": {
+                                    "class": "no-padding",
+                                    "content": "save changes"
+                                  },
+                                  "groups": [
+                                    {
+                                      "headline": {
+                                        "class": "hl3",
+                                        "title": "Personal Details"
+                                      },
+                                      "label": {
+                                        "title": "First Name"
+                                      },
+                                      "filed": {
+                                        "element": "input",
+                                        "type": "text",
+                                        "disabled": true,
+                                        "model": "",
+                                        "class": "left-side",
+                                        "name": "firstName",
+                                        "placeholder": "",
+                                        "msgBox": {
+                                          "required": "This field is required!"
+                                        }
+                                      }
+                                    },
+                                    {
+                                      "class": "right-group",
+                                      "label": {
+                                        "title": "Last Name"
+                                      },
+                                      "filed": {
+                                        "element": "input",
+                                        "type": "text",
+                                        "disabled": true,
+                                        "model": "",
+                                        "class": "right-side",
+                                        "name": "lastName",
+                                        "msgBox": {
+                                          "required": "This field is required!"
+                                        }
+                                      }
+                                    },
+                                    {
+                                      "label": {
+                                        "title": "Email"
+                                      },
+                                      "filed": {
+                                        "element": "input",
+                                        "type": "text",
+                                        "disabled": true,
+                                        "model": "",
+                                        "class": "left-side",
+                                        "name": "email",
+                                        "placeholder": "",
+                                        "pattern": "email",
+                                        "msgBox": {
+                                          "pattern": "Invalid email address",
+                                          "required": "This field is required!"
+                                        }
+                                      }
+                                    },
+                                    {
+                                      "class": "right-group",
+                                      "label": {
+                                        "title": "Phone Number"
+                                      },
+                                      "filed": {
+                                        "element": "phone",
+                                        "class": "right-side",
+                                        "select": {
+                                          "element": "select",
+                                          "type": "ui-select",
+                                          "withNumber": true,
+                                          "model": "",
+                                          "class": "",
+                                          "name": "Country"
+                                        },
+                                        "input": {
+                                          "element": "input",
+                                          "type": "text",
+                                          "required": true,
+                                          "model": "",
+                                          "class": "",
+                                          "name": "Phone",
+                                          "placeholder": "",
+                                          "msgBox": {
+                                            "required": "This field is required!"
+                                          }
+                                        }
+                                      }
+                                    },
+                                    {
+                                      "label": {
+                                        "title": "Address"
+                                      },
+                                      "filed": {
+                                        "element": "input",
+                                        "type": "text",
+                                        "required": true,
+                                        "model": "",
+                                        "class": "left-side",
+                                        "name": "address",
+                                        "placeholder": "",
+                                        "pattern": "",
+                                        "msgBox": {
+                                          "required": "This field is required!"
+                                        }
+                                      }
+                                    },
+                                    {
+                                      "class": "right-group",
+                                      "label": {
+                                        "title": "Postcode"
+                                      },
+                                      "filed": {
+                                        "element": "input",
+                                        "type": "text",
+                                        "required": true,
+                                        "model": "",
+                                        "class": "right-side",
+                                        "name": "postcode",
+                                        "placeholder": "",
+                                        "msgBox": {
+                                          "required": "This field is required!"
+                                        }
+                                      }
+                                    },
+                                    {
+                                      "class": "",
+                                      "label": {
+                                        "title": "City"
+                                      },
+                                      "filed": {
+                                        "element": "input",
+                                        "type": "text",
+                                        "required": true,
+                                        "model": "",
+                                        "class": "left-side",
+                                        "name": "city",
+                                        "placeholder": "",
+                                        "msgBox": {
+                                          "required": "This field is required!"
+                                        }
+                                      }
+                                    },
+                                    {
+                                      "class": "right-group",
+                                      "label": {
+                                        "title": "Date of Birth"
+                                      },
+                                      "filed": {
+                                        "class": "right-side no-margin"
+                                      }
+                                    },
+                                    {
+                                      "class": "col-sm-2 birth-day",
+                                      "filed": {
+                                        "element": "select",
+                                        "required": false,
+                                        "disabled": true,
+                                        "model": "",
+                                        "class": "form-control",
+                                        "name": "Day",
+                                        "options": [],
+                                        "msgBox": {
+                                          "required": "This field is required!"
+                                        }
+                                      }
+                                    },
+                                    {
+                                      "class": "col-sm-2 birth-month",
+                                      "filed": {
+                                        "element": "select",
+                                        "required": false,
+                                        "disabled": true,
+                                        "model": "",
+                                        "class": "form-control",
+                                        "name": "Month",
+                                        "options": [
+                                          {
+                                            "id": "01",
+                                            "label": "01 - January",
+                                            "subItem": {
+                                              "name": "01"
+                                            }
+                                          },
+                                          {
+                                            "id": "02",
+                                            "label": "02 - February",
+                                            "subItem": {
+                                              "name": "02"
+                                            }
+                                          },
+                                          {
+                                            "id": "03",
+                                            "label": "03 - March",
+                                            "subItem": {
+                                              "name": "03"
+                                            }
+                                          },
+                                          {
+                                            "id": "04",
+                                            "label": "04 - April",
+                                            "subItem": {
+                                              "name": "04"
+                                            }
+                                          },
+                                          {
+                                            "id": "05",
+                                            "label": "05 - May",
+                                            "subItem": {
+                                              "name": "05"
+                                            }
+                                          },
+                                          {
+                                            "id": "06",
+                                            "label": "06 - June",
+                                            "subItem": {
+                                              "name": "06"
+                                            }
+                                          },
+                                          {
+                                            "id": "07",
+                                            "label": "07 - July",
+                                            "subItem": {
+                                              "name": "07"
+                                            }
+                                          },
+                                          {
+                                            "id": "08",
+                                            "label": "08 - August",
+                                            "subItem": {
+                                              "name": "08"
+                                            }
+                                          },
+                                          {
+                                            "id": "09",
+                                            "label": "09 - September",
+                                            "subItem": {
+                                              "name": "09"
+                                            }
+                                          },
+                                          {
+                                            "id": "10",
+                                            "label": "10 - October",
+                                            "subItem": {
+                                              "name": "10"
+                                            }
+                                          },
+                                          {
+                                            "id": "11",
+                                            "label": "11 - November",
+                                            "subItem": {
+                                              "name": "11"
+                                            }
+                                          },
+                                          {
+                                            "id": "12",
+                                            "label": "12 - December",
+                                            "subItem": {
+                                              "name": "12"
+                                            }
+                                          }
+                                        ],
+                                        "msgBox": {
+                                          "required": "This field is required!"
+                                        }
+                                      }
+                                    },
+                                    {
+                                      "class": "col-sm-2 birth-year",
+                                      "filed": {
+                                        "element": "select",
+                                        "required": false,
+                                        "disabled": true,
+                                        "model": "",
+                                        "class": "",
+                                        "name": "Year",
+                                        "options": [],
+                                        "msgBox": {
+                                          "required": "This field is required!"
+                                        }
+                                      }
+                                    },
+                                    {
+                                      "headline": {
+                                        "class": "hl3",
+                                        "title": "Settings"
+                                      },
+                                      "label": {
+                                        "title": "Create New Password"
+                                      },
+                                      "filed": {
+                                        "element": "input",
+                                        "type": "password",
+                                        "required": false,
+                                        "model": "",
+                                        "class": "left-side",
+                                        "name": "newPassword",
+                                        "placeholder": "",
+                                        "pattern": "",
+                                        "msgBox": {
+                                          "required": "This field is required!"
+                                        }
+                                      }
+                                    },
+                                    {
+                                      "class": "right-group",
+                                      "label": {
+                                        "title": "Re-enter New Password"
+                                      },
+                                      "filed": {
+                                        "element": "input",
+                                        "type": "password",
+                                        "required": false,
+                                        "model": "",
+                                        "class": "right-side",
+                                        "name": "confirmNewPassword",
+                                        "placeholder": "",
+                                        "msgBox": {
+                                          "required": "This field is required!"
+                                        }
+                                      }
+                                    }
+                                  ]
+                                }
+                              }
+                            },
+                            {
+                              "block": {
+                                "class": "widgets-block col-sm-3 col-xs-6 no-padding",
+                                "array": [
+                                  {
+                                    "account-balance": {
+                                      "array": [
+                                        {
+                                          "headline": {
+                                            "title": "ACCOUNT BALANCE",
+                                            "class": "hl4"
+                                          },
+                                          "precedence": 0
+                                        },
+                                        {
+                                          "headline-fitText": {
+                                            "title": "",
+                                            "class": "hl1",
+                                            "id": "userBalance"
+                                          },
+                                          "precedence": 1
+                                        },
+                                        {
+                                          "btn": {
+                                            "class": "",
+                                            "title": "DEPOSIT",
+                                            "destination": "deposit"
+                                          },
+                                          "precedence": 2
+                                        },
+                                        {
+                                          "content-body": {
+                                            "text": "<a ui-sref=\"withdrawal\">Make a withdrawal</a>"
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  },
+                                  {
+                                    "account-overview": {
+                                      "type": "highest-volume",
+                                      "array": [
+                                        {
+                                          "headline": {
+                                            "title": "ACCOUNT OVERVIEW",
+                                            "class": "hl4"
+                                          }
+                                        },
+                                        {
+                                          "ng-table": {
+                                            "class": "text-left",
+                                            "array": [
+                                              {
+                                                "table-row": {
+                                                  "class": "",
+                                                  "array": [
+                                                    {
+                                                      "table-cell": {
+                                                        "class": "cell col-lg-6",
+                                                        "content": "Account No."
+                                                      },
+                                                      "precedence": 0
+                                                    },
+                                                    {
+                                                      "table-cell": {
+                                                        "id": "account_number",
+                                                        "class": "cell col-lg-6 bold text-right",
+                                                        "content": ""
+                                                      },
+                                                      "precedence": 1
+                                                    }
+                                                  ]
+                                                },
+                                                "precedence": 1
+                                              },
+                                              {
+                                                "table-row": {
+                                                  "class": "",
+                                                  "array": [
+                                                    {
+                                                      "table-cell": {
+                                                        "class": "cell col-lg-6",
+                                                        "content": "Creation Date"
+                                                      },
+                                                      "precedence": 0
+                                                    },
+                                                    {
+                                                      "table-cell": {
+                                                        "id": "date",
+                                                        "class": "cell col-lg-6 bold text-right",
+                                                        "content": ""
+                                                      },
+                                                      "precedence": 1
+                                                    }
+                                                  ]
+                                                },
+                                                "precedence": 2
+                                              }
+                                            ]
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  }
+                                ]
+                              }
+                            },
+                            {
+                              "content-body": {
+                                "text": "If you wish to change a blocked field of \"Personal Details\", please, contact our customer support team.",
+                                "class": "contact"
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "tab-btn": {
+                    "class": "tabBtn",
+                    "title": "Deposits & Withdrawals",
+                    "array": [
+                      {
+                        "tab-container": {
+                          "array": [
+                            {
+                              "deposit-and-withdrawal": {}
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "tab-btn": {
+                    "class": "tabBtn",
+                    "title": "Regulation / Documents Upload",
+                    "array": [
+                      {
+                        "tab-container": {
+                          "array": [
+                            {
+                              "doc-upload-form": {
+                                "class": "",
+                                "array": [
+                                  {
+                                    "new-form": {
+                                      "id": "docUploadForm",
+                                      "array": [
+                                        {
+                                          "block": {
+                                            "class": "docCard",
+                                            "array": [
+                                              {
+                                               "headline": {
+                                                 "title": "Proof of Authentication",
+                                                 "class": "hl4"
+                                               }
+                                              },
+                                              {
+                                                "content-body": {
+                                                  "text": "Valid Passport or National ID card"
+                                                }
+                                              }
+                                            ]
+                                          }
+                                        },
+                                        {
+                                          "block": {
+                                            "class": "docCard",
+                                            "array": [
+                                              {
+                                                "form-group": {
+                                                  "class": "formGroup",
+                                                  "array": [
+                                                    {
+                                                      "block": {
+                                                        "array": [
+                                                          {
+                                                            "ng-field": {
+                                                              "element": "input",
+                                                              "withAddon": false,
+                                                              "addon": "",
+                                                              "dynamicAttrs": {
+                                                                "ng-model": "",
+                                                                "ng-class": ""
+                                                              },
+                                                              "attrs": {
+                                                                "placeholder": "",
+                                                                "ng-pattern": "/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\\.[a-zA-Z0-9-]+)*$/",
+                                                                "name": "Email",
+                                                                "ng-required": true,
+                                                                "type": "text"
+                                                              },
+                                                              "msgBox": {
+                                                                "pattern": "Invalid email address",
+                                                                "required": "This field is required!"
+                                                              }
+                                                            }
+                                                          }
+                                                        ]
+                                                      }
+                                                    }
+                                                  ]
+                                                }
+
+                                              }
+                                            ]
+                                          }
+                                        },
+                                        {
+                                          "block": {
+                                            "class": "docCard",
+                                            "array": [
+                                              {
+                                                "headline": {
+                                                  "title": "Proof of Residence",
+                                                  "class": "hl4"
+                                                }
+                                              },
+                                              {
+                                                "content-body": {
+                                                  "text": "Valid"
+                                                }
+                                              }
+                                            ]
+                                          }
+                                        },
+                                        {
+                                          "block": {
+                                            "class": "docCard",
+                                            "array": [
+                                              {
+                                                "form-group": {
+                                                  "class": "formGroup",
+                                                  "array": [
+                                                    {
+                                                      "block": {
+                                                        "array": [
+                                                          {
+                                                            "ng-field": {
+                                                              "element": "input",
+                                                              "withAddon": false,
+                                                              "addon": "",
+                                                              "dynamicAttrs": {
+                                                                "ng-model": "",
+                                                                "ng-class": ""
+                                                              },
+                                                              "attrs": {
+                                                                "placeholder": "",
+                                                                "ng-pattern": "/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\\.[a-zA-Z0-9-]+)*$/",
+                                                                "name": "Email",
+                                                                "ng-required": true,
+                                                                "type": "text"
+                                                              },
+                                                              "msgBox": {
+                                                                "pattern": "Invalid email address",
+                                                                "required": "This field is required!"
+                                                              }
+                                                            }
+                                                          }
+                                                        ]
+                                                      }
+                                                    }
+                                                  ]
+                                                }
+
+                                              }
+                                            ]
+                                          }
+                                        },
+                                        {
+                                          "block": {
+                                            "class": "docCard",
+                                            "array": [
+                                              {
+                                                "headline": {
+                                                  "title": "Credit/Debit Card",
+                                                  "class": "hl4"
+                                                }
+                                              },
+                                              {
+                                                "content-body": {
+                                                  "text": "In case you intend to fund your account or have already funded it via your Credit/Debit Card, please upload a clear, colour copy of both sides of your Credit/Debit Card. Please ensure, the 8 middle digits of the card number of both sides of your card copy and CVV number on the back are covered for security reasons."
+                                                }
+                                              }
+                                            ]
+                                          }
+                                        },
+                                        {
+                                          "block": {
+                                            "class": "docCard",
+                                            "array": [
+                                              {
+                                                "form-group": {
+                                                  "class": "formGroup",
+                                                  "array": [
+                                                    {
+                                                      "block": {
+                                                        "array": [
+                                                          {
+                                                            "ng-field": {
+                                                              "element": "input",
+                                                              "withAddon": false,
+                                                              "addon": "",
+                                                              "dynamicAttrs": {
+                                                                "ng-model": "",
+                                                                "ng-class": ""
+                                                              },
+                                                              "attrs": {
+                                                                "placeholder": "",
+                                                                "ng-pattern": "/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\\.[a-zA-Z0-9-]+)*$/",
+                                                                "name": "Email",
+                                                                "ng-required": true,
+                                                                "type": "text"
+                                                              },
+                                                              "msgBox": {
+                                                                "pattern": "Invalid email address",
+                                                                "required": "This field is required!"
+                                                              }
+                                                            }
+                                                          }
+                                                        ]
+                                                      }
+                                                    }
+                                                  ]
+                                                }
+
+                                              }
+                                            ]
+                                          }
+                                        },
+                                        {
+                                          "ng-form-submit": {
+                                            "class": "",
+                                            "content": "submit"
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  },
+                                  {
+                                    "block": {
+                                      "class": "history",
+                                      "array": [
+                                        {
+                                          "headline": {
+                                            "title": "UPLOAD LIST HISTORY",
+                                            "class": "hl3 text-center"
+                                          }
+                                        },
+                                        {
+                                          "block": {
+                                            "class": "docInfo docFieldHeadline",
+                                            "array": [
+                                              {
+                                                "headline": {
+                                                  "class": "hl4",
+                                                  "title": "Date"
+                                                }
+                                              }
+                                            ]
+                                          }
+                                        },
+                                        {
+                                          "block": {
+                                            "class": "docInfo docFieldHeadline",
+                                            "array": [
+                                              {
+                                                "headline": {
+                                                  "class": "hl4",
+                                                  "title": "Document"
+                                                }
+                                              }
+                                            ]
+                                          }
+                                        },
+                                        {
+                                          "block": {
+                                            "class": "docInfo docFieldCell",
+                                            "array": [
+                                              {
+                                                "content-body": {
+                                                  "text": "12/12/15"
+                                                }
+                                              }
+                                            ]
+                                          }
+                                        },
+                                        {
+                                          "block": {
+                                            "class": "docInfo docFieldCell",
+                                            "array": [
+                                              {
+                                                "content-body": {
+                                                  "text": "proof of identification"
+                                                }
+                                              }
+                                            ]
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "block": {
+              "class": "arrow",
+              "background": "assets/images/sections/arrow.png"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "sectionName": "bottom-section",
+        "sectionType": "open-account-section",
+        "class": "bottom-section",
+        "background": "",
+        "containerClass": "",
+        "array": [
+          {
+            "content": {
+              "class": "",
+              "array": [
+                {
+                  "ng-image": {
+                    "image-name": "asset-test",
+                    "src": "assets/icons/Logo.png",
+                    "alt": "some asset",
+                    "type": "img",
+                    "class": "center-img",
+                    "responsive": true
+                  }
+                },
+                {
+                  "block": {
+                    "class": "text-center",
+                    "array": [
+                      {
+                        "content-body": {
+                          "class": "",
+                          "text": "READY TO GET STARTED?"
+                        },
+                        "precedence": 0
+                      },
+                      {
+                        "headline": {
+                          "title": "Powerful. Dynamic. Limitless.",
+                          "class": "hl5"
+                        },
+                        "precedence": 1
+                      },
+                      {
+                        "block": {
+                          "class": "padded-block",
+                          "array": [
+                            {
+                              "logged-in": {
+                                "array": [
+                                  {
+                                    "btn": {
+                                      "class": "btn btn-transparent centered-btn",
+                                      "title": "trade",
+                                      "destination": "trade"
+                                    },
+                                    "precedence": 4
+                                  },
+                                  {
+                                    "btn": {
+                                      "class": "centered-btn",
+                                      "title": "how it works",
+                                      "destination": "education"
+                                    },
+                                    "precedence": 5
+                                  }
+                                ]
+                              }
+                            },
+                            {
+                              "anonymous": {
+                                "array": [
+                                  {
+                                    "btn": {
+                                      "class": "btn btn-transparent centered-btn",
+                                      "title": "open an account",
+                                      "destination": "create_account"
+                                    },
+                                    "precedence": 4
+                                  },
+                                  {
+                                    "btn": {
+                                      "class": "centered-btn",
+                                      "title": "how it works",
+                                      "destination": "education"
+                                    },
+                                    "precedence": 5
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        },
+                        "precedence": 3
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

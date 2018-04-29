@@ -1,0 +1,1618 @@
+{
+    "page-name": "deposit",
+    "page-type": "page",
+    "class": "",
+    "description": "Los clientes que deseen hacer un depósito, deben utilizar métodos aprobados por el Grupo Hedgestone y completar los datos de su tarjeta con cuidadosamente, no dejando de lado la información requerida.",
+    "title": "¡Los clientes deben utilizar métodos aprobados para depositar dinero!",
+    "keywords": "Depósito; métodos aprobados; información de tarjeta; datos de pago.",
+    "array": [
+        {
+            "auto-submit": {}
+        },
+        {
+            "custom-iframe": {}
+        },
+        {
+            "section": {
+                "sectionName": "deposit-top-section",
+                "sectionType": "deposit-top-section",
+                "background": "/assets/images/sections/Wash.png",
+                "containerClass": "container",
+                "class": "text-center",
+                "array": [
+                    {
+                        "content": {
+                            "class": "",
+                            "array": [
+                                {
+                                    "headline": {
+                                        "class": "hl1",
+                                        "title": "Agregue fondos a su cuenta"
+                                    }
+                                },
+                                {
+                                    "content-body": {
+                                        "text": "Utilice uno de nuestros métodos aprobados para depositar fondos.",
+                                        "class": ""
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "section": {
+                "sectionName": "deposit-form",
+                "sectionType": "deposit-form",
+                "background": "",
+                "class": "text-center relative-position no-padding",
+                "array": [
+                    {
+                        "tab-set": {
+                            "id": "deposit",
+                            "array": [
+                                {
+                                    "tab-btn": {
+                                        "icon": {
+                                            "src": "/assets/icons/Visa.png"
+                                        },
+                                        "class": "tabBtn with-icon",
+                                        "title": "Tarjeta",
+                                        "array": [
+                                            {
+                                                "tab-container": {
+                                                    "class": "",
+                                                    "array": [
+                                                        {
+                                                            "block": {
+                                                                "class": "d-form",
+                                                                "array": [
+                                                                    {
+                                                                        "deposit-three-d-form": {
+                                                                            "class": "text-left",
+                                                                            "array": [
+                                                                                {
+                                                                                    "new-form": {
+                                                                                        "id": "deposit-three-d-form",
+                                                                                        "array": [
+                                                                                            {
+                                                                                                "block": {
+                                                                                                    "class": "cards-block",
+                                                                                                    "array": [
+                                                                                                        {
+                                                                                                            "ng-image": {
+                                                                                                                "precedence": 1,
+                                                                                                                "image-name": "asset-test",
+                                                                                                                "src": "/assets/images/footer/cards/Visa.png",
+                                                                                                                "alt": "Visa",
+                                                                                                                "type": "img",
+                                                                                                                "class": ""
+                                                                                                            }
+                                                                                                        },
+                                                                                                        {
+                                                                                                            "ng-image": {
+                                                                                                                "precedence": 1,
+                                                                                                                "image-name": "asset-test",
+                                                                                                                "src": "/assets/icons/verifiedvisa.png",
+                                                                                                                "alt": "Mastercard",
+                                                                                                                "type": "img",
+                                                                                                                "class": ""
+                                                                                                            }
+                                                                                                        },
+                                                                                                        {
+                                                                                                            "ng-image": {
+                                                                                                                "precedence": 1,
+                                                                                                                "image-name": "asset-test",
+                                                                                                                "src": "/assets/images/footer/cards/Mastercard.png",
+                                                                                                                "alt": "Mastercard",
+                                                                                                                "type": "img",
+                                                                                                                "class": ""
+                                                                                                            }
+                                                                                                        },
+                                                                                                        {
+                                                                                                            "ng-image": {
+                                                                                                                "precedence": 1,
+                                                                                                                "image-name": "asset-test",
+                                                                                                                "src": "/assets/icons/verifiedmaster.png",
+                                                                                                                "alt": "Mastercard",
+                                                                                                                "type": "img",
+                                                                                                                "class": ""
+                                                                                                            }
+                                                                                                        },
+                                                                                                        {
+                                                                                                            "ng-image": {
+                                                                                                                "precedence": 1,
+                                                                                                                "image-name": "asset-test",
+                                                                                                                "src": "/assets/icons/Debit.png",
+                                                                                                                "alt": "Mastercard",
+                                                                                                                "type": "img",
+                                                                                                                "class": ""
+                                                                                                            }
+                                                                                                        }
+                                                                                                    ]
+                                                                                                }
+                                                                                            },
+                                                                                            {
+                                                                                                "headline": {
+                                                                                                    "class": "form-sub-headline text-left col-xs-12",
+                                                                                                    "title": "Datos de Pago Asegurados"
+                                                                                                }
+                                                                                            },
+                                                                                            {
+                                                                                                "form-group": {
+                                                                                                    "class": "formGroup col-xs-12",
+                                                                                                    "array": [
+                                                                                                        {
+                                                                                                            "block": {
+                                                                                                                "array": [
+                                                                                                                    {
+                                                                                                                        "content-body": {
+                                                                                                                            "class": "formLabel",
+                                                                                                                            "text": "Importe"
+                                                                                                                        }
+                                                                                                                    },
+                                                                                                                    {
+                                                                                                                        "ng-field": {
+                                                                                                                            "element": "input",
+                                                                                                                            "withAddon": true,
+                                                                                                                            "addon": "",
+                                                                                                                            "dynamicAttrs": {
+                                                                                                                                "ng-model": null,
+                                                                                                                                "ng-class": "form-control withAddon",
+                                                                                                                                "numeric": ""
+                                                                                                                            },
+                                                                                                                            "attrs": {
+                                                                                                                                "min": 120,
+                                                                                                                                "max": 25000,
+                                                                                                                                "placeholder": "",
+                                                                                                                                "ng-pattern": "/^[0-9]*$/",
+                                                                                                                                "ng-model-options": "{ 'debounce': { 'default': 0 }}",
+                                                                                                                                "name": "amount",
+                                                                                                                                "ng-required": true,
+                                                                                                                                "type": "number",
+                                                                                                                                "ng-blur": "ngField.validatePromoCode($event)",
+                                                                                                                                "generic-validation": "ngField.ngFieldData"
+                                                                                                                            },
+                                                                                                                            "msgBox": {
+                                                                                                                                "number": "Bloquear caracteres",
+                                                                                                                                "required": "Por favor, ingrese un importe válido.",
+                                                                                                                                "min": "El importe mínimo de depósito es {0}.",
+                                                                                                                                "max": "El importe máximo de depósito es 25.000."
+                                                                                                                            }
+                                                                                                                        }
+                                                                                                                    }
+                                                                                                                ]
+                                                                                                            }
+                                                                                                        }
+                                                                                                    ]
+                                                                                                }
+                                                                                            },
+                                                                                            {
+                                                                                                "content-body": {
+                                                                                                    "class": "formLabel col-xs-12",
+                                                                                                    "text": "Código Promo (Opcional)"
+                                                                                                }
+                                                                                            },
+                                                                                            {
+                                                                                                "form-group": {
+                                                                                                    "class": "formGroup col-xs-6",
+                                                                                                    "array": [
+                                                                                                        {
+                                                                                                            "block": {
+                                                                                                                "array": [
+                                                                                                                    {
+                                                                                                                        "ng-field": {
+                                                                                                                            "element": "input",
+                                                                                                                            "withAddon": false,
+                                                                                                                            "addon": "",
+                                                                                                                            "dynamicAttrs": {
+                                                                                                                                "ng-class": "col-xs-6 form-control",
+                                                                                                                                "ng-model": ""
+                                                                                                                            },
+                                                                                                                            "attrs": {
+                                                                                                                                "placeholder": "",
+                                                                                                                                "ng-pattern": "",
+                                                                                                                                "name": "promo",
+                                                                                                                                "ng-required": false,
+                                                                                                                                "ng-model-options": "{ 'debounce': { 'default': 0 }}",
+                                                                                                                                "type": "text",
+                                                                                                                                "generic-validation": "ngField.ngFieldData",
+                                                                                                                                "ng-blur": "ngField.validatePromoCode($event)"
+                                                                                                                            },
+                                                                                                                            "msgBox": {}
+                                                                                                                        }
+                                                                                                                    }
+                                                                                                                ]
+                                                                                                            }
+                                                                                                        }
+                                                                                                    ]
+                                                                                                }
+                                                                                            },
+                                                                                            {
+                                                                                                "block": {
+                                                                                                    "class": "col-xs-6",
+                                                                                                    "array": [
+                                                                                                        {
+                                                                                                            "bonus-status": {
+                                                                                                                "class": "col-xs-12 no-padding",
+                                                                                                                "name": "promo"
+                                                                                                            }
+                                                                                                        }
+                                                                                                    ]
+                                                                                                }
+                                                                                            },
+                                                                                            {
+                                                                                                "headline": {
+                                                                                                    "class": "form-sub-headline text-left col-xs-12",
+                                                                                                    "title": "Información del Tarjetahabiente"
+                                                                                                }
+                                                                                            },
+                                                                                            {
+                                                                                                "form-group": {
+                                                                                                    "class": "formGroup col-xs-12",
+                                                                                                    "array": [
+                                                                                                        {
+                                                                                                            "block": {
+                                                                                                                "array": [
+                                                                                                                    {
+                                                                                                                        "content-body": {
+                                                                                                                            "class": "formLabel",
+                                                                                                                            "text": "Nombre de Pila"
+                                                                                                                        }
+                                                                                                                    },
+                                                                                                                    {
+                                                                                                                        "ng-field": {
+                                                                                                                            "element": "input",
+                                                                                                                            "withAddon": false,
+                                                                                                                            "addon": "",
+                                                                                                                            "dynamicAttrs": {
+                                                                                                                                "ng-model": "",
+                                                                                                                                "ng-class": "form-control",
+                                                                                                                                "ng-maxlength": 30,
+                                                                                                                                "ng-minlength": 2
+                                                                                                                            },
+                                                                                                                            "attrs": {
+                                                                                                                                "placeholder": "",
+                                                                                                                                "ng-pattern": "",
+                                                                                                                                "name": "first_name",
+                                                                                                                                "ng-required": true,
+                                                                                                                                "type": "text",
+                                                                                                                                "generic-validation": "ngField.ngFieldData"
+                                                                                                                            },
+                                                                                                                            "msgBox": {
+                                                                                                                                "required": "Este campo es requerido",
+                                                                                                                                "maxlength": "El nombre de pila puede incluir un máximo de 30 letras.",
+                                                                                                                                "minlength": "El Nombre de Pila debe incluir por lo menos 2 letras."
+                                                                                                                            }
+                                                                                                                        }
+                                                                                                                    }
+                                                                                                                ]
+                                                                                                            }
+                                                                                                        }
+                                                                                                    ]
+                                                                                                }
+                                                                                            },
+                                                                                            {
+                                                                                                "form-group": {
+                                                                                                    "class": "formGroup col-xs-12",
+                                                                                                    "array": [
+                                                                                                        {
+                                                                                                            "block": {
+                                                                                                                "array": [
+                                                                                                                    {
+                                                                                                                        "content-body": {
+                                                                                                                            "class": "formLabel",
+                                                                                                                            "text": "Apellido"
+                                                                                                                        }
+                                                                                                                    },
+                                                                                                                    {
+                                                                                                                        "ng-field": {
+                                                                                                                            "element": "input",
+                                                                                                                            "withAddon": false,
+                                                                                                                            "addon": "",
+                                                                                                                            "dynamicAttrs": {
+                                                                                                                                "ng-model": "",
+                                                                                                                                "ng-class": "form-control",
+                                                                                                                                "ng-maxlength": 30,
+                                                                                                                                "ng-minlength": 2
+                                                                                                                            },
+                                                                                                                            "attrs": {
+                                                                                                                                "placeholder": "",
+                                                                                                                                "ng-pattern": "",
+                                                                                                                                "name": "last_name",
+                                                                                                                                "ng-required": true,
+                                                                                                                                "type": "text",
+                                                                                                                                "generic-validation": "ngField.ngFieldData"
+                                                                                                                            },
+                                                                                                                            "msgBox": {
+                                                                                                                                "required": "Este campo es requerido",
+                                                                                                                                "maxlength": "El Apellido puede incluir un máximo de 30 letras.",
+                                                                                                                                "minlength": "El Apellido debe incluir por lo menos 2 letras."
+                                                                                                                            }
+                                                                                                                        }
+                                                                                                                    }
+                                                                                                                ]
+                                                                                                            }
+                                                                                                        }
+                                                                                                    ]
+                                                                                                }
+                                                                                            },
+                                                                                            {
+                                                                                                "form-group": {
+                                                                                                    "class": "formGroup col-xs-12",
+                                                                                                    "array": [
+                                                                                                        {
+                                                                                                            "block": {
+                                                                                                                "array": [
+                                                                                                                    {
+                                                                                                                        "content-body": {
+                                                                                                                            "class": "formLabel",
+                                                                                                                            "text": "Domicilio"
+                                                                                                                        }
+                                                                                                                    },
+                                                                                                                    {
+                                                                                                                        "ng-field": {
+                                                                                                                            "element": "input",
+                                                                                                                            "withAddon": false,
+                                                                                                                            "addon": "",
+                                                                                                                            "dynamicAttrs": {
+                                                                                                                                "ng-model": "",
+                                                                                                                                "ng-class": "form-control",
+                                                                                                                                "ng-maxlength": 30,
+                                                                                                                                "ng-minlength": 2
+                                                                                                                            },
+                                                                                                                            "attrs": {
+                                                                                                                                "placeholder": "",
+                                                                                                                                "ng-pattern": "",
+                                                                                                                                "name": "address",
+                                                                                                                                "ng-required": true,
+                                                                                                                                "type": "text",
+                                                                                                                                "generic-validation": "ngField.ngFieldData"
+                                                                                                                            },
+                                                                                                                            "msgBox": {
+                                                                                                                                "required": "Este campo es requerido",
+                                                                                                                                "maxlength": "El Apellido puede incluir un máximo de 30 letras.",
+                                                                                                                                "minlength": "El Apellido debe incluir por lo menos 2 letras."
+                                                                                                                            }
+                                                                                                                        }
+                                                                                                                    }
+                                                                                                                ]
+                                                                                                            }
+                                                                                                        }
+                                                                                                    ]
+                                                                                                }
+                                                                                            },
+                                                                                            {
+                                                                                                "form-group": {
+                                                                                                    "class": "formGroup col-xs-12",
+                                                                                                    "array": [
+                                                                                                        {
+                                                                                                            "block": {
+                                                                                                                "array": [
+                                                                                                                    {
+                                                                                                                        "content-body": {
+                                                                                                                            "class": "formLabel",
+                                                                                                                            "text": "Ciudad"
+                                                                                                                        }
+                                                                                                                    },
+                                                                                                                    {
+                                                                                                                        "ng-field": {
+                                                                                                                            "element": "input",
+                                                                                                                            "withAddon": false,
+                                                                                                                            "addon": "",
+                                                                                                                            "dynamicAttrs": {
+                                                                                                                                "ng-model": "",
+                                                                                                                                "ng-class": "form-control",
+                                                                                                                                "ng-maxlength": 30,
+                                                                                                                                "ng-minlength": 2
+                                                                                                                            },
+                                                                                                                            "attrs": {
+                                                                                                                                "placeholder": "",
+                                                                                                                                "ng-pattern": "",
+                                                                                                                                "name": "City",
+                                                                                                                                "ng-required": true,
+                                                                                                                                "type": "text",
+                                                                                                                                "generic-validation": "ngField.ngFieldData"
+                                                                                                                            },
+                                                                                                                            "msgBox": {
+                                                                                                                                "required": "Este campo es requerido",
+                                                                                                                                "maxlength": "El Apellido puede incluir un máximo de 30 letras.",
+                                                                                                                                "minlength": "El Apellido debe incluir por lo menos 2 letras."
+                                                                                                                            }
+                                                                                                                        }
+                                                                                                                    }
+                                                                                                                ]
+                                                                                                            }
+                                                                                                        }
+                                                                                                    ]
+                                                                                                }
+                                                                                            },
+                                                                                            {
+                                                                                                "form-group": {
+                                                                                                    "class": "formGroup col-xs-12",
+                                                                                                    "array": [
+                                                                                                        {
+                                                                                                            "block": {
+                                                                                                                "array": [
+                                                                                                                    {
+                                                                                                                        "content-body": {
+                                                                                                                            "class": "formLabel",
+                                                                                                                            "text": "Código Postal"
+                                                                                                                        }
+                                                                                                                    },
+                                                                                                                    {
+                                                                                                                        "ng-field": {
+                                                                                                                            "element": "input",
+                                                                                                                            "withAddon": false,
+                                                                                                                            "addon": "",
+                                                                                                                            "dynamicAttrs": {
+                                                                                                                                "ng-model": "",
+                                                                                                                                "ng-class": "form-group",
+                                                                                                                                "ng-maxlength": 10,
+                                                                                                                                "ng-minlength": 3
+                                                                                                                            },
+                                                                                                                            "attrs": {
+                                                                                                                                "placeholder": "",
+                                                                                                                                "ng-pattern": "",
+                                                                                                                                "name": "postal",
+                                                                                                                                "ng-required": true,
+                                                                                                                                "type": "text",
+                                                                                                                                "generic-validation": "ngField.ngFieldData"
+                                                                                                                            },
+                                                                                                                            "msgBox": {
+                                                                                                                                "required": "Este campo es requerido",
+                                                                                                                                "minlength": "Mínimo 3 caracteres",
+                                                                                                                                "maxlength": "Máximo 10 caracteres"
+                                                                                                                            }
+                                                                                                                        }
+                                                                                                                    }
+                                                                                                                ]
+                                                                                                            }
+                                                                                                        }
+                                                                                                    ]
+                                                                                                }
+                                                                                            },
+                                                                                            {
+                                                                                                "content-body": {
+                                                                                                    "class": "formLabel col-xs-12",
+                                                                                                    "text": "Número de Teléfono"
+                                                                                                }
+                                                                                            },
+                                                                                            {
+                                                                                                "form-group": {
+                                                                                                    "class": "formGroup col-xs-4",
+                                                                                                    "array": [
+                                                                                                        {
+                                                                                                            "block": {
+                                                                                                                "array": [
+                                                                                                                    {
+                                                                                                                        "ng-field": {
+                                                                                                                            "element": "ui-select-wrapper",
+                                                                                                                            "withAddon": true,
+                                                                                                                            "addon": "",
+                                                                                                                            "withNumber": true,
+                                                                                                                            "dynamicAttrs": {
+                                                                                                                                "ng-model": "",
+                                                                                                                                "ng-class": "select-ui"
+                                                                                                                            },
+                                                                                                                            "attrs": {
+                                                                                                                                "placeholder": "",
+                                                                                                                                "ng-pattern": "",
+                                                                                                                                "name": "Country",
+                                                                                                                                "ng-required": true,
+                                                                                                                                "generic-validation": "ngField.ngFieldData"
+                                                                                                                            },
+                                                                                                                            "msgBox": {
+                                                                                                                                "required": "Este campo es requerido"
+                                                                                                                            }
+                                                                                                                        }
+                                                                                                                    }
+                                                                                                                ]
+                                                                                                            }
+                                                                                                        }
+                                                                                                    ]
+                                                                                                }
+                                                                                            },
+                                                                                            {
+                                                                                                "form-group": {
+                                                                                                    "class": "formGroup col-xs-8",
+                                                                                                    "array": [
+                                                                                                        {
+                                                                                                            "block": {
+                                                                                                                "array": [
+                                                                                                                    {
+                                                                                                                        "ng-field": {
+                                                                                                                            "element": "input",
+                                                                                                                            "withAddon": false,
+                                                                                                                            "addon": "",
+                                                                                                                            "dynamicAttrs": {
+                                                                                                                                "ng-model": "",
+                                                                                                                                "ng-class": "form-control",
+                                                                                                                                "numeric": ""
+                                                                                                                            },
+                                                                                                                            "attrs": {
+                                                                                                                                "placeholder": "",
+                                                                                                                                "ng-pattern": "/^[0-9]*$/",
+                                                                                                                                "name": "phone",
+                                                                                                                                "ng-required": true,
+                                                                                                                                "type": "text",
+                                                                                                                                "ng-model-options": "{ 'debounce': { 'default': 0 }}",
+                                                                                                                                "generic-validation": "ngField.ngFieldData"
+                                                                                                                            },
+                                                                                                                            "msgBox": {
+                                                                                                                                "required": "Este campo es requerido",
+                                                                                                                                "pattern": "Bloquear caracteres"
+                                                                                                                            }
+                                                                                                                        }
+                                                                                                                    }
+                                                                                                                ]
+                                                                                                            }
+                                                                                                        }
+                                                                                                    ]
+                                                                                                }
+                                                                                            },
+                                                                                            {
+                                                                                                "ng-form-submit": {
+                                                                                                    "class": "col-xs-12",
+                                                                                                    "content": "Depósito",
+                                                                                                    "ng-click": "ngField.validatePromoCode($event)"
+                                                                                                }
+                                                                                            }
+                                                                                        ]
+                                                                                    }
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "content-body": {
+                                                                            "class": "bottom-content col-xs-12",
+                                                                            "text": "Your credit card will be charged by Hedgestone Group.<br> Should you require our assistance or support, please, do not hesitate to contact us by phone (UK) +44 203 318 5207. <br>We are here to help you.<br><br>Nevski Ps Ltd takes liability for any complaints originating from users who deposit money through Nevski Ps Ltd. Nevski Ps Ltd’s offices are located at 4 Rabotnik Street, Kostinbrod Municipality, Petarch, Bulgaria"
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            }
+                                                        },
+                                                        {
+                                                            "block": {
+                                                                "class": "facts col-sm-4 col-sm-offset-1 col-xs-12",
+                                                                "array": [
+                                                                    {
+                                                                        "unordered-list": {
+                                                                            "class": "",
+                                                                            "array": [
+                                                                                {
+                                                                                    "list-item": {
+                                                                                        "content": "SSL Sitio Seguro",
+                                                                                        "icon": {
+                                                                                            "src": "/assets/icons/SSL.png",
+                                                                                            "responsive": true,
+                                                                                            "class": "list-icon"
+                                                                                        }
+                                                                                    },
+                                                                                    "precedence": 0
+                                                                                },
+                                                                                {
+                                                                                    "list-item": {
+                                                                                        "content": "Con licencia y regulado totalmente",
+                                                                                        "icon": {
+                                                                                            "src": "/assets/icons/License.png",
+                                                                                            "responsive": true,
+                                                                                            "class": "list-icon"
+                                                                                        }
+                                                                                    },
+                                                                                    "precedence": 1
+                                                                                },
+                                                                                {
+                                                                                    "list-item": {
+                                                                                        "content": "Asegurado por Mcafee",
+                                                                                        "icon": {
+                                                                                            "src": "/assets/icons/McAfee.png",
+                                                                                            "responsive": true,
+                                                                                            "class": "list-icon"
+                                                                                        }
+                                                                                    },
+                                                                                    "precedence": 1
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "tab-btn": {
+                                        "icon": {
+                                            "src": "/assets/icons/eco.png"
+                                        },
+                                        "class": "tabBtn with-icon",
+                                        "title": "ecoPayz",
+                                        "array": [
+                                            {
+                                                "tab-container": {
+                                                    "class": "ecoPayz",
+                                                    "array": [
+                                                        {
+                                                            "block": {
+                                                                "class": "d-form no-padding",
+                                                                "array": [
+                                                                    {
+                                                                        "block": {
+                                                                            "class": "cards-block",
+                                                                            "array": [
+                                                                                {
+                                                                                    "ng-image": {
+                                                                                        "precedence": 1,
+                                                                                        "image-name": "asset-test",
+                                                                                        "src": "/assets/icons/eco.png",
+                                                                                        "alt": "Eco",
+                                                                                        "type": "img",
+                                                                                        "class": ""
+                                                                                    }
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "headline": {
+                                                                            "class": "form-sub-headline text-left col-xs-12",
+                                                                            "title": "Datos de Pago Asegurados"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "ecopayz-form": {
+                                                                            "class": "",
+                                                                            "array": [
+                                                                                {
+                                                                                    "new-form": {
+                                                                                        "id": "ecopayz-form",
+                                                                                        "array": [
+                                                                                            {
+                                                                                                "form-group": {
+                                                                                                    "class": "formGroup col-xs-12",
+                                                                                                    "array": [
+                                                                                                        {
+                                                                                                            "block": {
+                                                                                                                "array": [
+                                                                                                                    {
+                                                                                                                        "content-body": {
+                                                                                                                            "class": "formLabel",
+                                                                                                                            "text": "Importe"
+                                                                                                                        }
+                                                                                                                    },
+                                                                                                                    {
+                                                                                                                        "ng-field": {
+                                                                                                                            "element": "input",
+                                                                                                                            "withAddon": true,
+                                                                                                                            "addon": "",
+                                                                                                                            "dynamicAttrs": {
+                                                                                                                                "ng-model": 120,
+                                                                                                                                "ng-class": "form-control withAddon",
+                                                                                                                                "numeric": ""
+                                                                                                                            },
+                                                                                                                            "attrs": {
+                                                                                                                                "min": 120,
+                                                                                                                                "max": 10000,
+                                                                                                                                "placeholder": "",
+                                                                                                                                "ng-pattern": "/^[0-9]*$/",
+                                                                                                                                "ng-model-options": "{ 'debounce': { 'default': 0 }}",
+                                                                                                                                "name": "ecopayzAmount",
+                                                                                                                                "ng-required": true,
+                                                                                                                                "type": "number",
+                                                                                                                                "ng-blur": "ngField.validatePromoCode($event)",
+                                                                                                                                "generic-validation": "ngField.ngFieldData"
+                                                                                                                            },
+                                                                                                                            "msgBox": {
+                                                                                                                                "number": "Bloquear caracteres",
+                                                                                                                                "required": "Por favor, ingrese un importe válido.",
+                                                                                                                                "min": "El importe del depósito mínimo es 120.",
+                                                                                                                                "max": "El importe del depósito máximo es 10000."
+                                                                                                                            }
+                                                                                                                        }
+                                                                                                                    }
+                                                                                                                ]
+                                                                                                            }
+                                                                                                        }
+                                                                                                    ]
+                                                                                                }
+                                                                                            },
+                                                                                            {
+                                                                                                "content-body": {
+                                                                                                    "class": "formLabel col-xs-12",
+                                                                                                    "text": "Código Promo (Opcional)"
+                                                                                                }
+                                                                                            },
+                                                                                            {
+                                                                                                "form-group": {
+                                                                                                    "class": "formGroup col-xs-6",
+                                                                                                    "array": [
+                                                                                                        {
+                                                                                                            "block": {
+                                                                                                                "array": [
+                                                                                                                    {
+                                                                                                                        "ng-field": {
+                                                                                                                            "element": "input",
+                                                                                                                            "withAddon": false,
+                                                                                                                            "addon": "",
+                                                                                                                            "dynamicAttrs": {
+                                                                                                                                "ng-class": "col-xs-6 form-control",
+                                                                                                                                "ng-model": ""
+                                                                                                                            },
+                                                                                                                            "attrs": {
+                                                                                                                                "placeholder": "",
+                                                                                                                                "ng-pattern": "",
+                                                                                                                                "name": "ecopayzPromo",
+                                                                                                                                "ng-model-options": "{ 'debounce': { 'default': 0 }}",
+                                                                                                                                "ng-required": false,
+                                                                                                                                "type": "text",
+                                                                                                                                "generic-validation": "ngField.ngFieldData",
+                                                                                                                                "ng-blur": "ngField.validatePromoCode($event, 'ecopayz')"
+                                                                                                                            },
+                                                                                                                            "msgBox": {}
+                                                                                                                        }
+                                                                                                                    }
+                                                                                                                ]
+                                                                                                            }
+                                                                                                        }
+                                                                                                    ]
+                                                                                                }
+                                                                                            },
+                                                                                            {
+                                                                                                "block": {
+                                                                                                    "class": "col-xs-6",
+                                                                                                    "array": [
+                                                                                                        {
+                                                                                                            "bonus-status": {
+                                                                                                                "class": "col-xs-12 no-padding",
+                                                                                                                "name": "ecopayzPromo"
+                                                                                                            }
+                                                                                                        }
+                                                                                                    ]
+                                                                                                }
+                                                                                            },
+                                                                                            {
+                                                                                                "ng-form-submit": {
+                                                                                                    "class": "col-xs-12 text-left",
+                                                                                                    "content": "Depósito",
+                                                                                                    "ng-click": "ngField.validatePromoCode($event, 'ecopayz')"
+                                                                                                }
+                                                                                            }
+                                                                                        ]
+                                                                                    }
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "content-body": {
+                                                                            "class": "bottom-content col-xs-12",
+                                                                            "text": "En caso de necesitar nuestra ayuda o apoyo, por favor, no dude en ponerse en contacto con nosotros al teléfono (Reino Unido) +44 203 318 5207. <br>Estamos aquí para ayudarlo."
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            }
+                                                        },
+                                                        {
+                                                            "block": {
+                                                                "class": "facts col-sm-4 col-sm-offset-1 col-xs-12",
+                                                                "array": [
+                                                                    {
+                                                                        "unordered-list": {
+                                                                            "class": "",
+                                                                            "array": [
+                                                                                {
+                                                                                    "list-item": {
+                                                                                        "content": "SSL Secure Site",
+                                                                                        "icon": {
+                                                                                            "src": "/assets/icons/SSL.png",
+                                                                                            "responsive": true,
+                                                                                            "class": "list-icon"
+                                                                                        }
+                                                                                    },
+                                                                                    "precedence": 0
+                                                                                },
+                                                                                {
+                                                                                    "list-item": {
+                                                                                        "content": "Con licencia y regulado totalmente",
+                                                                                        "icon": {
+                                                                                            "src": "/assets/icons/License.png",
+                                                                                            "responsive": true,
+                                                                                            "class": "list-icon"
+                                                                                        }
+                                                                                    },
+                                                                                    "precedence": 1
+                                                                                },
+                                                                                {
+                                                                                    "list-item": {
+                                                                                        "content": "Asegurado por Mcafee",
+                                                                                        "icon": {
+                                                                                            "src": "/assets/icons/McAfee.png",
+                                                                                            "responsive": true,
+                                                                                            "class": "list-icon"
+                                                                                        }
+                                                                                    },
+                                                                                    "precedence": 1
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "tab-btn": {
+                                        "icon": {
+                                            "src": "/assets/images/footer/cards/Neteller.png"
+                                        },
+                                        "class": "tabBtn with-icon",
+                                        "title": "Neteller",
+                                        "array": [
+                                            {
+                                                "tab-container": {
+                                                    "class": "neteller",
+                                                    "array": [
+                                                        {
+                                                            "block": {
+                                                                "class": "d-form no-padding",
+                                                                "array": [
+                                                                    {
+                                                                        "block": {
+                                                                            "class": "cards-block",
+                                                                            "array": [
+                                                                                {
+                                                                                    "ng-image": {
+                                                                                        "precedence": 1,
+                                                                                        "image-name": "asset-test",
+                                                                                        "src": "/assets/images/footer/cards/Neteller.png",
+                                                                                        "alt": "Neteller",
+                                                                                        "type": "img",
+                                                                                        "class": ""
+                                                                                    }
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "headline": {
+                                                                            "class": "form-sub-headline text-left col-xs-12",
+                                                                            "title": "Datos de Pago Asegurados"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "neteller-form": {
+                                                                            "class": "",
+                                                                            "array": [
+                                                                                {
+                                                                                    "new-form": {
+                                                                                        "id": "neteller-form",
+                                                                                        "array": [
+                                                                                            {
+                                                                                                "form-group": {
+                                                                                                    "class": "formGroup col-xs-12",
+                                                                                                    "array": [
+                                                                                                        {
+                                                                                                            "block": {
+                                                                                                                "array": [
+                                                                                                                    {
+                                                                                                                        "content-body": {
+                                                                                                                            "class": "formLabel",
+                                                                                                                            "text": "Amount"
+                                                                                                                        }
+                                                                                                                    },
+                                                                                                                    {
+                                                                                                                        "ng-field": {
+                                                                                                                            "element": "input",
+                                                                                                                            "withAddon": true,
+                                                                                                                            "addon": "",
+                                                                                                                            "dynamicAttrs": {
+                                                                                                                                "ng-model": 120,
+                                                                                                                                "ng-class": "form-control withAddon",
+                                                                                                                                "numeric": ""
+                                                                                                                            },
+                                                                                                                            "attrs": {
+                                                                                                                                "min": 120,
+                                                                                                                                "max": 10000,
+                                                                                                                                "placeholder": "",
+                                                                                                                                "ng-pattern": "/^[0-9]*$/",
+                                                                                                                                "ng-model-options": "{ 'debounce': { 'default': 0 }}",
+                                                                                                                                "name": "netellerAmount",
+                                                                                                                                "ng-required": true,
+                                                                                                                                "type": "number",
+                                                                                                                                "ng-blur": "ngField.validatePromoCode($event)",
+                                                                                                                                "generic-validation": "ngField.ngFieldData"
+                                                                                                                            },
+                                                                                                                            "msgBox": {
+                                                                                                                                "number": "Bloquear caracteres",
+                                                                                                                                "required": "Por favor, ingrese un importe válido.",
+                                                                                                                                "min": "El importe del depósito mínimo es 120.",
+                                                                                                                                "max": "El importe del depósito máximo es 10000."
+                                                                                                                            }
+                                                                                                                        }
+                                                                                                                    }
+                                                                                                                ]
+                                                                                                            }
+                                                                                                        }
+                                                                                                    ]
+                                                                                                }
+                                                                                            },
+                                                                                            {
+                                                                                                "content-body": {
+                                                                                                    "class": "formLabel col-xs-12",
+                                                                                                    "text": "Código Promo (Opcional)"
+                                                                                                }
+                                                                                            },
+                                                                                            {
+                                                                                                "form-group": {
+                                                                                                    "class": "formGroup col-xs-6",
+                                                                                                    "array": [
+                                                                                                        {
+                                                                                                            "block": {
+                                                                                                                "array": [
+                                                                                                                    {
+                                                                                                                        "ng-field": {
+                                                                                                                            "element": "input",
+                                                                                                                            "withAddon": false,
+                                                                                                                            "addon": "",
+                                                                                                                            "dynamicAttrs": {
+                                                                                                                                "ng-class": "col-xs-6 form-control",
+                                                                                                                                "ng-model": ""
+                                                                                                                            },
+                                                                                                                            "attrs": {
+                                                                                                                                "placeholder": "",
+                                                                                                                                "ng-pattern": "",
+                                                                                                                                "name": "netellerPromo",
+                                                                                                                                "ng-required": false,
+                                                                                                                                "ng-model-options": "{ 'debounce': { 'default': 0 }}",
+                                                                                                                                "type": "text",
+                                                                                                                                "generic-validation": "ngField.ngFieldData",
+                                                                                                                                "ng-blur": "ngField.validatePromoCode($event, 'neteller')"
+                                                                                                                            },
+                                                                                                                            "msgBox": {}
+                                                                                                                        }
+                                                                                                                    }
+                                                                                                                ]
+                                                                                                            }
+                                                                                                        }
+                                                                                                    ]
+                                                                                                }
+                                                                                            },
+                                                                                            {
+                                                                                                "block": {
+                                                                                                    "class": "col-xs-6",
+                                                                                                    "array": [
+                                                                                                        {
+                                                                                                            "bonus-status": {
+                                                                                                                "class": "col-xs-12 no-padding",
+                                                                                                                "name": "netellerPromo"
+                                                                                                            }
+                                                                                                        }
+                                                                                                    ]
+                                                                                                }
+                                                                                            },
+                                                                                            {
+                                                                                                "headline": {
+                                                                                                    "class": "form-sub-headline text-left col-xs-12",
+                                                                                                    "title": "Neteller Info"
+                                                                                                }
+                                                                                            },
+                                                                                            {
+                                                                                                "form-group": {
+                                                                                                    "class": "formGroup col-xs-12",
+                                                                                                    "array": [
+                                                                                                        {
+                                                                                                            "block": {
+                                                                                                                "array": [
+                                                                                                                    {
+                                                                                                                        "content-body": {
+                                                                                                                            "class": "formLabel",
+                                                                                                                            "text": "Neteller Email/Identidad de Cuenta"
+                                                                                                                        }
+                                                                                                                    },
+                                                                                                                    {
+                                                                                                                        "ng-field": {
+                                                                                                                            "element": "input",
+                                                                                                                            "withAddon": false,
+                                                                                                                            "addon": "",
+                                                                                                                            "dynamicAttrs": {
+                                                                                                                                "ng-model": "",
+                                                                                                                                "ng-class": "form-control",
+                                                                                                                                "ng-maxlength": 50
+                                                                                                                            },
+                                                                                                                            "attrs": {
+                                                                                                                                "placeholder": "",
+                                                                                                                                "name": "netellerEmail",
+                                                                                                                                "ng-required": true,
+                                                                                                                                "type": "text",
+                                                                                                                                "ng-pattern": "/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\\.[a-zA-Z0-9-]+)*$/",
+                                                                                                                                "generic-validation": "ngField.ngFieldData"
+                                                                                                                            },
+                                                                                                                            "msgBox": {
+                                                                                                                                "pattern": "Por favor, introduzca una dirección válida de correo electrónico.",
+                                                                                                                                "required": "Este campo es requerido",
+                                                                                                                                "maxlength": "El email puede incluir un máximo de 50 caracteres."
+                                                                                                                            }
+                                                                                                                        }
+                                                                                                                    }
+                                                                                                                ]
+                                                                                                            }
+                                                                                                        }
+                                                                                                    ]
+                                                                                                }
+                                                                                            },
+                                                                                            {
+                                                                                                "form-group": {
+                                                                                                    "class": "formGroup col-xs-12",
+                                                                                                    "array": [
+                                                                                                        {
+                                                                                                            "block": {
+                                                                                                                "array": [
+                                                                                                                    {
+                                                                                                                        "content-body": {
+                                                                                                                            "class": "formLabel",
+                                                                                                                            "text": "Neteller Identidad Segura/Código de Autenticación"
+                                                                                                                        }
+                                                                                                                    },
+                                                                                                                    {
+                                                                                                                        "ng-field": {
+                                                                                                                            "element": "input",
+                                                                                                                            "withAddon": false,
+                                                                                                                            "addon": "",
+                                                                                                                            "dynamicAttrs": {
+                                                                                                                                "ng-model": "",
+                                                                                                                                "ng-class": "form-control"
+                                                                                                                            },
+                                                                                                                            "attrs": {
+                                                                                                                                "placeholder": "",
+                                                                                                                                "name": "netellerID",
+                                                                                                                                "ng-required": true,
+                                                                                                                                "type": "text",
+                                                                                                                                "generic-validation": "ngField.ngFieldData"
+                                                                                                                            },
+                                                                                                                            "msgBox": {
+                                                                                                                                "required": "Este campo es requerido"
+                                                                                                                            }
+                                                                                                                        }
+                                                                                                                    }
+                                                                                                                ]
+                                                                                                            }
+                                                                                                        }
+                                                                                                    ]
+                                                                                                }
+                                                                                            },
+                                                                                            {
+                                                                                                "ng-form-submit": {
+                                                                                                    "class": "col-xs-12 text-left",
+                                                                                                    "content": "Depósito",
+                                                                                                    "ng-click": "ngField.validatePromoCode($event, 'neteller')"
+                                                                                                }
+                                                                                            }
+                                                                                        ]
+                                                                                    }
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "content-body": {
+                                                                            "class": "bottom-content col-xs-12",
+                                                                            "text": "En caso de necesitar nuestra ayuda o apoyo, por favor, no dude en ponerse en contacto con nosotros al teléfono (Reino Unido) +44 203 318 5207. <br>Estamos aquí para ayudarlo."
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            }
+                                                        },
+                                                        {
+                                                            "block": {
+                                                                "class": "facts col-sm-4 col-sm-offset-1 col-xs-12",
+                                                                "array": [
+                                                                    {
+                                                                        "unordered-list": {
+                                                                            "class": "",
+                                                                            "array": [
+                                                                                {
+                                                                                    "list-item": {
+                                                                                        "content": "SSL Sitio Seguro",
+                                                                                        "icon": {
+                                                                                            "src": "/assets/icons/SSL.png",
+                                                                                            "responsive": true,
+                                                                                            "class": "list-icon"
+                                                                                        }
+                                                                                    },
+                                                                                    "precedence": 0
+                                                                                },
+                                                                                {
+                                                                                    "list-item": {
+                                                                                        "content": "Con licencia y regulado totalmente",
+                                                                                        "icon": {
+                                                                                            "src": "/assets/icons/License.png",
+                                                                                            "responsive": true,
+                                                                                            "class": "list-icon"
+                                                                                        }
+                                                                                    },
+                                                                                    "precedence": 1
+                                                                                },
+                                                                                {
+                                                                                    "list-item": {
+                                                                                        "content": "Asegurado por Mcafee",
+                                                                                        "icon": {
+                                                                                            "src": "/assets/icons/McAfee.png",
+                                                                                            "responsive": true,
+                                                                                            "class": "list-icon"
+                                                                                        }
+                                                                                    },
+                                                                                    "precedence": 1
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "tab-btn": {
+                                        "icon": {
+                                            "src": "/assets/images/footer/cards/Skrill.png"
+                                        },
+                                        "class": "tabBtn with-icon",
+                                        "title": "Skrill",
+                                        "array": [
+                                            {
+                                                "tab-container": {
+                                                    "class": "skrill",
+                                                    "array": [
+                                                        {
+                                                            "block": {
+                                                                "class": "d-form no-padding",
+                                                                "array": [
+                                                                    {
+                                                                        "block": {
+                                                                            "class": "cards-block",
+                                                                            "array": [
+                                                                                {
+                                                                                    "ng-image": {
+                                                                                        "precedence": 1,
+                                                                                        "image-name": "asset-test",
+                                                                                        "src": "/assets/images/footer/cards/Skrill.png",
+                                                                                        "alt": "Skrill",
+                                                                                        "type": "img",
+                                                                                        "class": ""
+                                                                                    }
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "headline": {
+                                                                            "class": "form-sub-headline text-left col-xs-12",
+                                                                            "title": "Datos de Pago Asegurados"
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "skrill-form": {
+                                                                            "class": "",
+                                                                            "array": [
+                                                                                {
+                                                                                    "new-form": {
+                                                                                        "id": "skrill-form",
+                                                                                        "array": [
+                                                                                            {
+                                                                                                "form-group": {
+                                                                                                    "class": "formGroup col-xs-12",
+                                                                                                    "array": [
+                                                                                                        {
+                                                                                                            "block": {
+                                                                                                                "array": [
+                                                                                                                    {
+                                                                                                                        "content-body": {
+                                                                                                                            "class": "formLabel",
+                                                                                                                            "text": "Importe"
+                                                                                                                        }
+                                                                                                                    },
+                                                                                                                    {
+                                                                                                                        "ng-field": {
+                                                                                                                            "element": "input",
+                                                                                                                            "withAddon": true,
+                                                                                                                            "addon": "",
+                                                                                                                            "dynamicAttrs": {
+                                                                                                                                "ng-model": 120,
+                                                                                                                                "ng-class": "form-control withAddon",
+                                                                                                                                "numeric": ""
+                                                                                                                            },
+                                                                                                                            "attrs": {
+                                                                                                                                "min": 120,
+                                                                                                                                "max": 10000,
+                                                                                                                                "placeholder": "",
+                                                                                                                                "ng-pattern": "/^[0-9]*$/",
+                                                                                                                                "ng-model-options": "{ 'debounce': { 'default': 0 }}",
+                                                                                                                                "name": "skrillAmount",
+                                                                                                                                "ng-required": true,
+                                                                                                                                "type": "number",
+                                                                                                                                "ng-blur": "ngField.validatePromoCode($event)",
+                                                                                                                                "generic-validation": "ngField.ngFieldData"
+                                                                                                                            },
+                                                                                                                            "msgBox": {
+                                                                                                                                "number": "Bloquear caracteres",
+                                                                                                                                "required": "Por favor, ingrese un importe válido.",
+                                                                                                                                "min": "El importe del depósito mínimo es 120.",
+                                                                                                                                "max": "El importe del depósito máximo es 10000."
+                                                                                                                            }
+                                                                                                                        }
+                                                                                                                    }
+                                                                                                                ]
+                                                                                                            }
+                                                                                                        }
+                                                                                                    ]
+                                                                                                }
+                                                                                            },
+                                                                                            {
+                                                                                                "content-body": {
+                                                                                                    "class": "formLabel col-xs-12",
+                                                                                                    "text": "Código Promo (Opcional)"
+                                                                                                }
+                                                                                            },
+                                                                                            {
+                                                                                                "form-group": {
+                                                                                                    "class": "formGroup col-xs-6",
+                                                                                                    "array": [
+                                                                                                        {
+                                                                                                            "block": {
+                                                                                                                "array": [
+                                                                                                                    {
+                                                                                                                        "ng-field": {
+                                                                                                                            "element": "input",
+                                                                                                                            "withAddon": false,
+                                                                                                                            "addon": "",
+                                                                                                                            "dynamicAttrs": {
+                                                                                                                                "ng-class": "col-xs-6 form-control",
+                                                                                                                                "ng-model": ""
+                                                                                                                            },
+                                                                                                                            "attrs": {
+                                                                                                                                "placeholder": "",
+                                                                                                                                "ng-pattern": "",
+                                                                                                                                "name": "skrillPromo",
+                                                                                                                                "ng-required": false,
+                                                                                                                                "ng-model-options": "{ 'debounce': { 'default': 0 }}",
+                                                                                                                                "type": "text",
+                                                                                                                                "generic-validation": "ngField.ngFieldData",
+                                                                                                                                "ng-blur": "ngField.validatePromoCode($event, 'skrill')"
+                                                                                                                            },
+                                                                                                                            "msgBox": {}
+                                                                                                                        }
+                                                                                                                    }
+                                                                                                                ]
+                                                                                                            }
+                                                                                                        }
+                                                                                                    ]
+                                                                                                }
+                                                                                            },
+                                                                                            {
+                                                                                                "block": {
+                                                                                                    "class": "col-xs-6",
+                                                                                                    "array": [
+                                                                                                        {
+                                                                                                            "bonus-status": {
+                                                                                                                "class": "col-xs-12 no-padding",
+                                                                                                                "name": "skrillPromo"
+                                                                                                            }
+                                                                                                        }
+                                                                                                    ]
+                                                                                                }
+                                                                                            },
+                                                                                            {
+                                                                                                "ng-form-submit": {
+                                                                                                    "class": "col-xs-12 text-left",
+                                                                                                    "content": "Depósito",
+                                                                                                    "ng-click": "ngField.validatePromoCode($event, 'skrill')"
+                                                                                                }
+                                                                                            }
+                                                                                        ]
+                                                                                    }
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "content-body": {
+                                                                            "class": "bottom-content col-xs-12",
+                                                                            "text": "Should you require our assistance or support, please, do not hesitate to contact us by phone (UK) +44 203 318 5207. <br>We are here to help you."
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            }
+                                                        },
+                                                        {
+                                                            "block": {
+                                                                "class": "facts col-sm-4 col-sm-offset-1 col-xs-12",
+                                                                "array": [
+                                                                    {
+                                                                        "unordered-list": {
+                                                                            "class": "",
+                                                                            "array": [
+                                                                                {
+                                                                                    "list-item": {
+                                                                                        "content": "SSL Sitio Seguro",
+                                                                                        "icon": {
+                                                                                            "src": "/assets/icons/SSL.png",
+                                                                                            "responsive": true,
+                                                                                            "class": "list-icon"
+                                                                                        }
+                                                                                    },
+                                                                                    "precedence": 0
+                                                                                },
+                                                                                {
+                                                                                    "list-item": {
+                                                                                        "content": "Con licencia y regulado totalmente",
+                                                                                        "icon": {
+                                                                                            "src": "/assets/icons/License.png",
+                                                                                            "responsive": true,
+                                                                                            "class": "list-icon"
+                                                                                        }
+                                                                                    },
+                                                                                    "precedence": 1
+                                                                                },
+                                                                                {
+                                                                                    "list-item": {
+                                                                                        "content": "Asegurado por Mcafee",
+                                                                                        "icon": {
+                                                                                            "src": "/assets/icons/McAfee.png",
+                                                                                            "responsive": true,
+                                                                                            "class": "list-icon"
+                                                                                        }
+                                                                                    },
+                                                                                    "precedence": 1
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "tab-btn": {
+                                        "class": "tabBtn with-icon",
+                                        "icon": {
+                                            "src": "/assets/images/footer/cards/Wire.png"
+                                        },
+                                        "title": "Transferencia Bancaria",
+                                        "array": [
+                                            {
+                                                "tab-container": {
+                                                    "class": "wire-transfer",
+                                                    "array": [
+                                                        {
+                                                            "ng-image": {
+                                                                "precedence": 1,
+                                                                "image-name": "asset-test",
+                                                                "src": "/assets/images/footer/cards/Wire.png",
+                                                                "alt": "Visa",
+                                                                "type": "img",
+                                                                "class": "text-left"
+                                                            }
+                                                        },
+                                                        {
+                                                            "headline": {
+                                                                "class": "form-sub-headline text-left",
+                                                                "title": "Transferencia Bancaria"
+                                                            }
+                                                        },
+                                                        {
+                                                            "content-body": {
+                                                                "class": "text-left col-xs-12",
+                                                                "text": "Usted puede agregar fondos a su cuenta por transferencia bancaria. <b>Tome en cuenta que el importe mínimo para transferencias bancarias es 1.500 unidades (en cualquiera de las monedas enumeradas a continuación)</b>. No hay importe máximo."
+                                                            }
+                                                        },
+                                                        {
+                                                            "content-body": {
+                                                                "class": "text-left col-xs-12",
+                                                                "text": "Cuando usted envía un depósito por transferencia, no podrá operar con los fondos depositados, hasta que hayan sido verificados por nuestro equipo de finanzas y añadido a su cuenta. Para acelerar el proceso, por favor asegúrese de notificar a un miembro del equipo Hedgestone sobre su transferencia e incluir su nombre en el campo de Referencia de Pago. Puede ponerse en contacto con Atención al Cliente en cualquier momento, enviando un correo electrónico a <a href=\"mailto:support@hedgestonegroup.com\">support@hedgestonegroup.com</a> or by calling <a href=\"tel:+44 203 318 5207\">+44 203 318 5207</a>."
+                                                            }
+                                                        },
+                                                        {
+                                                            "content-body": {
+                                                                "class": "text-left col-xs-12 big-font",
+                                                                "text": "Los datos del beneficiario para las transferencias bancarias son provistos abajo:"
+                                                            }
+                                                        },
+                                                        {
+                                                            "content-body": {
+                                                                "class": "text-left col-xs-12 no_padding_bottom",
+                                                                "text": "<span style='width:17%;float:left;font-weight:bold;'>Beneficiario:</span>          Paymentworld Europe Limited"
+                                                            }
+                                                        },
+                                                        {
+                                                            "content-body": {
+                                                                "class": "text-left col-xs-12 no_padding_bottom",
+                                                                "text": "<span style='width:17%;float:left;font-weight:bold;'>Domicilio Beneficiario:</span>   177, Marina Street, Pieta, Malta"
+                                                            }
+                                                        },
+                                                        {
+                                                            "content-body": {
+                                                                "class": "text-left col-xs-12 no_padding_bottom",
+                                                                "text": "<span style='width:17%;float:left;font-weight:bold;'>Banco:</span>                  Commerzbank"
+                                                            }
+                                                        },
+                                                        {
+                                                            "content-body": {
+                                                                "class": "text-left col-xs-12 no_padding_bottom",
+                                                                "text": "<span style='width:17%;float:left;font-weight:bold;'>Domicilio Banco: </span>         Hamburg, Germany"
+                                                            }
+                                                        },
+                                                        {
+                                                            "content-body": {
+                                                                "class": "text-left col-xs-12 no_padding_bottom",
+                                                                "text": "<span style='width:17%;float:left;font-weight:bold;'>IBAN: </span>                DE40200400000628392315"
+                                                            }
+                                                        },
+                                                        {
+                                                            "content-body": {
+                                                                "class": "text-left col-xs-12 no_padding_bottom",
+                                                                "text": "<span style='width:17%;float:left;font-weight:bold;'>BIC: </span>                 COBADEFFXXX"
+                                                            }
+                                                        },
+                                                        {
+                                                            "content-body": {
+                                                                "class": "text-left col-xs-12 no_padding_bottom",
+                                                                "text": "<span style='width:17%;float:left;font-weight:bold;'>Monedas: </span>    EUR, GBP, CAD, USD, AUD"
+                                                            }
+                                                        },
+                                                        {
+                                                            "content-body": {
+                                                                "class": "text-left col-xs-12 no_padding_bottom",
+                                                                "text": "<span style='width:17%;float:left;font-weight:bold;'>Referencia Pago: </span>   Icon Markets Ltd. HSG [YOUR NAME]"
+                                                            }
+                                                        },
+                                                        {
+                                                            "content-body": {
+                                                                "class": "text-left col-xs-12 no_padding_bottom",
+                                                                "text": "<span style='width:100%;float:left;font-weight:bold;font-size:21px;'>Tenga en cuenta: No aceptamos transferencias bancarias de cuentas bancarias corporativas. Si intenta realizar una transferencia desde una cuenta bancaria corporativa, sus fondos serán devueltos.</span>"
+                                                            }
+                                                        }
+
+
+                                                    ]
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "block": {
+                            "class": "arrow",
+                            "background": "assets/images/sections/arrow.png"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "section": {
+                "sectionName": "bottom-section",
+                "sectionType": "open-account-section",
+                "class": "bottom-section",
+                "background": "",
+                "containerClass": "",
+                "array": [
+                    {
+                        "content": {
+                            "class": "",
+                            "array": [
+                                {
+                                    "ng-image": {
+                                        "image-name": "asset-test",
+                                        "src": "assets/icons/Logo.png",
+                                        "alt": "some asset",
+                                        "type": "img",
+                                        "class": "center-img",
+                                        "responsive": true
+                                    }
+                                },
+                                {
+                                    "block": {
+                                        "class": "text-center",
+                                        "array": [
+                                            {
+                                                "content-body": {
+                                                    "class": "",
+                                                    "text": "¿LISTO PARA COMENZAR?"
+                                                },
+                                                "precedence": 0
+                                            },
+                                            {
+                                                "headline": {
+                                                    "title": "Poderoso. Dinámico. Sin límites.",
+                                                    "class": "hl5"
+                                                },
+                                                "precedence": 1
+                                            },
+                                            {
+                                                "block": {
+                                                    "class": "padded-block",
+                                                    "array": [
+                                                        {
+                                                            "logged-in": {
+                                                                "array": [
+                                                                    {
+                                                                        "btn": {
+                                                                            "class": "btn btn-transparent centered-btn",
+                                                                            "title": "operación",
+                                                                            "destination": "trade"
+                                                                        },
+                                                                        "precedence": 4
+                                                                    },
+                                                                    {
+                                                                        "btn": {
+                                                                            "class": "centered-btn",
+                                                                            "title": "cómo funciona",
+                                                                            "destination": "education"
+                                                                        },
+                                                                        "precedence": 5
+                                                                    }
+                                                                ]
+                                                            }
+                                                        },
+                                                        {
+                                                            "anonymous": {
+                                                                "array": [
+                                                                    {
+                                                                        "btn": {
+                                                                            "class": "btn btn-transparent centered-btn",
+                                                                            "title": "abrir una cuenta",
+                                                                            "destination": "create_account"
+                                                                        },
+                                                                        "precedence": 4
+                                                                    },
+                                                                    {
+                                                                        "btn": {
+                                                                            "class": "centered-btn",
+                                                                            "title": "cómo funciona",
+                                                                            "destination": "education"
+                                                                        },
+                                                                        "precedence": 5
+                                                                    }
+                                                                ]
+                                                            }
+                                                        }
+                                                    ]
+                                                },
+                                                "precedence": 3
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

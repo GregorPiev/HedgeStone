@@ -1,0 +1,32 @@
+<div class="uiSelectWrapper" ng-class="{'not-allowed' : uiSelectWrapper.select.disabled}">
+    <ui-select name="{{uiSelectWrapper.select.name}}" ng-model="uiSelectWrapper.select.selected"
+               ng-if="!uiSelectWrapper.resolutionChecker.isMobile() || uiSelectWrapper.select.forCountries"
+               ng-disabled="uiSelectWrapper.select.disabled"
+               onkeypress="return false;">
+        <ui-select-match placeholder="">
+            <img ng-src="/assets/countries/{{$select.selected.flag}}"/>
+            <i class="glyphicon glyphicon-chevron-down"></i>
+                <span ng-if="uiSelectWrapper.select.withNumber">
+                     {{$select.selected.code}} +{{$select.selected.area_code}}
+                </span>
+        </ui-select-match>
+        <ui-select-choices repeat="country in uiSelectWrapper.countries">
+            <img ng-src="/assets/countries/{{country.flag}}"/>
+            <!--<div class="country-code" ng-bind-html="country.code"></div>-->
+            <!--+<div class="area-code" ng-bind-html="country.area_code"></div>-->
+            {{country.code}}
+            +{{country.area_code}}
+        </ui-select-choices>
+    </ui-select>
+    <div ng-if="uiSelectWrapper.resolutionChecker.isMobile() && !uiSelectWrapper.select.forCountries" class="ngSelect">
+        <select ng-disabled="uiSelectWrapper.select.disabled"
+                ng-required="uiSelectWrapper.select.required" class="form-control mobileSelect"
+                name="{{uiSelectWrapper.select.name}}"
+                ng-class="::[{'withIcon': uiSelectWrapper.isDefined(uiSelectWrapper.select.icon)}, uiSelectWrapper.select.class]"
+                ng-options="country as country.area_code for country in uiSelectWrapper.countries"
+                ng-model="uiSelectWrapper.select.selected">
+            <option value="" selected disabled>{{uiSelectWrapper.select.placeholder}}</option>
+        </select>
+    </div>
+</div>
+

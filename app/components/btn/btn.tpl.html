@@ -1,0 +1,9 @@
+<div class="btn {{::btn.btnData.class}}" ng-click="::btn.goTo()" ng-cloak>
+    <i class="btnContainer" ng-if="::btn.iconExist()" ng-class="::btn.btnData.icon.class"></i>
+    <ng-include src="btn.btnData.svgIcon.src" class="svgIcon"></ng-include>
+    <div class="btnContainer">
+        <span ng-if="::!btn.btnData.download" ng-bind="::btn.btnData.title"></span>
+        <!--<a ng-if="::btn.btnData.download" download href="{{::btn.btnData.download}}" type="application/octet-stream">{{::btn.btnData.title}}</a>-->
+    </div>
+    <i class="btnContainer" ng-if="::btn.secondIconExist()" ng-class="btn.btnData.secondIcon.class"></i>
+</div>

@@ -1,0 +1,4 @@
+<div class="ticker" ng-click="ticker.goToTrade()">
+    <div class="tickerContainer" ng-class="{'open': ticker.ready}" compile="::ticker.html"></div>
+    <div class="tickerText" ng-show="ticker.ready" ng-bind="ticker.tickerData.notice"></div>
+</div>

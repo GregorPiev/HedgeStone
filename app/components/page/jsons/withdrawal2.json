@@ -1,0 +1,203 @@
+{
+  "page-name": "forgot-password",
+  "page-type": "page",
+  "class": "",
+  "title": "",
+  "keywords": "",
+  "description": "",
+  "array": [
+    {
+      "section": {
+        "sectionName": "login-top-section",
+        "sectionType": "login-section withdrawal",
+        "class": "dark-background relative-position",
+        "array": [
+          {
+            "block": {
+              "class": "login-container",
+              "array": [
+                {
+                  "headline": {
+                    "title": "Make a Withdrawal",
+                    "class": "hl1 text-center"
+                  }
+                },
+                {
+                  "headline": {
+                    "class": "text-center form-headline",
+                    "title": "Commited to a fast, efficient and transparent withdrawal procedure"
+                  }
+                },
+                {
+                  "content-body": {
+                    "class": "",
+                    "text": "In order to withdraw funds from your Hedgestone trading account you need to submit a withdrawal request. Kindly note the following important points regarding the withdrawals procedure:"
+                  }
+                },
+                {
+                  "content-body": {
+                    "class": "",
+                    "text": "<ul><li>It can take up to three business days for our payments processing team to process withdrawal requests.</li><li>So as to comply with anti-money laundering regulations, we may require you to submit a copy of your government-issued ID before fulfilling your withdrawal request.</li><li>Funds can only be withdrawn to the original source of remittance.</li></ul>"
+                  }
+                },
+                {
+                  "block": {
+                    "class": "",
+                    "array": [
+                      {
+                        "withdrawal-form": {
+                          "forgot": {},
+                          "class": "",
+                          "form": {
+                            "name": "test",
+                            "submit": {
+                              "class": "",
+                              "content": "make a withdrawal"
+                            },
+                            "groups": [
+                              {
+                                "label": {
+                                  "title": "Withdrawal Amount"
+                                },
+                                "filed": {
+                                  "element": "input",
+                                  "type": "number",
+                                  "required": true,
+                                  "model": "",
+                                  "class": "",
+                                  "min": 10,
+                                  "name": "amount",
+                                  "withAddon": true,
+                                  "addon": "",
+                                  "placeholder": "",
+                                  "pattern": "",
+                                  "msgBox": {
+                                    "pattern": "Invalid email address",
+                                    "required": "This field is required!",
+                                    "min": "The minimum withdrawal amount stands on 10",
+                                    "max": "The amount you requested to withdrawal exceeds your account balance."
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "block": {
+              "class": "arrow",
+              "background": "assets/images/sections/arrow.png"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "sectionName": "bottom-section",
+        "sectionType": "open-account-section",
+        "class": "bottom-section",
+        "background": "",
+        "containerClass": "",
+        "array": [
+          {
+            "content": {
+              "class": "",
+              "array": [
+                {
+                  "ng-image": {
+                    "image-name": "asset-test",
+                    "src": "assets/icons/Logo.png",
+                    "alt": "some asset",
+                    "type": "img",
+                    "class": "center-img",
+                    "responsive": true
+                  }
+                },
+                {
+                  "block": {
+                    "class": "text-center",
+                    "array": [
+                      {
+                        "content-body": {
+                          "class": "",
+                          "text": "READY TO GET STARTED?"
+                        },
+                        "precedence": 0
+                      },
+                      {
+                        "headline": {
+                          "title": "Powerful. Dynamic. Limitless.",
+                          "class": "hl5"
+                        },
+                        "precedence": 1
+                      },
+                      {
+                        "block": {
+                          "class": "padded-block",
+                          "array": [
+                            {
+                              "logged-in" : {
+                                "array": [
+                                  {
+                                    "btn": {
+                                      "class": "btn btn-transparent centered-btn",
+                                      "title": "trade",
+                                      "destination": "trade"
+                                    },
+                                    "precedence": 4
+                                  },
+                                  {
+                                    "btn": {
+                                      "class": "centered-btn",
+                                      "title": "how it works",
+                                      "destination": "education"
+                                    },
+                                    "precedence": 5
+                                  }
+                                ]
+                              }
+                            },
+                            {
+                              "anonymous": {
+                                "array": [
+                                  {
+                                    "btn": {
+                                      "class": "btn btn-transparent centered-btn",
+                                      "title": "open an account",
+                                      "destination": "create_account"
+                                    },
+                                    "precedence": 4
+                                  },
+                                  {
+                                    "btn": {
+                                      "class": "centered-btn",
+                                      "title": "how it works",
+                                      "destination": "education"
+                                    },
+                                    "precedence": 5
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        },
+                        "precedence": 3
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

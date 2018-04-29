@@ -1,0 +1,4 @@
+<div class="tab" ng-class="[tab.tabData.class, {'active' : tab.isActive()}]" ng-mouseover="::tab.openMenu()" ng-mouseleave="::tab.closeMenu()" ng-click="tab.goTo()">
+    <div class="tabTitle" ng-bind="::tab.tabData.title"></div>
+    <drop-down-menu drop-down-opening="tab.dropDownOpening" data="tab.tabData.tabs"></drop-down-menu>
+</div>

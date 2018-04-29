@@ -1,0 +1,19 @@
+@import (reference) '../../../assets/less/resources';
+
+.share {
+  .icons {
+    margin-bottom: 60px;
+    text-align: left;
+    .social-icon {
+      font-size: 25px;
+      margin-right: 20px;
+      color: @content-body-color;
+      cursor: pointer;
+
+      &:hover {
+        color: white;
+        .link-transition(color);
+      }
+    }
+  }
+}

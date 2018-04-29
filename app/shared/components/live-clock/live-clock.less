@@ -1,0 +1,54 @@
+@import (reference) '../../../../assets/less/resources.less';
+
+.liveClock {
+  position: fixed;
+  z-index: 99;
+  bottom: 0;
+  left: 10%;
+  width: @livechat-width;
+  background-color: @light-bg-color;
+  border-top: 1px solid @border-color;
+  border-right: 1px solid @border-color;
+  border-left: 1px solid @border-color;
+  text-align: center;
+  color: white;
+  font-family: @bold-font-family;
+  font-size: 16px;
+  height: @livechat-openBtn;
+  display: table;
+  letter-spacing: 1px;
+  .widget-clock {
+    float: left;
+    width: 54%;
+    text-align: right;
+  }
+  
+  .liveClock-content {
+    position: relative;
+    .vertical-center;
+
+    i {
+      font-size: 25px;
+      position: absolute;
+      left: 9px;
+      top: 7px;
+    }
+  }
+
+  #gmt {
+      padding-left: 8px;
+      float: left;
+  }
+
+  &.inHomePage {
+    bottom: -@livechat-openBtn ;
+    &.up {
+      bottom: 0;
+      .link-transition(bottom, 1.5s);
+    }
+  }
+
+  @media only screen and (max-width: @sm-tablet-screen) {
+      display: none;
+  }
+}

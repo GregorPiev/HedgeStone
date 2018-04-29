@@ -1,0 +1,746 @@
+{
+  "name": "home",
+  "page-type": "page",
+  "class": "no-padding",
+  "title": "Hedgestone ofrece soluciones comerciales de primera clase, en línea.",
+  "description": "Los clientes del Grupo Hedgestone regulado, especulan con numerosos activos negociables, acceden fácilmente a su plataforma, y conversan con expertos en el mercado, en tres países.",
+  "keywords": "Plataforma operativa; CFD en línea, mercados financieros.",
+  "array": [
+    {
+      "section": {
+        "sectionName": "home-top-section",
+        "sectionType": "home-top-section",
+        "background": "assets/images/sections/bg.jpg",
+        "containerClass": "container",
+        "class": "",
+        "array": [
+          {
+            "content": {
+              "class": "",
+              "array": [
+                {
+                  "headline": {
+                    "title": "Una plataforma.",
+                    "class": "hl1"
+                  },
+                  "precedence": 0
+                },
+                {
+                  "headline": {
+                    "title": "Posibilidades ilimitadas.",
+                    "class": "hl1"
+                  },
+                  "precedence": 1
+                },
+                {
+                  "content-body": {
+                    "class": "",
+                    "text": "Descubra los beneficios de comerciar con los mercados financieros globales y Hedgestone."
+                  },
+                  "precedence": 2
+                },
+                {
+                  "block": {
+                    "class": "no-padding btn-container",
+                    "array": [
+                      {
+                        "logged-in": {
+                          "array": [
+                            {
+                              "btn": {
+                                "class": "btn btn-transparent centered-btn",
+                                "title": "trade",
+                                "destination": "trade"
+                              },
+                              "precedence": 4
+                            },
+                            {
+                              "btn": {
+                                "class": "centered-btn",
+                                "title": "cómo funciona",
+                                "destination": "education"
+                              },
+                              "precedence": 5
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "anonymous": {
+                          "array": [
+                            {
+                              "btn": {
+                                "class": "btn btn-transparent centered-btn",
+                                "title": "abrir una cuenta",
+                                "destination": "create_account"
+                              },
+                              "precedence": 4
+                            },
+                            {
+                              "btn": {
+                                "class": "centered-btn",
+                                "title": "cómo funciona",
+                                "destination": "education"
+                              },
+                              "precedence": 5
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  },
+                  "precedence": 3
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "sectionName": "ticker",
+        "sectionType": "ticker",
+        "containerClass": "container",
+        "class": "light-background",
+        "array": [
+          {
+            "ticker": {
+              "notice": "Las tarifas son indicativas solamente, no se basan en las operaciones reales de mercado y están sujetas a retrasos. Se proporcionan todos los datos únicamente con fines informativos.",
+              "array": [
+                {
+                  "ticker-asset": {}
+                },
+                {
+                  "ticker-asset": {}
+                },
+                {
+                  "ticker-asset": {}
+                },
+                {
+                  "ticker-asset": {}
+                },
+                {
+                  "ticker-asset": {}
+                }
+              ],
+              "currencies": [
+                {
+                  "id": 91,
+                  "name": "EUR/USD",
+                  "type": "CURRENCIES",
+                  "assetId": 6252
+                },
+                {
+                  "id": 35,
+                  "name": "AUD/USD",
+                  "type": "CURRENCIES",
+                  "assetId": 13406
+                },
+                {
+                  "id": 259,
+                  "name": "GBP/JPY",
+                  "type": "CURRENCIES",
+                  "assetId": 16150
+                },
+                {
+                  "id": 95,
+                  "name": "GBP/USD",
+                  "type": "CURRENCIES",
+                  "assetId": 18435
+                },
+                {
+                  "id": 122,
+                  "name": "GBP/RUB",
+                  "type": "CURRENCIES",
+                  "assetId": "undefined"
+
+                },
+                {
+                  "id": 69,
+                  "name": "EUR/GBP",
+                  "type": "CURRENCIES",
+                  "assetId": 15348
+                },
+                {
+                  "id": 277,
+                  "name": "AUD/CHF",
+                  "type": "CURRENCIES",
+                  "assetId": "undefined"
+                }
+              ],
+              "assets": [
+                {
+                  "id": 98,
+                  "name": "Dow Jones",
+                  "type": "DJI:IND"
+                },
+                {
+                  "id": 86,
+                  "name": "S&P 500",
+                  "type": "GSPC:IND"
+                },
+                {
+                  "id": 89,
+                  "name": "FTSE 100",
+                  "type": "FTSE:IND"
+                },
+                {
+                  "id": 126,
+                  "name": "NIKKEi 225",
+                  "type": "N225:IND"
+                },
+                {
+                  "id": 87,
+                  "name": "DAX Index",
+                  "type": "DAX:IND"
+                },
+                {
+                  "id": 104,
+                  "name": "AAPL - Apple",
+                  "type": "AAPL:STOCK"
+                },
+                {
+                  "id": 318,
+                  "name": "MSFT - Microsoft",
+                  "type": "MSFT:STOCK"
+                },
+                {
+                  "id": 424,
+                  "name": "BMW.DE - BMW",
+                  "type": "BMW.DE:STOCK"
+                },
+                {
+                  "id": 370,
+                  "name": "DB - DEUTSCHE BANK",
+                  "type": "DB:STOCK"
+                },
+                {
+                  "id": 105,
+                  "name": "GOGO - Google",
+                  "type": "GOOGL:STOCK"
+                },
+                {
+                  "id": 973,
+                  "name": "GOLD",
+                  "type": "GCQ16:CMX"
+                },
+                {
+                  "id": 41,
+                  "name": "SILVER",
+                  "type": "SIN16:CMX"
+                },
+                {
+                  "id": 158,
+                  "name": "COFFEE",
+                  "type": "KCN16:NYB"
+                },
+                {
+                  "id": 85,
+                  "name": "SUGAR",
+                  "type": "SBN16:NYB"
+                },
+                {
+                  "id": 508,
+                  "name": "COPPER",
+                  "type": "HGN16:CMX"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "sectionName": "ticker-text",
+        "sectionType": "ticker-text",
+        "class": "dark-background ",
+        "containerClass": "container",
+        "array": [
+          
+        ]
+      }
+    },
+    {
+      "section": {
+        "sectionName": "powerful-dynamic",
+        "sectionType": "cards-section low",
+        "class": "dark-background ",
+        "containerClass": "container",
+        "array": [
+          {
+            "content": {
+              "class": "",
+              "array": [
+                {
+                  "headline": {
+                    "title": "Poderoso. Dinámico. Sin límites.",
+                    "class": "hl2 text-center"
+                  },
+                  "precedence": 0
+                },
+                {
+                  "content-body": {
+                    "class": "text-center smaller-content",
+                    "text": "Un proveedor líder de CFD en línea y soluciones comerciales de opciones."
+                  },
+                  "precedence": 1
+                },
+                {
+                  "block": {
+                    "class": "container table text-center padded-cards",
+                    "array": [
+                      {
+                        "card": {
+                          "class": "cell five-in-a-row",
+                          "array": [
+                            {
+                              "ng-image": {
+                                "precedence": 1,
+                                "image-name": "asset-test",
+                                "src": "assets/icons/glob-icon.png",
+                                "alt": "some alt",
+                                "type": "img",
+                                "class": "col-xs-12 text-center"
+                              }
+                            },
+                            {
+                              "headline": {
+                                "precedence": 0,
+                                "title": "200+",
+                                "class": "hl3"
+                              }
+                            },
+                            {
+                              "content-body": {
+                                "class": "smallest-content",
+                                "precedence": 2,
+                                "text": "activos negociables a través de una gama de mercados globales"
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "card": {
+                          "class": "cell five-in-a-row",
+                          "array": [
+                            {
+                              "ng-image": {
+                                "precedence": 1,
+                                "image-name": "asset-test",
+                                "src": "assets/icons/moon-icon.png",
+                                "alt": "some alt",
+                                "type": "img",
+                                "class": "col-xs-12"
+                              }
+                            },
+                            {
+                              "headline": {
+                                "precedence": 0,
+                                "title": "24 horas",
+                                "class": "hl3"
+                              }
+                            },
+                            {
+                              "content-body": {
+                                "class": "smallest-content",
+                                "precedence": 2,
+                                "text": "Acceso a la plataforma operativa y servicios de asistencia."
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "card": {
+                          "class": "cell five-in-a-row",
+                          "array": [
+                            {
+                              "ng-image": {
+                                "precedence": 0,
+                                "image-name": "asset-test",
+                                "src": "assets/icons/person-icon.png",
+                                "alt": "some alt",
+                                "type": "img",
+                                "class": "col-xs-12"
+                              }
+                            },
+                            {
+                              "headline": {
+                                "precedence": 1,
+                                "title": "140+",
+                                "class": "hl3"
+                              }
+                            },
+                            {
+                              "content-body": {
+                                "precedence": 2,
+                                "class": "smallest-content",
+                                "text": "Expertos de mercado en 5 oficinas y 3 países"
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "card": {
+                          "class": "cell five-in-a-row",
+                          "array": [
+                            {
+                              "ng-image": {
+                                "precedence": 0,
+                                "image-name": "asset-test",
+                                "src": "assets/icons/lightning-icon.png",
+                                "alt": "some alt",
+                                "type": "img",
+                                "class": "col-xs-12"
+                              }
+                            },
+                            {
+                              "headline": {
+                                "precedence": 1,
+                                "title": "Instant",
+                                "class": "hl3"
+                              }
+                            },
+                            {
+                              "content-body": {
+                                "precedence": 2,
+                                "class": "smallest-content",
+                                "text": "Procesamiento de solicitudes de extracción del cliente."
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "card": {
+                          "class": "cell five-in-a-row",
+                          "array": [
+                            {
+                              "ng-image": {
+                                "precedence": 0,
+                                "image-name": "asset-test",
+                                "src": "assets/icons/shield-icon.png",
+                                "alt": "some alt",
+                                "type": "img",
+                                "class": "col-xs-12"
+                              }
+                            },
+                            {
+                              "headline": {
+                                "precedence": 1,
+                                "title": "Secure",
+                                "class": "hl3"
+                              }
+                            },
+                            {
+                              "content-body": {
+                                "precedence": 2,
+                                "class": "smallest-content",
+                                "text": "Comerciando con una firma de servicios financieros regulados."
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "sectionName": "top-trades",
+        "sectionType": "content-asset",
+        "class": "relative-position",
+        "containerClass": "container",
+        "array": [
+          {
+            "asset": {
+              "array": [
+                {
+                  "ng-image": {
+                    "image-name": "asset-test",
+                    "src": "assets/images/sections/TopTrades.png",
+                    "alt": "some asset",
+                    "type": "img",
+                    "class": "dividing-image",
+                    "responsive": "img-responsive"
+                  },
+                  "precedence": 0
+                }
+              ]
+            }
+          },
+          {
+            "content": {
+              "class": "",
+              "array": [
+                {
+                  "headline": {
+                    "title": "Heighten your returns.",
+                    "class": "hl5"
+                  }
+                },
+                {
+                  "content-body": {
+                    "class": "smaller-content",
+                    "text": "Hedgestone lo faculta con CFD y productos de opciones, que le permiten asumir la exposición al mercado exacta que usted busca, precisamente cuando la busca."
+                  }
+                },
+                {
+                  "btn": {
+                    "class": "",
+                    "title": "Productos Financieros",
+                    "destination": "financials"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "sectionName": "mobile-trading",
+        "sectionType": "content-text",
+        "class": "dark-background relative-position",
+        "background": "assets/images/sections/phone-1280.png",
+        "containerClass": "container",
+        "array": [
+          {
+            "content": {
+              "class": "right-content",
+              "array": [
+                {
+                  "headline": {
+                    "title": "Comercie en cualquier lugar, en cualquier momento.",
+                    "class": "hl5"
+                  }
+                },
+                {
+                  "content-body": {
+                    "class": "smaller-content",
+                    "text": "La plataforma en línea sofisticada y las aplicaciones móviles intuitivas de Hedgestone le permiten operar en la marcha, adonde su comercio lo lleva."
+                  }
+                },
+                {
+                  "btn": {
+                    "class": "",
+                    "title": "Herramientas",
+                    "destination": "tools"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "sectionName": "accelerate-learning",
+        "sectionType": "content-asset",
+        "class": "light-background relative-position",
+        "background": "assets/images/sections/scala-bg.png",
+        "containerClass": "container",
+        "array": [
+          {
+            "asset": {
+              "array": [
+                {
+                  "precedence": 0
+                }
+              ]
+            }
+          },
+          {
+            "content": {
+              "class": "",
+              "array": [
+                {
+                  "headline": {
+                    "title": "Acelere su aprendizaje.",
+                    "class": "hl5"
+                  }
+                },
+                {
+                  "content-body": {
+                    "class": "smaller-content",
+                    "text": "El centro de aprendizaje en línea de Hedgestone, los programas de entrenamiento personalizados y los seminarios web en directo, le permiten mejorar su conocimiento continuamente."
+                  }
+                },
+                {
+                  "btn": {
+                    "class": "",
+                    "title": "Educación",
+                    "destination": "education"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "sectionName": "identify-oppor",
+        "sectionType": "content-text",
+        "class": "dark-background relative-position",
+        "background": "assets/images/sections/grid-bg.png",
+        "containerClass": "container",
+        "array": [
+          {
+            "content": {
+              "class": "right-content",
+              "array": [
+                {
+                  "btn": {
+                    "title": "noticias del mercado",
+                    "destination": "latest_news"
+                  },
+                  "precedence": 2
+                },
+                {
+                  "headline": {
+                    "title": "Identificar oportunidades.",
+                    "class": "hl5"
+                  },
+                  "precedence": 0
+                },
+                {
+                  "content-body": {
+                    "class": "smaller-content",
+                    "text": "Los analistas de Hedgestone entregan comentarios del mercado e informes de video diariamente, que le permiten estar al tanto de los acontecimientos clave del mercado."
+                  },
+                  "precedence": 1
+                }
+              ]
+            }
+          },
+          {
+            "block": {
+              "class": "arrow",
+              "background": "assets/images/sections/arrow.png"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "sectionName": "bottom-section",
+        "sectionType": "open-account-section",
+        "class": "bottom-section",
+        "background": "",
+        "containerClass": "",
+        "array": [
+          {
+            "content": {
+              "class": "",
+              "array": [
+                {
+                  "ng-image": {
+                    "image-name": "asset-test",
+                    "src": "assets/icons/Logo.png",
+                    "alt": "some asset",
+                    "type": "img",
+                    "class": "center-img",
+                    "responsive": true
+                  }
+                },
+                {
+                  "block": {
+                    "class": "text-center",
+                    "array": [
+                      {
+                        "content-body": {
+                          "class": "",
+                          "text": "¿LISTO PARA COMENZAR?"
+                        },
+                        "precedence": 0
+                      },
+                      {
+                        "headline": {
+                          "title": "Poderoso. Dinámico. Sin límites.",
+                          "class": "hl5"
+                        },
+                        "precedence": 1
+                      },
+                      {
+                        "block": {
+                          "class": "padded-block",
+                          "array": [
+                            {
+                              "logged-in": {
+                                "array": [
+                                  {
+                                    "btn": {
+                                      "class": "btn btn-transparent centered-btn",
+                                      "title": "operación",
+                                      "destination": "trade"
+                                    },
+                                    "precedence": 4
+                                  },
+                                  {
+                                    "btn": {
+                                      "class": "centered-btn",
+                                      "title": "cómo funciona",
+                                      "destination": "education"
+                                    },
+                                    "precedence": 5
+                                  }
+                                ]
+                              }
+                            },
+                            {
+                              "anonymous": {
+                                "array": [
+                                  {
+                                    "btn": {
+                                      "class": "btn btn-transparent centered-btn",
+                                      "title": "abrir una cuenta",
+                                      "destination": "create_account",
+                                      "analytics": {
+                                        "category": "open-account2",
+                                        "action": "play - test case",
+                                        "details": "open account section"
+                                      }
+                                    },
+                                    "precedence": 4
+                                  },
+                                  {
+                                    "btn": {
+                                      "class": "centered-btn",
+                                      "title": "cómo funciona",
+                                      "destination": "education"
+                                    },
+                                    "precedence": 5
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        },
+                        "precedence": 3
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

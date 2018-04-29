@@ -1,0 +1,302 @@
+
+{
+  "page-name": "about",
+  "page-type": "page",
+  "class": "",
+  "title": "Hedgestone Group provides excellent trading solutions.",
+  "description": "Providing various trading solutions, Hedgestone Group leads investors to success. Mobile application and educational material facilitate their trading.",
+  "keywords": "CFDs; binary options; desktop and mobile applications; trading educational materials.",
+  "array": [
+    {
+      "section": {
+        "sectionName": "about-top-section",
+        "sectionType": "top-section about-top-section",
+        "background": "assets/images/financial-page/1.jpg",
+        "containerClass": "container",
+        "class": "text-center relative-position",
+        "array": [
+          {
+            "content": {
+              "class": "",
+              "array": [
+                {
+                  "headline": {
+                    "title": "About",
+                    "class": "hl1"
+                  },
+                  "precedence": 0
+                },
+                {
+                  "block": {
+                    "class": "divider"
+                  }
+                },
+                {
+                  "content-body": {
+                    "class": "",
+                    "text": "Hedgestone is a leading provider of CFD and options trading solutions. With powerful desktop and mobile trading applications, rich trader education materials and timely market insights, we help individual investors to participate in the ever-changing global financial markets."
+                  },
+                  "precedence": 2
+                },
+                {
+                  "block": {
+                    "class": "top-cards-block table-horizontal-center",
+                    "array": [
+                      {
+                        "card": {
+                          "class": "cell",
+                          "array": [
+                            {
+                              "headline": {
+                                "precedence": 0,
+                                "title": "Email",
+                                "class": "hl3 no-padding"
+                              }
+                            },
+                            {
+                              "content-body": {
+                                "class": "",
+                                "precedence": 2,
+                                "text": "Customer Support: <a href=\"mailto:support@hedgestonegroup.com\">support@hedgestonegroup.com</a><br/>Doc. Verification: <a href=\"mailto:documents@hedgestonegroup.com\">documents@hedgestonegroup.com</a>"
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "card": {
+                          "class": "cell",
+                          "array": [
+                            {
+                              "headline": {
+                                "precedence": 0,
+                                "title": "Call",
+                                "class": "hl3 no-padding"
+                              }
+                            },
+                            {
+                              "content-body": {
+                                "class": "",
+                                "precedence": 2,
+                                "text": "United Kingdom: <a href='tel:+44 203 318 5207'>+44 203 318 5207</a>"
+                              }
+                            },
+                            {
+                              "content-body": {
+                                "class": "",
+                                "precedence": 2,
+                                "text": "New Zealand: <a href='tel:+64 9 973 0349'>+64 9 973 0349</a>"
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "card": {
+                          "class": "cell",
+                          "array": [
+                            {
+                              "headline": {
+                                "precedence": 1,
+                                "title": "Mailing Address",
+                                "class": "hl3 no-padding"
+                              }
+                            },
+                            {
+                              "content-body": {
+                                "precedence": 2,
+                                "class": "",
+                                "text": "Hedgestone,<br />35 Barrack Road<br>P.O. Box 2391<br /> 2nd Floor<br />Belize City, Belize"
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "block": {
+                    "class": "bottom-cards-block table-horizontal-center text-left",
+                    "array": [
+                      {
+                        "card": {
+                          "class": "cell",
+                          "array": [
+                            {
+                              "headline": {
+                                "precedence": 0,
+                                "title": "AUSTRALIA",
+                                "class": "hl4"
+                              }
+                            },
+                            {
+                              "content-body": {
+                                "class": "",
+                                "precedence": 2,
+                                "text": "+61 28 046 6547"
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "card": {
+                          "class": "cell",
+                          "array": [
+                            {
+                              "headline": {
+                                "precedence": 0,
+                                "title": "CANADA",
+                                "class": "hl4"
+                              }
+                            },
+                            {
+                              "content-body": {
+                                "class": "",
+                                "precedence": 2,
+                                "text": "+1 647 560 0103"
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "card": {
+                          "class": "cell",
+                          "array": [
+                            {
+                              "headline": {
+                                "precedence": 1,
+                                "title": "NEW ZEALAND",
+                                "class": "hl4"
+                              }
+                            },
+                            {
+                              "content-body": {
+                                "precedence": 2,
+                                "class": "",
+                                "text": "+64 9 973 0349"
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "block": {
+              "class": "arrow",
+              "background": "assets/images/sections/arrow.png"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "sectionName": "bottom-section",
+        "sectionType": "open-account-section",
+        "class": "bottom-section",
+        "background": "",
+        "containerClass": "",
+        "array": [
+          {
+            "content": {
+              "class": "",
+              "array": [
+                {
+                  "ng-image": {
+                    "image-name": "asset-test",
+                    "src": "assets/icons/Logo.png",
+                    "alt": "some asset",
+                    "type": "img",
+                    "class": "center-img",
+                    "responsive": true
+                  }
+                },
+                {
+                  "block": {
+                    "class": "text-center",
+                    "array": [
+                      {
+                        "content-body": {
+                          "class": "",
+                          "text": "READY TO GET STARTED?"
+                        },
+                        "precedence": 0
+                      },
+                      {
+                        "headline": {
+                          "title": "Powerful. Dynamic. Limitless.",
+                          "class": "hl5"
+                        },
+                        "precedence": 1
+                      },
+                      {
+                        "block": {
+                          "class": "padded-block",
+                          "array": [
+                            {
+                              "logged-in": {
+                                "array": [
+                                  {
+                                    "btn": {
+                                      "class": "btn btn-transparent centered-btn",
+                                      "title": "trade",
+                                      "destination": "trade"
+                                    },
+                                    "precedence": 4
+                                  },
+                                  {
+                                    "btn": {
+                                      "class": "centered-btn",
+                                      "title": "how it works",
+                                      "destination": "education"
+                                    },
+                                    "precedence": 5
+                                  }
+                                ]
+                              }
+                            },
+                            {
+                              "anonymous": {
+                                "array": [
+                                  {
+                                    "btn": {
+                                      "class": "btn btn-transparent centered-btn",
+                                      "title": "open an account",
+                                      "destination": "create_account"
+                                    },
+                                    "precedence": 4
+                                  },
+                                  {
+                                    "btn": {
+                                      "class": "centered-btn",
+                                      "title": "how it works",
+                                      "destination": "education"
+                                    },
+                                    "precedence": 5
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        },
+                        "precedence": 3
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

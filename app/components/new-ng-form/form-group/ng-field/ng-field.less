@@ -1,0 +1,163 @@
+@import (reference) "../../../../../assets/less/resources";
+
+.ngField {
+  position: relative;
+  height: 50px;
+  width: 100%;
+  border: 0 solid @btn-color;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-transition: border 0.2s;
+  -moz-transition: border 0.2s;
+  -ms-transition: border 0.2s;
+  -o-transition: border 0.2s;
+  transition: border 0.2s;
+  float: left;
+  input {
+    height: 100%;
+    width: 100%;
+    border: 0;
+    box-sizing: border-box;
+    padding: 0 5px;
+    font-size: 18px;
+  }
+
+  select {
+    font-size: 18px;
+  }
+  &.error {
+    border: 3px solid @btn-color;
+    input {
+      border-radius: 0;
+    }
+  }
+  &.withIcon {
+    display: table-cell;
+  }
+
+  &.withAddon {
+    input {
+      padding-left: 46px;
+    }
+  }
+
+  &.fileUpload {
+    height: 0;
+  }
+
+  .ngSelect {
+    height: 100%;
+    width: 100%;
+    border: 0px solid @btn-color;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-transition: border 0.2s;
+    -moz-transition: border 0.2s;
+    -ms-transition: border 0.2s;
+    -o-transition: border 0.2s;
+    transition: border 0.2s;
+    float: left;
+    select {
+      height: 100%;
+      width: 100%;
+      border: 0;
+      box-sizing: border-box;
+      padding: 0 5px;
+      background: white;
+    }
+    &.withIcon {
+      display: table-cell;
+    }
+
+  }
+
+  .uiSelectWrapper {
+    height: 50px;
+    .btn {
+      background: white;
+      height: @field-height;
+      padding: 0;
+      font-size: 18px !important;
+      font-family: @main-font-family;
+      margin: 0;
+      .ui-select-match-text {
+        float: none !important;
+        .vertical-center;
+        text-align: center;
+        .glyphicon {
+          font-size: 10px;
+          right: 0;
+        }
+      }
+      .caret {
+        display: none;
+      }
+
+      &:hover {
+        color: black;
+      }
+    }
+
+    input {
+      height: @field-height;
+    }
+  }
+  
+  &.error {
+    border: 3px solid @btn-color;
+    select, input {
+      border-radius: 0;
+    }
+  }
+
+  .mobileSelect {
+    height: @field-height;
+  }
+
+  &.formCheckbox {
+    width: 15px;
+    margin: 20px 15px 0 0 !important;
+    &.error {
+      border: 0 !important;
+    }
+  }
+
+  .ng-checkbox {
+    height: 15px;
+    width: 15px;
+  }
+
+  .input-group-addon {
+    z-index: 1;
+    // border-right: none;
+    font-size: 18px;
+    color: #555555;
+    position: absolute;
+    height: 100%;
+    width: 60px;
+    padding: 0;
+    background-color: transparent;
+    border: none;
+    //margin: 3px;
+    //left: 15px;
+    //top: 35px;
+    .table;
+    .input-group-addon-container {
+      .vertical-center
+    }
+  }
+
+  input {
+    &.withAddon {
+      padding-left: 54px;
+    }
+  }
+
+  &.captcha {
+    &.error {
+      border: 0;
+    }
+  }
+}

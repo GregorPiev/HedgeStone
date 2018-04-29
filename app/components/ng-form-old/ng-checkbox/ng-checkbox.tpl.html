@@ -1,0 +1,6 @@
+<div class="checkbox">
+    <label class="ngLabel">
+        <input type="checkbox" class="ng-checkbox" novalidate name="{{ngCheckbox.data.name}}" ng-required="ngCheckbox.data.required" ng-checked="ngCheckbox.data.checked" ng-model="ngCheckbox.data.model" ng-focus="ngCheckbox.focusing = true" ng-enter="ngCheckbox.focusOut($event)">
+        <span compile="ngCheckbox.data.label"></span>
+    </label>
+</div>

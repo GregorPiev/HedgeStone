@@ -1,0 +1,17 @@
+<div class="popupFrame">
+    <div class="popupTerms">
+        <div class="closeImg" ng-click="popupTerms.cancel()">
+            <i class="fa fa-times"></i>
+        </div>
+        <div class="popup-content">
+            <headline data="popupTerms.popupData.secondaryHeadline"></headline>
+            <headline data="popupTerms.popupData.primaryHeadline"></headline>
+            <!--pay attention to change content body to proper attr-->
+            <content-body data="popupTerms.popupData.content"></content-body>
+            <div class="btns-block">
+                <btn data="popupTerms.popupData.yesBtn" btn-function="popupTerms.yes"></btn>
+                <btn data="popupTerms.popupData.cancelBtn" btn-function="popupTerms.no"></btn>
+            </div>
+        </div>
+    </div>
+</div>

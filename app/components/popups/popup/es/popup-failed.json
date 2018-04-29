@@ -1,0 +1,21 @@
+{
+  "primaryHeadline": {
+    "title": "Depósito fallido",
+    "class": "hl1"
+  },
+  "secondaryHeadline": {
+    "title": "",
+    "class": "hl7"
+  },
+  "content": {
+    "text": "Por favor, vuelva a verificar la información que ingresó; cámbiela, si es necesario, y vuelva a ingresarla.<br/>Si necesita ponerse en contacto con nuestro equipo de atención al cliente, por favor, vaya a nuestra página Acerca de Nosotros.<br/>Gracias, <br/>Equipo del Grupo Hedgestone. "
+  },
+  "yesBtn": {
+    "title": "Contáctenos",
+    "class": "btn"
+  },
+  "cancelBtn": {
+    "title": "Cancelar",
+    "class": "btn btn-transparent"
+  }
+}

@@ -1,0 +1,1699 @@
+{
+  "page-name": "account",
+  "page-type": "page",
+  "class": "",
+  "title": "Los Clientes pueden ver el historial comercial y editar las cuentas.",
+  "keywords": "Configuración de la cuenta, historia comercial; depósito; detalles de la cuenta",
+  "array": [
+    {
+      "section": {
+        "sectionName": "account-top-section",
+        "sectionType": "deposit-top-section",
+        "background": "/assets/images/sections/Wash.png",
+        "containerClass": "container",
+        "class": "text-center",
+        "array": [
+          {
+            "content": {
+              "class": "",
+              "array": [
+                {
+                  "headline": {
+                    "id": "username",
+                    "class": "hl1",
+                    "title": ""
+                  }
+                },
+                {
+                  "content-body": {
+                    "text": "Depositar fondos, ver el historial comercial y editar detalles de su cuenta.",
+                    "class": ""
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "sectionName": "account-setting",
+        "sectionType": "account-setting-section",
+        "background": "",
+        "class": "relative-position no-padding",
+        "array": [
+          {
+            "tab-set": {
+              "selectTabs": true,
+              "array": [
+                {
+                  "tab-btn": {
+                    "class": "tabBtn",
+                    "title": "Configuración de Cuenta",
+                    "array": [
+                      {
+                        "tab-container": {
+                          "class": "",
+                          "array": [
+                            {
+                              "account-form": {
+                                "class": "text-left no-padding col-sm-9 col-xs-6",
+                                "array": [
+                                  {
+                                    "new-form": {
+                                      "id": "account-form",
+                                      "array": [
+                                        {
+                                          "block": {
+                                            "class": "col-xs-12 no-padding",
+                                            "array": [
+                                              {
+                                                "headline": {
+                                                  "class": "form-sub-headline col-xs-12",
+                                                  "title": "Datos Personales"
+                                                }
+                                              },
+                                              {
+                                                "form-group": {
+                                                  "class": "formGroup col-sm-6 col-xs-12",
+                                                  "array": [
+                                                    {
+                                                      "block": {
+                                                        "array": [
+                                                          {
+                                                            "content-body": {
+                                                              "class": "formLabel",
+                                                              "text": "Nombre de Pila"
+                                                            }
+                                                          },
+                                                          {
+                                                            "ng-field": {
+                                                              "element": "input",
+                                                              "withAddon": false,
+                                                              "addon": "",
+                                                              "dynamicAttrs": {
+                                                                "ng-model": "",
+                                                                "ng-class": "form-control",
+                                                                "ng-maxlength": 30,
+                                                                "ng-minlength": 2
+                                                              },
+                                                              "attrs": {
+                                                                "placeholder": "",
+                                                                "ng-pattern": "",
+                                                                "name": "FirstName",
+                                                                "ng-required": true,
+                                                                "disabled": true,
+                                                                "type": "text",
+                                                                "generic-validation": "ngField.ngFieldData"
+                                                              },
+                                                              "msgBox": {
+                                                                "required": "Este campo es requerido",
+                                                                "maxlength": "El nombre de pila debe incluir un máximo de 30 letras.",
+                                                                "minlength": "El Nombre de Pila debe incluir por lo menos 2 letras."
+                                                              }
+                                                            }
+                                                          }
+                                                        ]
+                                                      }
+                                                    }
+                                                  ]
+                                                }
+                                              },
+                                              {
+                                                "form-group": {
+                                                  "class": "formGroup col-sm-6 col-xs-12",
+                                                  "array": [
+                                                    {
+                                                      "block": {
+                                                        "array": [
+                                                          {
+                                                            "content-body": {
+                                                              "class": "formLabel",
+                                                              "text": "Apellido"
+                                                            }
+                                                          },
+                                                          {
+                                                            "ng-field": {
+                                                              "element": "input",
+                                                              "withAddon": false,
+                                                              "addon": "",
+                                                              "dynamicAttrs": {
+                                                                "ng-model": "",
+                                                                "ng-class": "form-control",
+                                                                "ng-maxlength": 30,
+                                                                "ng-minlength": 2
+                                                              },
+                                                              "attrs": {
+                                                                "placeholder": "",
+                                                                "ng-pattern": "",
+                                                                "name": "LastName",
+                                                                "ng-required": true,
+                                                                "disabled": true,
+                                                                "type": "text",
+                                                                "generic-validation": "ngField.ngFieldData"
+                                                              },
+                                                              "msgBox": {
+                                                                "required": "Este campo es requerido",
+                                                                "maxlength": "El Apellido debe incluir un máximo de 30 letras.",
+                                                                "minlength": "El Apellido debe incluir por lo menos 2 letras."
+                                                              }
+                                                            }
+                                                          }
+                                                        ]
+                                                      }
+                                                    }
+                                                  ]
+                                                }
+                                              }
+                                            ]
+                                          }
+                                        },
+                                        {
+                                          "block": {
+                                            "class": "col-xs-12 no-padding",
+                                            "array": [
+                                              {
+                                                "form-group": {
+                                                  "class": "formGroup col-sm-6 col-xs-12",
+                                                  "array": [
+                                                    {
+                                                      "block": {
+                                                        "array": [
+                                                          {
+                                                            "content-body": {
+                                                              "class": "formLabel",
+                                                              "text": "Email"
+                                                            }
+                                                          },
+                                                          {
+                                                            "ng-field": {
+                                                              "element": "input",
+                                                              "withAddon": false,
+                                                              "addon": "",
+                                                              "dynamicAttrs": {
+                                                                "ng-model": "",
+                                                                "ng-class": "form-control"
+                                                              },
+                                                              "attrs": {
+                                                                "placeholder": "",
+                                                                "ng-pattern": "/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\\.[a-zA-Z0-9-]+)*$/",
+                                                                "name": "email",
+                                                                "ng-required": true,
+                                                                "disabled": true,
+                                                                "type": "text",
+                                                                "generic-validation": "ngField.ngFieldData"
+                                                              },
+                                                              "msgBox": {
+                                                                "pattern": "Por favor, introduzca una dirección válida de correo electrónico.",
+                                                                "required": "Este campo es requerido"
+                                                              }
+                                                            }
+                                                          }
+                                                        ]
+                                                      }
+                                                    }
+                                                  ]
+                                                }
+                                              },
+                                              {
+                                                "block": {
+                                                  "class": "col-sm-6 col-xs-12 no-padding",
+                                                  "array": [
+                                                    {
+                                                      "content-body": {
+                                                        "text": "Número de Teléfono",
+                                                        "class": "formLabel col-xs-12"
+                                                      }
+                                                    },
+                                                    {
+                                                      "form-group": {
+                                                        "class": "formGroup col-xs-4",
+                                                        "array": [
+                                                          {
+                                                            "block": {
+                                                              "array": [
+                                                                {
+                                                                  "ng-field": {
+                                                                    "element": "ui-select-wrapper",
+                                                                    "withAddon": true,
+                                                                    "addon": "",
+                                                                    "withNumber": true,
+                                                                    "disabled": true,
+                                                                    "dynamicAttrs": {
+                                                                      "ng-model": "",
+                                                                      "ng-class": "select-ui"
+                                                                    },
+                                                                    "attrs": {
+                                                                      "placeholder": "",
+                                                                      "ng-pattern": "",
+                                                                      "name": "Country",
+                                                                      "ng-required": true,
+                                                                      "generic-validation": "ngField.ngFieldData"
+                                                                    },
+                                                                    "msgBox": {
+                                                                      "required": "Este campo es requerido"
+                                                                    }
+                                                                  }
+                                                                }
+                                                              ]
+                                                            }
+                                                          }
+                                                        ]
+                                                      }
+                                                    },
+                                                    {
+                                                      "form-group": {
+                                                        "class": "formGroup col-xs-8",
+                                                        "array": [
+                                                          {
+                                                            "block": {
+                                                              "array": [
+                                                                {
+                                                                  "ng-field": {
+                                                                    "element": "input",
+                                                                    "withAddon": false,
+                                                                    "addon": "",
+                                                                    "dynamicAttrs": {
+                                                                      "ng-model": "",
+                                                                      "numeric": "",
+                                                                      "ng-class": "form-control"
+                                                                    },
+                                                                    "attrs": {
+                                                                      "placeholder": "",
+                                                                      "ng-pattern": "/^[0-9]*$/",
+                                                                      "name": "phone",
+                                                                      "ng-required": true,
+                                                                      "disabled": true,
+                                                                      "type": "text",
+                                                                      "ng-model-options": "{ 'debounce': { 'default': 0 }}",
+                                                                      "generic-validation": "ngField.ngFieldData"
+                                                                    },
+                                                                    "msgBox": {
+                                                                      "required": "Este campo es requerido",
+                                                                      "pattern": "Bloquear caracteres"
+                                                                    }
+                                                                  }
+                                                                }
+                                                              ]
+                                                            }
+                                                          }
+                                                        ]
+                                                      }
+                                                    }
+                                                  ]
+                                                }
+                                              }
+                                            ]
+                                          }
+                                        },
+                                        {
+                                          "form-group": {
+                                            "class": "formGroup col-sm-6 col-xs-12",
+                                            "array": [
+                                              {
+                                                "content-body": {
+                                                  "text": "Domicilio",
+                                                  "class": "formLabel"
+                                                }
+                                              },
+                                              {
+                                                "block": {
+                                                  "array": [
+                                                    {
+                                                      "ng-field": {
+                                                        "element": "input",
+                                                        "withAddon": false,
+                                                        "addon": "",
+                                                        "dynamicAttrs": {
+                                                          "ng-model": "",
+                                                          "ng-class": "form-control"
+                                                        },
+                                                        "attrs": {
+                                                          "placeholder": "",
+                                                          "ng-pattern": "",
+                                                          "name": "street",
+                                                          "ng-required": false,
+                                                          "ng-minlength": 2,
+                                                          "type": "text",
+                                                          "generic-validation": "ngField.ngFieldData"
+                                                        },
+                                                        "msgBox": {
+                                                          "required": "Este campo es requerido",
+                                                          "minlength": "Mínimo 2 caracteres"
+                                                        }
+                                                      }
+                                                    }
+                                                  ]
+                                                }
+                                              }
+                                            ]
+                                          }
+                                        },
+                                        {
+                                          "form-group": {
+                                            "class": "formGroup col-sm-6 col-xs-12",
+                                            "array": [
+                                              {
+                                                "content-body": {
+                                                  "text": "Código postal",
+                                                  "class": "formLabel"
+                                                }
+                                              },
+                                              {
+                                                "block": {
+                                                  "array": [
+                                                    {
+                                                      "ng-field": {
+                                                        "element": "input",
+                                                        "withAddon": false,
+                                                        "addon": "",
+                                                        "dynamicAttrs": {
+                                                          "ng-model": "",
+                                                          "ng-class": "form-control"
+                                                        },
+                                                        "attrs": {
+                                                          "placeholder": "",
+                                                          "ng-pattern": "",
+                                                          "name": "postCode",
+                                                          "ng-required": false,
+                                                          "type": "text",
+                                                          "ng-minlength": 3,
+                                                          "ng-maxlength": 10,
+                                                          "generic-validation": "ngField.ngFieldData"
+                                                        },
+                                                        "msgBox": {
+                                                          "required": "Este campo es requerido",
+                                                          "minlength": "Mínimo 3 caracteres",
+                                                          "maxlength": "Máximo 10 caracteres"
+                                                        }
+                                                      }
+                                                    }
+                                                  ]
+                                                }
+                                              }
+                                            ]
+                                          }
+                                        },
+                                        {
+                                          "block": {
+                                            "class": "col-xs-12 no-padding",
+                                            "array": [
+                                              {
+                                                "form-group": {
+                                                  "class": "formGroup col-sm-6 col-xs-12",
+                                                  "array": [
+                                                    {
+                                                      "content-body": {
+                                                        "text": "Ciudad",
+                                                        "class": "formLabel"
+                                                      }
+                                                    },
+                                                    {
+                                                      "block": {
+                                                        "array": [
+                                                          {
+                                                            "ng-field": {
+                                                              "element": "input",
+                                                              "withAddon": false,
+                                                              "addon": "",
+                                                              "dynamicAttrs": {
+                                                                "ng-model": "",
+                                                                "ng-class": "form-control"
+                                                              },
+                                                              "attrs": {
+                                                                "placeholder": "",
+                                                                "ng-pattern": "",
+                                                                "name": "City",
+                                                                "ng-required": false,
+                                                                "type": "text",
+                                                                "ng-minlength": 2,
+                                                                "generic-validation": "ngField.ngFieldData"
+                                                              },
+                                                              "msgBox": {
+                                                                "required": "Este campo es requerido",
+                                                                "minlength": "Mínimo 2 caracteres"
+                                                              }
+                                                            }
+                                                          }
+                                                        ]
+                                                      }
+                                                    }
+                                                  ]
+                                                }
+                                              },
+                                              {
+                                                "content-body": {
+                                                  "text": "País",
+                                                  "class": "formLabel col-sm-6 col-xs-12"
+                                                }
+                                              },
+                                              {
+                                                "form-group": {
+                                                  "class": "formGroup col-sm-6 col-xs-12",
+                                                  "array": [
+                                                    {
+                                                      "block": {
+                                                        "array": [
+                                                          {
+                                                            "ng-field": {
+                                                              "element": "input",
+                                                              "withAddon": false,
+                                                              "addon": "",
+                                                              "dynamicAttrs": {
+                                                                "numeric": "",
+                                                                "ng-class": "form-control"
+                                                              },
+                                                              "attrs": {
+                                                                "placeholder": "",
+                                                                "ng-pattern": "",
+                                                                "name": "registeredCountry",
+                                                                "disabled": true,
+                                                                "ng-required": true,
+                                                                "type": "text",
+                                                                "generic-validation": "ngField.ngFieldData",
+                                                                "ng-model": "ngField.registeredCountry"
+                                                              },
+                                                              "msgBox": {}
+                                                            }
+                                                          }
+                                                        ]
+                                                      }
+                                                    }
+                                                  ]
+                                                }
+                                              }
+                                            ]
+                                          }
+                                        },
+                                        {
+                                          "content-body": {
+                                            "text": "Fecha de Nacimiento",
+                                            "class": "formLabel col-xs-12"
+                                          }
+                                        },
+                                        {
+                                          "block": {
+                                            "class": " col-sm-6 col-xs-12 no-padding",
+                                            "array": [
+                                              {
+                                                "form-group": {
+                                                  "class": "formGroup col-xs-4",
+                                                  "array": [
+                                                    {
+                                                      "block": {
+                                                        "array": [
+                                                          {
+                                                            "ng-field": {
+                                                              "element": "select",
+                                                              "dynamicAttrs": {
+                                                                "ng-model": "",
+                                                                "ng-class": "form-control ngSelect"
+                                                              },
+                                                              "attrs": {
+                                                                "placeholder": "Day",
+                                                                "ng-pattern": "",
+                                                                "name": "Day",
+                                                                "disabled": true,
+                                                                "ng-required": false,
+                                                                "generic-validation": "ngField.ngFieldData"
+                                                              },
+                                                              "msgBox": {
+                                                                "required": "Este campo es requerido"
+                                                              },
+                                                              "options": []
+                                                            }
+                                                          }
+                                                        ]
+                                                      }
+                                                    }
+                                                  ]
+                                                }
+                                              },
+                                              {
+                                                "form-group": {
+                                                  "class": "formGroup col-xs-4",
+                                                  "array": [
+                                                    {
+                                                      "block": {
+                                                        "array": [
+                                                          {
+                                                            "ng-field": {
+                                                              "element": "select",
+                                                              "dynamicAttrs": {
+                                                                "ng-model": "",
+                                                                "ng-class": "form-control ngSelect"
+                                                              },
+                                                              "attrs": {
+                                                                "placeholder": "Mes",
+                                                                "ng-pattern": "",
+                                                                "name": "Month",
+                                                                "disabled": true,
+                                                                "ng-required": false,
+                                                                "generic-validation": "ngField.ngFieldData"
+                                                              },
+                                                              "msgBox": {
+                                                                "required": "Este campo es requerido"
+                                                              },
+                                                              "options": [
+                                                                {
+                                                                  "id": "01",
+                                                                  "label": "01 - Enero",
+                                                                  "subItem": {
+                                                                    "name": "01"
+                                                                  }
+                                                                },
+                                                                {
+                                                                  "id": "02",
+                                                                  "label": "02 - Febrero",
+                                                                  "subItem": {
+                                                                    "name": "02"
+                                                                  }
+                                                                },
+                                                                {
+                                                                  "id": "03",
+                                                                  "label": "03 - Marzo",
+                                                                  "subItem": {
+                                                                    "name": "03"
+                                                                  }
+                                                                },
+                                                                {
+                                                                  "id": "04",
+                                                                  "label": "04 - Abril",
+                                                                  "subItem": {
+                                                                    "name": "04"
+                                                                  }
+                                                                },
+                                                                {
+                                                                  "id": "05",
+                                                                  "label": "05 - Mayo",
+                                                                  "subItem": {
+                                                                    "name": "05"
+                                                                  }
+                                                                },
+                                                                {
+                                                                  "id": "06",
+                                                                  "label": "06 - Junio",
+                                                                  "subItem": {
+                                                                    "name": "06"
+                                                                  }
+                                                                },
+                                                                {
+                                                                  "id": "07",
+                                                                  "label": "07 - Julio",
+                                                                  "subItem": {
+                                                                    "name": "07"
+                                                                  }
+                                                                },
+                                                                {
+                                                                  "id": "08",
+                                                                  "label": "08 - Agosto",
+                                                                  "subItem": {
+                                                                    "name": "08"
+                                                                  }
+                                                                },
+                                                                {
+                                                                  "id": "09",
+                                                                  "label": "09 - Septiembre",
+                                                                  "subItem": {
+                                                                    "name": "09"
+                                                                  }
+                                                                },
+                                                                {
+                                                                  "id": "10",
+                                                                  "label": "10 - Octubre",
+                                                                  "subItem": {
+                                                                    "name": "10"
+                                                                  }
+                                                                },
+                                                                {
+                                                                  "id": "11",
+                                                                  "label": "11 - Noviembre",
+                                                                  "subItem": {
+                                                                    "name": "11"
+                                                                  }
+                                                                },
+                                                                {
+                                                                  "id": "12",
+                                                                  "label": "12 - Diciembre",
+                                                                  "subItem": {
+                                                                    "name": "12"
+                                                                  }
+                                                                }
+                                                              ]
+                                                            }
+                                                          }
+                                                        ]
+                                                      }
+                                                    }
+                                                  ]
+                                                }
+                                              },
+                                              {
+                                                "form-group": {
+                                                  "class": "formGroup col-xs-4",
+                                                  "array": [
+                                                    {
+                                                      "block": {
+                                                        "array": [
+                                                          {
+                                                            "ng-field": {
+                                                              "element": "select",
+                                                              "dynamicAttrs": {
+                                                                "ng-model": "",
+                                                                "ng-class": "form-control ngSelect"
+                                                              },
+                                                              "attrs": {
+                                                                "placeholder": "Year",
+                                                                "ng-pattern": "",
+                                                                "name": "Year",
+                                                                "disabled": true,
+                                                                "ng-required": false,
+                                                                "generic-validation": "ngField.ngFieldData"
+                                                              },
+                                                              "msgBox": {
+                                                                "required": "Este campo es requerido"
+                                                              },
+                                                              "options": []
+                                                            }
+                                                          }
+                                                        ]
+                                                      }
+                                                    }
+                                                  ]
+                                                }
+                                              }
+                                            ]
+                                          }
+                                        },
+                                        {
+                                          "headline": {
+                                            "class": "form-sub-headline col-xs-12",
+                                            "title": "Configuración"
+                                          }
+                                        },
+                                        {
+                                          "form-group": {
+                                            "class": "formGroup col-sm-6 col-xs-12",
+                                            "array": [
+                                              {
+                                                "block": {
+                                                  "array": [
+                                                    {
+                                                      "content-body": {
+                                                        "text": "Contraseña",
+                                                        "class": "formLabel"
+                                                      }
+                                                    },
+                                                    {
+                                                      "ng-field": {
+                                                        "element": "input",
+                                                        "dynamicAttrs": {
+                                                          "ng-model": "",
+                                                          "ng-maxlength": 25,
+                                                          "ng-minlength": 6,
+                                                          "ng-class": "form-control",
+                                                          "password": ""
+                                                        },
+                                                        "attrs": {
+                                                          "placeholder": "",
+                                                          "ng-pattern": "",
+                                                          "name": "new_password",
+                                                          "ng-required": false,
+                                                          "type": "password",
+                                                          "generic-validation": "ngField.ngFieldData"
+                                                        },
+                                                        "msgBox": {
+                                                          "required": "Este campo es requerido",
+                                                          "minlength": "La contraseña debe incluir por lo menos 6 letras.",
+                                                          "maxlength": "La contraseña debe incluir un máximo de 25 letras."
+                                                        }
+                                                      }
+                                                    }
+                                                  ]
+                                                }
+                                              }
+                                            ]
+                                          }
+                                        },
+                                        {
+                                          "form-group": {
+                                            "class": "formGroup col-sm-6 col-xs-12",
+                                            "array": [
+                                              {
+                                                "block": {
+                                                  "array": [
+                                                    {
+                                                      "content-body": {
+                                                        "class": "formLabel",
+                                                        "text": "Confirmar Contraseña"
+                                                      }
+                                                    },
+                                                    {
+                                                      "ng-field": {
+                                                        "element": "input",
+                                                        "dynamicAttrs": {
+                                                          "ng-model": "",
+                                                          "ng-class": "form-control",
+                                                          "confirm-password": ""
+                                                        },
+                                                        "attrs": {
+                                                          "placeholder": "",
+                                                          "ng-pattern": "",
+                                                          "name": "confirmNewPassword",
+                                                          "ng-required": false,
+                                                          "type": "password",
+                                                          "generic-validation": "ngField.ngFieldData"
+                                                        },
+                                                        "msgBox": {
+                                                          "confirmPassword": "Por favor, asegúrese de volver a ingresar los caracteres de la contraseña, para que coincida con la ‘Contraseña’ del campo de arriba.",
+                                                          "required": "Este campo es requerido"
+                                                        }
+                                                      }
+                                                    }
+                                                  ]
+                                                }
+                                              }
+                                            ]
+                                          }
+                                        },
+                                        {
+                                          "ng-form-submit": {
+                                            "class": "col-xs-12",
+                                            "content": "GUARDAR CAMBIOS"
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  }
+                                ]
+                              }
+                            },
+                            {
+                              "block": {
+                                "class": "widgets-block col-sm-3 col-xs-6 no-padding",
+                                "array": [
+                                  {
+                                    "account-balance": {
+                                      "class": "table",
+                                      "array": [
+                                        {
+                                          "headline": {
+                                            "title": "SALDO DE LA CUENTA",
+                                            "class": "hl4"
+                                          },
+                                          "precedence": 0
+                                        },
+                                        {
+                                          "headline-fitText": {
+                                            "title": "",
+                                            "class": "hl1",
+                                            "id": "userBalance"
+                                          },
+                                          "precedence": 1
+                                        },
+                                        {
+                                          "btn": {
+                                            "class": "",
+                                            "title": "DEPOSITAR",
+                                            "destination": "deposit"
+                                          },
+                                          "precedence": 2
+                                        },
+                                        {
+                                          "content-body": {
+                                            "text": "<a ui-sref=\"withdrawal\">Hacer una extracción</a>"
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  },
+                                  {
+                                    "account-overview": {
+                                      "type": "highest-volume",
+                                      "array": [
+                                        {
+                                          "headline": {
+                                            "title": "PERSPECTIVA GENERAL DE CUENTA",
+                                            "class": "hl4"
+                                          }
+                                        },
+                                        {
+                                          "ng-table": {
+                                            "class": "text-left",
+                                            "array": [
+                                              {
+                                                "table-row": {
+                                                  "class": "",
+                                                  "array": [
+                                                    {
+                                                      "table-cell": {
+                                                        "class": "cell col-lg-6",
+                                                        "content": "Nº de cuenta"
+                                                      },
+                                                      "precedence": 0
+                                                    },
+                                                    {
+                                                      "table-cell": {
+                                                        "id": "account_number",
+                                                        "class": "cell col-lg-6 bold text-right",
+                                                        "content": ""
+                                                      },
+                                                      "precedence": 1
+                                                    }
+                                                  ]
+                                                },
+                                                "precedence": 1
+                                              },
+                                              {
+                                                "table-row": {
+                                                  "class": "",
+                                                  "array": [
+                                                    {
+                                                      "table-cell": {
+                                                        "class": "cell col-lg-6",
+                                                        "content": "Fecha de Creación"
+                                                      },
+                                                      "precedence": 0
+                                                    },
+                                                    {
+                                                      "table-cell": {
+                                                        "id": "date",
+                                                        "class": "cell col-lg-6 bold text-right",
+                                                        "content": ""
+                                                      },
+                                                      "precedence": 1
+                                                    }
+                                                  ]
+                                                },
+                                                "precedence": 2
+                                              }
+                                            ]
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  }
+                                ]
+                              }
+                            },
+                            {
+                              "content-body": {
+                                "text": "Si usted desea cambiar un campo bloqueado de\"Datos Personales\", por favor, póngase en contacto con nuestro equipo de atención al cliente.",
+                                "class": "contact"
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "tab-btn": {
+                    "class": "tabBtn",
+                    "title": "Perspectiva General de Cuenta",
+                    "array": [
+                      {
+                        "tab-container": {
+                          "class": "account-setting-tab",
+                          "array": [
+                            {
+                              "content": {
+                                "class": "text-center",
+                                "array": [
+                                  {
+                                    "account-balance": {
+                                      "class": "high table no-padding",
+                                      "array": [
+                                        {
+                                          "headline": {
+                                            "title": "SALDO DE LA CUENTA",
+                                            "class": "hl4"
+                                          },
+                                          "precedence": 0
+                                        },
+                                        {
+                                          "headline-fitText": {
+                                            "title": "",
+                                            "class": "hl1",
+                                            "id": "userBalance"
+                                          },
+                                          "precedence": 1
+                                        },
+                                        {
+                                          "btn": {
+                                            "class": "",
+                                            "title": "DEPOSITAR",
+                                            "destination": "deposit"
+                                          },
+                                          "precedence": 2
+                                        },
+                                        {
+                                          "content-body": {
+                                            "text": "<a ui-sref=\"withdrawal\">Hacer una extracción</a>"
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  },
+                                  {
+                                    "account-balance": {
+                                      "type": "positions",
+                                      "class": "high table no-padding positions",
+                                      "array": [
+                                        {
+                                          "headline": {
+                                            "title": "POSICIONES ABIERTAS",
+                                            "class": "hl4 "
+                                          },
+                                          "precedence": 0
+                                        },
+                                        {
+                                          "headline-fitText": {
+                                            "title": "$0,00",
+                                            "class": "hl1 pendingPositions no-padding",
+                                            "id": "userPositions"
+                                          },
+                                          "precedence": 1
+                                        },
+                                        {
+                                          "headline": {
+                                            "title": "GANANCIA POTENCIAL",
+                                            "class": "hl4"
+                                          },
+                                          "precedence": 2
+                                        },
+                                        {
+                                          "headline-fitText": {
+                                            "title": "$0,00",
+                                            "class": "hl1",
+                                            "id": "userPotentialPayout"
+                                          },
+                                          "precedence": 3
+                                        }
+                                      ]
+                                    }
+                                  },
+                                  {
+                                    "vip-trade": {
+                                      "class": "low table accountBalance"
+                                    }
+                                  },
+                                  {
+                                    "account-balance": {
+                                      "type": "averagePositions",
+                                      "class": "low no-padding",
+                                      "array": [
+                                        {
+                                          "headline": {
+                                            "title": "POSICIONES PROMEDIO",
+                                            "class": "hl4"
+                                          },
+                                          "precedence": 0
+                                        },
+                                        {
+                                          "headline-fitText": {
+                                            "title": "$0,00",
+                                            "class": "hl1 no-padding",
+                                            "id": "averagePositions"
+                                          },
+                                          "precedence": 1
+                                        },
+                                        {
+                                          "content-body": {
+                                            "text": "",
+                                            "id": "bonusPositions",
+                                            "class": "no-padding"
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  },
+                                  {
+                                    "wins-widget": {
+                                      "class": "",
+                                      "array": [
+                                        {
+                                          "block": {
+                                            "class": "",
+                                            "array": [
+                                              {
+                                                "headline": {
+                                                  "class": "hl4 commodities",
+                                                  "title": "materias primas"
+                                                }
+                                              },
+                                              {
+                                                "content-body": {
+                                                  "text": "3 gana",
+                                                  "class": "orange",
+                                                  "id": "commodities"
+                                                }
+                                              }
+                                            ]
+                                          }
+                                        },
+                                        {
+                                          "block": {
+                                            "class": "",
+                                            "array": [
+                                              {
+                                                "headline": {
+                                                  "class": "hl4 currencies",
+                                                  "title": "divisas"
+                                                }
+                                              },
+                                              {
+                                                "content-body": {
+                                                  "text": "1 gana",
+                                                  "id": "currencies",
+                                                  "class": "turquoise"
+                                                }
+                                              }
+                                            ]
+                                          }
+                                        },
+                                        {
+                                          "block": {
+                                            "class": "",
+                                            "array": [
+                                              {
+                                                "headline": {
+                                                  "class": "hl4 indices",
+                                                  "title": "índices"
+                                                }
+                                              },
+                                              {
+                                                "content-body": {
+                                                  "text": "0 gana",
+                                                  "class": "yellow",
+                                                  "id": "indices"
+                                                }
+                                              }
+                                            ]
+                                          }
+                                        },
+                                        {
+                                          "block": {
+                                            "class": "",
+                                            "array": [
+                                              {
+                                                "headline": {
+                                                  "class": "hl4 pairs",
+                                                  "title": "pares"
+                                                }
+                                              },
+                                              {
+                                                "content-body": {
+                                                  "text": "0 gana",
+                                                  "class": "blue",
+                                                  "id": "pairs"
+                                                }
+                                              }
+                                            ]
+                                          }
+                                        },
+                                        {
+                                          "block": {
+                                            "class": "",
+                                            "array": [
+                                              {
+                                                "headline": {
+                                                  "class": "hl4 stocks",
+                                                  "title": "acciones"
+                                                }
+                                              },
+                                              {
+                                                "content-body": {
+                                                  "text": "0 gana",
+                                                  "class": "pink",
+                                                  "id": "stocks"
+                                                }
+                                              }
+                                            ]
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "tab-btn": {
+                    "class": "tabBtn",
+                    "title": "Regulation / Documents Upload",
+                    "array": [
+                      {
+                        "tab-container": {
+                          "array": [
+                            {
+                              "doc-upload-form": {
+                                "class": "",
+                                "array": [
+                                  {
+                                    "new-form": {
+                                      "id": "docUploadForm",
+                                      "array": [
+                                        {
+                                          "block": {
+                                            "class": "docCard",
+                                            "array": [
+                                              {
+                                                "headline": {
+                                                  "title": "Prueba de Autenticación",
+                                                  "class": "hl4"
+                                                }
+                                              },
+                                              {
+                                                "content-body": {
+                                                  "text": "Pasaporte o Documento Nacional de Identidad Válido"
+                                                }
+                                              }
+                                            ]
+                                          }
+                                        },
+                                        {
+                                          "block": {
+                                            "class": "docCard",
+                                            "array": [
+                                              {
+                                                "block": {
+                                                  "class": "col-xs-12",
+                                                  "array": [
+                                                    {
+                                                      "content-body": {
+                                                        "text": "Lado delantero",
+                                                        "class": "no-padding docUploadLabel"
+                                                      }
+                                                    },
+                                                    {
+                                                      "form-group": {
+                                                        "class": "formGroup",
+                                                        "array": [
+                                                          {
+                                                            "block": {
+                                                              "array": [
+                                                                {
+                                                                  "ng-file-upload": {
+                                                                    "ng-model": "",
+                                                                    "class": ""
+                                                                  }
+                                                                },
+                                                                {
+                                                                  "ng-field": {
+                                                                    "element": "div",
+                                                                    "dynamicAttrs": {
+                                                                      "ng-model": "",
+                                                                      "ng-class": "fileUpload",
+                                                                      "require-field": "idBack",
+                                                                      "class": "hidden"
+                                                                    },
+                                                                    "attrs": {
+                                                                      "ng-required": false,
+                                                                      "name": "idFront",
+                                                                      "generic-validation": "ngField.ngFieldData"
+                                                                    },
+                                                                    "msgBox": {
+                                                                      "required": "Este campo es requerido"
+                                                                    }
+                                                                  }
+                                                                }
+                                                              ]
+                                                            }
+                                                          }
+                                                        ]
+                                                      }
+                                                    }
+                                                  ]
+                                                }
+                                              },
+                                              {
+                                                "block": {
+                                                  "class": "col-xs-12",
+                                                  "array": [
+                                                    {
+                                                      "content-body": {
+                                                        "text": "Parte del reverso",
+                                                        "class": "no-padding docUploadLabel"
+                                                      }
+                                                    },
+                                                    {
+                                                      "form-group": {
+                                                        "class": "formGroup",
+                                                        "array": [
+                                                          {
+                                                            "block": {
+                                                              "array": [
+                                                                {
+                                                                  "ng-file-upload": {
+                                                                    "ng-model": "",
+                                                                    "class": ""
+                                                                  }
+                                                                },
+                                                                {
+                                                                  "ng-field": {
+                                                                    "element": "div",
+                                                                    "dynamicAttrs": {
+                                                                      "ng-model": "",
+                                                                      "ng-class": "fileUpload",
+                                                                      "require-field": "idFront",
+                                                                      "class": "hidden"
+
+                                                                    },
+                                                                    "attrs": {
+                                                                      "ng-required": false,
+                                                                      "name": "idBack",
+                                                                      "generic-validation": "ngField.ngFieldData"
+                                                                    },
+                                                                    "msgBox": {
+                                                                      "required": "Este campo es requerido"
+                                                                    }
+                                                                  }
+                                                                }
+                                                              ]
+                                                            }
+                                                          }
+                                                        ]
+                                                      }
+                                                    }
+                                                  ]
+                                                }
+                                              }
+                                            ]
+                                          }
+                                        },
+                                        {
+                                          "block": {
+                                            "class": "docCard",
+                                            "array": [
+                                              {
+                                                "headline": {
+                                                  "title": "Prueba de Residencia",
+                                                  "class": "hl4"
+                                                }
+                                              },
+                                              {
+                                                "content-body": {
+                                                  "text": "Pasaporte o Documento Nacional de Identidad Válido"
+                                                }
+                                              }
+                                            ]
+                                          }
+                                        },
+                                        {
+                                          "block": {
+                                            "class": "docCard",
+                                            "array": [
+                                              {
+                                                "block": {
+                                                  "class": "col-xs-12",
+                                                  "array": [
+                                                    {
+                                                      "content-body": {
+                                                        "text": "",
+                                                        "class": "docUploadLabel no-padding"
+                                                      }
+                                                    },
+                                                    {
+                                                      "form-group": {
+                                                        "class": "formGroup",
+                                                        "array": [
+                                                          {
+                                                            "content-body": {
+                                                              "text": "Lado delantero",
+                                                              "class": "no-padding docUploadLabel"
+                                                            }
+                                                          },
+                                                          {
+                                                            "block": {
+                                                              "array": [
+                                                                {
+                                                                  "ng-file-upload": {
+                                                                    "ng-model": "",
+                                                                    "class": ""
+                                                                  }
+                                                                },
+                                                                {
+                                                                  "ng-field": {
+                                                                    "element": "div",
+                                                                    "dynamicAttrs": {
+                                                                      "ng-model": "",
+                                                                      "ng-class": "fileUpload",
+                                                                      "class": "hidden"
+                                                                    },
+                                                                    "attrs": {
+                                                                      "ng-required": false,
+                                                                      "name": "residenceFront",
+                                                                      "generic-validation": "ngField.ngFieldData"
+                                                                    },
+                                                                    "msgBox": {
+                                                                      "required": "Este campo es requerido"
+                                                                    }
+                                                                  }
+                                                                }
+                                                              ]
+                                                            }
+                                                          }
+                                                        ]
+                                                      }
+                                                    }
+                                                  ]
+                                                }
+                                              }
+                                            ]
+                                          }
+                                        },
+                                        {
+                                          "block": {
+                                            "class": "docCard",
+                                            "array": [
+                                              {
+                                                "headline": {
+                                                  "title": "Tarjeta de Crédito/Débito",
+                                                  "class": "hl4"
+                                                }
+                                              },
+                                              {
+                                                "content-body": {
+                                                  "text": "En caso de que intente depositar en su cuenta o si ya ha depositado a través de su Tarjeta de Crédito/Débito, por favor, suba una copia clara, en color de ambos lados de su Tarjeta de Crédito/Débito. Por favor, asegúrese de que los 8 dígitos medios del número de tarjeta, de ambos lados de la copia de la tarjeta y el número CVV en el reverso, estén cubiertos por razones de seguridad."
+                                                }
+                                              }
+                                            ]
+                                          }
+                                        },
+                                        {
+                                          "block": {
+                                            "class": "docCard",
+                                            "array": [
+                                              {
+                                                "block": {
+                                                  "class": "col-xs-12 cvvBlock",
+                                                  "array": [
+                                                    {
+                                                      "content-body": {
+                                                        "text": "4 últimos números de la tarjeta de crédito",
+                                                        "class": "no-padding text-center docUploadLabel"
+                                                      }
+                                                    },
+                                                    {
+                                                      "form-group": {
+                                                        "class": "formGroup",
+                                                        "array": [
+                                                          {
+                                                            "block": {
+                                                              "array": [
+                                                                {
+                                                                  "ng-field": {
+                                                                    "element": "input",
+                                                                    "withAddon": false,
+                                                                    "addon": "",
+                                                                    "dynamicAttrs": {
+                                                                      "class": "btn btn-transparent cvvField",
+                                                                      "ng-model": "",
+                                                                      "ng-class": "cvvInput",
+                                                                      "numeric": "",
+                                                                      "ng-maxlength": 4,
+                                                                      "ng-minlength": 4,
+                                                                      "require-field": [
+                                                                        "ccBack",
+                                                                        "ccFront"
+                                                                      ]
+                                                                    },
+                                                                    "attrs": {
+                                                                      "placeholder": "",
+                                                                      "ng-pattern": "/^[0-9]*$/",
+                                                                      "name": "cc_number",
+                                                                      "ng-model-options": "{ 'debounce': { 'default': 0 }}",
+                                                                      "ng-required": false,
+                                                                      "type": "text",
+                                                                      "generic-validation": "ngField.ngFieldData"
+                                                                    },
+                                                                    "msgBox": {
+                                                                      "pattern": "Bloquear caracteres",
+                                                                      "minlength": "Por favor, ingrese los últimos cuatro dígitos del número de la tarjeta de crédito.",
+                                                                      "maxlength": "Por favor, ingrese los últimos cuatro dígitos del número de la tarjeta de crédito.",
+                                                                      "required": "Este campo es requerido"
+                                                                    }
+                                                                  }
+                                                                }
+                                                              ]
+                                                            }
+                                                          }
+                                                        ]
+                                                      }
+                                                    }
+                                                  ]
+                                                }
+                                              },
+                                              {
+                                                "block": {
+                                                  "class": "col-xs-12",
+                                                  "array": [
+                                                    {
+                                                      "content-body": {
+                                                        "text": "Lado delantero",
+                                                        "class": "docUploadLabel no-padding"
+                                                      }
+                                                    },
+                                                    {
+                                                      "form-group": {
+                                                        "class": "formGroup",
+                                                        "array": [
+                                                          {
+                                                            "block": {
+                                                              "array": [
+                                                                {
+                                                                  "ng-file-upload": {
+                                                                    "ng-model": "",
+                                                                    "class": ""
+                                                                  }
+                                                                },
+                                                                {
+                                                                  "ng-field": {
+                                                                    "element": "div",
+                                                                    "dynamicAttrs": {
+                                                                      "ng-model": "",
+                                                                      "ng-class": "fileUpload",
+                                                                      "class": "hidden",
+                                                                      "require-field": [
+                                                                        "cc_number",
+                                                                        "ccBack"
+                                                                      ]
+                                                                    },
+                                                                    "attrs": {
+                                                                      "ng-required": false,
+                                                                      "name": "ccFront",
+                                                                      "generic-validation": "ngField.ngFieldData"
+                                                                    },
+                                                                    "msgBox": {
+                                                                      "required": "Este campo es requerido"
+                                                                    }
+                                                                  }
+                                                                }
+                                                              ]
+                                                            }
+                                                          }
+                                                        ]
+                                                      }
+                                                    }
+                                                  ]
+                                                }
+                                              },
+                                              {
+                                                "block": {
+                                                  "class": "col-xs-12",
+                                                  "array": [
+                                                    {
+                                                      "content-body": {
+                                                        "text": "Back side",
+                                                        "class": "docUploadLabel no-padding"
+                                                      }
+                                                    },
+                                                    {
+                                                      "form-group": {
+                                                        "class": "formGroup",
+                                                        "array": [
+                                                          {
+                                                            "block": {
+                                                              "array": [
+                                                                {
+                                                                  "ng-file-upload": {
+                                                                    "ng-model": "",
+                                                                    "class": ""
+                                                                  }
+                                                                },
+                                                                {
+                                                                  "ng-field": {
+                                                                    "element": "div",
+                                                                    "dynamicAttrs": {
+                                                                      "ng-model": "",
+                                                                      "ng-class": "fileUpload",
+                                                                      "class": "hidden",
+                                                                      "require-field": [
+                                                                        "cc_number",
+                                                                        "ccFront"
+                                                                      ]
+                                                                    },
+                                                                    "attrs": {
+                                                                      "ng-required": false,
+                                                                      "name": "ccBack",
+                                                                      "generic-validation": "ngField.ngFieldData"
+                                                                    },
+                                                                    "msgBox": {
+                                                                      "required": "Este campo es requerido"
+                                                                    }
+                                                                  }
+                                                                }
+                                                              ]
+                                                            }
+                                                          }
+                                                        ]
+                                                      }
+                                                    }
+                                                  ]
+                                                }
+                                              }
+                                            ]
+                                          }
+                                        },
+                                        {
+                                          "ng-form-submit": {
+                                            "class": "",
+                                            "content": "enviar"
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "block": {
+              "class": "arrow",
+              "background": "assets/images/sections/arrow.png"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "sectionName": "bottom-section",
+        "sectionType": "open-account-section",
+        "class": "bottom-section",
+        "background": "",
+        "containerClass": "",
+        "array": [
+          {
+            "content": {
+              "class": "",
+              "array": [
+                {
+                  "ng-image": {
+                    "image-name": "asset-test",
+                    "src": "assets/icons/Logo.png",
+                    "alt": "algún activo,
+                    "type": "img",
+                    "class": "center-img",
+                    "responsive": true
+                  }
+                },
+                {
+                  "block": {
+                    "class": "text-center",
+                    "array": [
+                      {
+                        "content-body": {
+                          "class": "",
+                          "text": "¿LISTO PARA COMENZAR?"
+                        },
+                        "precedence": 0
+                      },
+                      {
+                        "headline": {
+                          "title": "Poderoso. Dinámico. Sin límites.",
+                          "class": "hl5"
+                        },
+                        "precedence": 1
+                      },
+                      {
+                        "block": {
+                          "class": "padded-block",
+                          "array": [
+                            {
+                              "logged-in": {
+                                "array": [
+                                  {
+                                    "btn": {
+                                      "class": "btn btn-transparent centered-btn",
+                                      "title": "operación",
+                                      "destination": "trade"
+                                    },
+                                    "precedence": 4
+                                  },
+                                  {
+                                    "btn": {
+                                      "class": "centered-btn",
+                                      "title": "cómo funciona",
+                                      "destination": "education"
+                                    },
+                                    "precedence": 5
+                                  }
+                                ]
+                              }
+                            },
+                            {
+                              "anonymous": {
+                                "array": [
+                                  {
+                                    "btn": {
+                                      "class": "btn btn-transparent centered-btn",
+                                      "title": "abrir una cuenta",
+                                      "destination": "create_account"
+                                    },
+                                    "precedence": 4
+                                  },
+                                  {
+                                    "btn": {
+                                      "class": "centered-btn",
+                                      "title": "cómo funciona",
+                                      "destination": "education"
+                                    },
+                                    "precedence": 5
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        },
+                        "precedence": 3
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

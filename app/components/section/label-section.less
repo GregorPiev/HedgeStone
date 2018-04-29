@@ -1,0 +1,1155 @@
+@import (reference) "../../../assets/less/resources";
+
+@fullsize-section-height: 864px;
+@home-top-section-height: 756px;
+@home-tablet-sm-height: 595px;
+@midsize-section-height: 715px;
+@mobile-section-height: initial;
+@two-blocks-height: 500px;
+@single-card-section-height: 467px;
+@headline-btn-height: 268px;
+
+.mobile-section-height {
+  @media only screen and (max-width: @mobile-screen) {
+    height: 610px;
+  }
+}
+
+.section {
+  .vertical-center-content {
+    .table; 
+    .sectionContainer {
+      .table;
+      height: 100%;
+      .browser('MSIE', { height: inherit; });
+    }
+
+    .content {
+      .vertical-center;
+    }
+  }
+
+  &.content-text {
+    .vertical-center-content;
+
+    .contentBody {
+      max-width: 430px;
+      @media only screen and (max-width: @sm-tablet-screen) {
+        max-width: 100%;
+      }
+    }
+
+  }
+
+  &.bottom-section {
+    background-color: @bottom-section-color;
+    padding: 50px 15px 100px;
+    height: auto;
+    .btn {
+      &.btn-transparent {
+        margin-right: 15px;
+      }
+    }
+  }
+
+  &.content-asset {
+    @media only screen and (min-width: @sm-tablet-screen) {
+      .vertical-center-content;
+
+      .content {
+        .vertical-center;
+        padding-left: 25px;
+        .contentBody {
+          max-width: 430px;
+        }
+      }
+
+      .asset {
+        .vertical-center;
+        width: 55%;
+      }
+
+      .ngImage {
+        width: 100%;
+      }
+
+      .right-content {
+        padding-right: 50%;
+      }
+    }
+
+  }
+
+  &.content-asset, &.content-text {
+    height: @fullsize-section-height;
+    @media only screen and (max-width: @mobile-screen) {
+    }
+  }
+
+  &.home-top-section {
+    .vertical-center-content;
+    background-color: black;
+    height: @home-top-section-height;
+    .content {
+      text-align: left !important;
+      .no-padding;
+    }
+    .home-logo {
+      display: none;
+    }
+
+    .headline {
+      &.hl1 {
+        font-weight: 700;
+      }
+    }
+    @media only screen and (min-width: @mobile-screen) {
+      .btn {
+        float: left;
+        margin-right: 20px;
+      }
+    }
+
+    @media only screen and (max-width: @sm-tablet-screen) {
+      height: @home-tablet-sm-height;
+      .contentBody {
+        padding: 20px 0;
+      }
+
+      .home-logo {
+        display: initial;
+        img {
+          margin-bottom: 70px;
+        }
+      }
+    }
+
+    @media only screen and (max-width: @mobile-screen) {
+      height: initial;
+      padding-bottom: 20px;
+      padding-top: 145px;
+      background-size: 150% !important;
+      background-position: top !important;
+      .home-logo {
+        display: initial;
+        img {
+          max-width: 202px;
+        }
+      }
+    }
+
+    @media only screen and (min-width: 1200px) {
+      margin-top: 50px;
+
+    }
+  }
+
+  &.top-section {
+    .centered-content;
+    .top-bg;
+    padding: 115px 0;
+    .contentBody {
+      .horizontal-center;
+      max-width: 1010px;
+    }
+    @media only screen and (min-width: 1200px) {
+      .card {
+        padding-top: 50px;
+      }
+    }
+
+    @media only screen and (max-width: @mobile-screen) {
+      padding: 50px 0;
+    }
+  }
+
+  &.trade-top-section {
+    background: -moz-linear-gradient(top, rgba(255, 255, 255, 0.13) 0%, rgba(255, 255, 255, 0) 26%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.13) 0%, rgba(255, 255, 255, 0) 26%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.13) 0%, rgba(255, 255, 255, 0) 26%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#00ffffff', GradientType=0); /* IE6-9 */
+
+    background-color: @dark-bg-color;
+    padding-top: 85px;
+    .content {
+      display: table;
+      margin: auto;
+    }
+    .block {
+      &.platform-block {
+        width: 775px;
+        display: table-cell;
+        float: left;
+
+        @media only screen and (max-width: @lg-tablet-screen) {
+          .horizontal-center;
+          display: block;
+        }
+      }
+
+      &.widgets-block {
+        width: 282px;
+        display: table-cell;
+        margin-left: 20px;
+        float: left;
+
+        @media only screen and (max-width: @lg-tablet-screen) {
+          width: 100%;
+          margin-left: 0;
+          .accountBalance {
+            width: 35%;
+            margin-top: 0;
+            .no-padding;
+          }
+
+          .widgetsBottomBlock {
+            width: 100%;
+            margin-top: 20px;
+            height: 116px;
+            float: left;
+            .clock, .btn.btn-transparent.share-screen, .depositBtn {
+              float: left;
+              margin-left: 19px;
+              width: 30%;
+              margin-top: 0;
+            }
+
+            .clock, .accountBalance {
+              height: 100%;
+            }
+
+            .depositBtn {
+              margin-top: 15px;
+            }
+          }
+        }
+      }
+    }
+
+    @media only screen and (max-width: @lg-tablet-screen) {
+      .howToTrade {
+        padding-top: 0;
+        .headline.hl4 {
+          float: left;
+          margin-top: 40px;
+          margin-left: 35px;
+        }
+
+        .tabs-wrapper {
+          float: right;
+          width: 50%;
+
+          .tabBtn {
+            border: 0;
+            &.active {
+              color: @btn-color;
+            }
+          }
+        }
+
+        .listItem {
+          width: 43%;
+          margin: 0 0 2em 2em;
+        }
+
+        .contentBody {
+          float: left;
+          font-size: 14px;
+          margin-top: 15px;
+        }
+      }
+    }
+  }
+
+  &.materialCards {
+    height: 100%;
+    padding-bottom: 100px;
+    &.top-section {
+      height: 350px;
+      padding-bottom: 0;
+      @media only screen and (min-width: 768px) {
+        padding-top: 117px;
+      }
+    }
+    img {
+      padding: 0 !important;
+    }
+
+    .wrapper {
+      display: table;
+      margin: auto;
+      .card {
+        display: inline-block;
+        max-width: 386px;
+        margin: 15px;
+        background-color: @light-bg-color;
+        padding-bottom: 15px !important;
+        .btn {
+          width: 100%;
+        }
+        .content-block {
+          padding-top: 35px;
+          min-height: 200px;
+        }
+        .headline {
+          margin: 10px 0;
+        }
+      }
+
+      .contentBody {
+        padding: 0 0 30px 0;
+      }
+
+      @media only screen and (max-width: @lg-tablet-screen) and (min-width: 600px) {
+        display: inline-flex;
+      }
+    }
+
+    &#promotion {
+      padding-top: 95px;
+      .share {
+        float: left;
+        width: 100%;
+        .icons {
+          text-align: center;
+          margin: 30px 0 0 0;
+        }
+      }
+      .wrapper {
+        width: 1240px;
+        .card {
+          height: 815px;
+          max-width: 590px;
+
+          .content-block {
+            padding: 35px 30px;
+            min-height: 200px;
+
+            .contentBody {
+              padding: 30px 0;
+              &.terms {
+                font-size: @small-font;
+                float: left;
+                padding: 0 20px;
+                margin-top: 23px;
+              }
+            }
+          }
+        }
+
+        @media only screen and (max-width: 1240px) {
+          width: 100%;
+          display: table;
+          .card {
+            width: 48%;
+            margin: 15px 8px;
+          }
+        }
+
+        @media only screen and (max-width: @sm-tablet-screen) {
+          .card {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+
+  &.cards-section {
+    &.one-card {
+      .card {
+        .no-margin;
+        .no-padding;
+        display: inline-block;
+      }
+      .headline {
+        .title {
+          padding-top: 15px;
+        }
+      }
+      .contentBody {
+        max-width: 1010px;
+      }
+    }
+
+    &.low {
+      height: inherit;
+      padding-top: 50px;
+    }
+
+    &.high {
+      height: 510px;
+      @media screen and (max-width: @sm-tablet-screen) {
+        height: 550px;
+      }
+      .mobile-section-height;
+      padding: 0;
+    }
+
+    .centered-content;
+
+    .three-in-a-row {
+      text-align: left;
+      .contentBody {
+        padding-left: 0 !important;
+      }
+    }
+  }
+
+  &#mobile-trading {
+    padding-bottom: 0;
+
+    @media only screen and (max-width: 1200px) {
+      background-position: 65% !important;
+
+    }
+    @media only screen and (max-width: @sm-tablet-screen) {
+      background-image: url('/assets/images/sections/Phone-768.png') !important;
+      background-size: contain !important;
+      background-position: 50% 100% !important;
+      height: 1080px;
+      padding-top: 80px;
+    }
+    @media only screen and (max-width: @mobile-screen) {
+      height: 730px;
+    }
+  }
+
+  &#powerful-dynamic {
+    padding-top: 150px;
+    .block {
+      &.padded-cards {
+        padding-top: 65px;
+      }
+    }
+  }
+  &#accelerate-learning, &#identify-oppor, &#top-trades {
+    .mobile-section-height;
+    @media only screen and (max-width: @sm-tablet-screen) {
+      padding-top: 80px;
+    }
+
+  }
+
+  &#accelerate-learning {
+    background-position: -400px !important;
+  }
+
+  &#top-trades {
+    background: url("/assets/images/sections/2.png"), -moz-linear-gradient(top, #0a0f15 0%, #151f2a 100%);
+    background: url("/assets/images/sections/2.png"), -webkit-gradient(left top, left bottom, color-stop(3%, #0a0f15), color-stop(100%, #151f2a));
+    background: url("/assets/images/sections/2.png"), -webkit-linear-gradient(top, #0a0f15 0%, #151f2a 100%);
+    background: url("/assets/images/sections/2.png"), -o-linear-gradient(top, #0a0f15 0%, #151f2a 100%);
+    background: url("/assets/images/sections/2.png"), -ms-linear-gradient(top, #0a0f15 0%, #151f2a 100%);
+    background: url("/assets/images/sections/2.png"), linear-gradient(to bottom, #0a0f15 0%, #151f2a 100%);
+    background-repeat: no-repeat;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/assets/images/sections/2.png') progid:DXImageTransform.Microsoft.gradient(startColorstr='#0a0f15', endColorstr='#151f2a', GradientType=0);
+  }
+
+  &#identify-oppor {
+    @media only screen and (max-width: @sm-tablet-screen) {
+      background-image: url('/assets/images/sections/grid-bg-768.png') !important;
+    }
+
+    @media only screen and (max-width: @mobile-screen) {
+      background-image: url('/assets/images/sections/grid-bg-326.png') !important;
+      background-size: initial !important;
+      background-position: 50% -50% !important;
+    }
+  }
+
+  &.ticker {
+    height: 100%;
+  }
+
+  &.ticker-text {
+    .contentBody {
+      .no-padding;
+      margin: 50px 0 10px 0;
+      text-align: center;
+      font-size: @small-font;
+    }
+  }
+
+  &.two-blocks {
+    .headline {
+      &.hl3 {
+        padding-bottom: 30px;
+      }
+    }
+    .ngTable {
+      margin: 0 auto;
+      @media only screen and (min-width: @lg-tablet-screen) {
+        width: 70%;
+      }
+
+      @media only screen and (max-width: @lg-tablet-screen) {
+        width: 85%;
+      }
+      tr:first-child {
+        td.table-cell {
+          padding-top: 0 !important;
+        }
+      }
+    }
+
+    .unorderedList {
+      .listItemContent {
+        font-size: 20px;
+      }
+    }
+    .block {
+      &.wrapper-block {
+        display: table;
+        width: 50%;
+        @media only screen and (max-width: 1000px) {
+          width: 100%;
+        }
+        .side-block {
+          width: 100%;
+          padding-top: 20px;
+          float: none;
+          padding-bottom: 40px;
+          @media only screen and (max-width: @sm-tablet-screen) {
+            width: 100%;
+            padding-top: 40px;
+          }
+        }
+      }
+    }
+    height: @two-blocks-height;
+    @media only screen and (max-width: @lg-tablet-screen) {
+      height: initial;
+    }
+
+    .block {
+      &.right-block, &.left-block {
+        height: @two-blocks-height;
+
+        @media only screen and (max-width: @lg-tablet-screen) {
+          height: @two-blocks-height + 100px;
+        }
+
+        @media only screen and (max-width: @sm-tablet-screen) {
+          height: initial;
+        }
+      }
+    }
+  }
+
+  &.headline-btn {
+    .centered-content;
+    height: @headline-btn-height;
+  }
+
+  &.with-arrow {
+    padding-bottom: 50px !important;
+  }
+
+  &.deposit-top-section {
+    height: 100%;
+    padding: 70px 0 0 0;
+    background-color: @light-bg-color;
+    .contentBody {
+      font-size: @headline-hl3;
+    }
+  }
+
+  &.deposit-form {
+    .styled-tabs;
+    height: 100%;
+    .tabs {
+      .subTab {
+        width: 33.3333%;
+      }
+    }
+    .tabBtn {
+      .ngImage {
+        width: 40%;
+        text-align: right;
+        padding-right: 25px;
+      }
+
+      @media only screen and (max-width: 840px) {
+        height: 128px;
+        .ngImage {
+          width: 100%;
+          padding: 0;
+          text-align: center;
+        }
+      }
+    }
+    .sectionContainer {
+      width: 100%;
+    }
+
+    .tabContainer {
+      .d-form {
+        width: 50%;
+        float: left;
+        .contentBody {
+          &.bottom-content {
+            float: left;
+            padding-left: 15px;
+            font-size: 14px;
+            text-align: left;
+          }
+        }
+
+        .submit {
+          width: 100%;
+        }
+
+        @media only screen and (max-width: @mobile-screen) {
+          width: 100%;
+        }
+      }
+      &.wire-transfer {
+        .ngTable {
+          margin-top: 20px;
+          .table-cell {
+            text-align: left;
+            padding: 0 0 2px 0;
+            font-size: @medium-font;
+            color: @bright-content-color;
+            &.white-color {
+              color: white;
+              font-weight: 700;
+            }
+            &.heading {
+              .white-color;
+              padding-bottom: 15px;
+            }
+          }
+          .table-row {
+            border: none;
+          }
+        }
+
+        .contentBody {
+          .bottom-content {
+            font-size: @small-font;
+            padding-top: 60px;
+            color: @bright-content-color;
+          }
+        }
+
+        .headline {
+          &.hl3 {
+            padding-bottom: 0;
+          }
+        }
+      }
+
+      &.ecoPayz {
+        .contentBody {
+    &.bottom-content {
+      font-size: @small-font;
+      padding-top: 30px;
+      color: @content-body-color;
+      text-align: left;
+      }
+    }
+      }
+    }
+
+    .loginForm {
+      @media only screen and (max-width: @mobile-screen) {
+        width: 100%;
+      }
+    }
+
+    .block {
+      &.facts {
+        width: 282px;
+        background-color: @light-bg-color;
+        float: left;
+        @media only screen and (max-width: @mobile-screen) {
+          float: none;
+          display: inline-block;
+          margin-top: 40px;
+        }
+      }
+      .unorderedList {
+        .listItem {
+          color: white;
+          text-align: left;
+          width: 100%;
+          .list-icon {
+            width: 50px;
+          }
+        }
+        padding: 25px 25px 0 25px;
+      }
+    }
+
+    .cards-block {
+      float: left;
+      width: 100%;
+      .ngImage {
+        float: left;
+        margin-left: 15px;
+      }
+    }
+  }
+
+  &.login-section {
+    height: initial;
+    padding: 70px 0 110px 0;
+    .contentBody {
+      color: @bright-content-color;
+      padding-bottom: 20px;
+    }
+    .submitBtn {
+      float: left;
+      margin-top: 15px;
+    }
+
+    .block {
+      &.side-text {
+        padding-top: 5px;
+      }
+    }
+
+    @media only screen and (max-width: @sm-tablet-screen) {
+      padding-right: 15px;
+      padding-left: 15px;
+    }
+  }
+
+  &.reset-section {
+    .login-section;
+    .submitBtn {
+      width: 100%;
+    }
+  }
+
+  &.create-account-section {
+    .reset-section;
+    @media only screen and (max-width: @mobile-screen) {
+      .field {
+        width: 100%;
+      }
+
+      .ngLabel {
+        margin: 4px 0;
+        width: 100%;
+      }
+    }
+    .ng-checkbox {
+      float: left;
+    }
+  }
+
+  &.about-top-section {
+    .top-bg;
+    background-color: @dark-bg-color;
+    .content {
+      .top-cards-block {
+        padding-bottom: 30px;
+        border-bottom: 1px solid @content-body-color;
+        .card {
+          padding-top: 0;
+          width: 33%;
+          @media only screen and (max-width: @sm-tablet-screen) {
+            display: inline-table;
+          }
+          @media only screen and (max-width: @mobile-screen) {
+            display: block;
+            width: 100%;
+            margin: 10px auto 0 auto;
+            a {
+              font-size: 15px;
+            }
+          }
+        }
+      }
+
+      .bottom-cards-block {
+        font-size: 18px;
+        // display: table;
+        display: none;
+        height: 140px;
+        .card {
+          &.cell {
+            .vertical-center;
+            width: 33.33333%;
+            @media only screen and (max-width: @sm-tablet-screen) {
+              padding-top: 30px;
+              &.cell {
+                width: 33%;
+                display: inline-table;
+              }
+            }
+            @media only screen and (max-width: @mobile-screen) {
+              &.cell {
+                width: 100%;
+                text-align: center;
+              }
+            }
+          }
+          .contentBody {
+            padding-left: 0;
+            margin: 0;
+          }
+        }
+      }
+
+    }
+  }
+
+  &#faq-top-section {
+    .search {
+      padding-top: 30px;
+    }
+    padding-bottom: 30px;
+  }
+
+  &.faq-section {
+    text-align: left;
+    height: initial;
+    .styled-tabs;
+
+    .tabs {
+      .subTab {
+        width: 25%;
+      }
+    }
+
+    .headline {
+      .no-padding;
+    }
+
+    .contentBody {
+      padding-top: 0;
+    }
+
+    @media only screen and (max-width: @lg-tablet-screen) {
+      .tabContainer {
+        padding-left: 70px;
+        padding-right: 70px;
+      }
+    }
+
+    @media only screen and (max-width: @sm-tablet-screen) {
+      .tabContainer {
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+    }
+  }
+
+  &.article-section {
+    height: 100%;
+    .styled-tabs;
+    .tabs {
+      .subTab {
+        width: 33.3333%;
+      }
+    }
+  }
+
+  &.guides-section {
+    height: 100%;
+    .styled-tabs;
+    .subTab {
+      div {
+        width: 20%;
+      }
+    }
+  }
+
+  &.account-setting-section {
+    height: 100%;
+    .styled-tabs;
+
+    .tabs {
+      .subTab {
+        width: 25%;
+      }
+    }
+
+    .widgets-block {
+      text-align: center;
+      max-width: 28%;
+      margin-left: 4%;
+      float: left;
+      @media only screen and (max-width: @mobile-screen) {
+        max-width: 100%;
+        margin: 0 auto;
+      }
+
+    }
+
+    .contentBody {
+      &.contact {
+        font-size: @small-font;
+        float: left;
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+      }
+    }
+
+    .account-setting-tab {
+      .content {
+        max-width: 800px;
+        margin: auto;
+      }
+      .accountBalance {
+        margin: 10px 0;
+        &.mid {
+          width: 100%;
+          height: 175px;
+        }
+        &.high {
+          height: 296px;
+          width: 48%;
+          margin-right: 2%;
+        }
+        &.low {
+          width: 50%;
+          height: 138.13px;
+        }
+
+        &.balance {
+          .btn {
+            width: 100%;
+            max-width: 250px;
+          }
+        }
+
+        @media only screen and (max-width: @sm-tablet-screen) {
+          width: 100% !important;
+          margin-right: 0;
+          margin-left: 0;
+        }
+      }
+      .winsWidget {
+        //margin: 10px 7px;
+        //max-width: 782px;
+      }
+
+      .platform-headline {
+        float: left;
+        margin-top: 50px;
+        @media only screen and (max-width: @mobile-screen) {
+          display: none;
+        }
+      }
+
+      .platform {
+        width: 1000px;
+        float: left;
+        iframe {
+          height: 760px;
+        }
+      }
+    }
+
+    .deposit-and-withdrawal-tab {
+      .tabs-wrapper {
+        background-color: transparent;
+      }
+      .sections {
+        .tabContainer {
+          padding-top: 0;
+        }
+      }
+    }
+
+    @media only screen and (max-width: @sm-tablet-screen) {
+      .field {
+        width: 100%;
+      }
+
+      .ngLabel {
+        margin: 4px 0;
+        width: 100%;
+      }
+    }
+
+    @media only screen and (max-width: @mobile-screen) {
+      .widgets-block, .loginForm {
+        width: 100%;
+      }
+    }
+  }
+
+  &.generic-page {
+    background-size: initial !important;
+    background-position: top !important;
+    padding: 100px 0;
+    .headline {
+      &.hl3 {
+        padding-bottom: 0;
+        font-family: @bold-font-family;
+      }
+    }
+
+    .contentBody {
+      padding: 0 0 30px 0;
+    }
+  }
+
+  &.cards-section-tools {
+    .cards-section;
+    height: 400px;
+    .cards-wrapper {
+      .wrap-cards(1226px);
+    }
+
+    @media only screen and (max-width: @sm-tablet-screen) {
+      padding-bottom: 100px;
+    }
+  }
+
+  &.content-asset-tools {
+    .btn {
+      font-size: 16px !important;
+      &.btn-transparent {
+        margin-right: 15px;
+      }
+    }
+    .content-asset;
+
+    height: initial;
+    padding-top: 80px;
+    @media only screen and (max-width: @lg-tablet-screen) {
+      .asset {
+        width: 50% !important;
+      }
+    }
+    @media only screen and (max-width: @sm-tablet-screen) {
+      height: 800px;
+    }
+
+    @media only screen and (max-width: @mobile-screen) {
+      height: 668px;
+    }
+  }
+
+  @media only screen and (max-width: @sm-tablet-screen) {
+    text-align: center;
+    &.content-text, &.content-asset {
+      .content {
+        display: initial;
+        text-align: center;
+        padding: 0;
+      }
+    }
+
+    .dividing-image {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      &#video {
+        bottom: -62px;
+        z-index: 1;
+      }
+    }
+  }
+
+  @media only screen and (max-width: @mobile-screen) {
+    .dividing-image {
+      left: 0;
+    }
+  }
+
+  &.financial-explanation {
+    display: table;
+    height: 350px;
+    background-size: contain !important;
+    .sectionContainer {
+      .vertical-center;
+    }
+
+    .btn {
+      &.link {
+        margin-left: 5px;
+      }
+    }
+  }
+
+  &.promotion-top-section {
+    //background-size: auto !important;
+    .contentBody {
+      &.intro-text {
+        font-size: @headline-hl3;
+        max-width: 700px;
+      }
+
+      &.terms {
+        font-size: @small-font;
+        width: 100%;
+        float: left;
+      }
+    }
+    .btn {
+      margin-top: 120px;
+      @media only screen and (max-width: @sm-tablet-screen) {
+        .no-margin;
+      }
+    }
+
+    @media only screen and (max-width: @lg-tablet-screen) {
+      padding: 120px 0 0 0;
+    }
+
+    @media only screen and (min-width: @lg-tablet-screen) {
+      margin-top: 50px;
+      padding: 269px 0 120px 0;
+
+    }
+  }
+
+  &.withdrawal {
+    .contentBody {
+      padding-left: 50px;
+      padding-right: 50px;
+
+      @media only screen and (max-width: @sm-tablet-screen) {
+        padding-left: 15px;
+        padding-right: 15px;
+      }
+    }
+  }
+
+  &.legal-section {
+    padding-bottom: 170px;
+    .tiles {
+      max-width: 652px;
+      margin: 0 auto;
+
+      .tile {
+        text-align: left;
+        padding: 0 32px;
+        font-size: 18px;
+        float: left;
+        background-color: @light-bg-color;
+        width: 50%;
+        border: 1px solid @border-color;
+        height: 90px;
+
+        &.table {
+          .no-margin;
+        }
+
+        .btn {
+          width: 100%;
+        }
+
+        @media only screen and (max-width: 720px) {
+          text-align: center;
+          height: 124px;
+          width: 100%;
+          padding: 0 15px;
+          .headline {
+            float: left;
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}

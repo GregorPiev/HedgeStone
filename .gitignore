@@ -1,0 +1,5 @@
+.idea/**
+.idea/
+nbproject/*
+merge.sh
+.project
